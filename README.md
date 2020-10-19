@@ -1,5 +1,5 @@
-# GIS Workshops - UMass Amherst Libraries
+# GIS Workshops
 
-This is a repository for Dr. Becky Seifried (Geospatial Information Librarian) to store and share workshops about GIS.
+This is a place to host materials from the UMass Amherst Libraries' GIS workshops.
 
 Check out the workshop materials [here](https://umass-gis.github.io/workshops/).

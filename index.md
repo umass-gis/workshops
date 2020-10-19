@@ -24,7 +24,7 @@ Hi! I'm Dr. Becky Seifried, the Geospatial Information Librarian at UMass Amhers
 
 Got a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or [book a consultation](https://libcal.library.umass.edu/appointments/gis) to meet with me one-on-one.
 
-## Workshops
+## Try the workshops
 
 Coming soon
 {: .label .label-yellow }

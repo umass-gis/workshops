@@ -11,7 +11,7 @@ permalink: /
 # Ready to learn about GIS?
 {: .fs-9 }
 
-Welcome to the workshop materials hosted by UMass Amherst Libraries! 
+Welcome to the workshops hosted by UMass Amherst Libraries! 
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find more resources](https://gis.library.umass.edu/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -20,9 +20,9 @@ Welcome to the workshop materials hosted by UMass Amherst Libraries!
 
 ## Meet the instructor
 
-I'm Dr. Becky Seifried, the Geospatial Information Librarian at UMass Amherst. You can email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or [book a consultation](https://libcal.library.umass.edu/appointments/gis) to meet with me one-on-one.
+Hi! I'm Dr. Becky Seifried, the Geospatial Information Librarian at UMass Amherst. Before becoming a librarian, I was a research archaeologist who learned how to use GIS out in the field. A lot of my experience with GIS comes from working on projects where I collected geospatial data, georectified historical maps,  interpreted satellite imagery, and more.
 
-[Send me an email](mailto:rseifried@umass.edu){: .btn .btn-purple } [Find more resources](https://gis.library.umass.edu/){: .btn .btn-outline }
+Got a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or [book a consultation](https://libcal.library.umass.edu/appointments/gis) to meet with me one-on-one.
 
 ## Workshops
 

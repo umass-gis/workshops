@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is GIS?
+title: GIS Basics
 parent: Learn the Basics of QGIS
 nav_order: 2
 ---
 
-# What is GIS?
+# GIS Basics
 {: .no_toc }
 
 Overview of a few key GIS concepts: map layers, data types, and data organization

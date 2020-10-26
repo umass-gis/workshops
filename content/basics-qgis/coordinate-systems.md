@@ -53,11 +53,12 @@ The quick way to find out a layer's CS is to open it in QGIS and look at its inf
 Refer back to the [Getting Started page](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#explore-the-qgis-interface) to familiarize yourself with the QGIS interface.
 
 ### 1. Open the layer in QGIS
+{:.no_toc}
 
-There are two ways to open a data layer in QGIS:
+There are several ways to open a data layer in QGIS:
 1. Navigate to the layer in the Browser Panel, then drag and drop it into the Map View.
 1. Click `Layer > Add Layer > Add Vector Layer...` then to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
-1. Click the `Add Vector Layer...` button (the left-most button in the Manage Layers toolbar) and follow the instructions from step 2.
+1. Click the `Add Vector Layer...` button and follow the instructions from step 2.
 
 ![Manage layers toolbar, with the "Add Vector Layer" button outlined in red](media/manage_layers_annotated.png "Manage layers toolbar")
 

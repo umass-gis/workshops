@@ -15,10 +15,14 @@ In development
 
 This workshop is designed to take about two hours as a live demonstration.
 
-* 30 min – Basics of GIS
-* 20 min – Q&A
-* 10 min – Break
-* 40 min – QGIS demonstration
-* 20 min – Q&A
+| Time | Topic
+| --- | ---
+| 0:00 | Introduction
+| 0:05 | Basics of GIS
+| 0:35 | Q&A
+| 0:50 | Break
+| 1:00 | QGIS demonstration
+| 1:40 | Q&A
+| 1:55 | Wrap-up
 
 If you are working through the materials on your own time, it may take a bit longer!

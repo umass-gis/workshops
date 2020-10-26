@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Where to Find Data
+title: Finding Data
 parent: Learn the Basics of QGIS
 nav_order: 4
 ---
 
-# Where to Find Data
+# Finding Data
 {: .no_toc }
 
 info here

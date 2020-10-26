@@ -8,7 +8,8 @@ nav_order: 1
 # Getting Started
 {: .no_toc }
 
-This page will take you through the steps to install QGIS and become familiar with the interface. {: .fs-6 .fw-300 }
+This page will take you through the steps to install QGIS and become familiar with the interface.
+{: .fs-6 .fw-300 }
 
 Heads up: the photos and instructions were put together on a Windows machine using QGIS 3.10.3, so if you install a different version (or are a Mac or Linux user) the specific instructions and menu names might be different.
 
@@ -75,6 +76,6 @@ These two plugins are super helpful:
 * QuickMapServices
 * QuickOSM
 
-QuickMapServices allows you to access free base imagery from dozens of providers. After installation, click `Web > QuickMapServices > Settings`, clickon the `Visibility` tab, then make sure all the sources are checked on. They should now appear in the QuickMapServices menu for you to use as base imagery.
+**QuickMapServices** allows you to access free base imagery from dozens of providers. After installation, click `Web > QuickMapServices > Settings`, clickon the `Visibility` tab, then make sure all the sources are checked on. They should now appear in the QuickMapServices menu for you to use as base imagery.
 
-QuickOSM allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!
+**QuickOSM** allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!

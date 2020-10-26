@@ -82,10 +82,23 @@ These two plugins are super helpful:
 **QuickOSM** allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!
 
 ---
+## Open a layer
+{:toc}
+
+Let's assume you have a geospatial data layer downloaded onto your hard drive.
+
+There are several ways to open the layer in QGIS:
+1. In the Browser Panel, navigate to the layer, then drag and drop it into the Map View.
+1. For vectors: click `Layer > Add Layer > Add Vector Layer...` or click the `Add Vector Layer...` button. In the window that opens, to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
+1. For rasters: click `Layer > Add Layer > Add Raster Layer...` or click the `Add Raster Layer...` button. Follow the steps above.
+
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='500' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
+
+---
 ## Get more help
 {:toc}
 
-The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/3.10/en/docs/index.html) that are worth checking out:
+That's it for the basics! The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/3.10/en/docs/index.html) that is worth checking out for more guidance:
 * User Guide/Manual
 * Training Manual
 * A Gentle Introduction to GIS

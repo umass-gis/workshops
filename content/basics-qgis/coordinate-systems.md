@@ -28,7 +28,7 @@ Coordinate reference systems (CRS) allow us to locate any place on the earth’s
 
 At their most basic, a coordinate pair consists of two numbers: an **X value (longitude)** and a **Y value (latitude)**. The CRS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CRS that exists today!
 
-It is a good idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CRS and how to change it, if necessary.
+It is an excellent idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CRS and how to change it, if necessary.
 {: .note}
 
 There are two kinds of  systems:
@@ -87,9 +87,8 @@ Let's say you downloaded a data layer from the state government. You checked the
 
 #### Vectors: Export the layer
 {:.no_toc}
-<a name="vectors"></a>
 
-The quickest way to change the CRS of a vector layer is to make a copy by exporting it. During the export process, you have the option to define a new CRS for the new layer.
+<a name="vectors"></a> The quickest way to change the CRS of a vector layer is to make a copy by exporting it. During the export process, you have the option to define a new CRS for the new layer.
 
 In the Layers Panel, right-click the layer's name and click `Export > Save Features As...` Fill out the dialog window:
 * **Format**: ESRI Shapefile is the default option, but you can change this if you prefer a different format
@@ -125,10 +124,28 @@ Alternatively, near the bottom of the window in the `Reprojected` box, you can a
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/warp.png' width='600' alt='Warp (Reproject) dialog'>
 
 ---
-### 3. Change the map view's CS
+### 3. Change the Project CRS
 {:toc}
 
+The Map View has a CRS of its own that is independent of the data layers. *Gasp!* What this means is that you can change the CRS for the map – thereby changing the way the data appear – without affecting the CRS of any of the data layers. 
+
+The CRS button in the lower right corner is where you can find out more about the Project CRS and change it. Click the button to open the Project CRS window.
+
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/map_view_CRS_anno.png' width='700' alt='Map view, highlighting the CRS button in the bottom-right corner'>
+
+By default, the Project CRS is set to the same CRS as whatever data layer you added first. So if you know that your data layers have all different CRS's, it's a good idea to click this button and check to make sure your Project CRS is set to your preferred format! Again, use the `Filter` bar to quickly search for the CRS you want, or choose from one of the lists.
+
+Here's an example of why this matters for map display. This is a shapefile of towns in Massachusetts. The shapefile's CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986).
+
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/MA_NAD83Projected.png' width='400' alt='Shapefile of towns in Massachusetts, with the Project CRS set to NAD83 Massachusetts Mainland Projected'>
+<figcaption>MA in a projected CRS</figcaption>
+
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/MA_WGS84.png' width='400' alt='Shapefile of towns in Massachusetts, with the Project CRS set to WGS84'>
+<figcaption>MA in a geographic CRS</figcaption>
+
+In the first image, the Project CRS is set to the same CRS. It appears "correct" – this is how Massachusetts normally shows up on maps! It looks so great because this particular CRS is a projected CRS (so it's intended to be used for flat, 2D displays, like maps and computer screens) and because it is tailored to the location of Massachusetts.
+
+In the second image, the Project CRS is set to [EPSG:4326 - WGS84](https://epsg.io/4326). Now the state looks squished! The problem here is that the CRS is a geographic coordinate system that is intended for global mapping. It isn't really meant to be used for making maps.
 
 ---
 ## Troubleshooting
@@ -138,10 +155,10 @@ Alternatively, near the bottom of the window in the `Reprojected` box, you can a
 Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
 
 These are some of the most common issues that pop up. If your data isn't displaying properly, check to see if one of these could be the cause:
-* the data layer's CS information is wrong,
-* the data layer's CS information is missing,
-* the Map View is set to a different CS than the data layer,
-* there are multiple data layers and they all have different CS's.
+* the data layer's CRS information is wrong,
+* the data layer's CRS information is missing,
+* the Map View is set to a different CRS than the data layer,
+* there are multiple data layers and they all have different CRS's.
 
 ---
 ## Resources

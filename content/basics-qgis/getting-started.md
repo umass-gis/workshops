@@ -24,4 +24,4 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 After successful install, launch QGIS. In the menu bar, click Project > New to start a new session. The program should look like the interface below. If additional panels are open, you can close them by clicking the X in the upper right corner. 
 
-![QGIS interface after opening a new project](media/1_NewProject.JPG "QGIS interface.")
+![QGIS interface after opening a new project](media/1_NewProject_Anno.JPG "QGIS interface")

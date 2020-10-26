@@ -11,6 +11,12 @@ has_children: true
 In development
 {: .label .label-yellow }
 
+This workshop is geared towards newcomers to GIS. By the end of the workshop, you will:
+* Understand the capabilities of GIS
+* Be able to identify the coordinate system of GIS data
+* Know how to opening and displaying data in QGIS
+
+---
 ## Workshop outline
 
 This workshop is designed to take about two hours as a live demonstration.

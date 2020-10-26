@@ -80,3 +80,11 @@ These two plugins are super helpful:
 **QuickMapServices** allows you to access free base imagery from dozens of providers. After installation, click `Web > QuickMapServices > Settings`, clickon the `Visibility` tab, then make sure all the sources are checked on. They should now appear in the QuickMapServices menu for you to use as base imagery.
 
 **QuickOSM** allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!
+
+## Get more help
+{:toc}
+
+The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/3.10/en/docs/index.html) that are worth checking out:
+* User Guide/Manual
+* Training Manual
+* A Gentle Introduction to GIS

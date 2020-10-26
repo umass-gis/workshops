@@ -49,7 +49,7 @@ View this section as a slideshow:
 {:toc}
 
 ---
-### 1. Identify a layer's CRS
+### Identify a layer's CRS
 {:toc}
 
 The quick way to find out a layer's CRS is to open it in QGIS and look at its information in the `Properties` window. These steps work for both vector and raster data.
@@ -76,7 +76,7 @@ In the Layers Panel, right-click the layer's name and select `Properties...` Inf
 In this example, the CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which the Commonwealth of Massachusetts uses for most of its GIS data. We know this is a **projected** CRS because it has "projected" in the name, but also because the unit is meters. Only projected CRS's use standard units of measurement, like feet, meters, etc.
 
 ---
-### 2. Change a layer's CRS
+### Change a layer's CRS
 {:toc}
 
 Generally, it is a great idea for all your data to have the same CRS. 
@@ -124,7 +124,7 @@ Alternatively, near the bottom of the window in the `Reprojected` box, you can a
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/warp.png' width='600' alt='Warp (Reproject) dialog'>
 
 ---
-### 3. Change the Project CRS
+### Change the Project CRS
 {:toc}
 
 The Map View has a CRS of its own that is independent of the data layers. *Gasp!* What this means is that you can change the CRS for the map – thereby changing the way the data appear – without affecting the CRS of any of the data layers. 

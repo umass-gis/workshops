@@ -56,19 +56,6 @@ The quick way to find out a layer's CRS is to open it in QGIS and look at its in
 
 Refer back to the [Getting Started page](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#explore-the-qgis-interface) to familiarize yourself with the QGIS interface and how to open layers.
 
-#### Open the layer in QGIS
-{:.no_toc}
-
-There are several ways to open a layer in QGIS:
-1. In the Browser Panel, navigate to the layer, then drag and drop it into the Map View.
-1. For vectors: click `Layer > Add Layer > Add Vector Layer...` or click the `Add Vector Layer...` button. In the window that opens, to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
-1. For rasters: click `Layer > Add Layer > Add Raster Layer...` or click the `Add Raster Layer...` button. Follow the steps above.
-
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='500' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
-
-#### Open the layer's Properties window
-{:.no_toc}
-
 In the Layers Panel, right-click the layer's name and select `Properties...` Information about the CRS will appear in the top part of the window.
 
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_annotated.png' width='700' alt='Properties window of a vector data layer'>

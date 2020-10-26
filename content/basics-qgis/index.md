@@ -32,3 +32,8 @@ This workshop is designed to take about two hours as a live demonstration.
 | 1:55 | Wrap-up
 
 If you are working through the materials on your own time, it may take a bit longer!
+
+---
+## Watch the workshop
+
+This is where links to past video recordings will be posted. The next live workshop is scheduled for October 27, 2020. Check back after that date to follow along!

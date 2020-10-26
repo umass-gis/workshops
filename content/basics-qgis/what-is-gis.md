@@ -40,23 +40,8 @@ GIS is all around us! Chances are, you've already interacted with a GIS applicat
 * [Kenneth Field's map of the 2016 presidential election 2016](http://arcg.is/5LuOb0)
 
 ---
-## Data types
+## Data types and data organization
 {:toc}
 
-In development
-{: .label .label-yellow }
-
----
-## Data organization
-{:toc}
-
-In development
-{: .label .label-yellow }
-
-
----
-## Slides
-{:toc}
-
-View this page as a slideshow:
+View this section as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT79POVj3VxRUv4pqA8s52srop5wXF8uzz1eOakGkzV4MqmK-BjTvNnlGPGceFxqgiL4yYJD-xgvqK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

@@ -3,6 +3,7 @@ layout: default
 title: Finding Data
 parent: Learn the Basics of QGIS
 nav_order: 4
+nav_exclude: true
 ---
 
 # Finding Data

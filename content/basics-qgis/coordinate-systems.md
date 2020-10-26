@@ -41,7 +41,7 @@ There are two kinds of  systems:
 ## Geographic vs. projected coordinate systems
 {:toc}
 
-View this information as a slideshow:
+View this section as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGEAMvj797ZfrIWaxbA-2QcR96BZvFSvNuqk1BX9_KRXmUMBonSbD8msN2btH0UT2QRwFgAtOt9gcb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---

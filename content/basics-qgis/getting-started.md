@@ -22,22 +22,29 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 ---
 ## Explore the QGIS interface
 
-After successful install, launch QGIS. In the menu bar, click Project > New to start a new session. The program should look like the interface below. If additional panels are open, you can close them by clicking the X in the upper right corner. 
+Once QGIS installs, launch the program. In the menu bar, click `Project > New` to start a new session. The program should look like the interface below. If additional panels are open, you can close them by clicking the X in the upper right corner. 
 
 ![QGIS interface after opening a new project](media/1_NewProject_Anno.JPG "QGIS interface")
 
 ### Recommended panels
 
-You can turn on/off different panels by clicking View > Panels, or by right-clicking in the gray toolbar area. Make sure these two panels are checked on:
+You can turn on/off different panels by clicking `View > Panels`, or by right-clicking in the gray toolbar area. Make sure these two panels are checked on:
 
 * Browser panel
 * Layers panel
 
 ### Recommended toolbars
 
-The toolbars are the fun part of QGIS, giving you quick access to lots of tools that the program offers. You can turn on/off different toolbars by clicking View > Toolbars, or by right-clicking in the gray toolbar area. These are the recommended essential toolbars to turn on:
+The toolbars are the fun part of QGIS, giving you quick access to lots of tools that the program offers. You can turn on/off different toolbars by clicking `View > Toolbars`, or by right-clicking in the gray toolbar area. These are the recommended essential toolbars to turn on:
 
 * Attributes toolbar
 * Manage Layers toolbar
 * Map Navigation toolbar
 * Project toolbar
+
+---
+## Install helpful plugins
+
+On its own, QGIS is a fairly bare-bones program that can do basic GIS-y things, but certainly not all the things that proprietary software can do. Plugins extend the functionality of QGIS. Plugins are free and open-source, just like QGIS!
+
+In the menu bar, click `Plugins > Manage and Install Plugins...`. Use the search bar to search for **QuickMapServices**. Highlight the plugin and click `Install Plugin`.

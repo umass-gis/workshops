@@ -48,12 +48,6 @@ In development
 In development
 {: .label .label-yellow }
 
----
-## Where to look for data
-{:toc}
-
-In development
-{: .label .label-yellow }
 
 ---
 ## Slides

@@ -8,7 +8,7 @@ nav_order: 3
 # Coordinate Systems
 {: .no_toc }
 
-One of the most mind-bending aspects of GIS, coordinate systems are key to how geospatial data works.
+One of the most mind-bending aspects of GIS, coordinate systems are key to how geospatial data works
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -24,11 +24,11 @@ One of the most mind-bending aspects of GIS, coordinate systems are key to how g
 ## Overview
 {:toc}
 
-Coordinate systems (CS) allow us to locate any place on the earth’s surface.
+Coordinate reference systems (CRS) allow us to locate any place on the earth’s surface.
 
-At their most basic, a coordinate pair consists of two numbers: an **X value (longitude)** and a **Y value (latitude)**. The CS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CS that exists today!
+At their most basic, a coordinate pair consists of two numbers: an **X value (longitude)** and a **Y value (latitude)**. The CRS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CRS that exists today!
 
-It is a good idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CS and how to change it, if necessary.
+It is a good idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CRS and how to change it, if necessary.
 {: .note}
 
 There are two kinds of  systems:
@@ -38,17 +38,17 @@ There are two kinds of  systems:
 ![Icons showing geographic coordinate systems as a globe and projected coordinate systems as a map](media/coordinate_icons.JPG "Geographic vs. projected coordinate systems")
 
 ---
-## Geographic vs. projected
+## Geographic vs. projected coordinate systems
 {:toc}
 
 View this information as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGEAMvj797ZfrIWaxbA-2QcR96BZvFSvNuqk1BX9_KRXmUMBonSbD8msN2btH0UT2QRwFgAtOt9gcb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
-## Identify a layer's CS
+## Identify a layer's CRS
 {:toc}
 
-The quick way to find out a layer's CS is to open it in QGIS and look at its information in the `Properties` window. These steps work for both vector and raster data.
+The quick way to find out a layer's CRS is to open it in QGIS and look at its information in the `Properties` window. These steps work for both vector and raster data.
 
 Refer back to the [Getting Started page](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#explore-the-qgis-interface) to familiarize yourself with the QGIS interface.
 
@@ -65,16 +65,58 @@ There are several ways to open a layer in QGIS:
 ### Step 2: Open the layer's Properties window
 {:.no_toc}
 
-In the Layers Panel, right-click the layer's name and select `Properties...` Information about the CS will appear in the top part of the window, next to CRS (coordinate reference system).
-
-In this example, the CS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which the Commonwealth of Massachusetts uses for most of its GIS data. 
+In the Layers Panel, right-click the layer's name and select `Properties...` Information about the CRS will appear in the top part of the window.
 
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_annotated.png' width='800' alt='Properties window of a vector data layer'>
 
+In this example, the CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which the Commonwealth of Massachusetts uses for most of its GIS data. We know this is a **projected** CRS because it has "projected" in the name, but also because the unit is meters. Only projected CRS's use standard units of measurement, like feet, meters, etc.
+
 ---
-## Change a layer's CS
+## Change a layer's CRS
 {:toc}
 
+Generally, it is a great idea for all your data to have the same CRS. 
+
+Streamlining your data's coordinate systems helps avoid issues that stem from CRS mishaps (see [Troubleshooting](#troubleshooting) below), and it also helps you get into the habit of double- and triple-checking that your coordinate systems are in order.
+
+Let's say you downloaded a data layer from the state government. You checked the layer's Properties information and found out that its CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986). However, all your other data is in [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). 
+
+### <a name="vectors"></a>Vectors: Export the layer
+{:.no_toc}
+
+The quickest way to change the CRS of a vector layer is to make a copy by exporting it. During the export process, you have the option to define a new CRS for the new layer.
+
+In the Layers Panel, right-click the layer's name and click `Export > Save Features As...` Fill out the dialog window:
+* **Format**: ESRI Shapefile is the default option, but you can change this if you prefer a different format
+* **File name**: click the three dots `...` to the right of the box, navigate to your output folder, and type in a name for the output file. Make sure to add the proper extension (.shp for shapefiles).
+* **CRS**: click the globe icon to the right of the box, then type **32618** into the filter bar in order to quickly locate the CRS you want. Select it and click `OK`.
+
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_selector.JPG' width='800' alt='Coordinate Reference System Selector dialog'>
+
+Leave the rest of the fields as their default values, and click `OK`.
+
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/save_vector_as.JPG' width='800' alt='Save Vector Layer As... dialog'>
+
+### Rasters: Reproject the layer
+
+While it is possible to use the export tool to make a copy of a raster layer in a new CRS, the tool does not work well in most cases. The better option is to reproject it - a more refined process that helps ensure the accuracy of the copied data.
+
+In the menu bar, click `Raster > Projections > Warp (Reproject)...` Fill out the dialog window:
+* **Input layer**: select the raster layer you want to copy
+* **Source CRS**: leave this blank - the tool will figure it out
+* **Target CRS**: click the globe icon to the right of the box, then type **32618** into the filter bar in order to quickly locate the CRS you want. Select it and click `OK`.
+* **Resampling method to use**: the specific method to choose depends on what kind of raster you are working with.
+  * **Nearest Neighbor**: if the raster has categorical data (where the pixels represent discrete values like RGB colors in a photograph) and the computer should keep the values exactly the same in the new version.
+  * **Bilinear** (faster) or **cubic** (more intense): if the raster has continuous data (where the values in the pixels are measurements, like rainfall data, elevations, etc.) and the computer needs to be able to blend the output values to create new ones. 
+
+Read more about raster resampling methods in this [StackExchange post](https://gis.stackexchange.com/questions/10931/what-is-lanczos-resampling-useful-for-in-a-spatial-context)
+{: .note}
+
+By default, the tool will save the new layer to a temporary file. This is a handy way to check that everyone worked according to plan before you save a copy to your hard drive (using the [export method discussed above](#vectors)).
+
+Alternatively, near the bottom of the window in the `Reprojected` box, you can ask the tool to save the file directly to your computer. Click the three dots `...` to the right of the box, navigate to your output folder, and type in a name for the output file. Make sure to add the proper extension (.tif is a good file type for rasters).
+
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/warp.png' width='800' alt='Warp (Reproject) dialog'>
 
 ---
 ## Change the map view's CS
@@ -82,7 +124,7 @@ In this example, the CS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projec
 
 
 ---
-## Troubleshooting
+## <a name="troubleshooting"></a>Troubleshooting
 {:toc}
 
 Faulty coordinate systems are very often to blame for a GIS that stops working properly. 

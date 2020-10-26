@@ -6,15 +6,13 @@ description: "GIS workshops hosted by the University of Massachusetts Amherst Li
 permalink: /
 ---
 
-<!--- Check the Jekyll documentation at https://pmarsceill.github.io/just-the-docs/ for code samples -->
-
 # Ready to learn about GIS?
 {: .fs-9 }
 
 Welcome to the workshops hosted by UMass Amherst Libraries! 
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find more resources](https://gis.library.umass.edu/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](https://umass-gis.github.io/workshops/content/basics-qgis/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find more resources](https://gis.library.umass.edu/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

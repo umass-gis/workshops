@@ -45,14 +45,18 @@ View this section as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGEAMvj797ZfrIWaxbA-2QcR96BZvFSvNuqk1BX9_KRXmUMBonSbD8msN2btH0UT2QRwFgAtOt9gcb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
-## Identify a layer's CRS
+## Practice in QGIS
+{:toc}
+
+---
+### 1. Identify a layer's CRS
 {:toc}
 
 The quick way to find out a layer's CRS is to open it in QGIS and look at its information in the `Properties` window. These steps work for both vector and raster data.
 
 Refer back to the [Getting Started page](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#explore-the-qgis-interface) to familiarize yourself with the QGIS interface.
 
-### Step 1: Open the layer in QGIS
+#### Open the layer in QGIS
 {:.no_toc}
 
 There are several ways to open a layer in QGIS:
@@ -62,7 +66,7 @@ There are several ways to open a layer in QGIS:
 
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='500' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
 
-### Step 2: Open the layer's Properties window
+#### Open the layer's Properties window
 {:.no_toc}
 
 In the Layers Panel, right-click the layer's name and select `Properties...` Information about the CRS will appear in the top part of the window.
@@ -72,7 +76,7 @@ In the Layers Panel, right-click the layer's name and select `Properties...` Inf
 In this example, the CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which the Commonwealth of Massachusetts uses for most of its GIS data. We know this is a **projected** CRS because it has "projected" in the name, but also because the unit is meters. Only projected CRS's use standard units of measurement, like feet, meters, etc.
 
 ---
-## Change a layer's CRS
+### 2. Change a layer's CRS
 {:toc}
 
 Generally, it is a great idea for all your data to have the same CRS. 
@@ -81,7 +85,7 @@ Streamlining your data's coordinate systems helps avoid issues that stem from CR
 
 Let's say you downloaded a data layer from the state government. You checked the layer's Properties information and found out that its CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986). However, all your other data is in [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). 
 
-### Vectors: Export the layer
+#### Vectors: Export the layer
 {:.no_toc}
 <a name="vectors"></a>
 
@@ -98,7 +102,7 @@ Leave the rest of the fields as their default values, and click `OK`.
 
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/save_vector_as.JPG' width='600' alt='Save Vector Layer As... dialog'>
 
-### Rasters: Reproject the layer
+#### Rasters: Reproject the layer
 {:.no_toc}
 
 While it's possible to use the export tool to make a copy of a raster layer in a new CRS, the tool does not work well in most cases. The better option is to reproject it – a more refined process that helps ensure the accuracy of the copied data.
@@ -121,9 +125,10 @@ Alternatively, near the bottom of the window in the `Reprojected` box, you can a
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/warp.png' width='600' alt='Warp (Reproject) dialog'>
 
 ---
-## Change the map view's CS
+### 3. Change the map view's CS
 {:toc}
 
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/map_view_CRS_anno.png' width='700' alt='Map view, highlighting the CRS button in the bottom-right corner'>
 
 ---
 ## Troubleshooting

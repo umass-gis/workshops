@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Coordinate systems
+title: Coordinate Systems
 parent: Learn the Basics of QGIS
 nav_order: 3
 ---
 
-# Coordinate systems
+# Coordinate Systems
 {: .no_toc }
 
 info here

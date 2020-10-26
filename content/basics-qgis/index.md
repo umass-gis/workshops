@@ -11,10 +11,9 @@ has_children: true
 In development
 {: .label .label-yellow }
 
-This workshop is geared towards newcomers to GIS. By the end of the workshop, you will be able to:
+This is an evolving workshop that is geared towards newcomers to GIS. By the end of the workshop, you will be able to:
 * Understand the capabilities of GIS
-* Find and download geospatial data
-* Open the data in QGIS
+* Open geospatial data in QGIS
 * Identify the coordinate system of the data
 * Visualize the data in different ways
 

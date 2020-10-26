@@ -47,4 +47,11 @@ The toolbars are the fun part of QGIS, giving you quick access to lots of tools 
 
 On its own, QGIS is a fairly bare-bones program that can do basic GIS-y things, but certainly not all the things that proprietary software can do. Plugins extend the functionality of QGIS. Plugins are free and open-source, just like QGIS!
 
-In the menu bar, click `Plugins > Manage and Install Plugins...`. Use the search bar to search for **QuickMapServices**. Highlight the plugin and click `Install Plugin`.
+In the menu bar, click `Plugins > Manage and Install Plugins...`. Type the plugin name (or a keyword) into the search bar, highlight the plugin, and click `Install Plugin`.
+
+![Searching for and installing a plugin in QGIS](media/2_Plugin.JPG "QGIS plugin installer")
+
+### Recommended plugins
+
+* QuickMapServices
+* QuickOSM

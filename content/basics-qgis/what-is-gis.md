@@ -37,17 +37,23 @@ One way to think about GIS is that it allows us to represent the real world as a
 ---
 ## Data types
 {:toc}
-In development {: .label .label-yellow }
+
+In development
+{: .label .label-yellow }
 
 ---
 ## Data organization
 {:toc}
-In development {: .label .label-yellow }
+
+In development
+{: .label .label-yellow }
 
 ---
 ## Where to look for data
 {:toc}
-In development {: .label .label-yellow }
+
+In development
+{: .label .label-yellow }
 
 ---
 ## Slides

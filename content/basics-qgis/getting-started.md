@@ -8,7 +8,9 @@ nav_order: 1
 # Getting Started
 {: .no_toc }
 
-This page will take you through the steps to install QGIS and become familiar with the interface. The photos and instructions were put together on a Windows machine using QGIS 3.10.3, so if you install a different version (or are a Mac or Linux user) the specific instructions and menu names might be different!
+This page will take you through the steps to install QGIS and become familiar with the interface. {: .fs-6 .fw-300 }
+
+Heads up: the photos and instructions were put together on a Windows machine using QGIS 3.10.3, so if you install a different version (or are a Mac or Linux user) the specific instructions and menu names might be different.
 
 <details open markdown="block">
   <summary>

@@ -37,16 +37,6 @@ There are two kinds of  systems:
 
 ![Icons showing geographic coordinate systems as a globe and projected coordinate systems as a map](media/coordinate_icons.JPG "Geographic vs. projected coordinate systems")
 
-### Is your GIS broken?
-{:.no_toc}
-
-Faulty coordinate systems are very often to blame for a GIS that stops working properly. These are some of the most common issues:
-* the data layer's CS information is wrong,
-* the data layer's CS information is missing,
-* the Map View is set to a different CS than the data layer,
-* there are multiple data layers and they all have different CS's.
-{: .warn}
-
 ---
 ## Geographic vs. projected coordinate systems
 {:toc}
@@ -69,6 +59,17 @@ View this information as a slideshow:
 {:toc}
 
 
+---
+## Troubleshooting
+{:toc}
+
+Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
+
+These are some of the most common issues that pop up. If your data isn't displaying properly, check to see if one of these could be the cause:
+* the data layer's CS information is wrong,
+* the data layer's CS information is missing,
+* the Map View is set to a different CS than the data layer,
+* there are multiple data layers and they all have different CS's.
 
 ---
 ## Resources

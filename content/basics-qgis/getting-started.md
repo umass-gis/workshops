@@ -81,6 +81,7 @@ These two plugins are super helpful:
 
 **QuickOSM** allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!
 
+---
 ## Get more help
 {:toc}
 

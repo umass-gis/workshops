@@ -67,7 +67,7 @@ There are several ways to open a layer in QGIS:
 
 In the Layers Panel, right-click the layer's name and select `Properties...` Information about the CRS will appear in the top part of the window.
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_annotated.png' width='800' alt='Properties window of a vector data layer'>
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_annotated.png' width='700' alt='Properties window of a vector data layer'>
 
 In this example, the CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which the Commonwealth of Massachusetts uses for most of its GIS data. We know this is a **projected** CRS because it has "projected" in the name, but also because the unit is meters. Only projected CRS's use standard units of measurement, like feet, meters, etc.
 
@@ -92,16 +92,16 @@ In the Layers Panel, right-click the layer's name and click `Export > Save Featu
 * **File name**: click the three dots `...` to the right of the box, navigate to your output folder, and type in a name for the output file. Make sure to add the proper extension (.shp for shapefiles).
 * **CRS**: click the globe icon to the right of the box, then type **32618** into the filter bar in order to quickly locate the CRS you want. Select it and click `OK`.
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_selector.JPG' width='800' alt='Coordinate Reference System Selector dialog'>
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_selector.JPG' width='600' alt='Coordinate Reference System Selector dialog'>
 
 Leave the rest of the fields as their default values, and click `OK`.
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/save_vector_as.JPG' width='800' alt='Save Vector Layer As... dialog'>
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/save_vector_as.JPG' width='600' alt='Save Vector Layer As... dialog'>
 
 ### Rasters: Reproject the layer
 {:.no_toc}
 
-While it is possible to use the export tool to make a copy of a raster layer in a new CRS, the tool does not work well in most cases. The better option is to reproject it - a more refined process that helps ensure the accuracy of the copied data.
+While it's possible to use the export tool to make a copy of a raster layer in a new CRS, the tool does not work well in most cases. The better option is to reproject it – a more refined process that helps ensure the accuracy of the copied data.
 
 In the menu bar, click `Raster > Projections > Warp (Reproject)...` Fill out the dialog window:
 * **Input layer**: select the raster layer you want to copy
@@ -116,9 +116,9 @@ Read more about raster resampling methods in this [StackExchange post](https://g
 
 By default, the tool will save the new layer to a temporary file. This is a handy way to check that everyone worked according to plan before you save a copy to your hard drive (using the [export method discussed above](#vectors)).
 
-Alternatively, near the bottom of the window in the `Reprojected` box, you can ask the tool to save the file directly to your computer. Click the three dots `...` to the right of the box, navigate to your output folder, and type in a name for the output file. Make sure to add the proper extension (.tif is a good file type for rasters).
+Alternatively, near the bottom of the window in the `Reprojected` box, you can ask the tool to save the file directly to your computer. Click the three dots `...` to the right of the box, navigate to your output folder, and type in a name for the output file. Make sure to add the proper extension (.tif is a good file type for rasters). When you're all set, click `Run`.
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/warp.png' width='800' alt='Warp (Reproject) dialog'>
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/warp.png' width='600' alt='Warp (Reproject) dialog'>
 
 ---
 ## Change the map view's CS

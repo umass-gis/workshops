@@ -8,7 +8,7 @@ nav_order: 2
 # What is GIS?
 {: .no_toc }
 
-Crash-course in key GIS concepts: map layers, data types, data organization, and where to look for geospatial data.
+Overview of a few key GIS concepts: map layers, data types, and data organization
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">

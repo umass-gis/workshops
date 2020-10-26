@@ -60,16 +60,16 @@ There are several ways to open a layer in QGIS:
 1. For vectors: click `Layer > Add Layer > Add Vector Layer...` or click the `Add Vector Layer...` button. In the window that opens, to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
 1. For rasters: click `Layer > Add Layer > Add Raster Layer...` or click the `Add Raster Layer...` button. Follow the steps above.
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='400' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='500' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
 
 ### Step 2: Open the layer's Properties window
 {:.no_toc}
 
-In the Layers Panel, right-click the layer's name and select `Properites...` Information about the CS will appear in the top part of the window, next to CRS (coordinate reference system).
+In the Layers Panel, right-click the layer's name and select `Properties...` Information about the CS will appear in the top part of the window, next to CRS (coordinate reference system).
 
-In this example, the CS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which is used by the Commonwealth of Massachusetts for most of its GIS data. 
+In this example, the CS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986), which the Commonwealth of Massachusetts uses for most of its GIS data. 
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_annotated.png' width='400' alt='Properites window of a vector data layer '>
+<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/CRS_annotated.png' width='800' alt='Properties window of a vector data layer'>
 
 ---
 ## Change a layer's CS

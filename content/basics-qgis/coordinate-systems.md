@@ -38,24 +38,37 @@ There are two kinds of  systems:
 ![Icons showing geographic coordinate systems as a globe and projected coordinate systems as a map](media/coordinate_icons.JPG "Geographic vs. projected coordinate systems")
 
 ---
-## Geographic vs. projected coordinate systems
+## Geographic vs. projected
 {:toc}
 
 View this information as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGEAMvj797ZfrIWaxbA-2QcR96BZvFSvNuqk1BX9_KRXmUMBonSbD8msN2btH0UT2QRwFgAtOt9gcb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
-## Identify a layer's coordinate system
+## Identify a layer's CS
+{:toc}
+
+The quick way to find out a layer's CS is to open it in QGIS and look at its information in the `Properties` window.
+
+Refer back to the [Getting Started page](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#explore-the-qgis-interface) to familiarize yourself with the QGIS interface.
+
+### 1. Open the layer in QGIS
+
+There are two ways to open a data layer in QGIS:
+1. Navigate to the layer in the Browser Panel, then drag and drop it into the Map View.
+1. Click `Layer > Add Layer > Add Vector Layer...` then to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
+1. Click the `Add Vector Layer...` button (the left-most button in the Manage Layers toolbar) and follow the instructions from step 2.
+
+![Manage layers toolbar, with the "Add Vector Layer" button outlined in red](media/manage_layers_annotated.png "Manage layers toolbar")
+
+
+---
+## Change a layer's CS
 {:toc}
 
 
 ---
-## Change a layer's coordinate system
-{:toc}
-
-
----
-## Change the map view's coordinate system
+## Change the map view's CS
 {:toc}
 
 

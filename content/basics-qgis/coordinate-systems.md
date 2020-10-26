@@ -81,8 +81,9 @@ Streamlining your data's coordinate systems helps avoid issues that stem from CR
 
 Let's say you downloaded a data layer from the state government. You checked the layer's Properties information and found out that its CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986). However, all your other data is in [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). 
 
-### <a name="vectors"></a>Vectors: Export the layer
+### Vectors: Export the layer
 {:.no_toc}
+<a name="vectors"></a>
 
 The quickest way to change the CRS of a vector layer is to make a copy by exporting it. During the export process, you have the option to define a new CRS for the new layer.
 
@@ -98,6 +99,7 @@ Leave the rest of the fields as their default values, and click `OK`.
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/save_vector_as.JPG' width='800' alt='Save Vector Layer As... dialog'>
 
 ### Rasters: Reproject the layer
+{:.no_toc}
 
 While it is possible to use the export tool to make a copy of a raster layer in a new CRS, the tool does not work well in most cases. The better option is to reproject it - a more refined process that helps ensure the accuracy of the copied data.
 
@@ -124,8 +126,9 @@ Alternatively, near the bottom of the window in the `Reprojected` box, you can a
 
 
 ---
-## <a name="troubleshooting"></a>Troubleshooting
+## Troubleshooting
 {:toc}
+<a name="troubleshooting"></a>
 
 Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
 

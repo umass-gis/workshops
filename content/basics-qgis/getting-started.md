@@ -43,7 +43,7 @@ Once QGIS installs, launch the program. In the menu bar, click `Project > New` t
 ![QGIS interface after opening a new project](media/1_NewProject_Anno.JPG "QGIS interface")
 
 ### Recommended panels
-{:toc}
+{: .no_toc }
 
 You can turn on/off different panels by clicking `View > Panels`, or by right-clicking in the gray toolbar area. Make sure these two panels are checked on:
 
@@ -51,7 +51,7 @@ You can turn on/off different panels by clicking `View > Panels`, or by right-cl
 * Layers panel
 
 ### Recommended toolbars
-{:toc}
+{: .no_toc }
 
 The toolbars are the fun part of QGIS, giving you quick access to lots of tools that the program offers. You can turn on/off different toolbars by clicking `View > Toolbars`, or by right-clicking in the gray toolbar area. These are the recommended essential toolbars to turn on:
 
@@ -71,7 +71,7 @@ In the menu bar, click `Plugins > Manage and Install Plugins...` Type the plugin
 ![Searching for and installing a plugin in QGIS](media/2_Plugin.JPG "QGIS plugin installer")
 
 ### Recommended plugins
-{:toc}
+{: .no_toc }
 
 These two plugins are super helpful:
 * QuickMapServices

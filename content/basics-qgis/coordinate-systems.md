@@ -21,8 +21,35 @@ info here
 </details>
 
 ---
-## Map layers
+## Overview
 {:toc}
+
+Coordinate systems allow us to locate any place on the earth’s surface. There are two kinds of coordinate systems:
+* Geographic coordinate systems - for 3D surfaces like globes
+* Projected coordinate systems - for 2D surfaces like maps
+
+There are over 6,000 coordinate systems (and counting). In general, it is a good idea to use a single system for all the data in your project. 
+
+In this section, you'll learn about the differences between these two systems. You'll also learn how to identify the coordinate system of a specific data layer, change the coordinate system of your map view, and change the data's coordinate system.
+
+---
+## Geographic coordinate systems
+{:toc}
+
+
+---
+## Projected coordinate systems
+{:toc}
+
+
+---
+## Resources
+
+These are some of my favorite coordinate system tools:
+
+* [EPSG.io](https://epsg.io/): search for information about over 6,000 coordinate systems
+* [FCC DMC-to-Decimal converter](https://www.fcc.gov/media/radio/dms-decimal): quickly convert coordinates from Degrees Minutes Seconds to Decimal Degrees (and vice versa)
+* [Rick King's State Plane Coordinate System](https://www.ret3.net/p/state-plane-coordinate-system.html): look up the State Plane and UTM Zones for each county in the U.S.
 
 ---
 ## Slides

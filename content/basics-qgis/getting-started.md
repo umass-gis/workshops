@@ -6,11 +6,22 @@ nav_order: 1
 ---
 
 # Getting Started
+{: .no_toc }
 
 This page will take you through the steps to install QGIS and become familiar with the interface. The photos and instructions were put together on a Windows machine using QGIS 3.10.3, so if you install a different version (or are a Mac or Linux user) the specific instructions and menu names might be different!
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ---
 ## Install QGIS
+{:toc}
 
 QGIS is a free and open-source software that runs on Mac, Windows, and Linux operating systems. In order to complete the tuturial part of this workshop, you will need to download the software and install it on your personal computer. 
 
@@ -21,12 +32,14 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 ---
 ## Explore the QGIS interface
+{:toc}
 
 Once QGIS installs, launch the program. In the menu bar, click `Project > New` to start a new session. The program should look like the interface below. If additional panels are open, you can close them by clicking the X in the upper right corner. 
 
 ![QGIS interface after opening a new project](media/1_NewProject_Anno.JPG "QGIS interface")
 
 ### Recommended panels
+{:toc}
 
 You can turn on/off different panels by clicking `View > Panels`, or by right-clicking in the gray toolbar area. Make sure these two panels are checked on:
 
@@ -34,6 +47,7 @@ You can turn on/off different panels by clicking `View > Panels`, or by right-cl
 * Layers panel
 
 ### Recommended toolbars
+{:toc}
 
 The toolbars are the fun part of QGIS, giving you quick access to lots of tools that the program offers. You can turn on/off different toolbars by clicking `View > Toolbars`, or by right-clicking in the gray toolbar area. These are the recommended essential toolbars to turn on:
 
@@ -44,6 +58,7 @@ The toolbars are the fun part of QGIS, giving you quick access to lots of tools 
 
 ---
 ## Install helpful plugins
+{:toc}
 
 On its own, QGIS is a fairly bare-bones program that can do basic GIS-y things, but certainly not all the things that proprietary software can do. Plugins extend the functionality of QGIS. Plugins are free and open-source, just like QGIS!
 
@@ -52,6 +67,7 @@ In the menu bar, click `Plugins > Manage and Install Plugins...` Type the plugin
 ![Searching for and installing a plugin in QGIS](media/2_Plugin.JPG "QGIS plugin installer")
 
 ### Recommended plugins
+{:toc}
 
 These two plugins are super helpful:
 * QuickMapServices

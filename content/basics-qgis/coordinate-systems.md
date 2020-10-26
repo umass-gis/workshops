@@ -29,7 +29,7 @@ Coordinate systems (CS) allow us to locate any place on the earth’s surface.
 At their most basic, a coordinate pair consists of two numbers: an **X value (longitude)** and a **Y value (latitude)**. The CS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CS that exists today!
 
 It is a good idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CS and how to change it, if necessary.
-{: .warn}
+{: .note}
 
 There are two kinds of  systems:
 * **Geographic coordinate systems** are best suited for 3D surfaces like globes.
@@ -37,15 +37,15 @@ There are two kinds of  systems:
 
 ![Icons showing geographic coordinate systems as a globe and projected coordinate systems as a map](media/coordinate_icons.JPG "Geographic vs. projected coordinate systems")
 
+### Is your GIS broken?
+{:.no_toc}
 
-Fake stats alert!
-{: .label .label-yellow }
-
-9 out of 10 problems with GIS are the result of pesky coordinate systems. Often one of these issues is at the heart of the problem:
+Faulty coordinate systems are very often to blame for a GIS that stops working properly. These are some of the most common issues:
 * the data layer's CS information is wrong,
 * the data layer's CS information is missing,
 * the Map View is set to a different CS than the data layer,
-* or there are multiple data layers and they all have different CS's.
+* there are multiple data layers and they all have different CS's.
+{: .warn}
 
 ---
 ## Geographic vs. projected coordinate systems

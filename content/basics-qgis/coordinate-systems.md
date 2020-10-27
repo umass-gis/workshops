@@ -146,11 +146,6 @@ In the second image, the Project CRS is set to [EPSG:4326 - WGS84](https://epsg.
 Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
 
 These are some of the most common issues that pop up. If your data isn't displaying properly, check to see if one of these could be the cause:
-* the data layer's CRS is wrong,
-* the data layer's CRS information is missing,
-* the Map View is set to a different CRS than the data layer,
-* there are multiple data layers and they all have different CRS's.
-
 
 | Problem | Possible solution |
 | :--- | :--- |

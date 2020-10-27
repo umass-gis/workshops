@@ -91,9 +91,8 @@ Your map session should look something like this (probably with different colors
 
 ![Data layers in a new QGIS session](media/tutorial_1.png "Data layers in a new QGIS session")
 
-Reminder
-{: .label .label-yellow }
-Make sure to save your map session often! This will save you a lot of heartache if you make a lot of changes and then your power goes out. Not that that has every happened to me :-/
+Make sure to save your map session often. This will save you a lot of heartache if you make a lot of changes and then your power goes out!
+{: .danger}
 
 ---
 ## Check their CRS's
@@ -163,9 +162,8 @@ Now that everything is synced to a CRS that calls on the WGS84 datum, you can go
 <img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
 <figcaption>All the happy WGS84 layers, with OSM Standard imagery</figcaption>
 
-Reminder
-{: .label .label-yellow }
 Save that map!
+{: .danger}
 
 ---
 ## Change their symbology
@@ -249,9 +247,8 @@ When you're all set, click `OK`.
 * Are there any apparent clusters in terms of either HOLC grades or demographic makeup? Any outliers?
 * How would you describe the relationship between the historical HOLC designation of neighborhoods in these cities and the demographic makeup of their residents today?
 
-Reminder
-{: .label .label-yellow }
 Don't forget to save your map!
+{: .danger}
 
 ---
 ## Wrap-Up

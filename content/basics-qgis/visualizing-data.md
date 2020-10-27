@@ -21,8 +21,15 @@ Learn how to change the way data appears and start exploring spatial patterns vi
 </details>
 
 ---
-## Vector and raster symbology
+## Vector symbology
 {:toc}
 
 View this section as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRxmJZRxpq-L3hWxxARiIXQRCM0IPN8URktRQGBevJKTpeCaOtVnMO9SpROoJpY6yLUKeUpE1cEQf2B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+## Raster symbology
+{:toc}
+
+In development
+{: .label .label-yellow }

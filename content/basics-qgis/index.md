@@ -22,15 +22,15 @@ This is an evolving workshop that is geared towards newcomers to GIS. By the end
 
 This workshop is designed to take about two hours as a live demonstration.
 
-| Time | Topic
-| --- | ---
-| 0:00 | Introduction
-| 0:05 | Basics of GIS
-| 0:35 | Q&A
-| 0:50 | Break
-| 1:00 | QGIS demonstration
-| 1:40 | Q&A
-| 1:55 | Wrap-up
+| Time | Topic |
+| :--- | :--- |
+| 0:00 | Introduction |
+| 0:05 | Basics of GIS |
+| 0:35 | Q&A |
+| 0:50 | Break |
+| 1:00 | QGIS demonstration |
+| 1:40 | Q&A |
+| 1:55 | Wrap-up |
 
 If you are working through the materials on your own time, it may take a bit longer!
 

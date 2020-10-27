@@ -91,6 +91,10 @@ Your map session should look something like this (probably with different colors
 
 ![Data layers in a new QGIS session](media/tutorial_1.png "Data layers in a new QGIS session")
 
+Reminder
+{: .label .label-yellow }
+Make sure to save your map session often! This will save you a lot of heartache if you make a lot of changes and then your power goes out. Not that that has every happened to me :-/
+
 ---
 ## Check their CRS's
 {:toc}
@@ -159,6 +163,10 @@ Now that everything is synced to a CRS that calls on the WGS84 datum, you can go
 <img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
 <figcaption>All the happy WGS84 layers, with OSM Standard imagery</figcaption>
 
+Reminder
+{: .label .label-yellow }
+Save that map!
+
 ---
 ## Change their symbology
 {:toc}
@@ -194,7 +202,7 @@ Change the color for each grade to match the HOLC maps. There are several ways t
 You can adjust the transparency of the layer by expanding `Layer Rendering` in the Symbology window, then adjusting the `Opacity` slider. 0% is totally transparent, and 100% is totally opaque.
 {: .note}
 
-Finally, remove `all other values` by highlightint it and clicking the red minus icon, then click `OK`.
+Finally, remove `all other values` by highlighting it and clicking the red minus icon, then click `OK`.
 
 ![Symbology window for the HOLC shapefile layer](media/tutorial_3_holctable.png "Symbology window")
 
@@ -207,14 +215,14 @@ To decode the table, take a look at the metadata about the file on the [MGGG's G
 
 For now, let's explore the demographic information that this file contains. Let's say we're interested in mapping the percentage of the population that does/doesn't identify as *non-hispanic white*. A quick way to do this would be to divide the field `NH_WHITE: White, non-hispanic, population in 2010 Census` by the field `TOTPOP: Total population in 2010 Census`.
 
-Follow these steps to calculate a new field to the attribute table:
+Follow these steps to calculate a new field in the attribute table:
 * Open the attribute table for the layer `MA_precincts12_16`
 * Click the pencil icon to start editing
 * Click the `Open Field Calculator` button
 * Make sure `Create a new field` is checked
 * Change the `Output field name` to **Per_Whi**
 * Change the `Output field type` to **Decimal Number (real)**
-* In the `Expression` box, type this formula: ` "NH_WHITE"  /  "TOTPOP" `
+* In the `Expression` box, type this formula: **"NH_WHITE" / "TOTPOP"**
 * Click `OK`
 
 Make sure to save your edits and un-click the pencil icon to stop editing.
@@ -240,6 +248,10 @@ When you're all set, click `OK`.
 * What patterns seem to stand out?
 * Are there any apparent clusters in terms of either HOLC grades or demographic makeup? Any outliers?
 * How would you describe the relationship between the historical HOLC designation of neighborhoods in these cities and the demographic makeup of their residents today?
+
+Reminder
+{: .label .label-yellow }
+Don't forget to save your map!
 
 ---
 ## Wrap-Up

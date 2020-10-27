@@ -161,6 +161,8 @@ Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/
 
 Now that everything is synced to a CRS that calls on the WGS84 datum, you can go ahead and load some rad, free base imagery! Follow the instructions on the [Getting Started](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#install-helpful-plugins) page to install the QuickMapServices plugin and add a basemap of your choice.
 
+![Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.](media/tutorial_2.png "Data layers with OSM imagery")
+
 <img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' width=700 alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
 <figcaption>All the happy WGS84 layers, with OSM Standard imagery</figcaption>
 
@@ -195,9 +197,9 @@ holc_grade
 In the Layers panel, right-click the layer `cartodb-query` and click `Properties`, then navigate to the `Symbology` tab. Right now, the symbology type is set to **Single symbol**. Change this to **Categorized**. For the `Value` field select the field you want to symbolize, then click the `Classify` button in the lower left corner to load all the possible values. 
 
 Change the color for each grade to match the HOLC maps. There are several ways to do this:
-* Highlight the item in the Symbology window, then click the small drop-down arrow to the right of the color swath above it. 
-* Double-click each small color patch to pull up the Symbol Selector. Make sure `Fill` is selected, then click the small drop-down arrow to the right of the color swath. 
-* Alternatively, select `Simple fill` if you want to customize the fill type, change the outline (stroke) color and width, and so on.
+1. Highlight the item in the Symbology window, then click the small drop-down arrow to the right of the color swath above it. 
+1. Double-click each small color patch to pull up the Symbol Selector. Make sure `Fill` is selected, then click the small drop-down arrow to the right of the color swath. 
+1. Alternatively, select `Simple fill` if you want to customize the fill type, change the outline (stroke) color and width, and so on.
 
 You can adjust the transparency of the layer by expanding `Layer Rendering` in the Symbology window, then adjusting the `Opacity` slider. 0% is totally transparent, and 100% is totally opaque.
 {: .note}

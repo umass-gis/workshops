@@ -87,7 +87,8 @@ These two plugins are super helpful:
 
 Let's assume you have a geospatial data layer downloaded onto your hard drive.
 
-There are several ways to open the layer in QGIS:
+There are several ways to open a layer in QGIS:
+1. In a system folder window (Windows Explorer or Mac Finder), navigate to the data, then drag and drop it into the QGIS Map View. For shapefiles, you'll have to grab the file that ends with .shp!
 1. In the Browser Panel, navigate to the layer, then drag and drop it into the Map View.
 1. For vectors: click `Layer > Add Layer > Add Vector Layer...` or click the `Add Vector Layer...` button. In the window that opens, to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
 1. For rasters: click `Layer > Add Layer > Add Raster Layer...` or click the `Add Raster Layer...` button. Follow the steps above.

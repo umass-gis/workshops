@@ -97,7 +97,7 @@ Make sure to save your map session often. This will save you a lot of heartache 
 {: .danger}
 
 ---
-## Check their CRS's
+## Check the layers' CRS's
 {:toc}
 
 Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#identify-a-layers-crs) page to identify the CRS's of the two data layers. 
@@ -133,7 +133,7 @@ Both CRS's are geographic coordinate systems! Giveaways: the CRS unit is degrees
 </details>
 
 ---
-## Sync their CRS's
+## Sync the CRS's of the layers and map
 {:toc}
 
 Spoilers ahead!
@@ -168,7 +168,7 @@ Save that map!
 {: .danger}
 
 ---
-## Change their symbology
+## Change the layers' symbology
 {:toc}
 
 Take a moment to explore the two data layers. Open their attribute tables to find out what kind of data they contain – and which fields you might want to use to visualize the data. 

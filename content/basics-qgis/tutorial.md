@@ -128,6 +128,38 @@ Both CRS's are geographic coordinate systems! Giveaways: the CRS unit is degrees
 </details>
 
 ---
+## Sync their CRS's
+{:toc}
+<br>
+Spoilers ahead!
+{: .label .label-red }
+
+Let's sync the CRS's of the two data layers and the Map View so they are all calling on the WGS84 datum. This is a good choice if you plan to use the free base imagery available through the [QuickMapServices plugin](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#change-the-project-crs), since it generally should work if the Project CRS is based on the WGS84 datum.
+
+### Change a layer's CRS
+{:.no_toc}
+
+The `cartodb-query` layer is okay as it is. Although its CRS is a geographic coordinate system (rather than projected, which is better for map-making), QGIS won't have any trouble readjusting it to look correct once we update the Project CRS.
+
+As long as all your data layers have the same datum, QGIS can "project them on-the-fly" so that they appear to have the same CRS. Issues are much more likely if your data layers have different datums. In this case, the datum is NAD83.
+{: .note}
+
+Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#change-a-layers-crs) page to export a new version of the `MA_precincts12_16` layer with a CRS of [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). You can remove the original `MA_precincts12_16` layer when you're done.
+
+Remember to create a new folder within your project space that is dedicated to new files you've created. You could call it "Data_Processed" or just "Processed," or whatever else will help you remember that these are your original files.
+{: .warn}
+
+### Change the Project CRS
+{:.no_toc}
+
+Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#change-the-project-crs) page to update the Project CRS to [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618).
+
+Now that everything is synced to a CRS that calls on the WGS84 datum, you can go ahead and load some rad, free base imagery! Follow the instructions on the [Getting Started](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#install-helpful-plugins) page to install the QuickMapServices plugin and add a basemap of your choice.
+
+<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
+<figcaption>All the happy WGS84 layers, with OSM Standard imagery</figcaption>
+
+---
 ## Change their symbology
 {:toc}
 

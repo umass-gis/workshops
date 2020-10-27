@@ -32,12 +32,12 @@ This tutorial will give you a chance to practice the lessons covered in this wor
 * changing layer symbology
 * exporting a map
 
-### Data Source *1*{: .circle .circle-purple}
+### Data Source 1
 {:.no_toc}
 
 Holyoke and Chicopee were mapped by Home Owners' Loan Corporation between 1935 and 1940 - the very program that originated the term “redlining” to describe reputedly ‘hazardous’ neighborhoods that mortgage lenders should avoid at all costs. The project [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) has georeferenced the maps and made them available to the public as downloadable data (in shapefile and geoJSON format). The website is an interactive mapping platform that is a great learning tool in itself, but we're going to download just a selection of this data.
 
-### Data Source *2*{: .circle .circle-purple}
+### Data Source 2
 {:.no_toc}
 
 In order to explore how the population of Holyoke and Chicopee have changed over time, we'll take a look at the most recent election data from the precincts in these areas, along with data from the 2010 Decennial Census. The project [OpenPrecincts](https://openprecincts.org/ma/) is a great place to look for processed election data. The level of processing is variable by state, but for Massachusetts the data is excellent. The same data (for MA) can be found on the Metric Geometry and Gerrymandering Group's (MGGG) [GitHub repository](https://github.com/mggg-states/MA-shapefiles).
@@ -63,7 +63,9 @@ The file you download is zipped, so you'll need to unzip it before you can conti
 ### 3. Create a workspace for your data
 {:.no_toc}
 
-This is a great time to start practicing good data management! In an ideal world, you'll create a folder just for this tutorial somewhere on your hard drive. Ideas for what to name the folder:
+This is a great time to start practicing good data management! Refer back to the slides on [Data Organization](https://umass-gis.github.io/workshops/content/basics-qgis/gis-basics.html#data-organization) for inspiration.
+
+In an ideal world, you'll create a folder just for this tutorial somewhere on your hard drive. Ideas for what to name the folder:
 * QGIS_Workshop_Oct2020
 * Holyoke_Chicopee_Tutorial_2020_1027
 * Basics_of_QGIS_Fall20
@@ -137,7 +139,7 @@ Both CRS's are geographic coordinate systems! Giveaways: the CRS unit is degrees
 Spoilers ahead!
 {: .label .label-red }
 
-Let's sync the CRS's of the two data layers and the Map View so they are all calling on the WGS84 datum. This is a good choice if you plan to use the free base imagery available through the [QuickMapServices plugin](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#change-the-project-crs), since it generally should work if the Project CRS is based on the WGS84 datum.
+Let's sync the CRS's of the two data layers and the Map View so they are all calling on the WGS84 datum. This is a good choice if you plan to use the free base imagery available through the [QuickMapServices plugin](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#install-helpful-plugins), since it generally should work if the Project CRS is based on the WGS84 datum.
 
 ### Change a layer's CRS
 {:.no_toc}
@@ -159,7 +161,7 @@ Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/
 
 Now that everything is synced to a CRS that calls on the WGS84 datum, you can go ahead and load some rad, free base imagery! Follow the instructions on the [Getting Started](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#install-helpful-plugins) page to install the QuickMapServices plugin and add a basemap of your choice.
 
-<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
+<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' width=700 alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
 <figcaption>All the happy WGS84 layers, with OSM Standard imagery</figcaption>
 
 Save that map!

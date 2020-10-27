@@ -43,6 +43,7 @@ Holyoke and Chicopee were mapped by Home Owners' Loan Corporation between 1935 a
 In order to explore how the population of Holyoke and Chicopee have changed over time, we'll take a look at the most recent election data from the precincts in these areas, along with data from the 2010 Decennial Census. The project [OpenPrecincts](https://openprecincts.org/ma/) is a great place to look for processed election data. The level of processing is variable by state, but for Massachusetts the data is excellent. The same data (for MA) can be found on the [Metric Geometry and Gerrymandering Group's (MGGG) GitHub repository](https://github.com/mggg-states/MA-shapefiles).
 
 ### 1. Download the data
+{:.no_toc}
 
 [Download the data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_QGIS_Fall2020.zip){: .btn .btn-purple }
 

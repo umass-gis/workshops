@@ -48,7 +48,6 @@ View this section as a slideshow:
 ## Practice in QGIS
 {:toc}
 
----
 ### Identify a layer's CRS
 {:toc}
 
@@ -72,6 +71,9 @@ Streamlining your data's coordinate systems helps avoid issues that stem from CR
 
 Let's say you downloaded a data layer from the state government. You checked the layer's Properties information and found out that its CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986). However, all your other data is in [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). 
 
+Vectors
+{: .label .label-green }
+
 #### Vectors: Export the layer
 {:.no_toc}
 
@@ -87,6 +89,9 @@ In the Layers Panel, right-click the layer's name and click `Export > Save Featu
 Leave the rest of the fields as their default values, and click `OK`.
 
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/save_vector_as.JPG' width='600' alt='Save Vector Layer As... dialog'>
+
+Rasters
+{: .label .label-green }
 
 #### Rasters: Reproject the layer
 {:.no_toc}
@@ -141,10 +146,18 @@ In the second image, the Project CRS is set to [EPSG:4326 - WGS84](https://epsg.
 Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
 
 These are some of the most common issues that pop up. If your data isn't displaying properly, check to see if one of these could be the cause:
-* the data layer's CRS information is wrong,
+* the data layer's CRS is wrong,
 * the data layer's CRS information is missing,
 * the Map View is set to a different CRS than the data layer,
 * there are multiple data layers and they all have different CRS's.
+
+
+| Problem | Possible solution |
+| :--- | :--- |
+| The data layer's CRS is wrong | Right-click, Set CRS |
+| The data layer's CRS is missing | Right-click, Set CRS or Export |
+| The Map View is set to a different CRS than the data layer | Update Project CRS |
+| There are multiple data layers and they all have different CRS's | Sync those layers! |
 
 ---
 ## Resources

@@ -162,8 +162,6 @@ Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/
 Now that everything is synced to a CRS that calls on the WGS84 datum, you can go ahead and load some rad, free base imagery! Follow the instructions on the [Getting Started](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#install-helpful-plugins) page to install the QuickMapServices plugin and add a basemap of your choice.
 
 ![Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.](media/tutorial_2.png "Data layers with OSM imagery")
-
-<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_2.png' width=700 alt='Data layers for the tutorial: precincts for the entire state and digitized neighborhoods from the HOLC maps, with OpenStreetMaps imagery as a background.'>
 <figcaption>All the happy WGS84 layers, with OSM Standard imagery</figcaption>
 
 Save that map!
@@ -236,10 +234,10 @@ Hint: You can also experiment with different `Modes`, which change how the data 
 
 When you're all set, click `OK`.
 
-<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_4_holcdisplay.png' alt='HOLC categories overlaid on the modern cities of Holyoke and Chicopee.'>
+![HOLC categories overlaid on the modern cities of Holyoke and Chicopee.](media/tutorial_4_holcdisplay.png "Visualizing the HOLC categories")
 <figcaption>Visualizing the HOLC categories</figcaption>
 
-<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_4_censusdisplay.png' alt='Percentage of people who identify as non-hispanic white in the cities of Holyoke and Chicopee.'>
+![Percentage of people who identify as non-hispanic white in the cities of Holyoke and Chicopee.](media/tutorial_4_censusdisplay.png "Visualizing demographic data")
 <figcaption>Visualizing demographic data</figcaption>
 
 ### Explore the two layers
@@ -249,7 +247,10 @@ When you're all set, click `OK`.
 
 * What patterns seem to stand out?
 * Are there any apparent clusters in terms of either HOLC grades or demographic makeup? Any outliers?
-* How would you describe the relationship between the historical HOLC designation of neighborhoods in these cities and the demographic makeup of their residents today?
+* How would you describe the spatial relationship between the historical HOLC designation of neighborhoods in these cities and the demographic makeup of their residents today?
+* What hyptheses might you investigate further?
+
+To learn more about the Home Owners' Loan Corporation mapping program and the long-term effects of racial segregation that resulted in cities across the U.S., check out the Mapping Inequality project's [Introduction](https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58&text=intro) for an overview and links to further reading.
 
 Don't forget to save your map!
 {: .danger}

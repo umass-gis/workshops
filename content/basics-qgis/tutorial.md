@@ -165,6 +165,9 @@ Now that everything is synced to a CRS that calls on the WGS84 datum, you can go
 
 Take a moment to explore the two data layers. Open their attribute tables to find out what kind of data they contain – and which fields you might want to use to visualize the data. 
 
+Remember that categorical data (codes, groups) can be symbolized using the `Categorized` function, while measurement data (counts, distances, population) should be visualized using the `Graduated` function.
+{: .note}
+
 ### Visualize the HOLC grades
 {:.no_toc}
 
@@ -188,10 +191,60 @@ Change the color for each grade to match the HOLC maps. There are several ways t
 * Double-click each small color patch to pull up the Symbol Selector. Make sure `Fill` is selected, then click the small drop-down arrow to the right of the color swath. 
 * Alternatively, select `Simple fill` if you want to customize the fill type, change the outline (stroke) color and width, and so on.
 
-Finally, uncheck `all other values`, then click `OK`.
+You can adjust the transparency of the layer by expanding `Layer Rendering` in the Symbology window, then adjusting the `Opacity` slider. 0% is totally transparent, and 100% is totally opaque.
+{: .note}
+
+Finally, remove `all other values` by highlightint it and clicking the red minus icon, then click `OK`.
 
 ![Symbology window for the HOLC shapefile layer](media/tutorial_3_holctable.png "Symbology window")
 
+### Visualize the census data
+{:.no_toc}
+
+The other data layer has many, many more fields that could be used for visualization. In fact, the attribute table is a bit overwhelming. There are dozens of fields, but they all have coded titles that don't make much sense on their own.
+
+To decode the table, take a look at the metadata about the file on the [MGGG's GitHub repository](https://github.com/mggg-states/MA-shapefiles). (Note that the first group of metadata fields is for a different shapefile... keep scrolling until you see the information about the 2012-2016 shapefile). Which of the fields do you think would be interesting to map?
+
+For now, let's explore the demographic information that this file contains. Let's say we're interested in mapping the percentage of the population that does/doesn't identify as *non-hispanic white*. A quick way to do this would be to divide the field `NH_WHITE: White, non-hispanic, population in 2010 Census` by the field `TOTPOP: Total population in 2010 Census`.
+
+Follow these steps to calculate a new field to the attribute table:
+* Open the attribute table for the layer `MA_precincts12_16`
+* Click the pencil icon to start editing
+* Click the `Open Field Calculator` button
+* Make sure `Create a new field` is checked
+* Change the `Output field name` to **Per_Whi**
+* Change the `Output field type` to **Decimal Number (real)**
+* In the `Expression` box, type this formula: ` "NH_WHITE"  /  "TOTPOP" `
+* Click `OK`
+
+Make sure to save your edits and un-click the pencil icon to stop editing.
+{: .warn}
+
+Now you can use this new field to change the symbology for the layer. Open the Symbology window and change the symbology type to **Graduated**. For  `Value`, select the new field you just created, then click the `Classify` button in the lower left corner to load all the possible values. Pick a `color ramp` that you like best. 
+
+Hint: You can also experiment with different `Modes`, which change how the data is grouped. Try changing the mode, then clicking `Apply` to see how it affects the data visualization.
+
+When you're all set, click `OK`.
+
+<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_4_holcdisplay.png' alt='HOLC categories overlaid on the modern cities of Holyoke and Chicopee.'>
+<figcaption>Visualizing the HOLC categories</figcaption>
+
+<img src='https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/media/tutorial_4_censusdisplay.png' alt='Percentage of people who identify as non-hispanic white in the cities of Holyoke and Chicopee.'>
+<figcaption>Visualizing demographic data</figcaption>
+
+### Explore the two layers
+{:.no_toc}
+
+*Finally!* This is the part where the magic starts to happen. Spend some time investigating the spatial relationship between these two layers. 
+
+* What patterns seem to stand out?
+* Are there any apparent clusters in terms of either HOLC grades or demographic makeup? Any outliers?
+* How would you describe the relationship between the historical HOLC designation of neighborhoods in these cities and the demographic makeup of their residents today?
+
 ---
-## Make a map
+## Wrap-Up
 {:toc}
+
+Congratulations! You've successfully downloaded geospatial data, brought it into QGIS, synced the CRS's of all the layers and the map session, and played around with different ways to visualize the data.
+
+Visualizing layers on a map is just the first step. Once you've got the basics of GIS down, you can learn to harness the real powers of the software – spatial analysis, map-making, and data-sharing.

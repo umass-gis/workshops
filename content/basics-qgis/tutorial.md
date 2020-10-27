@@ -34,7 +34,7 @@ This tutorial will give you a chance to practice the lessons covered in this wor
 
 We'll focus on the cities of Holyoke and Chicopee in western Massachusetts to explore how the demographic makeup of these places has changed in the last 80 years. 
 
-#### Data Source 1: Historical Redlining
+### Data Source *1*{: .circle .circle-red}: Historical Redlining
 {:.no_toc}
 Holyoke and Chicopee were mapped by Home Owners' Loan Corporation between 1935 and 1940 - the very program that originated the term “redlining” to describe reputedly ‘hazardous’ neighborhoods that mortgage lenders should avoid at all costs. The project [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) has georeferenced the maps and made them available to the public as downloadable data (in shapefile and geoJSON format). The website is an interactive mapping platform that is a great learning tool in itself, but we're going to download just a selection of this data.
 

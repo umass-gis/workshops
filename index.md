@@ -24,7 +24,4 @@ Got a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@uma
 
 ## Try the workshops
 
-Coming soon
-{: .label .label-yellow }
-
-I'm in the process of migrating workshop materials to this space. Check back for more info!
+[Learn the Basics of QGIS](https://umass-gis.github.io/workshops/content/basics-qgis/)

@@ -75,7 +75,7 @@ Let's say you downloaded a data layer from the state government. You checked the
 #### Vectors: Export the layer
 {:.no_toc}
 
-<a name="vectors"></a> The quickest way to change the CRS of a vector layer is to make a copy by exporting it. During the export process, you have the option to define a new CRS for the new layer.
+The quickest way to change the CRS of a vector layer is to make a copy by exporting it. During the export process, you have the option to define a new CRS for the new layer.
 
 In the Layers Panel, right-click the layer's name and click `Export > Save Features As...` Fill out the dialog window:
 * **Format**: ESRI Shapefile is the default option, but you can change this if you prefer a different format
@@ -104,7 +104,7 @@ In the menu bar, click `Raster > Projections > Warp (Reproject)...` Fill out the
 Read more about raster resampling methods in this [StackExchange post](https://gis.stackexchange.com/questions/10931/what-is-lanczos-resampling-useful-for-in-a-spatial-context)
 {: .note}
 
-By default, the tool will save the new layer to a temporary file. This is a handy way to check that everyone worked according to plan before you save a copy to your hard drive (using the [export method discussed above](#vectors)).
+By default, the tool will save the new layer to a temporary file. This is a handy way to check that everyone worked according to plan before you save a copy to your hard drive (using the [export method discussed above](#vectors-export-the-layer)).
 
 Alternatively, near the bottom of the window in the `Reprojected` box, you can ask the tool to save the file directly to your computer. Click the three dots `...` to the right of the box, navigate to your output folder, and type in a name for the output file. Make sure to add the proper extension (.tif is a good file type for rasters). When you're all set, click `Run`.
 
@@ -137,7 +137,6 @@ In the second image, the Project CRS is set to [EPSG:4326 - WGS84](https://epsg.
 ---
 ## Troubleshooting
 {:toc}
-<a name="troubleshooting"></a>
 
 Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
 

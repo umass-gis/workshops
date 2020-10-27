@@ -130,7 +130,7 @@ Both CRS's are geographic coordinate systems! Giveaways: the CRS unit is degrees
 ---
 ## Sync their CRS's
 {:toc}
-<br>
+
 Spoilers ahead!
 {: .label .label-red }
 
@@ -141,7 +141,7 @@ Let's sync the CRS's of the two data layers and the Map View so they are all cal
 
 The `cartodb-query` layer is okay as it is. Although its CRS is a geographic coordinate system (rather than projected, which is better for map-making), QGIS won't have any trouble readjusting it to look correct once we update the Project CRS.
 
-As long as all your data layers have the same datum, QGIS can "project them on-the-fly" so that they appear to have the same CRS. Issues are much more likely if your data layers have different datums. In this case, the datum is NAD83.
+As long as all your data layers have the same datum, QGIS can "project them on-the-fly" so that they appear to have the same CRS. Issues are much more likely if your data layers have different datums.
 {: .note}
 
 Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#change-a-layers-crs) page to export a new version of the `MA_precincts12_16` layer with a CRS of [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). You can remove the original `MA_precincts12_16` layer when you're done.
@@ -162,6 +162,35 @@ Now that everything is synced to a CRS that calls on the WGS84 datum, you can go
 ---
 ## Change their symbology
 {:toc}
+
+Take a moment to explore the two data layers. Open their attribute tables to find out what kind of data they contain – and which fields you might want to use to visualize the data. 
+
+### Visualize the HOLC grades
+{:.no_toc}
+
+Take another look at the HOLC maps on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/#loc=13/42.18/-72.628&mapview=graded&city=holyoke-chicopee-ma) website. Notice the color scheme the cartographers used: 
+* Grade A = green
+* Grade B = blue
+* Grade C = yellow
+* Grade D = red
+
+<details>
+<summary>Which field in the cartodb-query's attribute table contains this information?</summary>
+<br>
+holc_grade
+</details>
+<br>
+
+In the Layers panel, right-click the layer `cartodb-query` and click `Properties`, then navigate to the `Symbology` tab. Right now, the symbology type is set to **Single symbol**. Change this to **Categorized**. For the `Value` field select the field you want to symbolize, then click the `Classify` button in the lower left corner to load all the possible values. 
+
+Change the color for each grade to match the HOLC maps. There are several ways to do this:
+* Highlight the item in the Symbology window, then click the small drop-down arrow to the right of the color swath above it. 
+* Double-click each small color patch to pull up the Symbol Selector. Make sure `Fill` is selected, then click the small drop-down arrow to the right of the color swath. 
+* Alternatively, select `Simple fill` if you want to customize the fill type, change the outline (stroke) color and width, and so on.
+
+Finally, uncheck `all other values`, then click `OK`.
+
+![Symbology window for the HOLC shapefile layer](media/tutorial_3_holctable.png "Symbology window")
 
 ---
 ## Make a map

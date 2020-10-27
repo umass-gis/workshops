@@ -84,9 +84,44 @@ Move the unzipped folder to that new workspace and rename it. The goal is to pre
 
 There are two shapefiles in the data pack you downloaded. Follow the instructions on the [Getting Started](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#open-a-layer) page to load the two shapefiles into a new map session in QGIS.
 
+If you get a warning message asking you to **Select Transformation for [data layer]**, just click `OK`. 
+
+Your map session should look something like this (probably with different colors!):
+
+![Data layers in a new QGIS session](media/tutorial_1.png "Data layers in a new QGIS session")
+
 ---
 ## Check their CRS's
 {:toc}
+
+Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#identify-a-layers-crs) page to identify the CRS's of the two data layers. 
+
+Quiz time!
+{: .label .label-blue }
+
+<details>
+<summary>What is the CRS of the layer MA_precincts12_16?</summary>
+<br>
+It's EPSG:4269 - NAD83.
+</details>
+
+<details>
+<summary>What is the CRS of the layer cartodb-query?</summary>
+<br>
+It's EPSG:4326 - WGS84.
+</details>
+
+<details>
+<summary>What is the Project CRS?</summary>
+<br>
+This should match the CRS of whichever layer you added first!
+</details>
+
+<details>
+<summary>Bonus: Are these geographic or projected coordinate systems?</summary>
+<br>
+Both CRS's are geographic coordinate systems! Giveaways: the CRS unit is degrees, and in the Status Bar the coordinates are +/- values between 0 and 180.
+</details>
 
 ---
 ## Change their symbology

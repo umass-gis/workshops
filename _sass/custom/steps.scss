@@ -1,0 +1,37 @@
+.step {
+  padding:20px;
+  background-color:#F5F6FA;
+  border-radius:5px;
+}
+
+.circle,
+.circle-blue {
+  display:inline-block;
+  line-height: 28px;
+  width: 28px;
+  height: 28px;
+  border-radius:50%;
+
+  text-align: center;
+  background-color: #2D84FA;
+  color: white;
+
+  @include fs-2;
+}
+
+.circle-green {
+  background-color: $green-200;
+}
+
+.circle-purple {
+  background-color: $purple-100;
+}
+
+.circle-red {
+  background-color: $red-200;
+}
+
+.circle-yellow {
+  color: $grey-dk-200;
+  background-color: $yellow-200;
+}

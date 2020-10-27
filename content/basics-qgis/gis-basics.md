@@ -32,7 +32,7 @@ GIS stands for *Geographic Information Systems* (or *Geographic Information Scie
 Chances are, you've already interacted with a GIS application. Here are some examples:
 * [Google Maps](https://www.google.com/maps)
 * [Johns Hopkins University COVID-19 Dashboard](https://bit.ly/2SHStbG)
-* [Kenneth Field's map of the 2016 presidential election 2016](http://arcg.is/5LuOb0)
+* [Kenneth Field's map of the 2016 election](http://arcg.is/5LuOb0)
 
 ---
 ## Map layers
@@ -49,12 +49,23 @@ In fact, thinking about GIS as a layer cake is one of the fun visuals that "intr
 <figcaption><a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-03-geographic-information-systems.html">Campbell and Shin 2011: Figure 1.8</a></figcaption>
 
 ---
-## Data types and data organization
+## Data types
 {:toc}
 
-In this section, we'll dive into the data that makes up the layers in a GIS... and how best to keep it all organized!
+In this section, we'll dive into the data that makes up the layers in a GIS.
 
 View this section as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT79POVj3VxRUv4pqA8s52srop5wXF8uzz1eOakGkzV4MqmK-BjTvNnlGPGceFxqgiL4yYJD-xgvqK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Looking for more tips and tricks related to data organization? Check out [USGS’ advice about organizing files and data](https://www.usgs.gov/products/data-and-tools/data-management/organize-files-and-data).
+---
+## Data organization
+{:toc}
+
+Last but not least, we'll look at ways to keep your data organized!
+
+View this section as a slideshow:
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfdkL-poNvBmmj4JQKjDkAKcTadDwYnsZKx2jkZcrUwlGBZHokarGvL9PqG3J-7PuGUEOR3GXb-mCS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+Looking for more tips and tricks related to data organization? Here are some resources to check out:
+* [Managing Your Data – UMass Amherst Libraries](https://guides.library.umass.edu/data)
+* [Organize Files and Data – USGS](https://www.usgs.gov/products/data-and-tools/data-management/organize-files-and-data)

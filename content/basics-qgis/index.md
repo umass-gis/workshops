@@ -36,6 +36,6 @@ If you are working through the materials on your own time, it may take a bit lon
 
 ---
 ## Watch the workshop
-Access to the recordings is limited to members of the UMass Amherst community. If you would like to watch the videos but don't have a UMass NetID, send me an email at [rseifried@umass.edu](mailto:rseifried@umass.edu] and I will help you get access.
+Access to the recordings is limited to members of the UMass Amherst community. If you would like to watch the videos but don't have a UMass NetID, send me an email at [rseifried@umass.edu](mailto:rseifried@umass.edu) and I will help you get access.
 
 [October 27, 2020 (demo part only)](https://umass-amherst.zoom.us/rec/share/chUT8tzl0ql6BZphX6kVhtN1y4fEKjPbaIKYkC0tMtb-NDPxT7GkrQpRdWFrbuNH.yXRlzTBT4TbwYQTG)

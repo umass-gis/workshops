@@ -78,7 +78,7 @@ There are two ways to add a new column (or *field*) to an attribute table.
 1. As long as you’re still in editing mode, you can manually enter information into any of the new squares.
 1. Or, you can use the field calculator (abacus button) to quickly calculate values for all the records at the same time - just make sure `Update existing field` is checked and that you’ve selected the name of the field you just created.
 
-![Add field dialog window in QGIS](/media/add_new_field_anno.png "Add Field dialog.")
+![Add field dialog window in QGIS](media/add_new_field_anno.png "Add Field dialog.")
 
 ### Option 2: Field Calculator
 {:.no_toc}
@@ -128,7 +128,7 @@ For more advanced metadata writing, you could try using specialized software. Wh
 
 Yes you can! There is an open-source plugin called [qgis2web](https://github.com/tomchadwin/qgis2web) that is designed exactly for this purpose - to help users turn their QGIS map into an interactive map hosted on the web. The plugin will export your map as a JavaScript file that can be hosted on a server and shared publicly. To get started, check out this tutorial by Ujaval Gandhi on [Web Mapping with qgis2web](https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html).
 
-## Can QGIS be used for parallel analyses on High Performance Computing Clusters (HPCCs)?
+## Can QGIS be used with High Performance Computing Clusters (HPCCs)?
 {:toc}
 
 Desktop QGIS software is really best suited for working with GIS data on a single computer, such as your personal laptop or a remote desktop that you’re accessing through a VPN. <br>

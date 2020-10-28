@@ -225,6 +225,8 @@ Follow these steps to calculate a new field in the attribute table:
 * In the `Expression` box, type this formula: **"NH_WHITE" / "TOTPOP"**
 * Click `OK`
 
+![Filling out the Field Calculator dialog](/media/fieldcalc_anno.png "Field calculator dialog")
+
 Make sure to save your edits and un-click the pencil icon to stop editing.
 {: .warn}
 

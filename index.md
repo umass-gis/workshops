@@ -25,4 +25,4 @@ Got a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@uma
 ## Try the workshops
 
 [Learn the Basics of QGIS](https://umass-gis.github.io/workshops/content/basics-qgis/)
-[Design a StoryMap](https://umass-gis.github.io/workshops/content/storymaps/)
+<br>[Design a StoryMap](https://umass-gis.github.io/workshops/content/storymaps/)

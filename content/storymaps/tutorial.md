@@ -13,8 +13,8 @@ Create your own StoryMap
 This part of the workshop can be completed on your own!
 
 **Tutorial**
-<br>Check out this tutorial from the folks at Stanford Libraries that goes through the nitty-gritty details of using the ArcGIS StoryMaps platform: [Create | StoryMaps
-Instruction for Creating Dynamic Digital Narratives](https://storymaps.arcgis.com/stories/d15f1045ffcb4fdea7672d1cafafdc120).
+<br>Check out this tutorial from the folks at Stanford Libraries that goes through the nitty-gritty details of using the ArcGIS StoryMaps platform: [Create | StoryMaps:
+Instruction for Creating Dynamic Digital Narratives](https://storymaps.arcgis.com/stories/d15f1045ffcb4fdea7672d1cafafdc12).
 
 **How to access ArcGIS StoryMaps**
 1.	Go to the [StoryMaps launch page](https://storymaps.arcgis.com/).

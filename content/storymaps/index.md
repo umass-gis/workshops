@@ -8,9 +8,6 @@ has_children: true
 
 # Design a StoryMap
 
-In development
-{: .label .label-yellow }
-
 This is an evolving workshop that is designed to introduce you to storymapping. While there are several storymapping platforms out there, this one will focus on [Esri's ArcGIS StoryMaps](https://storymaps.arcgis.com/). By the end of the workshop, you will be able to:
 * Create an engaging storymap outline
 * Log into the ArcGIS Online platform

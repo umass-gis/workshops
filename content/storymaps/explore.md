@@ -17,6 +17,9 @@ Take a few minutes to explore some of these examples, paying attention to how th
 **Archaeology**
 * [Memorializing Connectivity: Ostia Antica's Piazza Delle Corporazioni](https://uo-online.maps.arcgis.com/apps/Cascade/index.html?appid=792afe0565494d9b8a310d2115aad248)
 
+**Digital Humanities**
+* [Story Maps and the Digital Humanities: A collection of Story Maps about history, culture, literature, and the arts](https://collections.storymaps.esri.com/humanities/)
+
 **Environmental Resources**
 * [Caribou of the Boreal: Protecting and recovering one of Canada’s most iconic species](https://davidsuzuki.maps.arcgis.com/apps/Cascade/index.html?appid=b7356538440643a9a0c907fa8ade38ba)
 * [Embattled Borderlands: Will the border wall strike a fatal blow to one of the most imperiled wild regions in North America?

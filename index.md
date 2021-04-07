@@ -26,4 +26,4 @@ Got a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@uma
 
 [Learn the Basics of QGIS](https://umass-gis.github.io/workshops/content/basics-qgis/)
 <br>[Design a StoryMap](https://umass-gis.github.io/workshops/content/storymaps/)
-<br>[Georeference a Historical Map](https://umass-gis.github.il/workshops/content/georeferencing)
+<br>[Georeference a Historical Map](https://umass-gis.github.io/workshops/content/georeferencing)

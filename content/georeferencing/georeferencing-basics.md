@@ -35,18 +35,24 @@ Georeferenced imagery is all around you! Here are some examples:
 ## Key terms to know
 {:toc}
 
-**Source layer**
+**Source layer**<br/>
 The map or aerial photograph that you will georeference. This is inherently a *raster* file type, because all images are rasters. If you have a physical copy of the map, it should be scanned at high resolution (e.g. 600 dpi) and saved as an image file. Good formats for images include `.tif` and `.jpg`. Or you can find digital versions of maps/photos that have already been scanned.
 
-**Target layer**
+**Target layer**<br/>
 An existing spatial dataset (in the correct location) that you will use to georeference the source layer.
 
-*What makes a good target layer?* It should cover the entire extent of the source layer - or put another way, the image you want to georeference should fit entirely within this target layer. It can be a vector dataset (like the outline or boundary of a state) or another raster (like a satellite image). The level of detail should be roughly the same as what is in the source layer. For example: a map of the state of Massachusetts could be georeferenced using just a state boundary file; but an aerial photo of Amherst will need to be georeferenced using a more detailed image, like a satellite image from Google Earth.
+*What makes a good target layer?* 
+* It should cover the entire extent of the source layer. Put another way, the image you want to georeference should fit entirely within this target layer. 
+* It can be a vector dataset (like the outline or boundary of a state) or another raster (like a satellite image). 
+* The level of detail should be roughly the same as what is in the source layer. For example: a map of the state of Massachusetts could be georeferenced using just a state boundary file; but an aerial photo of Amherst will need to be georeferenced using a more detailed image, like a satellite image from Google Earth.
 
-**Ground control points (GCPs)**
+**Ground control points (GCPs)**<br/>
 Common points that connect the two layers. You will look for and create GCPs during the georeferencing process.
 
-*What makes a good GCP?* Good GCPs are points that stay the same over time, like the corners of buildings, intersections between two roads, or railroad lines. GCPs to avoid include points that are more likely to move, like the borders of land cover types (forested areas, water bodies), individual trees or bushes, the edges of roads, moveable recreational features (like home plate in a baseball diamond). You should also avoid using points that could vary depending on the angle the photo was taken, such as anything very high in elevation (bridges, skyscraper roofs).
+*What makes a good GCP?* 
+* Good GCPs are points that stay the same over time, like the corners of buildings, intersections between two roads, or railroad lines. 
+* GCPs to avoid include points that are more likely to move, like the borders of land cover types (forested areas, water bodies), individual trees or bushes, the edges of roads, or moveable recreational features (like home plate in a baseball diamond). 
+* You should also avoid using points that could vary depending on the angle the photo was taken, such as anything very high in elevation (bridges, skyscraper roofs).
 
 ---
 ## Where to look for scanned maps and photos

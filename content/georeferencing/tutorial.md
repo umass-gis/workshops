@@ -47,7 +47,10 @@ In the bottom-right corner, click the download button and select `Original (7255
 ### 2. Flip the image
 {: .no_toc }
 
-The original version of the image is oriented sideways. To make it easier to georeference, open the image in an image viewing program (e.g. Windows = Photos, Mac = Preview), rotate the image, and save it.
+The original version of the image is oriented sideways. To make it easier to georeference, open the image in an image editing program, rotate the image, and save it. 
+
+**Windows users**: Paint may work better than the default Photos app - although you can rotate images in Photos, the Georeferencer tool may still import the photo in the original sideways aspect.<br>
+**Mac users**: Preview should do the trick.
 
 ![Flipping the downloaded map so that north is oriented at the top](media/sideways.png "Flipping the map")
 
@@ -232,6 +235,7 @@ Aerial photos are more difficult than maps because for a number of reasons:
 * it takes practice to be able to "read" an aerial photo and identify features like roads, houses, utility infrastructure, etc.
 
 ### The MacConnell Aerial Photo Collection
+{: .no_toc }
 
 The William P. MacConnell Aerial Photo Collection contains historical aerial photographs of the entire state of Massachusetts. The earliest date to 1951-1952. All the photos from this series have been scanned at high-resolution and are availalbe online through the [Special Collections & University Archives](https://credo.library.umass.edu/view/collection/mufs190) at UMass Amherst Libraries.
 

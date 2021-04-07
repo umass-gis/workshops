@@ -2,6 +2,10 @@ title: "GIS Workshops"
 remote_theme: pmarsceill/just-the-docs
 description: GIS workshops hosted by UMass Amherst Libraries
 
+# Magic to make URLs resolve both locally and on GitHub.
+# See https://help.github.com/articles/repository-metadata-on-github-pages/.
+repository: umass-gis/workshops
+
 # Aux links for the upper right navigation
 aux_links:
   "View these workshops on GitHub":

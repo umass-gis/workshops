@@ -9,7 +9,7 @@ permalink: /
 # Ready to learn about GIS?
 {: .fs-9 }
 
-Welcome to the workshops hosted by UMass Amherst Libraries! 
+Welcome to the workshops hosted by UMass Amherst Libraries!
 {: .fs-6 .fw-300 }
 
 [Get started now](https://umass-gis.github.io/workshops/content/basics-qgis/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find more resources](https://gis.library.umass.edu/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -26,3 +26,4 @@ Got a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@uma
 
 [Learn the Basics of QGIS](https://umass-gis.github.io/workshops/content/basics-qgis/)
 <br>[Design a StoryMap](https://umass-gis.github.io/workshops/content/storymaps/)
+<br>[Georeference a Historical Map](https://umass-gis.github.io/workshops/content/georeferencing)

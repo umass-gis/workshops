@@ -25,11 +25,11 @@ This workshop is designed to take about two hours as a live demonstration.
 | :--- | :--- |
 | 0:00 | Introduction |
 | 0:05 | Basics of georeferencing |
-| 0:20 | Demo: using an online tool |
+| 0:20 | Georeferencing using an online tool |
 | 0:40 | Q&A |
 | 0:55 | Break |
-| 1:00 | Advanced georeferencing |
-| 1:20 | Demo: using QGIS |
+| 1:00 | Advanced georeferencing concepts |
+| 1:20 | QGIS georeferencing demonstration |
 | 1:40 | Q&A |
 | 1:55 | Wrap-up |
 

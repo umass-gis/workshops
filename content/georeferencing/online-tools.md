@@ -35,12 +35,12 @@ Online tools require you to have only a basic knowledge of the georeferencing wo
 ## Online tools
 {:toc}
 
-[Map Warper](https://mapwarper.net)
+**[Map Warper](https://mapwarper.net)**
 * Easy to start georeferencing new maps
 * Easy to export and bring into QGIS
 * Used by the [New York Public Library](http://maps.nypl.org/warper/)
 
-[David Rumsey Map Collection Georeferencer](https://www.davidrumsey.com/view/georeferencer)
+**[David Rumsey Map Collection Georeferencer](https://www.davidrumsey.com/view/georeferencer)**
 * More complex interface
 * Allows bookmarking and comparing maps in Georeferencer Compare
 * Limits on what you can upload/download for free

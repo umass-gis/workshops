@@ -8,9 +8,6 @@ has_children: true
 
 # Learn the Basics of QGIS
 
-In development
-{: .label .label-yellow }
-
 This is an evolving workshop that is geared towards newcomers to GIS. By the end of the workshop, you will be able to:
 * Understand the capabilities of GIS
 * Open geospatial data in QGIS

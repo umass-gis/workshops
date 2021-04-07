@@ -38,4 +38,7 @@ If you are working through the materials on your own time, it may take a bit lon
 ---
 ## Watch the workshop
 
-Recordings will be posted on YouTube after the workshop is over.
+Recordings can be viewed on YouTube. Click the links below to watch the videos.
+
+[Part 1 of the workshop: core concepts – April 7, 2021](https://youtu.be/cpOijBpf_L4)<br>
+[Part 2 of the workshop: quick demo – April 7, 2021](https://youtu.be/MujLNlQ4n-E)

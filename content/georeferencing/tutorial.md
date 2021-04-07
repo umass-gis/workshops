@@ -244,4 +244,4 @@ To locate an aerial photo, use the [MacConnell Aerial Photos Index (1951-1952)](
 1. Read the instructions on the web map's info page to learn how to use the map.
 2. To launch the web map, click `Open in Map Viewer`.
 3. Once you've located the photo you want to download, you can use SCUA's website to search for its code and download a PDF of the image (as in [this example](https://credo.library.umass.edu/view/full/mufs190-1952-dpb6h112-i001)). 
-4. To download a `.jpg` version of the image, use this URL (substituting the YEAR and ID of the particular photo you want): https://credo.library.umass.edu/images/resize/full/mufs190-1952-dpb6h112-i001.jpg 
+4. To download a `.jpg` version of the image, use this URL (substituting the YEAR and ID of the particular photo you want): [https://credo.library.umass.edu/images/resize/full/mufs190-**1952**-**dpb6h112**-i001.jpg](https://credo.library.umass.edu/images/resize/full/mufs190-1952-dpb6h112-i001.jpg)

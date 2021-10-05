@@ -40,7 +40,7 @@ Holyoke and Chicopee were mapped by Home Owners' Loan Corporation between 1935 a
 ### Data Source 2
 {:.no_toc}
 
-In order to explore how the population of Holyoke and Chicopee have changed over time, we'll take a look at the most recent election data from the precincts in these areas, along with data from the 2010 Decennial Census. The project [OpenPrecincts](https://openprecincts.org/ma/) is a great place to look for processed election data. The level of processing is variable by state, but for Massachusetts the data is excellent. The same data (for MA) can be found on the Metric Geometry and Gerrymandering Group's (MGGG) [GitHub repository](https://github.com/mggg-states/MA-shapefiles).
+In order to explore how the population of Holyoke and Chicopee have changed over time, we'll take a look at the 2016 election data from the precincts in these areas, along with data from the 2010 Decennial Census. The project [OpenPrecincts](https://openprecincts.org/ma/) is a great place to look for processed election data. The level of processing is variable by state, but for Massachusetts the data is excellent. The same data (for MA) can be found on the Metric Geometry and Gerrymandering Group's (MGGG) [GitHub repository](https://github.com/mggg-states/MA-shapefiles).
 
 ### 1. Download the data
 {:.no_toc}
@@ -55,7 +55,7 @@ This link will take you to a page on GitHub. Click the `download` button to save
 ### 2. Unzip the file
 {:.no_toc}
 
-The file you download is zipped, so you'll need to unzip it before you can continue. 
+The file you download is zipped, so you'll need to unzip it before you can continue.
 
 **Windows users**: check out Microsoft's support page, [Zip and Unzip Files](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).<br>
 **Mac users**: simply double-click the zip file to decompress it.
@@ -87,7 +87,7 @@ Move the unzipped folder to that new workspace and rename it. The goal is to pre
 
 There are two shapefiles in the data pack you downloaded. Follow the instructions on the [Getting Started](https://umass-gis.github.io/workshops/content/basics-qgis/getting-started.html#open-a-layer) page to load the two shapefiles into a new map session in QGIS.
 
-If you get a warning message asking you to **Select Transformation for [data layer]**, just click `OK`. 
+If you get a warning message asking you to **Select Transformation for [data layer]**, just click `OK`.
 
 Your map session should look something like this (probably with different colors!):
 
@@ -100,7 +100,7 @@ Make sure to save your map session often. This will save you a lot of heartache 
 ## Check the layers' CRS's
 {:toc}
 
-Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#identify-a-layers-crs) page to identify the CRS's of the two data layers. 
+Follow the instructions on the [Coordinate Systems](https://umass-gis.github.io/workshops/content/basics-qgis/coordinate-systems.html#identify-a-layers-crs) page to identify the CRS's of the two data layers.
 
 Quiz time!
 {: .label .label-blue }
@@ -171,7 +171,7 @@ Save that map!
 ## Change the layers' symbology
 {:toc}
 
-Take a moment to explore the two data layers. Open their attribute tables to find out what kind of data they contain – and which fields you might want to use to visualize the data. 
+Take a moment to explore the two data layers. Open their attribute tables to find out what kind of data they contain – and which fields you might want to use to visualize the data.
 
 Remember that categorical data (codes, groups) can be symbolized using the `Categorized` function, while measurement data (counts, distances, population) should be visualized using the `Graduated` function.
 {: .note}
@@ -179,7 +179,7 @@ Remember that categorical data (codes, groups) can be symbolized using the `Cate
 ### Visualize the HOLC grades
 {:.no_toc}
 
-Take another look at the HOLC maps on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/#loc=13/42.18/-72.628&mapview=graded&city=holyoke-chicopee-ma) website. Notice the color scheme the cartographers used: 
+Take another look at the HOLC maps on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/#loc=13/42.18/-72.628&mapview=graded&city=holyoke-chicopee-ma) website. Notice the color scheme the cartographers used:
 * Grade A = green
 * Grade B = blue
 * Grade C = yellow
@@ -192,11 +192,11 @@ holc_grade
 </details>
 <br>
 
-In the Layers panel, right-click the layer `cartodb-query` and click `Properties`, then navigate to the `Symbology` tab. Right now, the symbology type is set to **Single symbol**. Change this to **Categorized**. For the `Value` field select the field you want to symbolize, then click the `Classify` button in the lower left corner to load all the possible values. 
+In the Layers panel, right-click the layer `cartodb-query` and click `Properties`, then navigate to the `Symbology` tab. Right now, the symbology type is set to **Single symbol**. Change this to **Categorized**. For the `Value` field select the field you want to symbolize, then click the `Classify` button in the lower left corner to load all the possible values.
 
 Change the color for each grade to match the HOLC maps. There are several ways to do this:
-1. Highlight the item in the Symbology window, then click the small drop-down arrow to the right of the color swath above it. 
-1. Double-click each small color patch to pull up the Symbol Selector. Make sure `Fill` is selected, then click the small drop-down arrow to the right of the color swath. 
+1. Highlight the item in the Symbology window, then click the small drop-down arrow to the right of the color swath above it.
+1. Double-click each small color patch to pull up the Symbol Selector. Make sure `Fill` is selected, then click the small drop-down arrow to the right of the color swath.
 1. Alternatively, select `Simple fill` if you want to customize the fill type, change the outline (stroke) color and width, and so on.
 
 You can adjust the transparency of the layer by expanding `Layer Rendering` in the Symbology window, then adjusting the `Opacity` slider. 0% is totally transparent, and 100% is totally opaque.
@@ -230,7 +230,7 @@ Follow these steps to calculate a new field in the attribute table:
 Make sure to save your edits and un-click the pencil icon to stop editing.
 {: .warn}
 
-Now you can use this new field to change the symbology for the layer. Open the Symbology window and change the symbology type to **Graduated**. For  `Value`, select the new field you just created, then click the `Classify` button in the lower left corner to load all the possible values. Pick a `color ramp` that you like best. 
+Now you can use this new field to change the symbology for the layer. Open the Symbology window and change the symbology type to **Graduated**. For  `Value`, select the new field you just created, then click the `Classify` button in the lower left corner to load all the possible values. Pick a `color ramp` that you like best.
 
 Hint: You can also experiment with different `Modes`, which change how the data is grouped. Try changing the mode, then clicking `Apply` to see how it affects the data visualization.
 
@@ -245,7 +245,7 @@ When you're all set, click `OK`.
 ### Explore the two layers
 {:.no_toc}
 
-*Finally!* This is the part where the magic starts to happen. Spend some time investigating the spatial relationship between these two layers. 
+*Finally!* This is the part where the magic starts to happen. Spend some time investigating the spatial relationship between these two layers.
 
 * What patterns seem to stand out?
 * Are there any apparent clusters in terms of either HOLC grades or demographic makeup? Any outliers?

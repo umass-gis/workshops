@@ -8,7 +8,7 @@ nav_order: 3
 # Coordinate Systems
 {: .no_toc }
 
-One of the most mind-bending aspects of GIS, coordinate systems are key to how geospatial data works
+The key to how geospatial data works
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -28,9 +28,6 @@ Coordinate reference systems (CRS) allow us to locate any place on the earth’s
 
 At their most basic, a coordinate pair consists of two numbers: an **X value (longitude)** and a **Y value (latitude)**. The CRS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CRS that exists today!
 
-It is an excellent idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CRS and how to change it, if necessary.
-{: .note}
-
 There are two kinds of  systems:
 * **Geographic coordinate systems** are best suited for 3D surfaces like globes.
 * **Projected coordinate systems** are designed to display locations on flat surfaces like maps and computer screens.
@@ -38,7 +35,7 @@ There are two kinds of  systems:
 ![Icons showing geographic coordinate systems as a globe and projected coordinate systems as a map](media/coordinate_icons.JPG "Geographic vs. projected coordinate systems")
 
 ---
-## Geographic vs. projected coordinate systems
+## Coordinate reference systems (CRS's)
 {:toc}
 
 For a fun and interactive crash-course in map projections, check out [Squashing the Globe](https://www.leventhalmap.org/digital-exhibitions/bending-lines/how-to-bend/projections/) from the digital exhibit *Bending Lines*, by the Leventhal Map & Education Center.
@@ -49,6 +46,8 @@ Dive into more information in this slideshow:
 ---
 ## Practice in QGIS
 {:toc}
+
+It is an excellent idea to use the same system for all the data in your project. This section will show you how to identify a data layer's CRS and how to change it, if necessary.
 
 ### Identify a layer's CRS
 {:toc}
@@ -67,11 +66,11 @@ In this example, the CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Proje
 ### Change a layer's CRS
 {:toc}
 
-Generally, it is a great idea for all your data to have the same CRS. 
+Generally, it is a great idea for all your data to have the same CRS.
 
 Streamlining your data's coordinate systems helps avoid issues that stem from CRS mishaps (see [Troubleshooting](#troubleshooting) below), and it also helps you get into the habit of double- and triple-checking that your coordinate systems are in order.
 
-Let's say you downloaded a data layer from the state government. You checked the layer's Properties information and found out that its CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986). However, all your other data is in [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618). 
+Let's say you downloaded a data layer from the state government. You checked the layer's Properties information and found out that its CRS is [EPSG:26986 - NAD83 / Massachusetts Mainland - Projected](https://epsg.io/26986). However, all your other data is in [EPSG:32618 - WGS 84 / UTM zone 18N](https://epsg.io/32618).
 
 Vectors
 {: .label .label-green }
@@ -106,7 +105,7 @@ In the menu bar, click `Raster > Projections > Warp (Reproject)...` Fill out the
 * **Target CRS**: click the globe icon to the right of the box, then type **32618** into the filter bar in order to quickly locate the CRS you want. Select it and click `OK`.
 * **Resampling method to use**: the specific method to choose depends on what kind of raster you are working with.
   * **Nearest Neighbor**: if the raster has categorical data (where the pixels represent discrete values like RGB colors in a photograph) and the computer should keep the values exactly the same in the new version.
-  * **Bilinear** (faster) or **cubic** (more intense): if the raster has continuous data (where the values in the pixels are measurements, like rainfall data, elevations, etc.) and the computer needs to be able to blend the output values to create new ones. 
+  * **Bilinear** (faster) or **cubic** (more intense): if the raster has continuous data (where the values in the pixels are measurements, like rainfall data, elevations, etc.) and the computer needs to be able to blend the output values to create new ones.
 
 Read more about raster resampling methods in this [StackExchange post](https://gis.stackexchange.com/questions/10931/what-is-lanczos-resampling-useful-for-in-a-spatial-context)
 {: .note}
@@ -121,7 +120,7 @@ Alternatively, near the bottom of the window in the `Reprojected` box, you can a
 ### Change the Project CRS
 {:toc}
 
-The Map View has a CRS of its own that is independent of the data layers. *Gasp!* What this means is that you can change the CRS for the map – thereby changing the way the data appear – without affecting the CRS of any of the data layers. 
+The Map View has a CRS of its own that is independent of the data layers. *Gasp!* What this means is that you can change the CRS for the map – thereby changing the way the data appear – without affecting the CRS of any of the data layers.
 
 The CRS button in the lower right corner is where you can find out more about the Project CRS and change it. Click the button to open the Project CRS window.
 
@@ -145,7 +144,7 @@ In the second image, the Project CRS is set to [EPSG:4326 - WGS84](https://epsg.
 ## Troubleshooting
 {:toc}
 
-Faulty coordinate systems are very often to blame for a GIS that stops working properly. 
+Faulty coordinate systems are very often to blame for a GIS that stops working properly.
 
 These are some of the most common issues that pop up. If your data isn't displaying properly, check to see if one of these could be the cause:
 

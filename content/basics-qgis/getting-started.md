@@ -99,7 +99,7 @@ There are several ways to open a layer in QGIS:
 ## Get more help
 {:toc}
 
-That's it for the basics! The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/3.10/en/docs/index.html) that is worth checking out for more guidance:
-* User Guide/Manual
+That's it for the basics! The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/latest/en/docs/index.html) that is worth checking out for more guidance:
+* QGIS Desktop User Guide/Manual
 * Training Manual
 * A Gentle Introduction to GIS

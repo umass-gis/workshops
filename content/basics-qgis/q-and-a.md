@@ -38,7 +38,7 @@ Check out the [Learning GIS](https://gis.library.umass.edu/learning-gis/) sectio
 
 The QGIS user community has two resources that could be helpful, [A Gentle Introduction to GIS](https://docs.qgis.org/3.10/en/docs/gentle_gis_introduction/) for an overview of the basics, and the [QGIS Training manual](https://docs.qgis.org/3.10/en/docs/training_manual/index.html) for step-by-step instructions.<br>
 
-A self-paced course that I’d recommend is Frank Donnelly's [GIS Practicum](https://www.baruch.cuny.edu/confluence/display/geoportal/GIS+Practicum) (Baruch College CUNY). This is a full-day workshop that you can work through on your own.
+A self-paced course that I’d recommend is Frank Donnelly's [GIS Practicum](https://www.baruch.cuny.edu/confluence/display/geoportal/GIS+Practicum) (Baruch College CUNY). This is a full-day workshop that you can work through on your own. And for specific QGIS tutorials, check out Ujaval Gandhi’s [QGIS Tutorials and Tips](https://www.qgistutorials.com/en/).
 
 ## Where can I find data for my project?
 {:toc}
@@ -53,7 +53,7 @@ One of the recommended plugins (QuickMapServices) allows you to load Google Eart
 ## How do I match a historical map to a geographical location?
 {:toc}
 
-This is a process called *georeferencing*. To georeference a map in QGIS, you’ll need to install the [Georeferencer plugin](https://docs.qgis.org/3.10/en/docs/user_manual/plugins/core_plugins/plugins_georeferencer.html). Then you can follow this fun exercise from the QGIS Training Manual that goes through the steps to [georeference a map](https://docs.qgis.org/3.10/en/docs/training_manual/forestry/map_georeferencing.html).
+This is a process called *georeferencing*. To georeference a map in QGIS, you’ll need to install the [Georeferencer plugin](https://docs.qgis.org/3.10/en/docs/user_manual/plugins/core_plugins/plugins_georeferencer.html). Then you can follow this fun exercise from the QGIS Training Manual that goes through the steps to [georeference a map](https://docs.qgis.org/3.10/en/docs/training_manual/forestry/map_georeferencing.html), or follow along with my [Georeference a Historical Map](https://umass-gis.github.io/workshops/content/georeferencing/) tutorial on this site.
 
 ## Is vector or raster a better format for my data?
 {:toc}
@@ -68,7 +68,7 @@ Rasters are better if you want to:
 ## How do I add a new column to the attribute table?
 {:toc}
 
-There are two ways to add a new column (or *field*) to an attribute table. 
+There are two ways to add a new column (or *field*) to an attribute table.
 
 ### Option 1: New Field
 {:.no_toc}
@@ -93,7 +93,7 @@ If you already know what information is going to go in the new field, you can us
 
 Alas, no - edits to the data stored inside the attribute table need to be made in QGIS.<br>
 
-However, one workaround is to keep your data in a separate table (like an Excel spreadsheet), and join it to the data layer whenever you want to visualize it in a map. They key is that both the data layer and the spreadsheet need to have a [unique ID](https://en.wikipedia.org/wiki/Unique_identifier) field that the computer can use to match the records to each other. Check out the QGIS User Manual for [step-by-step instructions for joining a table to a data layer](https://docs.qgis.org/3.10/en/docs/user_manual/working_with_vector/vector_properties.html#joins-properties).<br>
+However, one workaround is to keep your data in a separate table (like an Excel spreadsheet), and join it to the data layer whenever you want to visualize it in a map. They key is that both the data layer and the spreadsheet need to have a [unique ID](https://en.wikipedia.org/wiki/Unique_identifier) field that the computer can use to match the records to each other. Check out the QGIS User Manual for step-by-step instructions for [joining a table to a data layer](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#joins-properties).<br>
 
 To export the attribute table:
 1. Right-click the layer in the Layers Panel.
@@ -116,12 +116,12 @@ Two of the common datums you’ll see when working with data from Massachusetts 
 ## How can I keep track of the metadata for the files I create?
 {:toc}
 
-Metadata is the explanatory text that accompanies a file, letting people know information about it like who created it and when, why, etc. Here are some easy ways to keep track of metadata: 
+Metadata is the explanatory text that accompanies a file, letting people know information about it like who created it and when, why, etc. Here are some easy ways to keep track of metadata:
 1. Take notes on a piece of paper while you work with QGIS. Things to note: where you’re keeping files on your computer, tools that you’re experimenting with, the names of files you create and information about how you created them (tools, processes, edits you made), etc.
 1. Create a Word document to keep track of your GIS notes and save it in your project folder, or use Google Docs if you plan to work on different computers and need to be able to access your notes from anywhere.
 1. When you’re all done working on a folder or a file, create a .txt file (with a text editor like Notepad) to type up your final notes and save it in the project folder. Check out these tips from Cornell on [how to write a readme file](https://data.research.cornell.edu/content/readme).<br>
 
-For more advanced metadata writing, you could try using specialized software. While QGIS does not have a built-in metadata editor, there are [several plugins](https://plugins.qgis.org/plugins/tags/metadata/) that could be installed to help with that process. They all have their own pros/cons and are probably best suited to more advanced users. For the sake of comparison, it’s worth mentioning that ArcGIS desktop software does have this built-in metadata editing functionality (see the [documentation for ArcGIS Pro](https://pro.arcgis.com/en/pro-app/help/metadata/view-and-edit-metadata.htm)). 
+For more advanced metadata writing, you could try using specialized software. While QGIS does not have a built-in metadata editor, there are [several plugins](https://plugins.qgis.org/plugins/tags/metadata/) that could be installed to help with that process. They all have their own pros/cons and are probably best suited to more advanced users. For the sake of comparison, it’s worth mentioning that ArcGIS desktop software does have this built-in metadata editing functionality (see the [documentation for ArcGIS Pro](https://pro.arcgis.com/en/pro-app/help/metadata/view-and-edit-metadata.htm)).
 
 ## Can I use QGIS to make an interactive map with pop-ups?
 {:toc}
@@ -134,4 +134,3 @@ Yes you can! There is an open-source plugin called [qgis2web](https://github.com
 Desktop QGIS software is really best suited for working with GIS data on a single computer, such as your personal laptop or a remote desktop that you’re accessing through a VPN. <br>
 
 If you’re interested in working with GIS data at a bigger scale (i.e. the *big data* scale), you’ll likely want to use different tools that require a more advanced technical skillset to deploy. For example, a common open-source setup is [PostgreSQL](https://www.postgresql.org/) with [PostGIS](https://postgis.net/). These articles could be helpful resources if you’d like to dive into this topic further: "Geospatial Big Data Handling with High Performance Computing: Current Approaches and Future Directions" ([Li 2019](https://arxiv.org/abs/1907.12182v1)) and "Parallel Processing Strategies for Big Geospatial Data" ([Werner 2019](https://doi.org/10.3389/fdata.2019.00044)).
-

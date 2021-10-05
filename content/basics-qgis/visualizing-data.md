@@ -8,7 +8,7 @@ nav_order: 5
 # Visualizing Data
 {: .no_toc }
 
-Learn how to change the way data appears and start exploring spatial patterns visually
+Change the way data appears to explore spatial patterns
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -31,5 +31,5 @@ View this section as a slideshow:
 ## Raster symbology
 {:toc}
 
-In development
-{: .label .label-yellow }
+View this section as a slideshow:
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_WVGpS3BfDRHK5lzek-6lnlZoJposG7lSgcvTctvm11yTyJyYG1nnw0BWegourEt9qGjhx28JwJA4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

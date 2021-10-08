@@ -35,4 +35,7 @@ If you are working through the materials on your own time, it may take a bit lon
 ## Watch the workshop
 Recordings can be viewed on YouTube. Click the link below to watch the video. 
 
-[QGIS Demonstration (second half of the workshop) – October 27, 2020](https://youtu.be/y3ViVxaSuT4)
+**[Full workshop – October 6, 2021](https://youtu.be/3jW9rH9hCvI)**<br>
+The screen freezes from minute 21:00 to 29:00, but the audio continues just fine. Check out the slides on [File Formats](https://umass-gis.github.io/workshops/content/basics-qgis/gis-basics.html#file-formats) and [Data Organization](https://umass-gis.github.io/workshops/content/basics-qgis/gis-basics.html#data-organization) to follow along!
+
+**[QGIS demonstration only – October 27, 2020](https://youtu.be/y3ViVxaSuT4)**

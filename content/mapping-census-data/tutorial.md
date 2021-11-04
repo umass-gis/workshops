@@ -230,10 +230,6 @@ Now that your data is ready to go in QGIS, you can try to answer your research q
 ### Example
 {: .no_toc}
 
-<details>
-  <summary>For an example of how you can symbolize different fields, check out this map visualizing median earnings based on level of educational attainment:</summary>
+For an example of how you can symbolize different fields, check out this map visualizing median earnings based on level of educational attainment:
 
-  <br>
-  <img src='media/Degree_Worth.jpg' width='500' alt='Three maps showing the median earnings of people in each census tract in Massachusetts, depending on whether they earned a high school diploma, a Bachelor's degree, or a graduate degree. Darker colors represent lower earnings. Two main patterns are visible: for folks with high school degrees, earnings are lower, but not spatially variable. For folks with additional degrees, earnings are higher, and this patterns is most concentrated around cities - especially Boston.'>
-
-</details>
+<img src='media/Degree_Worth.png' width='500' alt='Three maps showing the median earnings of people in each census tract in Massachusetts, depending on whether they earned a high school diploma, a Bachelor's degree, or a graduate degree. Darker colors represent lower earnings. Two main patterns are visible: for folks with high school degrees, earnings are lower, but not spatially variable. For folks with additional degrees, earnings are higher, and this patterns is most concentrated around cities - especially Boston.'>

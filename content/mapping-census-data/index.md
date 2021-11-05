@@ -35,4 +35,6 @@ If you are working through the materials on your own time, it may take a bit lon
 ---
 ## Watch the workshop
 
-Recordings will be posted here after the workshop is over.
+Recordings can be viewed on YouTube. Click the links below to watch the videos.
+
+**[Full workshop - November 2, 2021](https://youtu.be/GsF6dQgleTE)**

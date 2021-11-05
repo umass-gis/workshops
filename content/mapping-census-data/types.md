@@ -48,7 +48,7 @@ The exact data collected by each Decennial Census changed over time. Generally, 
 * Sex
 * Tenure (Owner/Renter)
 
-Individual records are kept confidential for 72 years, but records older than that are available through the [National Archives](http://www.archives.gov/). Researchers can use these to learn about specific people who responded to the census survey.
+Individual records are kept confidential for 72 years, but records older than that are available through the [National Archives](https://www.archives.gov/research/census). Researchers can use these to learn about specific people who responded to the census survey.
 
 ### Why this data matters
 {: .no_toc }

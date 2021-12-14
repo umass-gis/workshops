@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Types of Census Data
-parent: Mapping Census Data
+parent: Map Census Data
 nav_order: 2
 ---
 

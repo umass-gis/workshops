@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Mapping Census Data
-description: "Mapping Census Data - a workshop by the UMass Amherst Libraries."
+title: Map Census Data
+description: "Map Census Data - a workshop by the UMass Amherst Libraries."
 nav_order: 5
 has_children: true
 ---

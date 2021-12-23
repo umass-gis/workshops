@@ -12,6 +12,8 @@ has_children: false
 Get help with common GIS processes
 {: .fs-6 .fw-300 }
 
+These are some of our favorite videos for learning about the basics of GIS, created by folks around the world.
+
 <details open markdown="block">
   <summary>
     Table of contents

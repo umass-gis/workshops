@@ -20,7 +20,7 @@ Try one of the workshops hosted by UMass Amherst Libraries
 
 Hi! I'm Dr. Becky Seifried, the Geospatial Information Librarian at UMass Amherst. Before becoming a librarian, I was a research archaeologist who learned how to use GIS out in the field. A lot of my experience with GIS comes from working on projects where I collected geospatial data, georectified historical maps,  interpreted satellite imagery, and more.
 
-Have a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or [book a consultation](https://libcal.library.umass.edu/appointments/gis) to meet with me one-on-one.
+Have a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or learn about the Libraries' [GIS consultations](https://gis.library.umass.edu/learning-gis/consultations/) to meet with me one-on-one.
 
 ## Try the workshops
 

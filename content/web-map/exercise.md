@@ -33,9 +33,9 @@ Also be sure to check out the [qgis2web GitHub repo](https://github.com/tomchadw
 ---
 ## Design a map
 
-The first step is to create a map in QGIS. For the demo, I'm using a single point layer that has a mixture of categorical and quantitative data. Feel free to use your own data, or follow along by downloading the Sunlight Data Pack.
+The first step is to create a map in QGIS. For the demo, I'm using a single point layer that has a mixture of categorical and quantitative data. Feel free to use your own data, or follow along by downloading the data pack I'm using.
 
-[Get the data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_QGIS_Fall2020.zip){: .btn .btn-purple }
+[Get the  data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_QGIS_Fall2020.zip){: .btn .btn-purple }
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 

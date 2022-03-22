@@ -16,7 +16,7 @@ Let's say you're a big fan of the sun, and you are curious about how people's ex
 
 ![Map of sunset times in the U.S.](media/sunlight_map.jpg "Map of the 1,000 largest cities in the contiguous 48 states in the U.S. showing sunset times adjusted for local time zones in colors from dark purple - before 4:15pm to yellow - after 5:45pm - and city size based on population.")
 
-Or you could turn this beautiful map into a web map: [web map here]
+Or you could turn this beautiful map into a web map: [Sunset Across the U.S.](https://rmseifried.github.io/sunlight-in-the-us/).
 
 Pros of static maps:
 * Visualize data in a specific way, based on your (the map creator's) preferences

@@ -1,0 +1,1001 @@
+city,city_ascii,state_id,state_name,county_fips,county_name,lat,lng,population,density,timezone,id
+New York,New York,NY,New York,36061,New York,40.6943,-73.9249,18713220,10715,America/New_York,1840034016
+Los Angeles,Los Angeles,CA,California,06037,Los Angeles,34.1139,-118.4068,12750807,3276,America/Los_Angeles,1840020491
+Chicago,Chicago,IL,Illinois,17031,Cook,41.8373,-87.6862,8604203,4574,America/Chicago,1840000494
+Miami,Miami,FL,Florida,12086,Miami-Dade,25.7839,-80.2102,6445545,5019,America/New_York,1840015149
+Dallas,Dallas,TX,Texas,48113,Dallas,32.7936,-96.7662,5743938,1526,America/Chicago,1840019440
+Philadelphia,Philadelphia,PA,Pennsylvania,42101,Philadelphia,40.0077,-75.1339,5649300,4554,America/New_York,1840000673
+Houston,Houston,TX,Texas,48201,Harris,29.7863,-95.3889,5464251,1399,America/Chicago,1840020925
+Atlanta,Atlanta,GA,Georgia,13121,Fulton,33.7627,-84.4224,5449398,1441,America/New_York,1840013660
+Washington,Washington,DC,District of Columbia,11001,District of Columbia,38.9047,-77.0163,5379184,4457,America/New_York,1840006060
+Boston,Boston,MA,Massachusetts,25025,Suffolk,42.3188,-71.0846,4688346,5532,America/New_York,1840000455
+Phoenix,Phoenix,AZ,Arizona,04013,Maricopa,33.5722,-112.0891,4219697,1253,America/Phoenix,1840020568
+Seattle,Seattle,WA,Washington,53033,King,47.6211,-122.3244,3789215,3469,America/Los_Angeles,1840021117
+San Francisco,San Francisco,CA,California,06075,San Francisco,37.7562,-122.443,3592294,7256,America/Los_Angeles,1840021543
+Detroit,Detroit,MI,Michigan,26163,Wayne,42.3834,-83.1024,3506126,1864,America/Detroit,1840003971
+San Diego,San Diego,CA,California,06073,San Diego,32.8312,-117.1225,3220118,1686,America/Los_Angeles,1840021990
+Minneapolis,Minneapolis,MN,Minnesota,27053,Hennepin,44.9635,-93.2678,2977172,3071,America/Chicago,1840007830
+Tampa,Tampa,FL,Florida,12057,Hillsborough,27.9942,-82.4451,2908063,1353,America/New_York,1840015982
+Denver,Denver,CO,Colorado,08031,Denver,39.7621,-104.8759,2876625,1831,America/Denver,1840018789
+Brooklyn,Brooklyn,NY,New York,36047,Kings,40.6501,-73.9496,2559903,14221,America/New_York,1840034030
+Queens,Queens,NY,New York,36081,Queens,40.7498,-73.7976,2230722,7885,America/New_York,1840034002
+Riverside,Riverside,CA,California,06065,Riverside,33.9381,-117.3948,2107852,1574,America/Los_Angeles,1840020551
+Baltimore,Baltimore,MD,Maryland,24510,Baltimore,39.3051,-76.6144,2106068,2830,America/New_York,1840001592
+Las Vegas,Las Vegas,NV,Nevada,32003,Clark,36.2333,-115.2654,2104198,1773,America/Los_Angeles,1840020364
+Portland,Portland,OR,Oregon,41051,Multnomah,45.5372,-122.65,2074775,1894,America/Los_Angeles,1840019941
+San Antonio,San Antonio,TX,Texas,48029,Bexar,29.4658,-98.5253,2049293,1231,America/Chicago,1840022220
+St. Louis,St. Louis,MO,Missouri,29510,St. Louis,38.6358,-90.2451,2024074,1879,America/Chicago,1840001651
+Sacramento,Sacramento,CA,California,06067,Sacramento,38.5667,-121.4683,1898019,2029,America/Los_Angeles,1840021491
+Orlando,Orlando,FL,Florida,12095,Orange,28.4772,-81.3369,1822394,1003,America/New_York,1840015099
+San Jose,San Jose,CA,California,06085,Santa Clara,37.3019,-121.8486,1798103,2218,America/Los_Angeles,1840021570
+Cleveland,Cleveland,OH,Ohio,39035,Cuyahoga,41.4767,-81.6804,1710093,1893,America/New_York,1840000596
+Pittsburgh,Pittsburgh,PA,Pennsylvania,42003,Allegheny,40.4396,-79.9762,1703266,2093,America/New_York,1840001254
+Austin,Austin,TX,Texas,48453,Travis,30.3004,-97.7522,1687311,1181,America/Chicago,1840019590
+Cincinnati,Cincinnati,OH,Ohio,39061,Hamilton,39.1413,-84.5061,1662691,1507,America/New_York,1840003814
+Kansas City,Kansas City,MO,Missouri,29095,Jackson,39.1239,-94.5541,1636715,607,America/Chicago,1840008535
+Manhattan,Manhattan,NY,New York,36061,New York,40.7834,-73.9662,1628706,27545,America/New_York,1840034000
+Indianapolis,Indianapolis,IN,Indiana,18097,Marion,39.7771,-86.1458,1588961,935,America/Indiana/Indianapolis,1840030084
+Columbus,Columbus,OH,Ohio,39049,Franklin,39.9862,-82.985,1562009,1582,America/New_York,1840003760
+Charlotte,Charlotte,NC,North Carolina,37119,Mecklenburg,35.208,-80.8304,1512923,1113,America/New_York,1840014557
+Virginia Beach,Virginia Beach,VA,Virginia,51810,Virginia Beach,36.7335,-76.0435,1478868,709,America/New_York,1840003871
+Bronx,Bronx,NY,New York,36005,Bronx,40.8501,-73.8662,1418207,12862,America/New_York,1840033999
+Milwaukee,Milwaukee,WI,Wisconsin,55079,Milwaukee,43.0642,-87.9673,1365787,2369,America/Chicago,1840003046
+Providence,Providence,RI,Rhode Island,44007,Providence,41.823,-71.4187,1203230,3773,America/New_York,1840003289
+Jacksonville,Jacksonville,FL,Florida,12031,Duval,30.3322,-81.6749,1181496,470,America/New_York,1840015031
+Salt Lake City,Salt Lake City,UT,Utah,49035,Salt Lake,40.7777,-111.9306,1098526,699,America/Denver,1840021383
+Nashville,Nashville,TN,Tennessee,47037,Davidson,36.1715,-86.7843,1081903,544,America/Chicago,1840036155
+Richmond,Richmond,VA,Virginia,51760,Richmond,37.5295,-77.4756,1075798,1484,America/New_York,1840001698
+Memphis,Memphis,TN,Tennessee,47157,Shelby,35.1046,-89.9773,1066967,792,America/Chicago,1840015457
+Raleigh,Raleigh,NC,North Carolina,37183,Wake,35.8325,-78.6435,1038738,1254,America/New_York,1840014497
+New Orleans,New Orleans,LA,Louisiana,22071,Orleans,30.0687,-89.9288,1020886,889,America/Chicago,1840001839
+Louisville,Louisville,KY,Kentucky,21111,Jefferson,38.1663,-85.6485,1005654,905,America/New_York,1840030815
+Oklahoma City,Oklahoma City,OK,Oklahoma,40109,Oklahoma,35.4676,-97.5136,972943,417,America/Chicago,1840020428
+Bridgeport,Bridgeport,CT,Connecticut,09001,Fairfield,41.1918,-73.1953,924449,3470,America/New_York,1840004836
+Buffalo,Buffalo,NY,New York,36029,Erie,42.9016,-78.8487,914341,2441,America/New_York,1840000386
+Fort Worth,Fort Worth,TX,Texas,48439,Tarrant,32.7811,-97.3473,909585,1016,America/Chicago,1840020696
+Hartford,Hartford,CT,Connecticut,09003,Hartford,41.7661,-72.6834,905152,2712,America/New_York,1840004773
+Tucson,Tucson,AZ,Arizona,04019,Pima,32.1545,-110.8782,888486,889,America/Phoenix,1840022101
+Omaha,Omaha,NE,Nebraska,31055,Douglas,41.2627,-96.0522,847819,1309,America/Chicago,1840009315
+El Paso,El Paso,TX,Texas,48141,El Paso,31.8479,-106.4309,843386,1022,America/Denver,1840023252
+Honolulu,Honolulu,HI,Hawaii,15003,Honolulu,21.3294,-157.846,820987,2200,Pacific/Honolulu,1840013305
+McAllen,McAllen,TX,Texas,48215,Hidalgo,26.2273,-98.2471,804114,841,America/Chicago,1840021024
+Albuquerque,Albuquerque,NM,New Mexico,35001,Bernalillo,35.1053,-106.6464,761195,1155,America/Denver,1840019176
+Birmingham,Birmingham,AL,Alabama,01073,Jefferson,33.5277,-86.7987,739573,553,America/Chicago,1840006507
+Sarasota,Sarasota,FL,Florida,12115,Sarasota,27.3386,-82.5431,722243,1528,America/New_York,1840015988
+Dayton,Dayton,OH,Ohio,39113,Montgomery,39.7797,-84.1998,718353,978,America/New_York,1840034249
+Rochester,Rochester,NY,New York,36055,Monroe,43.168,-77.6162,703952,2220,America/New_York,1840000373
+Fresno,Fresno,CA,California,06019,Fresno,36.7831,-119.7941,703498,1789,America/Los_Angeles,1840020319
+Allentown,Allentown,PA,Pennsylvania,42077,Lehigh,40.5961,-75.4756,683794,2672,America/New_York,1840001044
+Tulsa,Tulsa,OK,Oklahoma,40143,Tulsa,36.1284,-95.9042,671033,784,America/Chicago,1840021672
+Cape Coral,Cape Coral,FL,Florida,12071,Lee,26.6446,-81.9956,668382,708,America/New_York,1840015130
+Concord,Concord,CA,California,06013,Contra Costa,37.9722,-122.0016,652308,1633,America/Los_Angeles,1840018905
+Colorado Springs,Colorado Springs,CO,Colorado,08041,El Paso,38.8674,-104.7606,642413,946,America/Denver,1840018825
+Charleston,Charleston,SC,South Carolina,45019,Charleston,32.8153,-79.9628,628377,480,America/New_York,1840015163
+Springfield,Springfield,MA,Massachusetts,25013,Hampden,42.1155,-72.5395,623401,1860,America/New_York,1840000466
+Grand Rapids,Grand Rapids,MI,Michigan,26081,Kent,42.962,-85.6562,609314,1734,America/Detroit,1840002928
+Mission Viejo,Mission Viejo,CA,California,06059,Orange,33.6095,-117.655,590249,2058,America/Los_Angeles,1840020580
+Albany,Albany,NY,New York,36001,Albany,42.6664,-73.7987,586383,1740,America/New_York,1840000417
+Knoxville,Knoxville,TN,Tennessee,47093,Knox,35.9692,-83.9496,586048,733,America/New_York,1840014486
+Bakersfield,Bakersfield,CA,California,06029,Kern,35.3529,-119.0359,579295,990,America/Los_Angeles,1840019148
+Ogden,Ogden,UT,Utah,49057,Weber,41.2278,-111.9682,578523,1230,America/Denver,1840020135
+Baton Rouge,Baton Rouge,LA,Louisiana,22033,East Baton Rouge,30.4418,-91.131,570308,983,America/Chicago,1840013941
+Akron,Akron,OH,Ohio,39153,Summit,41.0798,-81.5219,565208,1231,America/New_York,1840000791
+New Haven,New Haven,CT,Connecticut,09009,New Haven,41.3112,-72.9246,564830,2690,America/New_York,1840004850
+Columbia,Columbia,SC,South Carolina,45079,Richland,34.0376,-80.9037,560041,373,America/New_York,1840014730
+Mesa,Mesa,AZ,Arizona,04013,Maricopa,33.4017,-111.718,518012,1448,America/Phoenix,1840020566
+Palm Bay,Palm Bay,FL,Florida,12009,Brevard,27.955,-80.6627,507002,456,America/New_York,1840015094
+Provo,Provo,UT,Utah,49049,Utah,40.2457,-111.6457,500617,1080,America/Denver,1840020174
+Worcester,Worcester,MA,Massachusetts,25027,Worcester,42.2705,-71.8079,498328,1916,America/New_York,1840000434
+Murrieta,Murrieta,CA,California,06065,Riverside,33.572,-117.1909,496046,1335,America/Los_Angeles,1840020553
+Greenville,Greenville,SC,South Carolina,45045,Greenville,34.8353,-82.3647,484465,920,America/New_York,1840013501
+Wichita,Wichita,KS,Kansas,20173,Sedgwick,37.6896,-97.3442,482249,931,America/Chicago,1840001686
+Toledo,Toledo,OH,Ohio,39095,Lucas,41.6639,-83.5822,482111,1308,America/New_York,1840000572
+Staten Island,Staten Island,NY,New York,36085,Richmond,40.5834,-74.1496,476143,3156,America/New_York,1840034032
+Des Moines,Des Moines,IA,Iowa,19153,Polk,41.5725,-93.6105,473957,938,America/Chicago,1840007069
+Long Beach,Long Beach,CA,California,06037,Los Angeles,33.7981,-118.1675,462628,3523,America/Los_Angeles,1840020490
+Port St. Lucie,Port St. Lucie,FL,Florida,12111,St. Lucie,27.2796,-80.3883,461152,653,America/New_York,1840015119
+Denton,Denton,TX,Texas,48121,Denton,33.2176,-97.1419,457177,567,America/Chicago,1840019390
+Madison,Madison,WI,Wisconsin,55025,Dane,43.0826,-89.3931,447245,1263,America/Chicago,1840002915
+Reno,Reno,NV,Nevada,32031,Washoe,39.5497,-119.8483,445020,907,America/Los_Angeles,1840020121
+Harrisburg,Harrisburg,PA,Pennsylvania,42043,Dauphin,40.2752,-76.8843,442289,2343,America/New_York,1840001288
+Little Rock,Little Rock,AR,Arkansas,05119,Pulaski,34.7256,-92.3576,439815,634,America/Chicago,1840015509
+Oakland,Oakland,CA,California,06001,Alameda,37.7903,-122.2165,433031,2991,America/Los_Angeles,1840020296
+Durham,Durham,NC,North Carolina,37063,Durham,35.9794,-78.9031,424700,959,America/New_York,1840013364
+Winston-Salem,Winston-Salem,NC,North Carolina,37067,Forsyth,36.1029,-80.2611,422269,721,America/New_York,1840015324
+Bonita Springs,Bonita Springs,FL,Florida,12071,Lee,26.3559,-81.7861,421291,600,America/New_York,1840014227
+Indio,Indio,CA,California,06065,Riverside,33.7346,-116.2346,417059,1066,America/Los_Angeles,1840019304
+Palm Coast,Palm Coast,FL,Florida,12035,Flagler,29.5392,-81.246,417007,364,America/New_York,1840015064
+Chattanooga,Chattanooga,TN,Tennessee,47065,Hamilton,35.0657,-85.2488,415501,493,America/New_York,1840014569
+Spokane,Spokane,WA,Washington,53063,Spokane,47.6671,-117.433,412275,1247,America/Los_Angeles,1840021093
+Syracuse,Syracuse,NY,New York,36067,Onondaga,43.0409,-76.1438,404223,2195,America/New_York,1840000378
+Lancaster,Lancaster,PA,Pennsylvania,42071,Lancaster,40.0421,-76.3012,401524,3166,America/New_York,1840003718
+Arlington,Arlington,TX,Texas,48439,Tarrant,32.6998,-97.125,398854,1607,America/Chicago,1840019422
+Stockton,Stockton,CA,California,06077,San Joaquin,37.9765,-121.3109,397264,1941,America/Los_Angeles,1840021517
+Poughkeepsie,Poughkeepsie,NY,New York,36027,Dutchess,41.6949,-73.921,394760,2290,America/New_York,1840000500
+Augusta,Augusta,GA,Georgia,13245,Richmond,33.3645,-82.0708,390809,252,America/New_York,1840029462
+Boise,Boise,ID,Idaho,16001,Ada,43.6007,-116.2312,389280,1056,America/Boise,1840027142
+Oxnard,Oxnard,CA,California,06111,Ventura,34.1963,-119.1815,387647,3040,America/Los_Angeles,1840020474
+Scranton,Scranton,PA,Pennsylvania,42069,Lackawanna,41.4044,-75.6649,384250,1169,America/New_York,1840003389
+Modesto,Modesto,CA,California,06099,Stanislaus,37.6374,-121.0028,383134,1933,America/Los_Angeles,1840020287
+Kissimmee,Kissimmee,FL,Florida,12097,Osceola,28.3042,-81.4164,382720,1349,America/New_York,1840015109
+Aurora,Aurora,CO,Colorado,08001,Adams,39.7087,-104.7273,379289,949,America/Denver,1840018794
+Youngstown,Youngstown,OH,Ohio,39099,Mahoning,41.0993,-80.6463,378732,744,America/New_York,1840003563
+Fayetteville,Fayetteville,AR,Arkansas,05143,Washington,36.0713,-94.166,351246,625,America/Chicago,1840013368
+Anaheim,Anaheim,CA,California,06059,Orange,33.839,-117.8572,350365,2688,America/Los_Angeles,1840019322
+Pensacola,Pensacola,FL,Florida,12033,Escambia,30.4427,-87.1886,346921,903,America/Chicago,1840015005
+Victorville,Victorville,CA,California,06071,San Bernardino,34.5277,-117.3536,346789,641,America/Los_Angeles,1840021731
+Lancaster,Lancaster,CA,California,06037,Los Angeles,34.6935,-118.1753,343304,645,America/Los_Angeles,1840020516
+Greensboro,Greensboro,NC,North Carolina,37081,Guilford,36.0956,-79.8269,343090,887,America/New_York,1840013356
+Corpus Christi,Corpus Christi,TX,Texas,48355,Nueces,27.726,-97.3755,342464,789,America/Chicago,1840019718
+Fort Wayne,Fort Wayne,IN,Indiana,18003,Allen,41.0886,-85.1437,334122,943,America/Indiana/Indianapolis,1840008261
+Santa Ana,Santa Ana,CA,California,06059,Orange,33.7366,-117.8819,332318,4689,America/Los_Angeles,1840021964
+Flint,Flint,MI,Michigan,26049,Genesee,43.0235,-83.6922,332190,1103,America/Detroit,1840002949
+Fayetteville,Fayetteville,NC,North Carolina,37051,Cumberland,35.0846,-78.9776,327435,552,America/New_York,1840013490
+Jackson,Jackson,MS,Mississippi,28049,Hinds,32.3163,-90.2124,325350,558,America/Chicago,1840014895
+Santa Rosa,Santa Rosa,CA,California,06097,Sonoma,38.4458,-122.7067,324634,1605,America/Los_Angeles,1840021488
+Lansing,Lansing,MI,Michigan,26065,Ingham,42.7142,-84.5601,324286,1164,America/Detroit,1840003102
+San Juan,San Juan,PR,Puerto Rico,72127,San Juan,18.4037,-66.0636,323279,3157,America/Puerto_Rico,1630035577
+Lexington,Lexington,KY,Kentucky,21067,Fayette,38.0423,-84.4587,323152,439,America/New_York,1840015211
+Ann Arbor,Ann Arbor,MI,Michigan,26161,Washtenaw,42.2755,-83.7312,322267,1659,America/Detroit,1840003172
+Henderson,Henderson,NV,Nevada,32003,Clark,36.0133,-115.038,320189,1165,America/Los_Angeles,1840020361
+Huntsville,Huntsville,AL,Alabama,01089,Madison,34.6988,-86.6412,319249,361,America/Chicago,1840005061
+Mobile,Mobile,AL,Alabama,01097,Mobile,30.6783,-88.1162,315502,522,America/Chicago,1840006009
+Fort Collins,Fort Collins,CO,Colorado,08069,Larimer,40.5478,-105.0656,312666,1149,America/Denver,1840020151
+Asheville,Asheville,NC,North Carolina,37021,Buncombe,35.5704,-82.5536,312507,786,America/New_York,1840013411
+Santa Clarita,Santa Clarita,CA,California,06037,Los Angeles,34.4175,-118.4964,312446,1162,America/Los_Angeles,1840021864
+St. Paul,St. Paul,MN,Minnesota,27123,Ramsey,44.9477,-93.104,308096,2288,America/Chicago,1840008940
+Antioch,Antioch,CA,California,06013,Contra Costa,37.9789,-121.7958,302419,1466,America/Los_Angeles,1840018903
+Lakeland,Lakeland,FL,Florida,12105,Polk,28.0556,-81.9545,302284,654,America/New_York,1840015108
+Trenton,Trenton,NJ,New Jersey,34021,Mercer,40.2236,-74.7641,290716,4238,America/New_York,1840001383
+Lincoln,Lincoln,NE,Nebraska,31109,Lancaster,40.809,-96.6788,289490,1160,America/Chicago,1840009357
+Springfield,Springfield,MO,Missouri,29077,Greene,37.1943,-93.2916,288090,786,America/Chicago,1840009904
+Anchorage,Anchorage,AK,Alaska,02020,Anchorage,61.1508,-149.1091,288000,65,America/Anchorage,1840023385
+Plano,Plano,TX,Texas,48085,Collin,33.0502,-96.7487,287677,1549,America/Chicago,1840020662
+Irvine,Irvine,CA,California,06059,Orange,33.6772,-117.7738,287401,1691,America/Los_Angeles,1840019325
+Davenport,Davenport,IA,Iowa,19163,Scott,41.5563,-90.6052,285362,617,America/Chicago,1840007081
+Rockford,Rockford,IL,Illinois,17201,Winnebago,42.2597,-89.0641,282762,873,America/Chicago,1840009132
+Newark,Newark,NJ,New Jersey,34013,Essex,40.7245,-74.1725,282011,4509,America/New_York,1840002791
+South Bend,South Bend,IN,Indiana,18141,St. Joseph,41.6767,-86.2696,280498,938,America/Indiana/Indianapolis,1840009241
+Shreveport,Shreveport,LA,Louisiana,22017,Caddo,32.4656,-93.7956,280062,672,America/Chicago,1840015768
+Round Lake Beach,Round Lake Beach,IL,Illinois,17097,Lake,42.379,-88.0811,279381,2073,America/Chicago,1840011171
+Savannah,Savannah,GA,Georgia,13051,Chatham,32.0281,-81.1784,276295,536,America/New_York,1840015830
+Myrtle Beach,Myrtle Beach,SC,South Carolina,45051,Horry,33.7096,-78.8843,275579,568,America/New_York,1840014717
+Chula Vista,Chula Vista,CA,California,06073,San Diego,32.6281,-117.0145,274492,2134,America/Los_Angeles,1840019350
+Eugene,Eugene,OR,Oregon,41039,Lane,44.0563,-123.1173,273439,1510,America/Los_Angeles,1840020007
+Canton,Canton,OH,Ohio,39151,Stark,40.8075,-81.3677,269418,1040,America/New_York,1840000963
+Lubbock,Lubbock,TX,Texas,48303,Lubbock,33.5659,-101.8878,267648,741,America/Chicago,1840020604
+Reading,Reading,PA,Pennsylvania,42011,Berks,40.34,-75.9267,267155,3466,America/New_York,1840001185
+Winter Haven,Winter Haven,FL,Florida,12105,Polk,28.0118,-81.7017,267069,538,America/New_York,1840015970
+Salem,Salem,OR,Oregon,41047,Marion,44.9231,-123.0246,266804,1382,America/Los_Angeles,1840021224
+St. Petersburg,St. Petersburg,FL,Florida,12103,Pinellas,27.7931,-82.6652,265351,1656,America/New_York,1840015977
+Lafayette,Lafayette,LA,Louisiana,22055,Lafayette,30.2084,-92.0323,264357,877,America/Chicago,1840015044
+Laredo,Laredo,TX,Texas,48479,Webb,27.5629,-99.4875,262491,958,America/Chicago,1840021002
+Jersey City,Jersey City,NJ,New Jersey,34017,Hudson,40.7161,-74.0682,262075,6863,America/New_York,1840003600
+Concord,Concord,NC,North Carolina,37025,Cabarrus,35.3933,-80.6366,261801,585,America/New_York,1840014559
+Columbus,Columbus,GA,Georgia,13215,Muscogee,32.51,-84.8771,261445,349,America/New_York,1840014887
+Chandler,Chandler,AZ,Arizona,04013,Maricopa,33.2826,-111.8516,261165,1548,America/Phoenix,1840019309
+McKinney,McKinney,TX,Texas,48085,Collin,33.2015,-96.6669,258277,1148,America/Chicago,1840020657
+Scottsdale,Scottsdale,AZ,Arizona,04013,Maricopa,33.6872,-111.8651,258069,541,America/Phoenix,1840021940
+Killeen,Killeen,TX,Texas,48027,Bell,31.0754,-97.7296,258009,1073,America/Chicago,1840020854
+Tallahassee,Tallahassee,FL,Florida,12073,Leon,30.4551,-84.2526,257601,747,America/New_York,1840015913
+Peoria,Peoria,IL,Illinois,17143,Peoria,40.752,-89.6153,256286,888,America/Chicago,1840009373
+Wilmington,Wilmington,NC,North Carolina,37129,New Hanover,34.21,-77.8866,255616,929,America/New_York,1840015576
+Montgomery,Montgomery,AL,Alabama,01101,Montgomery,32.3473,-86.2666,254634,479,America/Chicago,1840008353
+Gilbert,Gilbert,AZ,Arizona,04013,Maricopa,33.3101,-111.7463,254114,1432,America/Phoenix,1840021947
+Glendale,Glendale,AZ,Arizona,04013,Maricopa,33.5791,-112.2311,252381,1582,America/Phoenix,1840020563
+North Las Vegas,North Las Vegas,NV,Nevada,32003,Clark,36.288,-115.0901,251974,992,America/Los_Angeles,1840020363
+Chesapeake,Chesapeake,VA,Virginia,51550,Chesapeake,36.6778,-76.3024,244835,279,America/New_York,1840003874
+Barnstable,Barnstable,MA,Massachusetts,25001,Barnstable,41.6722,-70.3599,242847,286,America/New_York,1840031233
+Norfolk,Norfolk,VA,Virginia,51710,Norfolk,36.8945,-76.259,242742,1759,America/New_York,1840003869
+Fremont,Fremont,CA,California,06001,Alameda,37.5265,-121.9852,241110,1201,America/Los_Angeles,1840020292
+Kennewick,Kennewick,WA,Washington,53005,Benton,46.1978,-119.1732,240735,1186,America/Los_Angeles,1840018481
+Garland,Garland,TX,Texas,48113,Dallas,32.91,-96.6305,239928,1623,America/Chicago,1840020707
+Irving,Irving,TX,Texas,48113,Dallas,32.8584,-96.9702,239798,1380,America/Chicago,1840019438
+Visalia,Visalia,CA,California,06107,Tulare,36.3276,-119.3269,237386,1370,America/Los_Angeles,1840021639
+Atlantic City,Atlantic City,NJ,New Jersey,34001,Atlantic,39.3797,-74.4527,237054,1354,America/New_York,1840003798
+Paradise,Paradise,NV,Nevada,32003,Clark,36.0807,-115.1369,235087,1942,America/Los_Angeles,1840033743
+Nashua,Nashua,NH,New Hampshire,33011,Hillsborough,42.7491,-71.491,233917,1118,America/New_York,1840002984
+Arlington,Arlington,VA,Virginia,51013,Arlington,38.8786,-77.1011,233464,3467,America/New_York,1840006112
+Hialeah,Hialeah,FL,Florida,12086,Miami-Dade,25.8696,-80.3046,233339,4174,America/New_York,1840015157
+York,York,PA,Pennsylvania,42133,York,39.9651,-76.7315,233184,3204,America/New_York,1840001472
+Evansville,Evansville,IN,Indiana,18163,Vanderburgh,37.9881,-87.5341,230427,962,America/Chicago,1840013730
+Avondale,Avondale,AZ,Arizona,04013,Maricopa,33.3858,-112.3236,227289,750,America/Phoenix,1840019310
+Brownsville,Brownsville,TX,Texas,48061,Cameron,25.998,-97.4565,227239,533,America/Matamoros,1840019743
+Gulfport,Gulfport,MS,Mississippi,28047,Harrison,30.4271,-89.0703,220987,497,America/Chicago,1840013947
+Appleton,Appleton,WI,Wisconsin,55087,Outagamie,44.2779,-88.3891,220570,1156,America/Chicago,1840002400
+Bremerton,Bremerton,WA,Washington,53035,Kitsap,47.5436,-122.7122,218400,561,America/Los_Angeles,1840018410
+Hickory,Hickory,NC,North Carolina,37035,Catawba,35.7425,-81.323,218323,536,America/New_York,1840014524
+Tacoma,Tacoma,WA,Washington,53053,Pierce,47.2431,-122.4531,217827,1690,America/Los_Angeles,1840021129
+San Bernardino,San Bernardino,CA,California,06071,San Bernardino,34.1417,-117.2946,215784,1341,America/Los_Angeles,1840021728
+College Station,College Station,TX,Texas,48041,Brazos,30.5852,-96.296,215243,890,America/Chicago,1840019570
+Kalamazoo,Kalamazoo,MI,Michigan,26077,Kalamazoo,42.2749,-85.5882,215193,1192,America/Detroit,1840003185
+Thousand Oaks,Thousand Oaks,CA,California,06111,Ventura,34.1914,-118.8755,215029,885,America/Los_Angeles,1840021844
+Roanoke,Roanoke,VA,Virginia,51770,Roanoke,37.2785,-79.958,214674,900,America/New_York,1840003858
+Fontana,Fontana,CA,California,06071,San Bernardino,34.0968,-117.4599,214547,1923,America/Los_Angeles,1840020402
+Moreno Valley,Moreno Valley,CA,California,06065,Riverside,33.9244,-117.2045,213055,1604,America/Los_Angeles,1840020552
+North Port,North Port,FL,Florida,12115,Sarasota,27.0577,-82.1975,209070,274,America/New_York,1840015120
+Fargo,Fargo,ND,North Dakota,38017,Cass,46.8652,-96.8292,208675,967,America/Chicago,1840000177
+Green Bay,Green Bay,WI,Wisconsin,55009,Brown,44.515,-87.9896,207557,887,America/Chicago,1840002344
+Spring Valley,Spring Valley,NV,Nevada,32003,Clark,36.0987,-115.2619,207127,2404,America/Los_Angeles,1840033832
+Amarillo,Amarillo,TX,Texas,48375,Potter,35.1988,-101.8311,205603,756,America/Chicago,1840019156
+Portland,Portland,ME,Maine,23005,Cumberland,43.6773,-70.2715,203969,1185,America/New_York,1840000327
+Santa Barbara,Santa Barbara,CA,California,06083,Santa Barbara,34.4285,-119.7202,202401,1808,America/Los_Angeles,1840021829
+Gainesville,Gainesville,FL,Florida,12001,Alachua,29.6804,-82.3458,202335,820,America/New_York,1840014022
+Olympia,Olympia,WA,Washington,53067,Thurston,47.0417,-122.8959,200915,1119,America/Los_Angeles,1840019865
+Frisco,Frisco,TX,Texas,48085,Collin,33.1555,-96.8215,200490,1136,America/Chicago,1840020654
+Yonkers,Yonkers,NY,New York,36119,Westchester,40.9466,-73.8674,200370,4295,America/New_York,1840003478
+Norwich,Norwich,CT,Connecticut,09011,New London,41.5495,-72.0882,200289,533,America/New_York,1840004828
+Glendale,Glendale,CA,California,06037,Los Angeles,34.1818,-118.2468,199303,2525,America/Los_Angeles,1840020483
+Huntington Beach,Huntington Beach,CA,California,06059,Orange,33.696,-118.0025,199223,2848,America/Los_Angeles,1840020578
+Deltona,Deltona,FL,Florida,12127,Volusia,28.905,-81.2137,198361,960,America/New_York,1840015072
+Aurora,Aurora,IL,Illinois,17089,Kane,41.7637,-88.2901,197757,1696,America/Chicago,1840007034
+Tempe,Tempe,AZ,Arizona,04013,Maricopa,33.3881,-111.9318,195805,1891,America/Phoenix,1840021942
+Overland Park,Overland Park,KS,Kansas,20091,Johnson,38.887,-94.687,195494,1003,America/Chicago,1840003834
+Grand Prairie,Grand Prairie,TX,Texas,48113,Dallas,32.6872,-97.0209,194543,1039,America/Chicago,1840020709
+Sunrise Manor,Sunrise Manor,NV,Nevada,32003,Clark,36.1785,-115.049,193781,2241,America/Los_Angeles,1840033833
+Waco,Waco,TX,Texas,48309,McLennan,31.5598,-97.1881,192315,605,America/Chicago,1840022140
+Salinas,Salinas,CA,California,06053,Monterey,36.6884,-121.6317,190972,2562,America/Los_Angeles,1840021632
+Waterbury,Waterbury,CT,Connecticut,09009,New Haven,41.5583,-73.0361,189614,1456,America/New_York,1840004851
+Clarksville,Clarksville,TN,Tennessee,47125,Montgomery,36.5695,-87.342,188746,618,America/Chicago,1840014421
+Cedar Rapids,Cedar Rapids,IA,Iowa,19113,Linn,41.9665,-91.6782,188038,720,America/Chicago,1840000471
+Sioux Falls,Sioux Falls,SD,South Dakota,46099,Minnehaha,43.5397,-96.732,187239,907,America/Chicago,1840002648
+Huntington,Huntington,WV,West Virginia,54011,Cabell,38.4109,-82.4344,186034,1073,America/New_York,1840006211
+Ontario,Ontario,CA,California,06071,San Bernardino,34.0393,-117.6064,185010,1429,America/Los_Angeles,1840020410
+Hagerstown,Hagerstown,MD,Maryland,24043,Washington,39.6401,-77.7217,184755,1272,America/New_York,1840005613
+Erie,Erie,PA,Pennsylvania,42049,Erie,42.1168,-80.0733,184484,1926,America/New_York,1840000478
+Vancouver,Vancouver,WA,Washington,53011,Clark,45.6366,-122.5967,184463,1461,America/Los_Angeles,1840021189
+Nampa,Nampa,ID,Idaho,16027,Canyon,43.5845,-116.5631,184428,1167,America/Boise,1840020041
+Spartanburg,Spartanburg,SC,South Carolina,45083,Spartanburg,34.9437,-81.9257,182701,730,America/New_York,1840015482
+Gastonia,Gastonia,NC,North Carolina,37071,Gaston,35.2494,-81.1853,182581,577,America/New_York,1840013468
+Fort Lauderdale,Fort Lauderdale,FL,Florida,12011,Broward,26.1412,-80.1464,182437,2036,America/New_York,1840014236
+Lorain,Lorain,OH,Ohio,39093,Lorain,41.4409,-82.184,180279,1041,America/New_York,1840000644
+Murfreesboro,Murfreesboro,TN,Tennessee,47149,Rutherford,35.8492,-86.4119,179951,919,America/Chicago,1840014495
+High Point,High Point,NC,North Carolina,37081,Guilford,35.9907,-79.9938,179913,777,America/New_York,1840014479
+Newport News,Newport News,VA,Virginia,51700,Newport News,37.1051,-76.5185,179225,1002,America/New_York,1840003862
+Rancho Cucamonga,Rancho Cucamonga,CA,California,06071,San Bernardino,34.1248,-117.5666,177603,1709,America/Los_Angeles,1840020411
+Hemet,Hemet,CA,California,06065,Riverside,33.7341,-116.9969,177253,1125,America/Los_Angeles,1840020550
+Santa Cruz,Santa Cruz,CA,California,06087,Santa Cruz,36.9789,-122.0346,176428,1957,America/Los_Angeles,1840021579
+Danbury,Danbury,CT,Connecticut,09001,Fairfield,41.4016,-73.471,176030,779,America/New_York,1840004837
+Peoria,Peoria,AZ,Arizona,04013,Maricopa,33.7844,-112.2989,175961,386,America/Phoenix,1840020567
+Oceanside,Oceanside,CA,California,06073,San Diego,33.2247,-117.3083,175742,1644,America/Los_Angeles,1840020623
+Elk Grove,Elk Grove,CA,California,06067,Sacramento,38.416,-121.3842,174775,1605,America/Los_Angeles,1840020245
+Pembroke Pines,Pembroke Pines,FL,Florida,12011,Broward,26.0128,-80.3382,173591,2051,America/New_York,1840015141
+Vallejo,Vallejo,CA,California,06095,Solano,38.1133,-122.2358,173256,1524,America/Los_Angeles,1840021499
+Garden Grove,Garden Grove,CA,California,06059,Orange,33.7787,-117.9601,171644,3690,America/Los_Angeles,1840020577
+Enterprise,Enterprise,NV,Nevada,32003,Clark,36.0164,-115.2208,171108,1292,America/Los_Angeles,1840033827
+Medford,Medford,OR,Oregon,41029,Jackson,42.3372,-122.8537,170876,1243,America/Los_Angeles,1840020076
+Cary,Cary,NC,North Carolina,37183,Wake,35.782,-78.8191,170282,1119,America/New_York,1840016196
+Marysville,Marysville,WA,Washington,53061,Snohomish,48.0809,-122.1561,170009,1308,America/Los_Angeles,1840019789
+Corona,Corona,CA,California,06065,Riverside,33.8616,-117.5649,169868,1640,America/Los_Angeles,1840019305
+Ocala,Ocala,FL,Florida,12083,Marion,29.178,-82.1511,169383,496,America/New_York,1840015067
+Fredericksburg,Fredericksburg,VA,Virginia,51630,Fredericksburg,38.2992,-77.4872,168909,1072,America/New_York,1840003845
+Gainesville,Gainesville,GA,Georgia,13139,Hall,34.2903,-83.8301,167371,506,America/New_York,1840013612
+Manchester,Manchester,NH,New Hampshire,33011,Hillsborough,42.9848,-71.4447,162877,1315,America/New_York,1840002983
+Bayamón,Bayamon,PR,Puerto Rico,72021,Bayamón,18.3793,-66.1635,161034,2304,America/Puerto_Rico,1630035622
+Champaign,Champaign,IL,Illinois,17019,Champaign,40.1144,-88.2735,159443,1503,America/Chicago,1840007239
+Alexandria,Alexandria,VA,Virginia,51510,Alexandria,38.8185,-77.0861,159428,4121,America/New_York,1840003837
+Hayward,Hayward,CA,California,06001,Alameda,37.6328,-122.0772,159203,1349,America/Los_Angeles,1840020293
+Springfield,Springfield,IL,Illinois,17167,Sangamon,39.771,-89.6538,158509,723,America/Chicago,1840009517
+Lakewood,Lakewood,CO,Colorado,08059,Jefferson,39.6977,-105.1168,157935,1416,America/Denver,1840020198
+Lafayette,Lafayette,IN,Indiana,18157,Tippecanoe,40.399,-86.8594,157820,942,America/Indiana/Indianapolis,1840008354
+Frederick,Frederick,MD,Maryland,24021,Frederick,39.4336,-77.4141,156787,1172,America/New_York,1840005710
+Lake Charles,Lake Charles,LA,Louisiana,22019,Calcasieu,30.2012,-93.2122,156181,674,America/Chicago,1840015039
+Odessa,Odessa,TX,Texas,48135,Ector,31.8831,-102.3406,155998,1052,America/Chicago,1840020794
+Tuscaloosa,Tuscaloosa,AL,Alabama,01125,Tuscaloosa,33.2348,-87.5267,155499,631,America/Chicago,1840005563
+Warner Robins,Warner Robins,GA,Georgia,13153,Houston,32.597,-83.6529,155140,805,America/New_York,1840015800
+Palmdale,Palmdale,CA,California,06037,Los Angeles,34.5944,-118.1057,155079,564,America/Los_Angeles,1840020502
+Hollywood,Hollywood,FL,Florida,12011,Broward,26.0294,-80.1679,154817,2192,America/New_York,1840015144
+Midland,Midland,TX,Texas,48329,Midland,32.0249,-102.1137,154793,758,America/Chicago,1840020792
+Leesburg,Leesburg,FL,Florida,12069,Lake,28.7657,-81.8996,154574,249,America/New_York,1840015083
+Port Arthur,Port Arthur,TX,Texas,48245,Jefferson,29.8554,-93.9264,154468,272,America/Chicago,1840020919
+Muskegon,Muskegon,MI,Michigan,26121,Muskegon,43.2281,-86.2563,153565,998,America/Detroit,1840002870
+Macon,Macon,GA,Georgia,13021,Bibb,32.8065,-83.6974,153159,237,America/New_York,1840043455
+Kansas City,Kansas City,KS,Kansas,20209,Wyandotte,39.1234,-94.7443,152960,473,America/Chicago,1840001626
+Sunnyvale,Sunnyvale,CA,California,06085,Santa Clara,37.3836,-122.0256,152703,2676,America/Los_Angeles,1840021573
+Pomona,Pomona,CA,California,06037,Los Angeles,34.0585,-117.7626,151691,2548,America/Los_Angeles,1840020507
+Escondido,Escondido,CA,California,06073,San Diego,33.1347,-117.0722,151625,1568,America/Los_Angeles,1840020620
+Pasadena,Pasadena,TX,Texas,48201,Harris,29.6583,-95.1499,151227,1339,America/Chicago,1840020930
+New Bedford,New Bedford,MA,Massachusetts,25005,Bristol,41.6697,-70.9428,149910,1840,America/New_York,1840003219
+Fairfield,Fairfield,CA,California,06095,Solano,38.2592,-122.0324,148683,1097,America/Los_Angeles,1840020253
+Naperville,Naperville,IL,Illinois,17043,DuPage,41.7483,-88.1657,148449,1476,America/Chicago,1840008143
+Bellevue,Bellevue,WA,Washington,53033,King,47.5951,-122.1535,148164,1709,America/Los_Angeles,1840018417
+Binghamton,Binghamton,NY,New York,36007,Broome,42.1014,-75.9093,148145,1635,America/New_York,1840000460
+Elkhart,Elkhart,IN,Indiana,18039,Elkhart,41.6916,-85.9628,147567,734,America/Indiana/Indianapolis,1840008187
+Topeka,Topeka,KS,Kansas,20177,Shawnee,39.0346,-95.6955,147458,787,America/Chicago,1840001621
+Joliet,Joliet,IL,Illinois,17197,Will,41.5189,-88.1499,147344,886,America/Chicago,1840008192
+Beaumont,Beaumont,TX,Texas,48245,Jefferson,30.0849,-94.1451,146091,547,America/Chicago,1840019612
+Paterson,Paterson,NJ,New Jersey,34031,Passaic,40.9147,-74.1624,145233,6665,America/New_York,1840000838
+Merced,Merced,CA,California,06047,Merced,37.3057,-120.4778,145149,1390,America/Los_Angeles,1840020313
+Pueblo,Pueblo,CO,Colorado,08101,Pueblo,38.2705,-104.6112,143932,789,America/Denver,1840020255
+Tyler,Tyler,TX,Texas,48423,Smith,32.3184,-95.3062,143796,718,America/Chicago,1840022076
+Torrance,Torrance,CA,California,06037,Los Angeles,33.8346,-118.3417,143592,2701,America/Los_Angeles,1840021873
+Yuma,Yuma,AZ,Arizona,04027,Yuma,32.5992,-114.5488,142847,313,America/Phoenix,1840021998
+Metairie,Metairie,LA,Louisiana,22051,Jefferson,29.9977,-90.178,142135,2359,America/Chicago,1840013994
+Surprise,Surprise,AZ,Arizona,04013,Maricopa,33.68,-112.4524,141664,506,America/Phoenix,1840021941
+Columbia,Columbia,MO,Missouri,29019,Boone,38.9478,-92.3256,141645,725,America/Chicago,1840007391
+Athens,Athens,GA,Georgia,13059,Clarke,33.9508,-83.3689,141532,421,America/New_York,1840029463
+Roseville,Roseville,CA,California,06061,Placer,38.7703,-121.3196,141500,1239,America/Los_Angeles,1840020233
+Thornton,Thornton,CO,Colorado,08001,Adams,39.9197,-104.9438,141464,1521,America/Denver,1840021422
+Miramar,Miramar,FL,Florida,12011,Broward,25.9773,-80.3351,141191,1889,America/New_York,1840015137
+Pasadena,Pasadena,CA,California,06037,Los Angeles,34.1597,-118.139,141029,2371,America/Los_Angeles,1840020505
+Mesquite,Mesquite,TX,Texas,48113,Dallas,32.7623,-96.5889,140937,1151,America/Chicago,1840020713
+Olathe,Olathe,KS,Kansas,20091,Johnson,38.8832,-94.8198,140545,880,America/Chicago,1840003833
+Santa Maria,Santa Maria,CA,California,06083,Santa Barbara,34.9334,-120.4432,140545,1815,America/Los_Angeles,1840021830
+Houma,Houma,LA,Louisiana,22109,Terrebonne,29.5799,-90.7058,140469,874,America/Chicago,1840015063
+Carrollton,Carrollton,TX,Texas,48113,Dallas,32.989,-96.8999,139248,1466,America/Chicago,1840019436
+Grand Junction,Grand Junction,CO,Colorado,08077,Mesa,39.0876,-108.5673,139143,621,America/Denver,1840020230
+Charleston,Charleston,WV,West Virginia,54039,Kanawha,38.3484,-81.6323,138706,570,America/New_York,1840006196
+Orange,Orange,CA,California,06059,Orange,33.8038,-117.8218,138669,2086,America/Los_Angeles,1840020582
+Fullerton,Fullerton,CA,California,06059,Orange,33.8841,-117.9279,138632,2386,America/Los_Angeles,1840020576
+Greeley,Greeley,CO,Colorado,08123,Weld,40.4151,-104.7706,137810,858,America/Denver,1840020149
+Carolina,Carolina,PR,Puerto Rico,72031,Carolina,18.4054,-65.9792,136771,2550,America/Puerto_Rico,1630035637
+Las Cruces,Las Cruces,NM,New Mexico,35013,Doña Ana,32.3265,-106.7892,136254,519,America/Denver,1840020683
+Panama City,Panama City,FL,Florida,12005,Bay,30.1995,-85.6004,136133,382,America/Chicago,1840015034
+Harlingen,Harlingen,TX,Texas,48061,Cameron,26.1917,-97.6976,136037,626,America/Chicago,1840021036
+West Valley City,West Valley City,UT,Utah,49035,Salt Lake,40.6889,-112.0115,135248,1472,America/Denver,1840021389
+Hampton,Hampton,VA,Virginia,51650,Hampton,37.0551,-76.363,134510,1009,America/New_York,1840003866
+Warren,Warren,MI,Michigan,26099,Macomb,42.4934,-83.027,133943,1505,America/Detroit,1840002418
+Mauldin,Mauldin,SC,South Carolina,45045,Greenville,34.7849,-82.3005,133872,899,America/New_York,1840015476
+Bloomington,Bloomington,IL,Illinois,17113,McLean,40.4757,-88.9703,133846,1100,America/Chicago,1840007207
+Coral Springs,Coral Springs,FL,Florida,12011,Broward,26.2702,-80.2591,133759,2258,America/New_York,1840015134
+Round Rock,Round Rock,TX,Texas,48491,Williamson,30.5254,-97.666,133372,1421,America/Chicago,1840020879
+Yakima,Yakima,WA,Washington,53077,Yakima,46.5923,-120.5496,133191,1300,America/Los_Angeles,1840021154
+Sterling Heights,Sterling Heights,MI,Michigan,26099,Macomb,42.5809,-83.0305,132438,1403,America/Detroit,1840003094
+Kent,Kent,WA,Washington,53033,King,47.3887,-122.2129,132319,1513,America/Los_Angeles,1840018424
+Burlington,Burlington,NC,North Carolina,37001,Alamance,36.0758,-79.4686,131043,707,America/New_York,1840013362
+Bellingham,Bellingham,WA,Washington,53073,Whatcom,48.7543,-122.4687,130641,1287,America/Los_Angeles,1840018346
+Santa Clara,Santa Clara,CA,California,06085,Santa Clara,37.3645,-121.968,130365,2761,America/Los_Angeles,1840021571
+Racine,Racine,WI,Wisconsin,55101,Racine,42.7274,-87.8135,130142,1915,America/Chicago,1840002493
+Greenville,Greenville,NC,North Carolina,37147,Pitt,35.5956,-77.3768,130118,1012,America/New_York,1840013407
+Stamford,Stamford,CT,Connecticut,09001,Fairfield,41.1035,-73.5583,129638,1330,America/New_York,1840004841
+Elizabeth,Elizabeth,NJ,New Jersey,34039,Union,40.6657,-74.1912,129216,4049,America/New_York,1840003613
+Johnson City,Johnson City,TN,Tennessee,47179,Washington,36.3406,-82.3803,127571,599,America/New_York,1840014462
+Lynchburg,Lynchburg,VA,Virginia,51680,Lynchburg,37.4003,-79.1909,126814,647,America/New_York,1840003855
+Simi Valley,Simi Valley,CA,California,06111,Ventura,34.2663,-118.749,126589,1167,America/Los_Angeles,1840021843
+Fort Smith,Fort Smith,AR,Arkansas,05131,Sebastian,35.3493,-94.3695,125354,536,America/Chicago,1840013456
+Kenosha,Kenosha,WI,Wisconsin,55059,Kenosha,42.5864,-87.8765,124972,1378,America/Chicago,1840003160
+Norman,Norman,OK,Oklahoma,40027,Cleveland,35.2335,-97.3471,124880,269,America/Chicago,1840020451
+South Lyon,South Lyon,MI,Michigan,26125,Oakland,42.4614,-83.6526,124694,1219,America/Detroit,1840002432
+Boulder,Boulder,CO,Colorado,08013,Boulder,40.0249,-105.2523,124345,1551,America/Denver,1840018774
+Abilene,Abilene,TX,Texas,48441,Taylor,32.4543,-99.7384,123420,446,America/Chicago,1840019476
+Lehigh Acres,Lehigh Acres,FL,Florida,12071,Lee,26.612,-81.6388,123378,514,America/New_York,1840014220
+Pearland,Pearland,TX,Texas,48039,Brazoria,29.5585,-95.3215,122460,981,America/Chicago,1840020979
+Berkeley,Berkeley,CA,California,06001,Alameda,37.8723,-122.276,121363,4473,America/Los_Angeles,1840018914
+Richardson,Richardson,TX,Texas,48113,Dallas,32.9717,-96.7093,121323,1639,America/Chicago,1840020710
+Redding,Redding,CA,California,06089,Shasta,40.5698,-122.365,121313,599,America/Los_Angeles,1840020141
+Arvada,Arvada,CO,Colorado,08059,Jefferson,39.8321,-105.1511,121272,1207,America/Denver,1840018788
+East Los Angeles,East Los Angeles,CA,California,06037,Los Angeles,34.0326,-118.1691,121187,6282,America/Los_Angeles,1840019206
+St. George,St. George,UT,Utah,49053,Washington,37.077,-113.577,120899,449,America/Denver,1840021559
+Billings,Billings,MT,Montana,30111,Yellowstone,45.7891,-108.5524,120728,948,America/Denver,1840018496
+Yuba City,Yuba City,CA,California,06101,Sutter,39.1357,-121.6381,120456,1736,America/Los_Angeles,1840021463
+Rochester,Rochester,MN,Minnesota,27109,Olmsted,44.0151,-92.4778,119942,831,America/Chicago,1840008987
+Leominster,Leominster,MA,Massachusetts,25027,Worcester,42.5209,-71.7717,119690,558,America/New_York,1840000437
+Kingsport,Kingsport,TN,Tennessee,47163,Sullivan,36.5224,-82.5453,119666,397,America/New_York,1840014425
+Duluth,Duluth,MN,Minnesota,27137,St. Louis,46.7756,-92.1392,119476,461,America/Chicago,1840007685
+Rock Hill,Rock Hill,SC,South Carolina,45091,York,34.9416,-81.0244,119105,750,America/New_York,1840014618
+Gilroy,Gilroy,CA,California,06085,Santa Clara,37.0047,-121.5855,118993,1378,America/Los_Angeles,1840020327
+Cambridge,Cambridge,MA,Massachusetts,25017,Middlesex,42.3759,-71.1185,118927,7182,America/New_York,1840000429
+Sugar Land,Sugar Land,TX,Texas,48157,Fort Bend,29.5935,-95.6357,118488,1130,America/Chicago,1840022217
+Texas City,Texas City,TX,Texas,48167,Galveston,29.4128,-94.9658,118169,300,America/Chicago,1840022234
+Iowa City,Iowa City,IA,Iowa,19103,Johnson,41.6559,-91.5303,118041,1133,America/Chicago,1840000532
+Saginaw,Saginaw,MI,Michigan,26145,Saginaw,43.4199,-83.9501,117958,1087,America/Detroit,1840002813
+Chico,Chico,CA,California,06007,Butte,39.7575,-121.8152,117668,1191,America/Los_Angeles,1840018778
+Dover,Dover,DE,Delaware,10001,Kent,39.161,-75.5203,117282,622,America/New_York,1840005810
+Clearwater,Clearwater,FL,Florida,12103,Pinellas,27.9789,-82.7622,116946,1731,America/New_York,1840015110
+Coeur d'Alene,Coeur d'Alene,ID,Idaho,16055,Kootenai,47.7041,-116.7935,116834,1260,America/Los_Angeles,1840018402
+Seaside,Seaside,CA,California,06053,Monterey,36.6224,-121.8191,116720,1410,America/Los_Angeles,1840021634
+Independence,Independence,MO,Missouri,29095,Jackson,39.0871,-94.3501,116672,577,America/Chicago,1840008534
+West Jordan,West Jordan,UT,Utah,49035,Salt Lake,40.6024,-112.0008,116480,1391,America/Denver,1840021388
+Brandon,Brandon,FL,Florida,12057,Hillsborough,27.9367,-82.3,115911,1350,America/New_York,1840014151
+Bloomington,Bloomington,IN,Indiana,18105,Monroe,39.1637,-86.5257,115884,1424,America/Indiana/Indianapolis,1840007376
+El Monte,El Monte,CA,California,06037,Los Angeles,34.0739,-118.0291,115487,4663,America/Los_Angeles,1840020480
+North Charleston,North Charleston,SC,South Carolina,45019,Charleston,32.9066,-80.0722,115382,574,America/New_York,1840015164
+Carlsbad,Carlsbad,CA,California,06073,San Diego,33.1247,-117.2837,115382,1180,America/Los_Angeles,1840019352
+St. Cloud,St. Cloud,MN,Minnesota,27145,Stearns,45.5339,-94.1718,115028,660,America/Chicago,1840008881
+Temecula,Temecula,CA,California,06065,Riverside,33.4928,-117.1315,114761,1188,America/Los_Angeles,1840021937
+Clovis,Clovis,CA,California,06019,Fresno,36.8278,-119.6831,114584,1741,America/Los_Angeles,1840018944
+Meridian,Meridian,ID,Idaho,16001,Ada,43.6112,-116.3968,114161,1297,America/Boise,1840020046
+The Woodlands,The Woodlands,TX,Texas,48339,Montgomery,30.1738,-95.5134,113819,1017,America/Chicago,1840019585
+Ponce,Ponce,PR,Puerto Rico,72113,Ponce,18.012,-66.6198,113401,1426,America/Puerto_Rico,1630023669
+Westminster,Westminster,CO,Colorado,08001,Adams,39.8837,-105.0624,113166,1383,America/Denver,1840021423
+Costa Mesa,Costa Mesa,CA,California,06059,Orange,33.6667,-117.9135,113003,2762,America/Los_Angeles,1840019326
+Monroe,Monroe,LA,Louisiana,22073,Ouachita,32.5183,-92.0774,112891,623,America/Chicago,1840014881
+Utica,Utica,NY,New York,36065,Oneida,43.0961,-75.226,112650,1376,America/New_York,1840002746
+Pompano Beach,Pompano Beach,FL,Florida,12011,Broward,26.2428,-80.1312,112118,1802,America/New_York,1840015143
+West Palm Beach,West Palm Beach,FL,Florida,12099,Palm Beach,26.7468,-80.1316,111955,803,America/New_York,1840015993
+Waterloo,Waterloo,IA,Iowa,19013,Black Hawk,42.492,-92.3522,111631,423,America/Chicago,1840000440
+Everett,Everett,WA,Washington,53061,Snohomish,47.9525,-122.1669,111475,1296,America/Los_Angeles,1840019785
+El Centro,El Centro,CA,California,06025,Imperial,32.7867,-115.5586,111425,1478,America/Los_Angeles,1840020630
+Santa Fe,Santa Fe,NM,New Mexico,35049,Santa Fe,35.6619,-105.9819,111269,625,America/Denver,1840021707
+Downey,Downey,CA,California,06037,Los Angeles,33.9379,-118.1312,111126,3457,America/Los_Angeles,1840019245
+Spring Hill,Spring Hill,FL,Florida,12053,Hernando,28.4797,-82.53,111076,716,America/New_York,1840014105
+Lowell,Lowell,MA,Massachusetts,25017,Middlesex,42.6389,-71.3217,110997,3149,America/New_York,1840000426
+Centennial,Centennial,CO,Colorado,08005,Arapahoe,39.5926,-104.8674,110937,1448,America/Denver,1840018792
+Elgin,Elgin,IL,Illinois,17089,Kane,42.0385,-88.3229,110849,1141,America/Chicago,1840008134
+Richmond,Richmond,CA,California,06013,Contra Costa,37.9477,-122.339,110567,1420,America/Los_Angeles,1840020277
+Broken Arrow,Broken Arrow,OK,Oklahoma,40143,Tulsa,36.0365,-95.7809,110198,688,America/Chicago,1840019059
+Miami Gardens,Miami Gardens,FL,Florida,12086,Miami-Dade,25.9433,-80.2426,110001,2329,America/New_York,1840015151
+Bend,Bend,OR,Oregon,41017,Deschutes,44.0562,-121.3087,109802,1171,America/Los_Angeles,1840018618
+Burlington,Burlington,VT,Vermont,50007,Chittenden,44.4877,-73.2314,109763,1604,America/New_York,1840002310
+Jurupa Valley,Jurupa Valley,CA,California,06065,Riverside,34.001,-117.4705,109527,984,America/Los_Angeles,1840043419
+Sandy Springs,Sandy Springs,GA,Georgia,13121,Fulton,33.9366,-84.3703,109452,1122,America/New_York,1840015609
+Gresham,Gresham,OR,Oregon,41051,Multnomah,45.5023,-122.4413,109381,1808,America/Los_Angeles,1840019939
+Lewisville,Lewisville,TX,Texas,48121,Denton,33.0452,-96.9823,109212,1148,America/Chicago,1840020639
+Hillsboro,Hillsboro,OR,Oregon,41067,Washington,45.5272,-122.9361,109128,1640,America/Los_Angeles,1840019932
+San Buenaventura,San Buenaventura,CA,California,06111,Ventura,34.2741,-119.2314,109106,1925,America/Los_Angeles,1840037414
+Jacksonville,Jacksonville,NC,North Carolina,37133,Onslow,34.7288,-77.3941,108856,574,America/New_York,1840014653
+Pottstown,Pottstown,PA,Pennsylvania,42091,Montgomery,40.2507,-75.6444,108758,1798,America/New_York,1840001373
+Inglewood,Inglewood,CA,California,06037,Los Angeles,33.9566,-118.3444,108151,4604,America/Los_Angeles,1840019237
+League City,League City,TX,Texas,48167,Galveston,29.4873,-95.1087,107536,809,America/Chicago,1840020973
+Eau Claire,Eau Claire,WI,Wisconsin,55035,Eau Claire,44.8199,-91.4949,107404,812,America/Chicago,1840002296
+Turlock,Turlock,CA,California,06099,Stanislaus,37.5053,-120.8588,107317,1679,America/Los_Angeles,1840021533
+Temple,Temple,TX,Texas,48027,Bell,31.1076,-97.3894,107258,429,America/Chicago,1840022154
+Sioux City,Sioux City,IA,Iowa,19193,Woodbury,42.4959,-96.3901,106455,545,America/Chicago,1840000447
+Salisbury,Salisbury,MD,Maryland,24045,Wicomico,38.3756,-75.5867,106447,927,America/New_York,1840006219
+Davie,Davie,FL,Florida,12011,Broward,26.0789,-80.287,106306,1175,America/New_York,1840017272
+Daly City,Daly City,CA,California,06081,San Mateo,37.6862,-122.4685,106280,5370,America/Los_Angeles,1840018926
+Highlands Ranch,Highlands Ranch,CO,Colorado,08035,Douglas,39.5419,-104.9708,105631,1680,America/Denver,1840028579
+Allen,Allen,TX,Texas,48085,Collin,33.1088,-96.6735,105623,1544,America/Chicago,1840019396
+West Covina,West Covina,CA,California,06037,Los Angeles,34.0555,-117.9112,105101,2529,America/Los_Angeles,1840021876
+Sparks,Sparks,NV,Nevada,32031,Washoe,39.5729,-119.7157,105006,1131,America/Los_Angeles,1840021337
+Wichita Falls,Wichita Falls,TX,Texas,48485,Wichita,33.9072,-98.5291,104683,561,America/Chicago,1840021923
+San Mateo,San Mateo,CA,California,06081,San Mateo,37.5521,-122.3122,104430,3312,America/Los_Angeles,1840021551
+Columbia,Columbia,MD,Maryland,24027,Howard,39.2004,-76.859,103991,1257,America/New_York,1840005803
+Norwalk,Norwalk,CA,California,06037,Los Angeles,33.9069,-118.0829,103949,4133,America/Los_Angeles,1840020501
+Rialto,Rialto,CA,California,06071,San Bernardino,34.1174,-117.3894,103526,1665,America/Los_Angeles,1840020407
+Manteca,Manteca,CA,California,06077,San Joaquin,37.7927,-121.2264,103420,1498,America/Los_Angeles,1840020265
+Arden-Arcade,Arden-Arcade,CA,California,06067,Sacramento,38.6034,-121.381,102864,2235,America/Los_Angeles,1840036690
+El Cajon,El Cajon,CA,California,06073,San Diego,32.8017,-116.9605,102708,2732,America/Los_Angeles,1840020618
+Burbank,Burbank,CA,California,06037,Los Angeles,34.1879,-118.3235,102511,2285,America/Los_Angeles,1840019233
+Longmont,Longmont,CO,Colorado,08013,Boulder,40.1686,-105.1005,102474,1306,America/Denver,1840020178
+Renton,Renton,WA,Washington,53033,King,47.4784,-122.1919,101751,1676,America/Los_Angeles,1840019827
+Vista,Vista,CA,California,06073,San Diego,33.1896,-117.2386,101638,2093,America/Los_Angeles,1840021994
+Logan,Logan,UT,Utah,49005,Cache,41.74,-111.8419,101616,1126,America/Denver,1840020108
+Prescott Valley,Prescott Valley,AZ,Arizona,04025,Yavapai,34.5983,-112.3176,101539,439,America/Phoenix,1840021772
+Vacaville,Vacaville,CA,California,06095,Solano,38.359,-121.968,101444,1330,America/Los_Angeles,1840021498
+Edinburg,Edinburg,TX,Texas,48215,Hidalgo,26.3197,-98.1596,101170,873,America/Chicago,1840021020
+Carmel,Carmel,IN,Indiana,18057,Hamilton,39.965,-86.146,101068,795,America/Indiana/Indianapolis,1840007260
+Spokane Valley,Spokane Valley,WA,Washington,53063,Spokane,47.6626,-117.2346,101060,1034,America/Los_Angeles,1840021094
+San Angelo,San Angelo,TX,Texas,48451,Tom Green,31.4424,-100.4506,101004,653,America/Chicago,1840022146
+La Crosse,La Crosse,WI,Wisconsin,55063,La Crosse,43.824,-91.2268,100693,911,America/Chicago,1840002577
+Idaho Falls,Idaho Falls,ID,Idaho,16019,Bonneville,43.4872,-112.0362,100442,1011,America/Boise,1840018644
+Holland,Holland,MI,Michigan,26139,Ottawa,42.7677,-86.0985,100432,768,America/Detroit,1840002996
+Charlottesville,Charlottesville,VA,Virginia,51540,Charlottesville,38.0375,-78.4855,100416,1781,America/New_York,1840001678
+Longview,Longview,TX,Texas,48183,Gregg,32.5193,-94.7621,100330,565,America/Chicago,1840020746
+Tracy,Tracy,CA,California,06077,San Joaquin,37.7269,-121.4522,100049,1412,America/Los_Angeles,1840021518
+Boca Raton,Boca Raton,FL,Florida,12099,Palm Beach,26.3752,-80.108,99805,1320,America/New_York,1840014207
+Lafayette,Lafayette,CO,Colorado,08013,Boulder,39.9949,-105.0997,99645,1257,America/Denver,1840020180
+Lee's Summit,Lee's Summit,MO,Missouri,29095,Jackson,38.9172,-94.3816,99357,601,America/Chicago,1840032155
+Rio Rancho,Rio Rancho,NM,New Mexico,35043,Sandoval,35.2872,-106.6981,99178,370,America/Denver,1840020387
+South Fulton,South Fulton,GA,Georgia,13121,Fulton,33.6269,-84.5802,99155,451,America/New_York,1840029465
+Beaverton,Beaverton,OR,Oregon,41067,Washington,45.4779,-122.8168,99037,1952,America/Los_Angeles,1840018556
+Lawrence,Lawrence,KS,Kansas,20045,Douglas,38.9597,-95.2641,98648,1110,America/Chicago,1840001632
+Bismarck,Bismarck,ND,North Dakota,38015,Burleigh,46.8144,-100.7694,98345,827,America/Chicago,1840001926
+Orem,Orem,UT,Utah,49049,Utah,40.2983,-111.6992,97828,2044,America/Denver,1840020171
+Middletown,Middletown,OH,Ohio,39017,Butler,39.5032,-84.366,97730,720,America/New_York,1840003804
+San Tan Valley,San Tan Valley,AZ,Arizona,04021,Pinal,33.1879,-111.5472,96692,1018,America/Phoenix,1840027990
+San Marcos,San Marcos,CA,California,06073,San Diego,33.135,-117.1744,96664,1532,America/Los_Angeles,1840021991
+Sandy,Sandy,UT,Utah,49035,Salt Lake,40.571,-111.8505,96380,1544,America/Denver,1840037422
+Federal Way,Federal Way,WA,Washington,53033,King,47.3091,-122.3358,96289,1667,America/Los_Angeles,1840019826
+Mandeville,Mandeville,LA,Louisiana,22103,St. Tammany,30.3751,-90.0904,95968,676,America/Chicago,1840015909
+Hesperia,Hesperia,CA,California,06071,San Bernardino,34.3975,-117.3147,95750,508,America/Los_Angeles,1840020404
+Brockton,Brockton,MA,Massachusetts,25023,Plymouth,42.0821,-71.0242,95708,1732,America/New_York,1840000467
+Compton,Compton,CA,California,06037,Los Angeles,33.893,-118.2275,95605,3680,America/Los_Angeles,1840019240
+Riverview,Riverview,FL,Florida,12057,Hillsborough,27.8227,-82.3023,95338,796,America/New_York,1840014158
+Fishers,Fishers,IN,Indiana,18057,Hamilton,39.9589,-85.9661,95310,1037,America/Indiana/Indianapolis,1840010496
+Sunrise,Sunrise,FL,Florida,12011,Broward,26.1547,-80.2997,95166,2270,America/New_York,1840016000
+Bowling Green,Bowling Green,KY,Kentucky,21227,Warren,36.9719,-86.4373,95135,690,America/Chicago,1840013265
+Roswell,Roswell,GA,Georgia,13121,Fulton,34.0391,-84.3513,94763,898,America/New_York,1840014741
+Menifee,Menifee,CA,California,06065,Riverside,33.6909,-117.1849,94756,787,America/Los_Angeles,1840022903
+Plantation,Plantation,FL,Florida,12011,Broward,26.126,-80.2617,94580,1685,America/New_York,1840015142
+Dover,Dover,NH,New Hampshire,33017,Strafford,43.1887,-70.8845,94563,464,America/New_York,1840002808
+Quincy,Quincy,MA,Massachusetts,25021,Norfolk,42.2516,-71.0183,94470,2200,America/New_York,1840000461
+Portsmouth,Portsmouth,VA,Virginia,51740,Portsmouth,36.8468,-76.354,94398,1094,America/New_York,1840003872
+Chino,Chino,CA,California,06071,San Bernardino,33.9836,-117.6654,94371,1229,America/Los_Angeles,1840019114
+Lynn,Lynn,MA,Massachusetts,25009,Essex,42.4779,-70.9663,94299,3388,America/New_York,1840000409
+Edmond,Edmond,OK,Oklahoma,40109,Oklahoma,35.6689,-97.4159,94054,428,America/Chicago,1840020423
+Hanford,Hanford,CA,California,06031,Kings,36.3274,-119.6549,94028,1280,America/Los_Angeles,1840020382
+Dearborn,Dearborn,MI,Michigan,26163,Wayne,42.3127,-83.2129,93932,1496,America/Detroit,1840003969
+Livonia,Livonia,MI,Michigan,26163,Wayne,42.3972,-83.3733,93665,1013,America/Detroit,1840003985
+South Gate,South Gate,CA,California,06037,Los Angeles,33.9448,-118.1926,93444,4985,America/Los_Angeles,1840021870
+Vineland,Vineland,NJ,New Jersey,34011,Cumberland,39.4653,-74.9981,93239,335,America/New_York,1840001551
+Florence,Florence,SC,South Carolina,45041,Florence,34.1781,-79.7877,93131,657,America/New_York,1840013643
+Portsmouth,Portsmouth,NH,New Hampshire,33015,Rockingham,43.058,-70.7826,93069,540,America/New_York,1840002932
+Slidell,Slidell,LA,Louisiana,22103,St. Tammany,30.2881,-89.7826,93040,695,America/Chicago,1840015911
+Lawton,Lawton,OK,Oklahoma,40031,Comanche,34.6176,-98.4203,93025,441,America/Chicago,1840020477
+Kirkland,Kirkland,WA,Washington,53033,King,47.6974,-122.2054,93010,2016,America/Los_Angeles,1840019836
+Missoula,Missoula,MT,Montana,30063,Missoula,46.875,-114.0214,92895,845,America/Denver,1840019840
+Auburn,Auburn,AL,Alabama,01081,Lee,32.6087,-85.4899,92777,425,America/Chicago,1840013810
+Rapid City,Rapid City,SD,South Dakota,46103,Pennington,44.0716,-103.2204,92664,546,America/Denver,1840002180
+Terre Haute,Terre Haute,IN,Indiana,18167,Vigo,39.4654,-87.3763,92490,677,America/Indiana/Indianapolis,1840009671
+Suffolk,Suffolk,VA,Virginia,51800,Suffolk,36.6953,-76.6398,92108,89,America/New_York,1840003873
+Blacksburg,Blacksburg,VA,Virginia,51121,Montgomery,37.23,-80.4279,91888,865,America/New_York,1840006446
+Mount Pleasant,Mount Pleasant,SC,South Carolina,45019,Charleston,32.8538,-79.8204,91684,717,America/New_York,1840017286
+Carson,Carson,CA,California,06037,Los Angeles,33.8374,-118.2559,91394,1883,America/Los_Angeles,1840019214
+Conroe,Conroe,TX,Texas,48339,Montgomery,30.3239,-95.4825,91079,488,America/Chicago,1840019586
+Alafaya,Alafaya,FL,Florida,12095,Orange,28.5278,-81.1865,91068,1156,America/New_York,1840029102
+Livermore,Livermore,CA,California,06001,Alameda,37.6862,-121.7608,90923,1288,America/Los_Angeles,1840020294
+Westminster,Westminster,CA,California,06059,Orange,33.7523,-117.9938,90643,3486,America/Los_Angeles,1840021969
+Germantown,Germantown,MD,Maryland,24031,Montgomery,39.1755,-77.2643,90582,2053,America/New_York,1840005840
+Santa Monica,Santa Monica,CA,California,06037,Los Angeles,34.0232,-118.4813,90401,4147,America/Los_Angeles,1840021866
+New Braunfels,New Braunfels,TX,Texas,48091,Comal,29.6994,-98.1148,90209,770,America/Chicago,1840021341
+Fall River,Fall River,MA,Massachusetts,25005,Bristol,41.7137,-71.1014,89541,1044,America/New_York,1840000497
+Albany,Albany,GA,Georgia,13095,Dougherty,31.5776,-84.1762,89217,505,America/New_York,1840013864
+Miami Beach,Miami Beach,FL,Florida,12086,Miami-Dade,25.8171,-80.1396,88885,4461,America/New_York,1840015150
+Norwalk,Norwalk,CT,Connecticut,09001,Fairfield,41.1144,-73.4215,88816,1498,America/New_York,1840004839
+San Leandro,San Leandro,CA,California,06001,Alameda,37.7071,-122.1601,88815,2570,America/Los_Angeles,1840021538
+O'Fallon,O'Fallon,MO,Missouri,29183,St. Charles,38.785,-90.7175,88673,1149,America/Chicago,1840008571
+Newton,Newton,MA,Massachusetts,25017,Middlesex,42.3316,-71.2085,88414,1914,America/New_York,1840000433
+Muncie,Muncie,IN,Indiana,18035,Delaware,40.1989,-85.395,87879,958,America/Indiana/Indianapolis,1840008365
+Citrus Heights,Citrus Heights,CA,California,06067,Sacramento,38.6948,-121.288,87796,2381,America/Los_Angeles,1840018845
+State College,State College,PA,Pennsylvania,42027,Centre,40.7909,-77.8568,87723,3572,America/New_York,1840000830
+Town 'n' Country,Town 'n' Country,FL,Florida,12057,Hillsborough,28.0108,-82.576,87338,1526,America/New_York,1840029089
+Decatur,Decatur,IL,Illinois,17115,Macon,39.8556,-88.9337,87236,645,America/Chicago,1840007269
+Jackson,Jackson,MI,Michigan,26075,Jackson,42.2431,-84.4037,87110,1153,America/Detroit,1840003173
+Fort Myers,Fort Myers,FL,Florida,12071,Lee,26.6195,-81.8303,87103,844,America/New_York,1840014226
+Goodyear,Goodyear,AZ,Arizona,04013,Maricopa,33.2613,-112.3622,86840,175,America/Phoenix,1840020564
+Dalton,Dalton,GA,Georgia,13313,Whitfield,34.769,-84.9712,86628,632,America/New_York,1840014651
+Bryan,Bryan,TX,Texas,48041,Brazos,30.6657,-96.3668,86276,726,America/Chicago,1840019569
+Waukegan,Waukegan,IL,Illinois,17097,Lake,42.3697,-87.8716,86075,1370,America/Chicago,1840010113
+Hawthorne,Hawthorne,CA,California,06037,Los Angeles,33.9146,-118.3476,86068,5463,America/Los_Angeles,1840020486
+Anderson,Anderson,IN,Indiana,18095,Madison,40.0891,-85.6893,85992,508,America/Indiana/Indianapolis,1840007242
+Redwood City,Redwood City,CA,California,06081,San Mateo,37.5026,-122.2252,85925,1721,America/Los_Angeles,1840020304
+Hoover,Hoover,AL,Alabama,01073,Jefferson,33.3754,-86.8064,85768,691,America/Chicago,1840014795
+Lake Forest,Lake Forest,CA,California,06059,Orange,33.6606,-117.6712,85531,1985,America/Los_Angeles,1840020591
+Napa,Napa,CA,California,06055,Napa,38.2976,-122.3011,85239,1679,America/Los_Angeles,1840020241
+Whittier,Whittier,CA,California,06037,Los Angeles,33.9678,-118.0188,85098,2242,America/Los_Angeles,1840021878
+Clifton,Clifton,NJ,New Jersey,34031,Passaic,40.8631,-74.1575,85052,2913,America/New_York,1840003511
+Largo,Largo,FL,Florida,12103,Pinellas,27.9088,-82.7711,84948,1773,America/New_York,1840015114
+Bloomington,Bloomington,MN,Minnesota,27053,Hennepin,44.8306,-93.3151,84943,945,America/Chicago,1840006747
+Johns Creek,Johns Creek,GA,Georgia,13121,Fulton,34.0333,-84.2027,84579,1059,America/New_York,1840014742
+Newport Beach,Newport Beach,CA,California,06059,Orange,33.6151,-117.8669,84534,1370,America/Los_Angeles,1840020581
+Mission,Mission,TX,Texas,48215,Hidalgo,26.2041,-98.3251,84331,916,America/Chicago,1840021026
+Milpitas,Milpitas,CA,California,06085,Santa Clara,37.4339,-121.8921,84196,2381,America/Los_Angeles,1840020329
+Troy,Troy,MI,Michigan,26125,Oakland,42.5818,-83.1457,84092,970,America/Detroit,1840002434
+Madera,Madera,CA,California,06039,Madera,36.9631,-120.0782,84086,1557,America/Los_Angeles,1840020300
+Joplin,Joplin,MO,Missouri,29097,Jasper,37.0758,-94.5018,84048,515,America/Chicago,1840008771
+Chino Hills,Chino Hills,CA,California,06071,San Bernardino,33.9508,-117.7253,83853,724,America/Los_Angeles,1840019115
+Alhambra,Alhambra,CA,California,06037,Los Angeles,34.084,-118.1355,83750,4237,America/Los_Angeles,1840019222
+Franklin,Franklin,TN,Tennessee,47187,Williamson,35.9216,-86.8525,83097,771,America/Chicago,1840013380
+Melbourne,Melbourne,FL,Florida,12009,Brevard,28.1085,-80.6627,83029,727,America/New_York,1840015960
+Port Huron,Port Huron,MI,Michigan,26147,St. Clair,42.9822,-82.4387,82970,1369,America/Detroit,1840003953
+Springfield,Springfield,OH,Ohio,39023,Clark,39.9297,-83.7957,82820,883,America/New_York,1840003765
+Mountain View,Mountain View,CA,California,06085,Santa Clara,37.4,-122.0796,82739,2664,America/Los_Angeles,1840020332
+Zephyrhills,Zephyrhills,FL,Florida,12101,Pasco,28.2408,-82.1796,82476,670,America/New_York,1840015968
+St. Augustine,St. Augustine,FL,Florida,12109,St. Johns,29.8977,-81.31,82180,629,America/New_York,1840015935
+Flagstaff,Flagstaff,AZ,Arizona,04005,Coconino,35.1872,-111.6195,81974,438,America/Phoenix,1840020335
+Buena Park,Buena Park,CA,California,06059,Orange,33.8572,-118.0046,81788,3002,America/Los_Angeles,1840019324
+Pleasanton,Pleasanton,CA,California,06001,Alameda,37.6663,-121.8805,81777,1307,America/Los_Angeles,1840020298
+Silver Spring,Silver Spring,MD,Maryland,24031,Montgomery,39.0028,-77.0207,81773,4004,America/New_York,1840005845
+Atascocita,Atascocita,TX,Texas,48201,Harris,29.9777,-95.1953,81557,1320,America/Chicago,1840018251
+Westland,Westland,MI,Michigan,26163,Wayne,42.3192,-83.3805,81511,1540,America/Detroit,1840001847
+Auburn,Auburn,WA,Washington,53033,King,47.3039,-122.2108,81464,1063,America/Los_Angeles,1840018416
+Cranston,Cranston,RI,Rhode Island,44007,Providence,41.7658,-71.4857,81456,1109,America/New_York,1840003287
+Somerville,Somerville,MA,Massachusetts,25017,Middlesex,42.3908,-71.1013,81360,7619,America/New_York,1840003123
+Folsom,Folsom,CA,California,06067,Sacramento,38.6668,-121.1422,81328,1126,America/Los_Angeles,1840020246
+Springdale,Springdale,AR,Arkansas,05143,Washington,36.1899,-94.1574,81125,668,America/Chicago,1840015336
+Deerfield Beach,Deerfield Beach,FL,Florida,12011,Broward,26.305,-80.1277,81066,2093,America/New_York,1840015136
+Warwick,Warwick,RI,Rhode Island,44003,Kent,41.7062,-71.4334,81004,893,America/New_York,1840003344
+Cicero,Cicero,IL,Illinois,17031,Cook,41.8445,-87.7593,80796,5318,America/Chicago,1840009186
+Farmington Hills,Farmington Hills,MI,Michigan,26125,Oakland,42.486,-83.3771,80612,935,America/Detroit,1840002442
+Newark,Newark,OH,Ohio,39089,Licking,40.0705,-82.4251,80451,930,America/New_York,1840001419
+Williamsburg,Williamsburg,VA,Virginia,51830,Williamsburg,37.2692,-76.7076,80441,645,America/New_York,1840001720
+Brooklyn Park,Brooklyn Park,MN,Minnesota,27053,Hennepin,45.1112,-93.3505,80389,1190,America/Chicago,1840004023
+Hattiesburg,Hattiesburg,MS,Mississippi,28035,Forrest,31.3074,-89.317,80138,331,America/Chicago,1840013878
+Alexandria,Alexandria,LA,Louisiana,22079,Rapides,31.2923,-92.4702,80129,625,America/Chicago,1840013873
+Lawrence,Lawrence,MA,Massachusetts,25009,Essex,42.7003,-71.1626,80028,4458,America/New_York,1840000408
+Florence,Florence,AL,Alabama,01077,Lauderdale,34.8303,-87.6654,79964,594,America/Chicago,1840002083
+Valdosta,Valdosta,GA,Georgia,13185,Lowndes,30.8502,-83.2788,79820,606,America/New_York,1840015894
+Plymouth,Plymouth,MN,Minnesota,27053,Hennepin,45.0225,-93.4618,79768,941,America/Chicago,1840008929
+Buckeye,Buckeye,AZ,Arizona,04013,Maricopa,33.4314,-112.6429,79620,78,America/Phoenix,1840021939
+Georgetown,Georgetown,TX,Texas,48491,Williamson,30.6668,-97.6953,79604,560,America/Chicago,1840020875
+Cheyenne,Cheyenne,WY,Wyoming,56021,Laramie,41.1351,-104.79,79484,771,America/Denver,1840018713
+Cedar Park,Cedar Park,TX,Texas,48491,Williamson,30.5106,-97.8196,79462,1207,America/Chicago,1840019572
+The Villages,The Villages,FL,Florida,12119,Sumter,28.9021,-81.9888,79372,978,America/New_York,1840014065
+Kokomo,Kokomo,IN,Indiana,18067,Howard,40.464,-86.1277,79351,610,America/Indiana/Indianapolis,1840013844
+Tustin,Tustin,CA,California,06059,Orange,33.7309,-117.8106,79348,2755,America/Los_Angeles,1840021967
+Lakewood,Lakewood,CA,California,06037,Los Angeles,33.8471,-118.1221,79307,3253,America/Los_Angeles,1840020515
+Perris,Perris,CA,California,06065,Riverside,33.7899,-117.2233,79291,970,America/Los_Angeles,1840020557
+St. Joseph,St. Joseph,MO,Missouri,29021,Buchanan,39.7599,-94.821,79161,656,America/Chicago,1840009549
+Flower Mound,Flower Mound,TX,Texas,48121,Denton,33.0344,-97.1146,79135,728,America/Chicago,1840022010
+Pharr,Pharr,TX,Texas,48215,Hidalgo,26.1685,-98.1904,79112,1292,America/Chicago,1840021030
+Pine Hills,Pine Hills,FL,Florida,12095,Orange,28.5818,-81.4693,78995,2500,America/New_York,1840014098
+Alton,Alton,IL,Illinois,17119,Madison,38.9034,-90.1523,78905,652,America/Chicago,1840007424
+Loveland,Loveland,CO,Colorado,08069,Larimer,40.4166,-105.0623,78877,885,America/Denver,1840020152
+Boynton Beach,Boynton Beach,FL,Florida,12099,Palm Beach,26.5281,-80.0811,78679,1880,America/New_York,1840014208
+New Rochelle,New Rochelle,NY,New York,36119,Westchester,40.9305,-73.7836,78557,2930,America/New_York,1840000782
+Anderson,Anderson,SC,South Carolina,45007,Anderson,34.5211,-82.6479,78512,736,America/New_York,1840013579
+Jonesboro,Jonesboro,AR,Arkansas,05031,Craighead,35.8212,-90.6791,78394,377,America/Chicago,1840014507
+Lebanon,Lebanon,PA,Pennsylvania,42075,Lebanon,40.3412,-76.4227,78302,2397,America/New_York,1840001347
+Parma,Parma,OH,Ohio,39035,Cuyahoga,41.3843,-81.7286,78103,1506,America/New_York,1840003406
+Layton,Layton,UT,Utah,49011,Davis,41.0769,-111.9621,78014,1339,America/Denver,1840020145
+Elizabethtown,Elizabethtown,KY,Kentucky,21093,Hardin,37.703,-85.877,78002,437,America/New_York,1840013218
+Texarkana,Texarkana,TX,Texas,48037,Bowie,33.4487,-94.0815,77964,482,America/Chicago,1840021987
+Alameda,Alameda,CA,California,06001,Alameda,37.767,-122.2672,77624,2868,America/Los_Angeles,1840018913
+Kankakee,Kankakee,IL,Illinois,17091,Kankakee,41.1019,-87.8643,77429,668,America/Chicago,1840008260
+Watsonville,Watsonville,CA,California,06087,Santa Cruz,36.9206,-121.7706,77352,3109,America/Los_Angeles,1840021581
+Porterville,Porterville,CA,California,06107,Tulare,36.0644,-119.0338,77318,1236,America/Los_Angeles,1840020368
+Baytown,Baytown,TX,Texas,48201,Harris,29.7586,-94.9669,77192,807,America/Chicago,1840019616
+Upland,Upland,CA,California,06071,San Bernardino,34.1178,-117.6603,77140,1907,America/Los_Angeles,1840021730
+Davis,Davis,CA,California,06113,Yolo,38.5552,-121.7365,76997,2710,America/Los_Angeles,1840018833
+Camarillo,Camarillo,CA,California,06111,Ventura,34.223,-119.0322,76931,1371,America/Los_Angeles,1840019201
+South Jordan,South Jordan,UT,Utah,49035,Salt Lake,40.557,-111.9782,76598,1331,America/Denver,1840021385
+Battle Creek,Battle Creek,MI,Michigan,26025,Calhoun,42.2986,-85.2296,76514,463,America/Detroit,1840003176
+Bellflower,Bellflower,CA,California,06037,Los Angeles,33.888,-118.1271,76435,4822,America/Los_Angeles,1840019230
+San Marcos,San Marcos,TX,Texas,48209,Hays,29.8736,-97.9381,76218,732,America/Chicago,1840022188
+San Ramon,San Ramon,CA,California,06013,Contra Costa,37.7625,-121.9365,75995,1570,America/Los_Angeles,1840021530
+Lake Jackson,Lake Jackson,TX,Texas,48039,Brazoria,29.0516,-95.4522,75860,532,America/Chicago,1840020980
+Bethlehem,Bethlehem,PA,Pennsylvania,42095,Northampton,40.6266,-75.3679,75815,1531,America/New_York,1840000986
+Wyoming,Wyoming,MI,Michigan,26081,Kent,42.8909,-85.7066,75667,1186,America/Detroit,1840000374
+Oshkosh,Oshkosh,WI,Wisconsin,55139,Winnebago,44.0228,-88.5619,75536,958,America/Chicago,1840002246
+Hammond,Hammond,IN,Indiana,18089,Lake,41.6169,-87.491,75522,1282,America/Chicago,1840007092
+Waldorf,Waldorf,MD,Maryland,24017,Charles,38.6085,-76.9195,75489,803,America/New_York,1840006175
+Missouri City,Missouri City,TX,Texas,48157,Fort Bend,29.563,-95.5365,75457,1003,America/Chicago,1840020950
+Pasco,Pasco,WA,Washington,53021,Franklin,46.2506,-119.1304,75432,858,America/Los_Angeles,1840019888
+Wheeling,Wheeling,WV,West Virginia,54069,Ohio,40.0752,-80.6951,75392,740,America/New_York,1840005510
+Kendall,Kendall,FL,Florida,12086,Miami-Dade,25.6697,-80.3556,75312,1804,America/New_York,1840014244
+Baldwin Park,Baldwin Park,CA,California,06037,Los Angeles,34.0829,-117.9721,75251,4381,America/Los_Angeles,1840019227
+Rancho Cordova,Rancho Cordova,CA,California,06067,Sacramento,38.574,-121.2523,75087,827,America/Los_Angeles,1840020248
+Conway,Conway,AR,Arkansas,05045,Faulkner,35.0754,-92.4694,74951,567,America/Chicago,1840014598
+Gary,Gary,IN,Indiana,18089,Lake,41.5906,-87.3472,74879,581,America/Chicago,1840008194
+Altoona,Altoona,PA,Pennsylvania,42013,Blair,40.5082,-78.4007,74829,1710,America/New_York,1840001080
+Lodi,Lodi,CA,California,06077,San Joaquin,38.1218,-121.2932,74773,1913,America/Los_Angeles,1840020263
+Arlington Heights,Arlington Heights,IL,Illinois,17031,Cook,42.0955,-87.9825,74760,1738,America/Chicago,1840011243
+Bolingbrook,Bolingbrook,IL,Illinois,17197,Will,41.6903,-88.1019,74545,1169,America/Chicago,1840011482
+Rochester Hills,Rochester Hills,MI,Michigan,26125,Oakland,42.6645,-83.1563,74516,877,America/Detroit,1840002429
+Winchester,Winchester,VA,Virginia,51840,Winchester,39.1735,-78.1746,74417,1179,America/New_York,1840001623
+Framingham,Framingham,MA,Massachusetts,25017,Middlesex,42.3085,-71.4368,74416,1147,America/New_York,1840003131
+Hilton Head Island,Hilton Head Island,SC,South Carolina,45013,Beaufort,32.1896,-80.7499,74139,372,America/New_York,1840016974
+Centreville,Centreville,VA,Virginia,51059,Fairfax,38.8391,-77.4388,74125,2396,America/New_York,1840006015
+Union City,Union City,CA,California,06001,Alameda,37.603,-122.0187,74107,1474,America/Los_Angeles,1840021539
+Owensboro,Owensboro,KY,Kentucky,21059,Daviess,37.7574,-87.1173,74068,1132,America/Chicago,1840014340
+Jackson,Jackson,TN,Tennessee,47113,Madison,35.6535,-88.8353,74065,444,America/Chicago,1840014528
+Cleveland,Cleveland,TN,Tennessee,47011,Bradley,35.1817,-84.8707,73596,648,America/New_York,1840014603
+Wausau,Wausau,WI,Wisconsin,55073,Marathon,44.962,-89.6459,73593,774,America/Chicago,1840002163
+Camden,Camden,NJ,New Jersey,34007,Camden,39.9362,-75.1073,73562,3184,America/New_York,1840001507
+Anniston,Anniston,AL,Alabama,01015,Calhoun,33.6712,-85.8136,73501,179,America/Chicago,1840006563
+Evanston,Evanston,IL,Illinois,17031,Cook,42.0463,-87.6942,73473,3646,America/Chicago,1840008129
+Apple Valley,Apple Valley,CA,California,06071,San Bernardino,34.5328,-117.2104,73453,378,America/Los_Angeles,1840021733
+Mansfield,Mansfield,OH,Ohio,39139,Richland,40.7656,-82.5275,73326,583,America/New_York,1840000960
+Caguas,Caguas,PR,Puerto Rico,72025,Caguas,18.2319,-66.0388,73322,2597,America/Puerto_Rico,1630023540
+Schaumburg,Schaumburg,IL,Illinois,17031,Cook,42.0307,-88.0838,72887,1457,America/Chicago,1840011319
+Pocatello,Pocatello,ID,Idaho,16005,Bannock,42.8724,-112.4646,72878,657,America/Boise,1840013376
+Woodbury,Woodbury,MN,Minnesota,27163,Washington,44.9056,-92.923,72828,805,America/Chicago,1840009998
+Southfield,Southfield,MI,Michigan,26125,Oakland,42.4765,-83.2605,72689,1068,America/Detroit,1840002431
+Ellicott City,Ellicott City,MD,Maryland,24027,Howard,39.2773,-76.8344,72665,936,America/New_York,1840005802
+Dale City,Dale City,VA,Virginia,51153,Prince William,38.6473,-77.3459,72627,1969,America/New_York,1840006094
+Maple Grove,Maple Grove,MN,Minnesota,27053,Hennepin,45.1089,-93.4626,72622,860,America/Chicago,1840008923
+Pittsburg,Pittsburg,CA,California,06013,Contra Costa,38.0182,-121.8964,72588,1588,America/Los_Angeles,1840020282
+New Britain,New Britain,CT,Connecticut,09003,Hartford,41.6758,-72.7862,72495,2095,America/New_York,1840004774
+Morgantown,Morgantown,WV,West Virginia,54061,Monongalia,39.638,-79.9468,72458,1181,America/New_York,1840005647
+Mansfield,Mansfield,TX,Texas,48439,Tarrant,32.569,-97.1211,72419,762,America/Chicago,1840020702
+Hammond,Hammond,LA,Louisiana,22105,Tangipahoa,30.5061,-90.4563,72413,589,America/Chicago,1840013908
+Dothan,Dothan,AL,Alabama,01069,Houston,31.2335,-85.4069,72396,296,America/Chicago,1840001518
+Harrisonburg,Harrisonburg,VA,Virginia,51660,Harrisonburg,38.4361,-78.8735,72386,1180,America/New_York,1840003844
+Wenatchee,Wenatchee,WA,Washington,53007,Chelan,47.4356,-120.3283,72350,1312,America/Los_Angeles,1840021074
+Waukesha,Waukesha,WI,Wisconsin,55133,Waukesha,43.0087,-88.2464,72299,1093,America/Chicago,1840003008
+Pawtucket,Pawtucket,RI,Rhode Island,44007,Providence,41.8744,-71.3743,72117,3212,America/New_York,1840003285
+Redmond,Redmond,WA,Washington,53033,King,47.6762,-122.1169,71929,1676,America/Los_Angeles,1840019835
+Lauderhill,Lauderhill,FL,Florida,12011,Broward,26.1605,-80.2242,71868,3256,America/New_York,1840015146
+Sumter,Sumter,SC,South Carolina,45085,Sumter,33.9392,-80.393,71518,469,America/New_York,1840015612
+Redlands,Redlands,CA,California,06071,San Bernardino,34.0511,-117.1712,71513,770,America/Los_Angeles,1840020412
+Daphne,Daphne,AL,Alabama,01003,Baldwin,30.6286,-87.8866,71484,603,America/Chicago,1840006178
+Mount Vernon,Mount Vernon,WA,Washington,53057,Skagit,48.4202,-122.3115,71422,1130,America/Los_Angeles,1840019774
+Weston,Weston,FL,Florida,12011,Broward,26.1006,-80.4054,71166,1117,America/New_York,1840016003
+St. Charles,St. Charles,MO,Missouri,29183,St. Charles,38.7954,-90.5157,71028,1104,America/Chicago,1840009719
+Janesville,Janesville,WI,Wisconsin,55105,Rock,42.6855,-89.0136,70755,732,America/Chicago,1840002467
+Sherman,Sherman,TX,Texas,48181,Grayson,33.6274,-96.6218,70704,372,America/Chicago,1840021953
+North Richland Hills,North Richland Hills,TX,Texas,48439,Tarrant,32.8605,-97.218,70670,1505,America/Chicago,1840020703
+Broomfield,Broomfield,CO,Colorado,08014,Broomfield,39.9541,-105.0527,70465,824,America/Denver,1840018781
+El Paso de Robles,El Paso de Robles,CA,California,06079,San Luis Obispo,35.6394,-120.656,70248,632,America/Los_Angeles,1840074847
+Bristol,Bristol,TN,Tennessee,47163,Sullivan,36.5572,-82.2154,70243,318,America/New_York,1840013301
+Wilmington,Wilmington,DE,Delaware,10003,New Castle,39.7415,-75.5413,70166,2484,America/New_York,1840005579
+Casas Adobes,Casas Adobes,AZ,Arizona,04019,Pima,32.3423,-111.0114,70166,1016,America/Phoenix,1840018108
+Walnut Creek,Walnut Creek,CA,California,06013,Contra Costa,37.9024,-122.0398,70166,1371,America/Los_Angeles,1840021531
+Poinciana,Poinciana,FL,Florida,12105,Polk,28.1217,-81.482,69955,375,America/New_York,1840014132
+Lynwood,Lynwood,CA,California,06037,Los Angeles,33.924,-118.2017,69887,5575,America/Los_Angeles,1840020492
+Glen Burnie,Glen Burnie,MD,Maryland,24003,Anne Arundel,39.1559,-76.6072,69872,1557,America/New_York,1840005917
+Lehi,Lehi,UT,Utah,49049,Utah,40.4136,-111.8726,69724,960,America/Denver,1840020168
+Passaic,Passaic,NJ,New Jersey,34031,Passaic,40.8574,-74.1282,69703,8590,America/New_York,1840000837
+Homestead,Homestead,FL,Florida,12086,Miami-Dade,25.4665,-80.4472,69523,1779,America/New_York,1840015159
+West Bend,West Bend,WI,Wisconsin,55131,Washington,43.4184,-88.1824,69504,804,America/Chicago,1840002829
+Delray Beach,Delray Beach,FL,Florida,12099,Palm Beach,26.455,-80.0905,69451,1685,America/New_York,1840015123
+Sheboygan,Sheboygan,WI,Wisconsin,55117,Sheboygan,43.7403,-87.7316,69393,1184,America/Chicago,1840002628
+Lake Elsinore,Lake Elsinore,CA,California,06065,Riverside,33.6847,-117.3344,69283,699,America/Los_Angeles,1840020560
+Daytona Beach,Daytona Beach,FL,Florida,12127,Volusia,29.1994,-81.0982,69186,406,America/New_York,1840015068
+Los Lunas,Los Lunas,NM,New Mexico,35061,Valencia,34.8115,-106.7803,69020,331,America/Denver,1840022814
+Lima,Lima,OH,Ohio,39003,Allen,40.741,-84.1121,68878,1045,America/New_York,1840002785
+Decatur,Decatur,AL,Alabama,01103,Morgan,34.573,-86.9906,68867,388,America/Chicago,1840001403
+Rocklin,Rocklin,CA,California,06061,Placer,38.8075,-121.2488,68823,1341,America/Los_Angeles,1840020232
+Rogers,Rogers,AR,Arkansas,05007,Benton,36.3172,-94.1526,68669,685,America/Chicago,1840014444
+Castle Rock,Castle Rock,CO,Colorado,08035,Douglas,39.3763,-104.8535,68484,771,America/Denver,1840022455
+Hanover,Hanover,PA,Pennsylvania,42133,York,39.8117,-76.9835,68165,1641,America/New_York,1840001450
+Bossier City,Bossier City,LA,Louisiana,22015,Bossier,32.5227,-93.6666,68159,605,America/Chicago,1840013790
+Dubuque,Dubuque,IA,Iowa,19061,Dubuque,42.5008,-90.7067,68109,729,America/Chicago,1840000438
+Rockville,Rockville,MD,Maryland,24031,Montgomery,39.0834,-77.1552,68079,1933,America/New_York,1840005849
+Victoria,Victoria,TX,Texas,48469,Victoria,28.8285,-96.985,68078,694,America/Chicago,1840023044
+Saratoga Springs,Saratoga Springs,NY,New York,36091,Saratoga,43.0674,-73.7775,68028,388,America/New_York,1840000369
+Guaynabo,Guaynabo,PR,Puerto Rico,72061,Guaynabo,18.3839,-66.1134,68024,2180,America/Puerto_Rico,1630023575
+Gaithersburg,Gaithersburg,MD,Maryland,24031,Montgomery,39.1346,-77.2132,67985,2543,America/New_York,1840005848
+Union City,Union City,NJ,New Jersey,34017,Hudson,40.7674,-74.0323,67982,20394,America/New_York,1840001034
+Ames,Ames,IA,Iowa,19169,Story,42.0259,-93.6215,67910,935,America/Chicago,1840007019
+West Des Moines,West Des Moines,IA,Iowa,19153,Polk,41.5522,-93.7805,67899,556,America/Chicago,1840010185
+South San Francisco,South San Francisco,CA,California,06081,San Mateo,37.6536,-122.4197,67789,2837,America/Los_Angeles,1840021552
+Yorba Linda,Yorba Linda,CA,California,06059,Orange,33.889,-117.7714,67644,1316,America/Los_Angeles,1840021970
+Casper,Casper,WY,Wyoming,56025,Natrona,42.842,-106.3207,67598,843,America/Denver,1840038324
+Palatine,Palatine,IL,Illinois,17031,Cook,42.1181,-88.043,67482,1916,America/Chicago,1840011311
+Corvallis,Corvallis,OR,Oregon,41003,Benton,44.5697,-123.278,67467,1592,America/Los_Angeles,1840018611
+Ankeny,Ankeny,IA,Iowa,19153,Polk,41.7285,-93.6033,67355,862,America/Chicago,1840007066
+Mount Vernon,Mount Vernon,NY,New York,36119,Westchester,40.9136,-73.8291,67345,5930,America/New_York,1840000781
+Rowlett,Rowlett,TX,Texas,48113,Dallas,32.9157,-96.5488,67339,1244,America/Chicago,1840020711
+Lakeville,Lakeville,MN,Minnesota,27037,Dakota,44.6774,-93.252,67317,715,America/Chicago,1840007859
+Alpharetta,Alpharetta,GA,Georgia,13121,Fulton,34.0704,-84.2739,67213,964,America/New_York,1840013659
+Longview,Longview,WA,Washington,53015,Cowlitz,46.1461,-122.9629,67081,1000,America/Los_Angeles,1840019904
+DeKalb,DeKalb,IL,Illinois,17037,DeKalb,41.9313,-88.7482,66959,1025,America/Chicago,1840007033
+Petaluma,Petaluma,CA,California,06097,Sonoma,38.2423,-122.6267,66929,1620,America/Los_Angeles,1840020244
+Redondo Beach,Redondo Beach,CA,California,06037,Los Angeles,33.8574,-118.3766,66749,4158,America/Los_Angeles,1840020509
+Tamarac,Tamarac,FL,Florida,12011,Broward,26.2056,-80.2542,66721,2207,America/New_York,1840016001
+Laguna Niguel,Laguna Niguel,CA,California,06059,Orange,33.5275,-117.705,66385,1738,America/Los_Angeles,1840020589
+Eagan,Eagan,MN,Minnesota,27037,Dakota,44.8169,-93.1638,66372,821,America/Chicago,1840007852
+Kenner,Kenner,LA,Louisiana,22051,Jefferson,30.0109,-90.2549,66340,1721,America/Chicago,1840015047
+Bay City,Bay City,MI,Michigan,26017,Bay,43.5903,-83.8886,66107,1242,America/Detroit,1840002583
+North Little Rock,North Little Rock,AR,Arkansas,05119,Pulaski,34.7808,-92.2371,65903,486,America/Chicago,1840014632
+Sammamish,Sammamish,WA,Washington,53033,King,47.6017,-122.0416,65892,1245,America/Los_Angeles,1840021115
+Shawnee,Shawnee,KS,Kansas,20091,Johnson,39.0158,-94.8076,65807,605,America/Chicago,1840001641
+Jupiter,Jupiter,FL,Florida,12099,Palm Beach,26.9199,-80.1128,65791,1174,America/New_York,1840017255
+Doral,Doral,FL,Florida,12086,Miami-Dade,25.8151,-80.3565,65741,1836,America/New_York,1840015148
+Florence-Graham,Florence-Graham,CA,California,06037,Los Angeles,33.9682,-118.2447,65716,7230,America/Los_Angeles,1840037057
+Carbondale,Carbondale,IL,Illinois,17077,Jackson,37.7221,-89.2238,65671,556,America/Chicago,1840007560
+Blaine,Blaine,MN,Minnesota,27003,Anoka,45.1696,-93.2077,65607,769,America/Chicago,1840006719
+Weirton,Weirton,WV,West Virginia,54029,Hancock,40.406,-80.5671,65578,390,America/New_York,1840005405
+Tulare,Tulare,CA,California,06107,Tulare,36.1996,-119.34,65496,1241,America/Los_Angeles,1840021638
+Wellington,Wellington,FL,Florida,12099,Palm Beach,26.6461,-80.2699,65398,561,America/New_York,1840018311
+Pflugerville,Pflugerville,TX,Texas,48453,Travis,30.452,-97.6022,65380,1013,America/Chicago,1840020892
+Palo Alto,Palo Alto,CA,California,06085,Santa Clara,37.3913,-122.1468,65364,1058,America/Los_Angeles,1840020333
+Schenectady,Schenectady,NY,New York,36093,Schenectady,42.8025,-73.9276,65273,2335,America/New_York,1840000395
+Great Falls,Great Falls,MT,Montana,30013,Cascade,47.5022,-111.2995,65131,982,America/Denver,1840019839
+Michigan City,Michigan City,IN,Indiana,18091,LaPorte,41.7099,-86.8705,65058,608,America/Chicago,1840013869
+Bayonne,Bayonne,NJ,New Jersey,34017,Hudson,40.6661,-74.1141,64897,4304,America/New_York,1840003595
+Eden Prairie,Eden Prairie,MN,Minnesota,27053,Hennepin,44.8488,-93.4595,64893,770,America/Chicago,1840007821
+Port Orange,Port Orange,FL,Florida,12127,Volusia,29.1084,-81.0137,64842,933,America/New_York,1840015077
+Dublin,Dublin,CA,California,06001,Alameda,37.7161,-121.8963,64826,1643,America/Los_Angeles,1840018916
+Grand Forks,Grand Forks,ND,North Dakota,38035,Grand Forks,47.9218,-97.0886,64748,784,America/Chicago,1840000101
+Noblesville,Noblesville,IN,Indiana,18057,Hamilton,40.0354,-86.0042,64668,726,America/Indiana/Indianapolis,1840013891
+San Clemente,San Clemente,CA,California,06059,Orange,33.4498,-117.6103,64558,1358,America/Los_Angeles,1840021962
+Brentwood,Brentwood,CA,California,06013,Contra Costa,37.9355,-121.7191,64474,1675,America/Los_Angeles,1840018904
+Carmichael,Carmichael,CA,California,06067,Sacramento,38.6337,-121.323,64454,1850,America/Los_Angeles,1840017579
+East Orange,East Orange,NJ,New Jersey,34013,Essex,40.7651,-74.2117,64367,6327,America/New_York,1840002792
+Eastvale,Eastvale,CA,California,06065,Riverside,33.9617,-117.5802,64157,1954,America/Los_Angeles,1840028421
+Chapel Hill,Chapel Hill,NC,North Carolina,37135,Orange,35.927,-79.0391,64051,1148,America/New_York,1840016152
+Rocky Mount,Rocky Mount,NC,North Carolina,37127,Nash,35.9676,-77.8048,64018,471,America/New_York,1840014490
+Haverhill,Haverhill,MA,Massachusetts,25009,Essex,42.7838,-71.0871,64014,748,America/New_York,1840002450
+Beloit,Beloit,WI,Wisconsin,55105,Rock,42.523,-89.0184,63762,822,America/Chicago,1840002471
+Glens Falls,Glens Falls,NY,New York,36113,Warren,43.3109,-73.6459,63499,1430,America/New_York,1840000345
+Brentwood,Brentwood,NY,New York,36103,Suffolk,40.7839,-73.2522,63399,2232,America/New_York,1840005021
+Fairbanks,Fairbanks,AK,Alaska,02090,Fairbanks North Star,64.8353,-147.6534,63245,375,America/Anchorage,1840023463
+Springfield,Springfield,OR,Oregon,41039,Lane,44.0538,-122.981,63230,1541,America/Los_Angeles,1840021263
+Bethesda,Bethesda,MD,Maryland,24031,Montgomery,38.9866,-77.1188,63195,1839,America/New_York,1840005826
+Johnstown,Johnstown,PA,Pennsylvania,42021,Cambria,40.3258,-78.9193,63141,1257,America/New_York,1840001116
+Dundalk,Dundalk,MD,Maryland,24005,Baltimore,39.2703,-76.4942,63015,1861,America/New_York,1840005681
+Castro Valley,Castro Valley,CA,California,06001,Alameda,37.7091,-122.0631,63013,1466,America/Los_Angeles,1840017620
+Coon Rapids,Coon Rapids,MN,Minnesota,27003,Anoka,45.1755,-93.3095,62998,1075,America/Chicago,1840006714
+Elmira,Elmira,NY,New York,36015,Chemung,42.0938,-76.8097,62989,1440,America/New_York,1840000472
+Mankato,Mankato,MN,Minnesota,27013,Blue Earth,44.1712,-93.9773,62889,868,America/Chicago,1840008975
+Albany,Albany,OR,Oregon,41043,Linn,44.6274,-123.0966,62880,1218,America/Los_Angeles,1840018605
+North Miami,North Miami,FL,Florida,12086,Miami-Dade,25.9007,-80.1686,62822,2877,America/New_York,1840015154
+Encinitas,Encinitas,CA,California,06073,San Diego,33.049,-117.2613,62709,1270,America/Los_Angeles,1840020619
+Skokie,Skokie,IL,Illinois,17031,Cook,42.0359,-87.74,62700,2405,America/Chicago,1840011321
+Leander,Leander,TX,Texas,48491,Williamson,30.5728,-97.8618,62608,644,America/Chicago,1840020877
+Parkersburg,Parkersburg,WV,West Virginia,54107,Wood,39.2624,-81.542,62566,961,America/New_York,1840005786
+Waltham,Waltham,MA,Massachusetts,25017,Middlesex,42.3889,-71.2423,62495,1893,America/New_York,1840000428
+Port Charlotte,Port Charlotte,FL,Florida,12015,Charlotte,26.9918,-82.114,62327,844,America/New_York,1840014200
+Palm Harbor,Palm Harbor,FL,Florida,12103,Pinellas,28.0847,-82.7481,62310,1387,America/New_York,1840014143
+San Luis Obispo,San Luis Obispo,CA,California,06079,San Luis Obispo,35.2669,-120.6691,62290,1374,America/Los_Angeles,1840021734
+Sebring,Sebring,FL,Florida,12055,Highlands,27.477,-81.453,62250,404,America/New_York,1840015986
+Council Bluffs,Council Bluffs,IA,Iowa,19155,Pottawattamie,41.2369,-95.8517,62166,559,America/Chicago,1840007117
+Hamilton,Hamilton,OH,Ohio,39017,Butler,39.3938,-84.5653,62082,1117,America/New_York,1840003803
+Moore,Moore,OK,Oklahoma,40027,Cleveland,35.3293,-97.4758,62055,1094,America/Chicago,1840020449
+Pico Rivera,Pico Rivera,CA,California,06037,Los Angeles,33.9902,-118.0888,62027,2887,America/Los_Angeles,1840020506
+Casa Grande,Casa Grande,AZ,Arizona,04021,Pinal,32.9068,-111.7624,61966,204,America/Phoenix,1840019364
+Monessen,Monessen,PA,Pennsylvania,42129,Westmoreland,40.1519,-79.8828,61960,967,America/New_York,1840001146
+Montebello,Montebello,CA,California,06037,Los Angeles,34.0155,-118.1108,61954,2870,America/Los_Angeles,1840020499
+Rome,Rome,GA,Georgia,13115,Floyd,34.2661,-85.1862,61537,449,America/New_York,1840014681
+The Hammocks,The Hammocks,FL,Florida,12086,Miami-Dade,25.67,-80.4483,61516,3010,America/New_York,1840029009
+Millcreek,Millcreek,UT,Utah,49035,Salt Lake,40.6892,-111.8291,61450,1859,America/Denver,1840018744
+Sanford,Sanford,FL,Florida,12117,Seminole,28.7893,-81.276,61448,1015,America/New_York,1840015958
+National City,National City,CA,California,06073,San Diego,32.6654,-117.0983,61394,3250,America/Los_Angeles,1840020622
+Mayagüez,Mayaguez,PR,Puerto Rico,72097,Mayagüez,18.2003,-67.1397,61361,1129,America/Puerto_Rico,1630035520
+Burnsville,Burnsville,MN,Minnesota,27037,Dakota,44.7648,-93.2795,61339,953,America/Chicago,1840006766
+Coconut Creek,Coconut Creek,FL,Florida,12011,Broward,26.2803,-80.1842,61248,2117,America/New_York,1840015132
+Morristown,Morristown,TN,Tennessee,47063,Hamblen,36.2046,-83.3006,61171,426,America/New_York,1840014467
+Reston,Reston,VA,Virginia,51059,Fairfax,38.9497,-77.3461,61147,1540,America/New_York,1840006025
+Lakewood,Lakewood,WA,Washington,53053,Pierce,47.1628,-122.5299,61037,1381,America/Los_Angeles,1840019860
+Spring,Spring,TX,Texas,48201,Harris,30.0613,-95.383,60976,1047,America/Chicago,1840019615
+Gadsden,Gadsden,AL,Alabama,01055,Etowah,34.009,-86.0156,60944,362,America/Chicago,1840006332
+Taylor,Taylor,MI,Michigan,26163,Wayne,42.226,-83.2688,60922,996,America/Detroit,1840003965
+Novi,Novi,MI,Michigan,26125,Oakland,42.4786,-83.4893,60896,777,America/Detroit,1840002423
+Marietta,Marietta,GA,Georgia,13067,Cobb,33.9533,-84.5422,60867,1004,America/New_York,1840015633
+Hot Springs,Hot Springs,AR,Arkansas,05051,Garland,34.4892,-93.0501,60767,400,America/Chicago,1840014670
+Woodland,Woodland,CA,California,06113,Yolo,38.6712,-121.75,60598,1527,America/Los_Angeles,1840021485
+Fountainebleau,Fountainebleau,FL,Florida,12086,Miami-Dade,25.7723,-80.3458,60547,5854,America/New_York,1840028983
+La Habra,La Habra,CA,California,06059,Orange,33.9278,-117.9513,60513,3177,America/Los_Angeles,1840020585
+Malden,Malden,MA,Massachusetts,25017,Middlesex,42.4305,-71.0576,60470,4628,America/New_York,1840000430
+South Whittier,South Whittier,CA,California,06037,Los Angeles,33.9336,-118.0311,60357,4366,America/Los_Angeles,1840019209
+Commerce City,Commerce City,CO,Colorado,08001,Adams,39.8642,-104.8434,60336,652,America/Denver,1840018785
+South Hill,South Hill,WA,Washington,53053,Pierce,47.1203,-122.2848,60172,1265,America/Los_Angeles,1840037886
+Bristol,Bristol,CT,Connecticut,09003,Hartford,41.6812,-72.9407,59947,876,America/New_York,1840004772
+Columbus,Columbus,IN,Indiana,18005,Bartholomew,39.2093,-85.9183,59897,660,America/Indiana/Indianapolis,1840013714
+West Allis,West Allis,WI,Wisconsin,55079,Milwaukee,43.0068,-88.0296,59890,2031,America/Chicago,1840003034
+Taylorsville,Taylorsville,UT,Utah,49035,Salt Lake,40.657,-111.9493,59805,2128,America/Denver,1840021387
+Bangor,Bangor,ME,Maine,23019,Penobscot,44.8322,-68.7906,59772,363,America/New_York,1840000238
+Monterey Park,Monterey Park,CA,California,06037,Los Angeles,34.0497,-118.1326,59669,3002,America/Los_Angeles,1840020500
+Greenwood,Greenwood,IN,Indiana,18081,Johnson,39.6019,-86.1073,59458,822,America/Indiana/Indianapolis,1840007332
+Bartlett,Bartlett,TN,Tennessee,47157,Shelby,35.2337,-89.8195,59440,710,America/Chicago,1840013472
+Bradenton,Bradenton,FL,Florida,12081,Manatee,27.49,-82.5739,59439,1596,America/New_York,1840014173
+Pontiac,Pontiac,MI,Michigan,26125,Oakland,42.6493,-83.2878,59438,1154,America/Detroit,1840002427
+Staunton,Staunton,VA,Virginia,51790,Staunton,38.1593,-79.0611,59433,483,America/New_York,1840001670
+Meriden,Meriden,CT,Connecticut,09009,New Haven,41.5367,-72.7944,59395,963,America/New_York,1840004848
+Gardena,Gardena,CA,California,06037,Los Angeles,33.8944,-118.3073,59329,3929,America/Los_Angeles,1840020482
+Apex,Apex,NC,North Carolina,37183,Wake,35.7239,-78.8728,59300,1100,America/New_York,1840015355
+Royal Oak,Royal Oak,MI,Michigan,26125,Oakland,42.5084,-83.1539,59277,1940,America/Detroit,1840002430
+Cupertino,Cupertino,CA,California,06085,Santa Clara,37.3168,-122.0465,59276,2023,America/Los_Angeles,1840018950
+La Mesa,La Mesa,CA,California,06073,San Diego,32.7703,-117.0204,59249,2515,America/Los_Angeles,1840020625
+Benton Harbor,Benton Harbor,MI,Michigan,26021,Berrien,42.1159,-86.4488,59216,858,America/Detroit,1840003215
+St. Clair Shores,St. Clair Shores,MI,Michigan,26099,Macomb,42.4921,-82.8957,58984,1949,America/Detroit,1840003093
+Des Plaines,Des Plaines,IL,Illinois,17031,Cook,42.0345,-87.9009,58899,1598,America/Chicago,1840007032
+Lewiston,Lewiston,ME,Maine,23001,Androscoggin,44.0915,-70.1681,58802,409,America/New_York,1840000320
+Margate,Margate,FL,Florida,12011,Broward,26.2466,-80.2119,58796,2591,America/New_York,1840015999
+Midland,Midland,MI,Michigan,26111,Midland,43.6241,-84.2319,58787,468,America/Detroit,1840002660
+Carson City,Carson City,NV,Nevada,32510,Carson City,39.1512,-119.7474,58756,149,America/Los_Angeles,1840003826
+Bowie,Bowie,MD,Maryland,24033,Prince George's,38.9569,-76.7409,58643,1144,America/New_York,1840005970
+Middletown,Middletown,NY,New York,36071,Orange,41.4459,-74.4236,58592,2048,America/New_York,1840000585
+Caldwell,Caldwell,ID,Idaho,16027,Canyon,43.6453,-116.6591,58481,998,America/Boise,1840018641
+San Rafael,San Rafael,CA,California,06041,Marin,37.9905,-122.5222,58440,1361,America/Los_Angeles,1840021513
+Richland,Richland,WA,Washington,53005,Benton,46.2824,-119.2938,58225,573,America/Los_Angeles,1840019889
+St. Peters,St. Peters,MO,Missouri,29183,St. Charles,38.7824,-90.6061,58212,1003,America/Chicago,1840009721
+Wesley Chapel,Wesley Chapel,FL,Florida,12101,Pasco,28.2106,-82.3238,58208,511,America/New_York,1840014118
+Hendersonville,Hendersonville,TN,Tennessee,47165,Sumner,36.3063,-86.5998,58113,714,America/Chicago,1840014419
+White Plains,White Plains,NY,New York,36119,Westchester,41.022,-73.7549,58109,2291,America/New_York,1840003477
+Huntersville,Huntersville,NC,North Carolina,37119,Mecklenburg,35.4058,-80.8727,58098,550,America/New_York,1840016349
+Santee,Santee,CA,California,06073,San Diego,32.8554,-116.9851,58081,1355,America/Los_Angeles,1840021992
+Jefferson City,Jefferson City,MO,Missouri,29051,Cole,38.5676,-92.1759,58025,457,America/Chicago,1840008615
+Beckley,Beckley,WV,West Virginia,54081,Raleigh,37.7878,-81.1841,57942,647,America/New_York,1840006350
+Arcadia,Arcadia,CA,California,06037,Los Angeles,34.1342,-118.0373,57939,2047,America/Los_Angeles,1840019223
+Titusville,Titusville,FL,Florida,12009,Brevard,28.5727,-80.8193,57891,615,America/New_York,1840015962
+Cartersville,Cartersville,GA,Georgia,13015,Bartow,34.1639,-84.8007,57873,289,America/New_York,1840014701
+Walla Walla,Walla Walla,WA,Washington,53071,Walla Walla,46.067,-118.3366,57860,926,America/Los_Angeles,1840021174
+Orland Park,Orland Park,IL,Illinois,17031,Cook,41.6074,-87.8619,57857,1014,America/Chicago,1840011310
+Towson,Towson,MD,Maryland,24005,Baltimore,39.3944,-76.619,57817,1577,America/New_York,1840005695
+Weymouth,Weymouth,MA,Massachusetts,25021,Norfolk,42.1984,-70.9466,57746,1329,America/New_York,1840132442
+Parker,Parker,CO,Colorado,08035,Douglas,39.5084,-104.7753,57706,1003,America/Denver,1840022454
+Palm Beach Gardens,Palm Beach Gardens,FL,Florida,12099,Palm Beach,26.8466,-80.1679,57704,379,America/New_York,1840015125
+Bozeman,Bozeman,MT,Montana,30031,Gallatin,45.6832,-111.0552,57695,945,America/Denver,1840018509
+East Stroudsburg,East Stroudsburg,PA,Pennsylvania,42089,Monroe,41.0023,-75.1779,57577,1416,America/New_York,1840003507
+Huntington Park,Huntington Park,CA,California,06037,Los Angeles,33.98,-118.2167,57509,7370,America/Los_Angeles,1840019235
+Taunton,Taunton,MA,Massachusetts,25005,Bristol,41.9036,-71.0943,57464,475,America/New_York,1840003220
+Midwest City,Midwest City,OK,Oklahoma,40109,Oklahoma,35.463,-97.3709,57407,907,America/Chicago,1840020425
+Medford,Medford,MA,Massachusetts,25017,Middlesex,42.4234,-71.1087,57341,2733,America/New_York,1840000431
+Goldsboro,Goldsboro,NC,North Carolina,37191,Wayne,35.3778,-77.972,57278,462,America/New_York,1840013432
+Euless,Euless,TX,Texas,48439,Tarrant,32.8508,-97.0799,57197,1368,America/Chicago,1840020693
+Manhattan,Manhattan,KS,Kansas,20161,Riley,39.1886,-96.6046,57046,1062,America/Chicago,1840001589
+Shoreline,Shoreline,WA,Washington,53033,King,47.7564,-122.3426,57027,1892,America/Los_Angeles,1840021118
+Lake Havasu City,Lake Havasu City,AZ,Arizona,04015,Mohave,34.5006,-114.3113,56820,465,America/Los_Angeles,1840021044
+Smyrna,Smyrna,GA,Georgia,13067,Cobb,33.8633,-84.5168,56666,1406,America/New_York,1840015634
+Cape Girardeau,Cape Girardeau,MO,Missouri,29031,Cape Girardeau,37.3108,-89.5597,56551,538,America/Chicago,1840007598
+Tamiami,Tamiami,FL,Florida,12086,Miami-Dade,25.7556,-80.4016,56225,3080,America/New_York,1840029085
+Kendale Lakes,Kendale Lakes,FL,Florida,12086,Miami-Dade,25.7081,-80.4078,56182,2686,America/New_York,1840029045
+Grants Pass,Grants Pass,OR,Oregon,41033,Josephine,42.4333,-123.3317,55837,1279,America/Los_Angeles,1840020087
+Blue Springs,Blue Springs,MO,Missouri,29095,Jackson,39.0124,-94.2721,55829,961,America/Chicago,1840007396
+Southaven,Southaven,MS,Mississippi,28033,DeSoto,34.9514,-89.9787,55780,521,America/Chicago,1840015519
+Tinley Park,Tinley Park,IL,Illinois,17031,Cook,41.567,-87.805,55773,1336,America/Chicago,1840011331
+Diamond Bar,Diamond Bar,CA,California,06037,Los Angeles,33.9991,-117.8161,55720,1446,America/Los_Angeles,1840019244
+Pittsfield,Pittsfield,MA,Massachusetts,25003,Berkshire,42.4517,-73.2605,55697,402,America/New_York,1840003116
+Eagle Pass,Eagle Pass,TX,Texas,48323,Maverick,28.7125,-100.484,55686,1216,America/Matamoros,1840019690
+New Brunswick,New Brunswick,NJ,New Jersey,34023,Middlesex,40.487,-74.445,55676,4108,America/New_York,1840001339
+Lenexa,Lenexa,KS,Kansas,20091,Johnson,38.9609,-94.8018,55625,630,America/Chicago,1840001639
+Hazleton,Hazleton,PA,Pennsylvania,42079,Luzerne,40.9504,-75.9724,55604,1592,America/New_York,1840000753
+Twin Falls,Twin Falls,ID,Idaho,16083,Twin Falls,42.5645,-114.4615,55556,1008,America/Boise,1840021301
+Brookhaven,Brookhaven,GA,Georgia,13089,DeKalb,33.8744,-84.3314,55554,1847,America/New_York,1840029224
+Novato,Novato,CA,California,06041,Marin,38.092,-122.5576,55516,780,America/Los_Angeles,1840020260
+Tigard,Tigard,OR,Oregon,41067,Washington,45.4237,-122.7845,55514,1680,America/Los_Angeles,1840021206
+Highland,Highland,CA,California,06071,San Bernardino,34.1113,-117.1654,55417,1141,America/Los_Angeles,1840020405
+Fountain Valley,Fountain Valley,CA,California,06059,Orange,33.7105,-117.9514,55357,2356,America/Los_Angeles,1840020575
+Dearborn Heights,Dearborn Heights,MI,Michigan,26163,Wayne,42.3164,-83.2769,55353,1820,America/Detroit,1840003970
+Grapevine,Grapevine,TX,Texas,48439,Tarrant,32.9343,-97.0744,55281,667,America/Chicago,1840020697
+Fond du Lac,Fond du Lac,WI,Wisconsin,55039,Fond du Lac,43.7718,-88.4396,55209,869,America/Chicago,1840002603
+Hacienda Heights,Hacienda Heights,CA,California,06037,Los Angeles,33.997,-117.9728,55188,1906,America/Los_Angeles,1840017921
+Ithaca,Ithaca,NY,New York,36109,Tompkins,42.4442,-76.5032,55137,2209,America/New_York,1840000442
+Apple Valley,Apple Valley,MN,Minnesota,27037,Dakota,44.7457,-93.2006,55135,1254,America/Chicago,1840006768
+Chicopee,Chicopee,MA,Massachusetts,25013,Hampden,42.1764,-72.5719,55126,929,America/New_York,1840000462
+Oak Lawn,Oak Lawn,IL,Illinois,17031,Cook,41.7139,-87.7528,55022,2478,America/Chicago,1840011306
+Cathedral City,Cathedral City,CA,California,06065,Riverside,33.8363,-116.4642,55007,944,America/Los_Angeles,1840019293
+Delano,Delano,CA,California,06029,Kern,35.767,-119.2637,54917,1448,America/Los_Angeles,1840019151
+Bentonville,Bentonville,AR,Arkansas,05007,Benton,36.3546,-94.2306,54909,627,America/Chicago,1840013319
+Stonecrest,Stonecrest,GA,Georgia,13089,DeKalb,33.6842,-84.1372,54903,566,America/New_York,1840029466
+Kettering,Kettering,OH,Ohio,39113,Montgomery,39.6957,-84.1495,54855,1133,America/New_York,1840003783
+Colton,Colton,CA,California,06071,San Bernardino,34.0538,-117.3254,54824,1362,America/Los_Angeles,1840019120
+Kingston,Kingston,NY,New York,36111,Ulster,41.9295,-73.9968,54791,1176,America/New_York,1840000493
+West Haven,West Haven,CT,Connecticut,09009,New Haven,41.2739,-72.9672,54620,1961,America/New_York,1840004852
+St. Cloud,St. Cloud,FL,Florida,12097,Osceola,28.2294,-81.2829,54579,1038,America/New_York,1840015971
+Normal,Normal,IL,Illinois,17113,McLean,40.5218,-88.9881,54469,1149,America/Chicago,1840009401
+Berwyn,Berwyn,IL,Illinois,17031,Cook,41.8433,-87.7909,54391,5378,America/Chicago,1840007027
+Milford,Milford,CT,Connecticut,09009,New Haven,41.2256,-73.0616,54328,945,America/New_York,1840028594
+Aloha,Aloha,OR,Oregon,41067,Washington,45.492,-122.8726,54287,2851,America/Los_Angeles,1840017414
+Arroyo Grande,Arroyo Grande,CA,California,06079,San Luis Obispo,35.1241,-120.5845,54177,1168,America/Los_Angeles,1840019125
+Minnetonka,Minnetonka,MN,Minnesota,27053,Hennepin,44.9322,-93.4598,54064,775,America/Chicago,1840007831
+Rosemead,Rosemead,CA,California,06037,Los Angeles,34.0689,-118.0823,54058,4043,America/Los_Angeles,1840020495
+Paramount,Paramount,CA,California,06037,Los Angeles,33.8976,-118.1652,53955,4405,America/Los_Angeles,1840020504
+Yucaipa,Yucaipa,CA,California,06071,San Bernardino,34.0336,-117.0429,53921,735,America/Los_Angeles,1840021732
+Brunswick,Brunswick,GA,Georgia,13127,Glynn,31.145,-81.474,53914,367,America/New_York,1840013875
+Williamsport,Williamsport,PA,Pennsylvania,42081,Lycoming,41.2398,-77.0371,53861,1246,America/New_York,1840000637
+Elyria,Elyria,OH,Ohio,39093,Lorain,41.3761,-82.1063,53757,1009,America/New_York,1840000643
+Leesburg,Leesburg,VA,Virginia,51107,Loudoun,39.1058,-77.5544,53727,1673,America/New_York,1840005872
+Mount Prospect,Mount Prospect,IL,Illinois,17031,Cook,42.0641,-87.9375,53719,1934,America/Chicago,1840011300
+Pinellas Park,Pinellas Park,FL,Florida,12103,Pinellas,27.8589,-82.7078,53637,1289,America/New_York,1840015112
+Bellevue,Bellevue,NE,Nebraska,31153,Sarpy,41.1535,-95.9357,53544,1247,America/Chicago,1840007142
+West Sacramento,West Sacramento,CA,California,06113,Yolo,38.5557,-121.5504,53519,962,America/Los_Angeles,1840021483
+Apopka,Apopka,FL,Florida,12095,Orange,28.7014,-81.5304,53447,613,America/New_York,1840014093
+Lewiston,Lewiston,ID,Idaho,16069,Nez Perce,46.3934,-116.9934,53384,731,America/Los_Angeles,1840019897
+Grand Island,Grand Island,NE,Nebraska,31079,Hall,40.9214,-98.3584,53296,665,America/Chicago,1840000956
+Palm Desert,Palm Desert,CA,California,06065,Riverside,33.7378,-116.3695,53275,767,America/Los_Angeles,1840020555
+Milford city ,Milford city ,CT,Connecticut,09009,New Haven,41.2256,-73.0625,53195,937,America/New_York,1840028605
+Watertown,Watertown,NY,New York,36045,Jefferson,43.9734,-75.9094,53163,1061,America/New_York,1840002200
+Little Elm,Little Elm,TX,Texas,48121,Denton,33.1856,-96.929,53126,1151,America/Chicago,1840020640
+Chambersburg,Chambersburg,PA,Pennsylvania,42055,Franklin,39.9315,-77.6556,53083,1178,America/New_York,1840001410
+Revere,Revere,MA,Massachusetts,25025,Suffolk,42.4192,-71.0036,53073,3592,America/New_York,1840000457
+Peabody,Peabody,MA,Massachusetts,25009,Essex,42.5335,-70.9724,53070,1262,America/New_York,1840000414
+Wylie,Wylie,TX,Texas,48085,Collin,33.0362,-96.5161,53067,928,America/Chicago,1840022018
+Beaufort,Beaufort,SC,South Carolina,45013,Beaufort,32.4597,-80.7235,53051,212,America/New_York,1840013818
+Aspen Hill,Aspen Hill,MD,Maryland,24031,Montgomery,39.0928,-77.0823,53049,2134,America/New_York,1840005825
+DeSoto,DeSoto,TX,Texas,48113,Dallas,32.5992,-96.8633,52988,945,America/Chicago,1840019441
+Helena,Helena,MT,Montana,30049,Lewis and Clark,46.5965,-112.0202,52936,760,America/Denver,1840019820
+Edina,Edina,MN,Minnesota,27053,Hennepin,44.8914,-93.3602,52857,1320,America/Chicago,1840007822
+Wheaton,Wheaton,IL,Illinois,17043,DuPage,41.8561,-88.1083,52745,1801,America/Chicago,1840010166
+West New York,West New York,NJ,New Jersey,34017,Hudson,40.7856,-74.0093,52723,20473,America/New_York,1840001035
+Hoboken,Hoboken,NJ,New Jersey,34017,Hudson,40.7453,-74.0279,52677,16268,America/New_York,1840003599
+Lacey,Lacey,WA,Washington,53067,Thurston,47.046,-122.7934,52592,1187,America/Los_Angeles,1840019866
+Summerville,Summerville,SC,South Carolina,45035,Dorchester,33.0015,-80.1799,52549,1030,America/New_York,1840016886
+Oak Park,Oak Park,IL,Illinois,17031,Cook,41.8872,-87.7899,52381,4303,America/Chicago,1840011307
+Maricopa,Maricopa,AZ,Arizona,04021,Pinal,33.0404,-112.0006,52127,470,America/Phoenix,1840020629
+Lompoc,Lompoc,CA,California,06083,Santa Barbara,34.6618,-120.4714,52020,1423,America/Los_Angeles,1840020468
+Kentwood,Kentwood,MI,Michigan,26081,Kent,42.8852,-85.5925,51898,958,America/Detroit,1840002930
+Levittown,Levittown,PA,Pennsylvania,42017,Bucks,40.1537,-74.853,51818,1969,America/New_York,1840005408
+Sierra Vista,Sierra Vista,AZ,Arizona,04003,Cochise,31.563,-110.3153,51731,109,America/Phoenix,1840022103
+Levittown,Levittown,NY,New York,36059,Nassau,40.7241,-73.5125,51634,2926,America/New_York,1840005270
+Madison,Madison,AL,Alabama,01089,Madison,34.7114,-86.7626,51593,657,America/Chicago,1840015524
+Smyrna,Smyrna,TN,Tennessee,47149,Rutherford,35.9722,-86.5253,51586,657,America/Chicago,1840017758
+Glendora,Glendora,CA,California,06037,Los Angeles,34.1449,-117.8468,51544,1020,America/Los_Angeles,1840020484
+Burien,Burien,WA,Washington,53033,King,47.4762,-122.3394,51500,1980,America/Los_Angeles,1840018420
+Perth Amboy,Perth Amboy,NJ,New Jersey,34023,Middlesex,40.5203,-74.2724,51390,4255,America/New_York,1840001340
+Herriman,Herriman,UT,Utah,49035,Salt Lake,40.4899,-112.0171,51348,916,America/Denver,1840020155
+Farmington,Farmington,NM,New Mexico,35045,San Juan,36.7555,-108.1823,51309,497,America/Denver,1840020349
+New Bern,New Bern,NC,North Carolina,37049,Craven,35.0955,-77.0723,51308,409,America/New_York,1840014591
+Placentia,Placentia,CA,California,06059,Orange,33.8807,-117.8553,51233,2990,America/Los_Angeles,1840020583
+Hinesville,Hinesville,GA,Georgia,13179,Liberty,31.8247,-81.6135,51206,707,America/New_York,1840014931
+Beaumont,Beaumont,CA,California,06065,Riverside,33.9076,-116.9766,51063,650,America/Los_Angeles,1840019298
+Collierville,Collierville,TN,Tennessee,47157,Shelby,35.0471,-89.6988,51040,544,America/Chicago,1840016403
+West Lafayette,West Lafayette,IN,Indiana,18157,Tippecanoe,40.4432,-86.9239,50996,1449,America/Indiana/Indianapolis,1840010430
+Florissant,Florissant,MO,Missouri,29189,St. Louis,38.7996,-90.3269,50952,1567,America/Chicago,1840008586
+Hoffman Estates,Hoffman Estates,IL,Illinois,17031,Cook,42.0639,-88.1468,50932,933,America/Chicago,1840011263
+Queen Creek,Queen Creek,AZ,Arizona,04013,Maricopa,33.2386,-111.6343,50890,606,America/Phoenix,1840021944
+Aliso Viejo,Aliso Viejo,CA,California,06059,Orange,33.5792,-117.7289,50887,2839,America/Los_Angeles,1840019321
+Kannapolis,Kannapolis,NC,North Carolina,37025,Cabarrus,35.4764,-80.6403,50841,602,America/New_York,1840014560
+Methuen Town,Methuen Town,MA,Massachusetts,25009,Essex,42.734,-71.1889,50706,881,America/New_York,1840031195
+Sahuarita,Sahuarita,AZ,Arizona,04019,Pima,31.9323,-110.9654,50616,382,America/Phoenix,1840022102
+Traverse City,Traverse City,MI,Michigan,26055,Grand Traverse,44.7547,-85.6035,50522,729,America/Detroit,1840003946
+Severn,Severn,MD,Maryland,24003,Anne Arundel,39.1355,-76.6958,50496,1064,America/New_York,1840005925
+Catalina Foothills,Catalina Foothills,AZ,Arizona,04019,Pima,32.3041,-110.8835,50454,465,America/Phoenix,1840018110
+Galveston,Galveston,TX,Texas,48167,Galveston,29.2487,-94.891,50446,473,America/Chicago,1840020970
+Country Club,Country Club,FL,Florida,12086,Miami-Dade,25.9407,-80.3102,50431,4664,America/New_York,1840029029
+Cookeville,Cookeville,TN,Tennessee,47141,Putnam,36.1484,-85.5114,50408,378,America/Chicago,1840014470
+Mishawaka,Mishawaka,IN,Indiana,18141,St. Joseph,41.6736,-86.1669,50363,1101,America/Indiana/Indianapolis,1840014695
+Rowland Heights,Rowland Heights,CA,California,06037,Los Angeles,33.9716,-117.8911,50347,1486,America/Los_Angeles,1840019211
+Plainfield,Plainfield,NJ,New Jersey,34039,Union,40.6154,-74.4157,50317,3260,America/New_York,1840001090
+Bullhead City,Bullhead City,AZ,Arizona,04015,Mohave,35.1205,-114.546,50309,265,America/Phoenix,1840019748
+Stillwater,Stillwater,OK,Oklahoma,40119,Payne,36.1316,-97.074,50299,657,America/Chicago,1840021675
+Forney,Forney,TX,Texas,48257,Kaufman,32.744,-96.4529,50251,710,America/Chicago,1840020734
+Wheaton,Wheaton,MD,Maryland,24031,Montgomery,39.0492,-77.0572,50229,2811,America/New_York,1840031295
+Azusa,Azusa,CA,California,06037,Los Angeles,34.1386,-117.9124,49974,1996,America/Los_Angeles,1840019226
+North Bethesda,North Bethesda,MD,Maryland,24031,Montgomery,39.0393,-77.1191,49872,2171,America/New_York,1840031494
+Cerritos,Cerritos,CA,California,06037,Los Angeles,33.8677,-118.0686,49859,2207,America/Los_Angeles,1840019215
+Ashburn,Ashburn,VA,Virginia,51107,Loudoun,39.03,-77.4711,49848,1120,America/New_York,1840024495

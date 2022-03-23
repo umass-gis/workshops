@@ -95,7 +95,7 @@ If you hit a file upload limit, you might need to upload the files in a couple o
 
 Make sure to fill out the `ReadMe.md` file so that people who visit your repo will know what it's about, who made it and why, and where the data came from.
 
-![New GitHub repository](media/github-repo-with-content.png "New GitHub repository with files uploaded and a ReadMe partially filled out")
+![New GitHub repository](media/github-repo.png "New GitHub repository with files uploaded and a ReadMe partially filled out")
 
 ## Publish the web map
 

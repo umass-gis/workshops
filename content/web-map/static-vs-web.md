@@ -15,7 +15,7 @@ What's the best way to tell your story?
 Let's say you're a big fan of the sun, and you are curious about how people's experience of daylight varies across the U.S. You could collect data about sunset times and create a static map to print out or post online.
 
 ---
-![Map of sunset times in the U.S.](media/sunlight_map.jpg "Map of the 1,000 largest cities in the contiguous 48 states in the U.S. showing sunset times adjusted for local time zones in colors from dark purple - before 4:15pm to yellow - after 5:45pm - and city size based on population.")
+![Map of sunset times in the U.S.](media/sunlight_map_update.jpg "Map of the 1,000 largest cities in the contiguous 48 states in the U.S. showing sunset times adjusted for local time zones in colors from dark purple - before 4:15pm to yellow - after 5:45pm - and city size based on population.")
 
 ---
 ## Web maps

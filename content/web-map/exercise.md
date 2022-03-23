@@ -43,7 +43,7 @@ The first step is to figure out what data you want to include in the map.
 
 For the demo, I'm using a single point layer that has a mix of categorical and quantitative data. Feel free to use your own data, or follow along by downloading the data pack I'm using.
 
-[Get the sunlight data pack](https://github.com/umass-gis/workshops/blob/main/content/web-map/data/sunlight_data_pack.zip){: .btn .btn-primary}
+[Get the sunlight data pack](https://github.com/umass-gis/workshops/blob/main/content/web-map/data/sunlight_datapack.zip){: .btn .btn-primary}
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 

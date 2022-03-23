@@ -22,7 +22,7 @@ Let's say you're a big fan of the sun, and you are curious about how people's ex
 
 Or you could turn this map into a web map.
 
-[Web Map: Sunset Across the U.S.](https://rmseifried.github.io/sunlight-in-the-us/){: .btn .btn-purple }
+[Web Map: Sunset Across the U.S.](https://rmseifried.github.io/sunlight-in-the-us/){: .btn .btn-primary }
 
 Web maps are great ways to share data with others in a visually exciting and interactive way. The great power of web maps (vs. printed or static maps) is that users can zoom, pan, click, search, and explore the data in new ways.
 

@@ -28,10 +28,15 @@
   {% endif %}
   -->
   
-  <!-- Google Analytics tracking code from https://desiredpersona.com/google-analytics-jekyll/ -->
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics.html %}
-  {% endif %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVHTPQ8CLM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-MVHTPQ8CLM');
+  </script>
 
   {% if site.search_enabled != false %}
     <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>

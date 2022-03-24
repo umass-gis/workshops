@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
 
+  <!-- Original Google Analytics tracking code
   {% if site.ga_tracking != nil %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
     <script>
@@ -24,6 +25,12 @@
       gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
     </script>
 
+  {% endif %}
+  -->
+  
+  <!-- Google Analytics tracking code from https://desiredpersona.com/google-analytics-jekyll/ -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
   {% endif %}
 
   {% if site.search_enabled != false %}

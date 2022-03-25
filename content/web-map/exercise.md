@@ -76,6 +76,10 @@ No, seriously. That tutorial is awesome, and has lots of screenshots to help you
 ---
 ## Upload the files to GitHub
 
+The rest of the steps in this exercise will guide you through how to upload the files to a GitHub repository and publish the web map with GitHub Pages.
+
+[Check out the demo repository before getting started](https://github.com/rmseifried/sunlight-in-the-us){: .btn .btn-primary}
+
 ### Step 5: Sign in to GitHub
 {: .no_toc }
 

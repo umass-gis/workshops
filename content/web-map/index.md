@@ -33,3 +33,10 @@ This workshop is designed to take about two hours as a live demonstration.
 | 1:55 | Wrap-up |
 
 If you are working through the materials on your own time, it may take a bit longer!
+
+---
+## Watch the workshop
+
+Recordings can be viewed on YouTube. Click the links below to watch the videos.
+
+**[Full workshop - March 23, 2022](https://youtu.be/ZHynmLFhRZs)**

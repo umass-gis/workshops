@@ -27,12 +27,23 @@ The photos and instructions were put together on a Windows machine using QGIS 3.
 ## Install QGIS
 {:toc}
 
-QGIS is a free and open-source software that runs on Mac, Windows, and Linux operating systems. In order to complete the tuturial part of this workshop, you will need to download the software and install it on your personal computer.
+QGIS is a free and open-source software that runs on Mac, Windows, and Linux operating systems. In order to complete the exercise part of this workshop, you will need to download the software and install it on your personal computer.
 
-[Download QGIS](https://www.qgis.org/){: .btn .btn-purple }
+[Download QGIS](https://www.qgis.org/){: .btn .btn-primary}
 
 **Everyone**: The recommended version is the long-term release (LTR), currently 3.16.<br>
 **Windows users**: Select one of the install options under the heading "Standalone installers from OSGeo4W packages."
+
+---
+## Download the demo data
+{:toc}
+
+If you want to play around with example data, download this data pack. It contains several vector files in shapefile format, and the readme.txt file has links to a raster you can download or add to a QGIS session as a web layer. You will need to unzip the file before you can access its contents in QGIS.
+
+[Get the demo data](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2022.zip){: .btn .btn-primary }
+
+**Mac users**: Double-click the file to unzip it automatically.<br>
+**Windows users**: Right-click the file and use a tool like 7-Zip to extract the files.
 
 ---
 ## Explore the QGIS interface
@@ -82,7 +93,7 @@ These two plugins are super helpful:
 **QuickOSM** allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!
 
 ---
-## Open a layer
+## Add a local layer
 {:toc}
 
 Let's assume you have a geospatial data layer downloaded onto your hard drive.
@@ -94,6 +105,32 @@ There are several ways to open a layer in QGIS:
 1. For rasters: click `Layer > Add Layer > Add Raster Layer...` or click the `Add Raster Layer...` button. Follow the steps above.
 
 <img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='500' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
+
+---
+## Add a web layer
+{:toc}
+
+We live in an age of cloud-based data, and thankfully it is super easy to add a hosted web layer to a QGIS session:
+1. Find a hosted layer from a GIS data source, like [MassGIS](https://www.mass.gov/info-details/massgis-data-layers). Look for language like "view this layer in GIS" or "Map service" or "REST Server".
+1. Figure out what kind of data this is:
+    1. **Web Map Service (WMS) or Web Map Tile Service (WMTS)** - very common service standard for rasters and vectors that allows users to view the data, but usually not to query or manipulate it.
+    1. **Web Feature Service (WFS)** - service for feature data that allows users to query and manipulate the layer.
+    1. **ArcGIS REST Server Layer** - a URL pointing to a dataset that is hosted on ArcGIS Online.
+1. Click `Layer > Add Layer > Data Source Manager` and navigate to the tab that corresponds to your data type.
+1. Click `New`.
+1. Give the service a `Name` of your choosing, then copy-paste the `URL` of the service layer. Click `OK`.
+1. Click `Connect` to establish a connection to the service layer, then select the layer you want to add to your map. Click `Add`.
+1. Close the window and bask in the glory of your web layer!
+
+In this example, I am adding a connection to the [Lidar Elevation and Shaded Relief](https://arcg.is/0r4yDy) tile service by MassGIS, which is hosted on ArcGIS Online. The service layer URL can be found in the bottom right corner of the website, under the heading "URL".
+
+![Add a new ArcGIS REST Server to QGIS](media/rest_1_new.JPG "Adding a new ArcGIS REST Server")
+
+![Adding a name and URL](media/rest_2_url.JPG "Adding a name and URL")
+
+![Connecting to the ArcGIS REST Server](media/rest_3_connect.JPG "Connecting to the ArcGIS REST Server")
+
+![Success after connecting to the ArcGIS REST Server](media/rest_4_map.JPG "Viewing the Lidar layer in QGIS")
 
 ---
 ## Get more help

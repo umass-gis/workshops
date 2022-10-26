@@ -83,7 +83,7 @@ There are two ways to add a new column (or *field*) to an attribute table.
 ### Option 2: Field Calculator
 {:.no_toc}
 
-If you already know what information is going to go in the new field, you can use the Field Calculator to add the field *and* calculate the values all in one go. You can practice this method in the [Visualize the census data](https://umass-gis.github.io/workshops/content/basics-qgis/tutorial.html#visualize-the-census-data) part of the tutorial.
+If you already know what information is going to go in the new field, you can use the Field Calculator to add the field *and* calculate the values all in one go. You can practice this method in the [Visualize the census data](https://umass-gis.github.io/workshops/content/basics-qgis/exercise.html#visualize-the-census-data) part of the exercise.
 
 1. Open the attribute table and toggle on editing mode by clicking the `pencil button`.
 1. Click the field calculator button (abacus). Make sure `Create a new field` is checked. Fill out the `Output field name` and `Output field type`. Fill out the `Expression` box with a code that the tool will use to calculate values for all your records at the same time. When it looks good, click `OK`.<br>

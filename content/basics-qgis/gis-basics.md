@@ -31,8 +31,9 @@ GIS stands for *Geographic Information Systems* (or *Geographic Information Scie
 
 Chances are, you've already interacted with a GIS application. Here are some examples:
 * [Google Maps](https://www.google.com/maps)
-* [Johns Hopkins University COVID-19 Dashboard](https://bit.ly/2SHStbG)
-* [Languages of New York City](http://languagemap.nyc)
+* [Mapping Ancient Athens](https://mappingancientathens.org/en/home/)
+* [Connecticut Zoning Atlas](https://www.desegregatect.org/atlas)
+* [Mapping Prejudice](https://mappingprejudice.umn.edu/racial-covenants/maps-data)
 
 ---
 ## Map layers
@@ -74,6 +75,11 @@ Last but not least, we'll look at ways to keep your data organized!
 
 View this section as a slideshow:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfdkL-poNvBmmj4JQKjDkAKcTadDwYnsZKx2jkZcrUwlGBZHokarGvL9PqG3J-7PuGUEOR3GXb-mCS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+---
+## Resources
+{:toc}
 
 Looking for more tips and tricks related to data organization? Here are some resources to check out:
 * [Managing Your Data – UMass Amherst Libraries](https://guides.library.umass.edu/data)

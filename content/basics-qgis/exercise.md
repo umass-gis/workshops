@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Tutorial
+title: Exercise
 parent: Learn the Basics of QGIS
 nav_order: 6
 ---
 
-# Tutorial
+# Exercise
 {: .no_toc }
 
 Explore the cities of Holyoke and Chicopee in western Massachusetts to learn how their demographic makeup has changed in the last 80 years
@@ -24,7 +24,7 @@ Explore the cities of Holyoke and Chicopee in western Massachusetts to learn how
 ## Setup
 {:toc}
 
-This tutorial will give you a chance to practice the lessons covered in this workshop:
+This exercise will give you a chance to practice the lessons covered in this workshop:
 * becoming familiar with the QGIS interface
 * opening data layers
 * organizing data on your hard drive
@@ -46,7 +46,7 @@ In order to explore how the population of Holyoke and Chicopee have changed over
 {:.no_toc}
 
 <br>
-[Get the data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_QGIS_Fall2020.zip){: .btn .btn-purple }
+[Get the data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Exercise_Fall2020.zip){: .btn .btn-primary }
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
@@ -65,10 +65,10 @@ The file you download is zipped, so you'll need to unzip it before you can conti
 
 This is a great time to start practicing good data management! Refer back to the slides on [Data Organization](https://umass-gis.github.io/workshops/content/basics-qgis/gis-basics.html#data-organization) for inspiration.
 
-In an ideal world, you'll create a folder just for this tutorial somewhere on your hard drive. Ideas for what to name the folder:
-* QGIS_Workshop_Oct2020
-* Holyoke_Chicopee_Tutorial_2020_1027
-* Basics_of_QGIS_Fall20
+In an ideal world, you'll create a folder just for this exercise somewhere on your hard drive. Ideas for what to name the folder:
+* QGIS_Workshop_Oct2022
+* Holyoke_Chicopee_Exercise_2022_1027
+* Basics_of_QGIS_Fall22
 * GIS_Data_Is_Awesome
 
 *Just kidding, don't use that last one!*

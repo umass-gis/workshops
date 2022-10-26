@@ -31,7 +31,7 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 [Download QGIS](https://www.qgis.org/){: .btn .btn-primary}
 
-**Everyone**: The recommended version is the long-term release (LTR), currently 3.16.<br>
+**Everyone**: The recommended version is the long-term release (LTR), currently 3.22.<br>
 **Windows users**: Select one of the install options under the heading "Standalone installers from OSGeo4W packages."
 
 ---

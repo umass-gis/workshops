@@ -4,6 +4,7 @@ title: Design a StoryMap
 description: "Design a StoryMap - a workshop by the UMass Amherst Libraries."
 nav_order: 3
 has_children: true
+has_toc: false
 ---
 
 # Design a StoryMap

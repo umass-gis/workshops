@@ -18,6 +18,12 @@ Learn how to create a free, interactive web map using the open-source mapping so
 This workshop is geared toward folks with a basic understanding of GIS concepts. If you need help getting started with QGIS, check out the [Learn the Basics of QGIS](../basics-qgis) tutorial first. Previous experience with GitHub or with the HTML, JavaScript, or CSS languages is helpful, but not necessary.
 
 ---
+## Watch the workshop
+Click the link below to watch a recording of this workshop on YouTube:
+
+**[Full workshop - March 23, 2022](https://youtu.be/ZHynmLFhRZs)**
+
+---
 ## Workshop outline
 
 This workshop is designed to take about two hours as a live demonstration.
@@ -33,10 +39,3 @@ This workshop is designed to take about two hours as a live demonstration.
 | 1:55 | Wrap-up |
 
 If you are working through the materials on your own time, it may take a bit longer!
-
----
-## Watch the workshop
-
-Recordings can be viewed on YouTube. Click the links below to watch the videos.
-
-**[Full workshop - March 23, 2022](https://youtu.be/ZHynmLFhRZs)**

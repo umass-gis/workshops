@@ -4,6 +4,7 @@ title: Georeference a Historical Map
 description: "Georeference a Historical Map - a workshop by the UMass Amherst Libraries."
 nav_order: 4
 has_children: true
+has_toc: false
 ---
 
 # Georeference a Historical Map
@@ -15,6 +16,13 @@ Historical maps (and aerial photos!) can reveal what the world used to look like
 * Manage the data for a georeferencing project
 
 This workshop is geared toward folks with a basic understanding of GIS concepts. If you need help getting started with QGIS, check out the [Learn the Basics of QGIS](https://umass-gis.github.io/workshops/content/basics-qgis/) tutorial first.
+
+---
+## Watch the workshop
+Click the links below to watch recordings of this workshop on YouTube:
+
+**[Part 1 of the workshop: core concepts – April 7, 2021](https://youtu.be/cpOijBpf_L4)**<br>
+**[Part 2 of the workshop: quick demo – April 7, 2021](https://youtu.be/MujLNlQ4n-E)**
 
 ---
 ## Workshop outline
@@ -34,11 +42,3 @@ This workshop is designed to take about two hours as a live demonstration.
 | 1:55 | Wrap-up |
 
 If you are working through the materials on your own time, it may take a bit longer!
-
----
-## Watch the workshop
-
-Recordings can be viewed on YouTube. Click the links below to watch the videos.
-
-[Part 1 of the workshop: core concepts – April 7, 2021](https://youtu.be/cpOijBpf_L4)<br>
-[Part 2 of the workshop: quick demo – April 7, 2021](https://youtu.be/MujLNlQ4n-E)

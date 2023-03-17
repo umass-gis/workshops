@@ -24,7 +24,7 @@ This workshop is designed to just over an hour as a live demonstration.
 | Time | Topic |
 | :--- | :---- |
 | 0:00 | Introduction |
-| 0:05 | Understanding cartographic principles |
+| 0:05 | Best practices in map design |
 | 0:15 | Assessing example maps |
 | 0:25 | Using the QGIS Print Layout |
 | 1:05 | Q&A |

@@ -56,6 +56,8 @@ Once you've got data, use QGIS to design a map that you want to share with the w
 * **Field names** - if fields will appear anywhere in your map (e.g. pop-ups), give them a human-readable "alias" in `Layer Properties > Attribute Form`
 * **Overall design** - think about how someone will interact with your web map; aim for simple and easy to interpret
 
+Check out the State of Minnesota’s guides for [Interactive Web Maps](https://mn.gov/mnit/about-mnit/accessibility/maps/web.jsp) for help ensuring your web map is accessible.
+
 ---
 ## Create the web map files
 

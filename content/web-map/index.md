@@ -2,7 +2,7 @@
 layout: default
 title: Build a Web Map
 description: "Build a Web Map - a workshop by the UMass Amherst Libraries."
-nav_order: 6
+nav_order: 7
 has_children: true
 has_toc: false
 ---

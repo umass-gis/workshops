@@ -21,7 +21,7 @@ Principles to follow when designing a static map
 </details>
 
 ---
-# Overview
+## Overview
 
 This page gives an overview of key concepts to keep in mind when designing a map.
 
@@ -94,11 +94,11 @@ The groups below are my personal opinions about what is most important to includ
 
 Although it may seem counter-intuitive, the geometric center of a map is *not* the first place a viewer tends to look. Instead, the "optical center" is situated slightly above this point. This is where your most important content should be placed.
 
-![optical center of a map](media/map_center.png "Illustration of the optical center of a map, slightly above the geometric center")
+![optical center of a map](media/map_center.PNG "Illustration of the optical center of a map, slightly above the geometric center")
 
 Another concept to keep in mind is that many viewers will naturally shift their gaze from the upper-left part of a map, through the optical center, and then down to the lower-right. (It's worth noting this is related to the direction that the viewer reads text, so if they speak a language that is read right-to-left, the direction would be reversed.) Content should ideally follow this direction of movement.
 
-![direction of eye movement](media/eye_movement.png "Illustration of the direction of eye movement across a page from upper-left to lower-right")
+![direction of eye movement](media/eye_movement.PNG "Illustration of the direction of eye movement across a page from upper-left to lower-right")
 
 ---
 ## Ethical Considerations

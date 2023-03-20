@@ -40,6 +40,8 @@ In this exercise, I'll create a map following the [How to Design Your Own Map](.
 
 Imagine you are organizing a hike in your favorite spot, Erving State Forest. The forest is run by the MA Department of Conservation and Recreation (DCR), who make very lovely trail maps. The official DCR trail map for Erving State Forest is available [online](https://www.mass.gov/locations/erving-state-forest).
 
+![Erving State Forest trail map](media/erving_state_forest_trailmap.PNG "Official MA DCR Erving State Forest trail map")
+
 There are some things about this map that you’d like to change to make it easier for you and your companions to navigate the intricate trail system in the park.
 
 You want to:

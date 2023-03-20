@@ -27,7 +27,7 @@ This tutorial was put together on a Mac using QGIS 3.22.4-Białowieża, so if yo
 
 ## Overview
 
-In this exercise, I'll create a map following the [How to Design Your Own Map](/map-design/#how-to-design-your-own-map) guide. You can watch the workshop recording if you would like to follow along with the demo.
+In this exercise, I'll create a map following the [How to Design Your Own Map](./map-design.html#how-to-design-your-own-map) guide. You can watch the workshop recording if you would like to follow along with the demo.
 
 ### Resources to check out
 {: .no_toc }

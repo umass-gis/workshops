@@ -40,6 +40,9 @@ In this exercise, I'll create a map following the [How to Design Your Own Map](.
 
 Imagine you are organizing a hike in your favorite spot, Erving State Forest. The forest is run by the MA Department of Conservation and Recreation (DCR), who make very lovely trail maps. The official DCR trail map for Erving State Forest is available [online](https://www.mass.gov/locations/erving-state-forest).
 
+#### Official DCR trail map of Erving State Forest
+{: .no_toc }
+
 ![Erving State Forest trail map](media/erving_state_forest_trailmap.PNG "Official MA DCR Erving State Forest trail map")
 
 There are some things about this map that you’d like to change to make it easier for you and your companions to navigate the intricate trail system in the park.
@@ -69,24 +72,22 @@ You want to:
 ### Step 2: Get the Data
 {: .no_toc }
 
-Now that you know what you want to map, you'll need to find the data. Since the map I'm creating is about park and trails managed by the Massachusetts Department of Conservation and Recreation, it makes sense to look for the data on the state's GIS portal, [MassGIS](https://www.mass.gov/orgs/massgis-bureau-of-geographic-information).
+Now that you know what you want to map, you'll need to find the data. Since the map I'm creating is about park and trails managed by the Massachusetts Department of Conservation and Recreation, it makes sense to look for the data on the state's GIS portal, [MassGIS](https://www.mass.gov/orgs/massgis-bureau-of-geographic-information). Additional helpful data can be found on [Natural Earth](https://www.naturalearthdata.com/).
 
-These are the MassGIS layers I'll be working with:
+[Get the trail map data pack](https://github.com/umass-gis/workshops/blob/main/content/static-map/data/trailmap_datapack_march2023.zip){: .btn .btn-primary}
+
+This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
+
+If you prefer to work with the original (state-wide) datasets, these are the MassGIS layers I used to make the data pack:
 
 * [DCR trails and points of interest](https://www.mass.gov/info-details/massgis-data-department-of-conservation-and-recreation-roads-trails)
 * [Elevation contours (1:5,000)](https://www.mass.gov/info-details/massgis-data-elevation-contours-15000)
 * [Major roads](https://www.mass.gov/info-details/massgis-data-massachusetts-department-of-transportation-massdot-roads)
 * [Boundaries of the state forest](https://www.mass.gov/info-details/massgis-data-protected-and-recreational-openspace)
 
-Additionally, I want a generalized outline of Massachusetts to show where the park is located. For this, I'll use Natural Earth's large-scale (1:10m) cultural data, admin level 1 (states and provinces):
+And this layer is from Natural Earth's large-scale (1:10m) cultural data, admin level 1 (states and provinces):
 
 * [Outline of Massachusetts](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
-
-Feel free to use your own data, or follow along by downloading the data pack I'm using.
-
-[Get the trail map data pack](https://github.com/umass-gis/workshops/blob/main/content/static-map/data/trailmap_datapack_mar2023.zip){: .btn .btn-primary}
-
-This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
 ---
 ## Style the data in the map viewer
@@ -94,26 +95,71 @@ This link will take you to a page on GitHub. Click the `download` button to save
 ### Step 3: Decide on color and symbology
 {: .no_toc }
 
+After unzipping and adding the shapefiles to QGIS, the hard part begins! Your task is to use all your hard-earned QGIS skills to change the way the data look to reflect their importance.
+
+Quick tips:
+* Add a free basemap (I recommend the **QuickMapServices plugin**) to help situate your viewer.
+* Open each layers' attribute tables to find out what data they contain. Which of these fields might be useful for styling the way the layer looks?
+* Play around with different symbology schemes: single symbol, categorized, graduated, rule-based.
+* Use transparency to decrease the visibility of less important layers.
+* Use custom SVG markers for your point data to make it more unique (I recommend the **Resource Sharing plugin** and the package called **Mapbox's Maki Icons**)
+
+![initial map](media/initial_map.png "What QGIS looks like after adding all the data to the map session")
+
+![styled map](media/styled_map.png "A preliminary map after adjusting color, symbology, and custom SVG markers")
 
 ### Step 4: Decide on fonts and use labels to highlight important features
 {: .no_toc }
 
+All facets of labels can be adjusted in the `Labels` menu. These are the submenus I like to experiment with:
+* **Text**: where to change the Font, Style, Size, and Color
+* **Buffer**: enabling a buffer draws a white (or other color of your choice) blob behind the text, which can help the text stand out from the background
+* **Shadow**: sometimes a drop shadow does a better job of helping your text stand out
+* **Placement**: use the "Curved" mode for wavy lines, like roads or rivers; you can also change allowed positions and offset from the feature
+* **Rendering**: in the section "Feature options", the "Merge connected lines to avoid duplicate labels" is helpful for layers like our trails data that have lots of line segments for each trail
+
+![labels menu](media/labels_menu.png "The Labels menu for a feature layer")
+
+What if your labels overlap another feature in the map? Open the *overlapped feature's label menu* and select "Blocking" from the drop-down menu, then increase the obstacle weight. The higher the weight, the less likely labels from another feature will overlap it.
+
+![obstacle weight](media/blocking.png "Setting the obstacle weight for an overlapped feature")
+
+Ta da! We now have a preliminary map with fun colors, symbology that helps the reader understand some features as more important, and labels for important trails.
+
+![map with labels](media/map_with_labels.png "The preliminary map, now with labels added to my favorite trail and the main road to get to the parking area")
 
 ---
 ## Compose the map in Print Layout
 
-### Step 5: Add the map frame
+### Step 5: Launch Print Layout
 {: .no_toc }
 
-### Step 6:  Include important map elements
+* To start creating a map, open the Layout Manager (Project > Layout Manager).
+* Click "Create".
+* Enter a name for your new map layout, then click "OK".
+
+You can create as many different layouts as you like in each QGIS project. Return to the Layout Manager anytime you want to open or create a different layout.
+{: .note}
+
+Set the page size:
+* In the panel on the right, navigate to the "Item Properties" tab
+* Change the size to a default option (like "Letter" for the US standard 8.5" x 11") or select "Custom" and set your own measurements.
+
+### Step 6: Add the map frame and important elements
 {: .no_toc }
 
-Title
-Scale   
-Direction       
-Legend             
-Data sources    
-Locator or inset maps
+These are the buttons I use most often when creating a map in QGIS:
+
+![buttons for adding map elements](media/map_buttons.png "Explanation of the buttons along the left side of the QGIS Print Layout")
+
+As you begin adding the map frame and other elements, remember to position them to maximize optical center and natural eye movement. Elements you might want to add:
+
+* Title
+* Scale   
+* Direction       
+* Legend             
+* Data sources    
+* Locator or inset maps
 
 ---
 ## Assess and revise

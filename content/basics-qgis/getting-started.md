@@ -69,6 +69,7 @@ The toolbars are the fun part of QGIS, giving you quick access to lots of tools 
 * Attributes toolbar
 * Manage Layers toolbar
 * Map Navigation toolbar
+* Selection toolbar
 * Project toolbar
 
 ---

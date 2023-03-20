@@ -1,0 +1,89 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.4-Bia?owie?a">
+  <identifier>DCR_ROADS_TRAILS_PT</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>DCR Roads and Trails (Points)</title>
+  <abstract>This dataset represents all point features identified along roads and trails on Massachusetts Department of Conservation and Recreation - Division of State Parks and Recreation properties (as well as some of the Urban Parks - eventually all of these properties will be integrated into this dataset). Field work was conducted during the years 2005 to 2015 by independent contractors and DCR staff. Thirty two types of point features were identified as were numerous attributes specific to that point feature but only 20 of them are included in this release as the other 12 point types are for internal use only. 
+This updates the dataset released by MassGIS on 3/18/2014.
+
+This dataset is intended to give an approximation of point information and condition as of the date of the actual fieldwork. GPS units were used that were capable of 2 meter accuracy with post processing.
+
+This dataset represents all point features identified along legal and official roads and trails on Massachusetts Department of Conservation and Recreation - Division of State Parks and Recreation properties. Field work was conducted during the years 2005 to 2013 by independent contractors and DCR staff. Thirty two types of point features were identified as were numerous attributes specific to that point feature.
+
+This dataset is intended to give an approximatation of point information and condition as of the date of the actual fieldwork. GPS units were used that were capable of 2 meter accuracy with post processing.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>structure</keyword>
+    <keyword>location</keyword>
+    <keyword>transportation</keyword>
+    <keyword>DCR Roads Trails Points</keyword>
+    <keyword>society</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>DCR Roads Trails Points</keyword>
+    <keyword>DCR Roads Trails Points</keyword>
+    <keyword>DCR Roads Trails Points</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address></address>
+      <city></city>
+      <administrativearea></administrativearea>
+      <postalcode></postalcode>
+      <country></country>
+    </contactAddress>
+    <name>David Goodwin</name>
+    <organization>Department of Conservation and Recreation, Division of State Parks and Recreation, Management Forestry Program</organization>
+    <position></position>
+    <voice>413 545-5748</voice>
+    <fax></fax>
+    <email>David.Goodwin@state.ma.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <contact>
+    <name>Department of Conservation and Recreation, Division of State Parks and Recreation, Management Forestry Program</name>
+    <organization>Department of Conservation and Recreation, Division of State Parks and Recreation, Management Forestry Program</organization>
+    <position></position>
+    <voice>413 545-5748</voice>
+    <fax></fax>
+    <email>David.Goodwin@state.ma.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <fees></fees>
+  <constraints type="Limitations of use">None</constraints>
+  <constraints type="Access">None</constraints>
+  <rights>Department of Conservation and Recreation, Division of State Parks and Recreation, Management Forestry Program</rights>
+  <rights>None</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>PROJCRS["NAD83 / Massachusetts Mainland",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["SPCS83 Massachusetts Mainland zone (meters)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",41,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-71.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",42.6833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",41.7166666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",200000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",750000,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester."],BBOX[41.46,-73.5,42.89,-69.86]],ID["EPSG",26986]]</wkt>
+      <proj4>+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=42.6833333333333 +lat_2=41.7166666666667 +x_0=200000 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2357</srsid>
+      <srid>26986</srid>
+      <authid>EPSG:26986</authid>
+      <description>NAD83 / Massachusetts Mainland</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:26986" maxz="0" dimensions="2" minx="-73.54162900000000036" minz="0" maxy="42.84137100000000231" maxx="-69.95720199999999522" miny="41.24927900000000136"/>
+    <temporal>
+      <period>
+        <start>2014-03-17T04:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

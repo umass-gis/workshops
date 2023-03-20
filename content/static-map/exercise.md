@@ -51,17 +51,18 @@ You want to:
 ### Step 1. Determine the scope and focus of the map
 {: .no_toc }
 
+<br>
 **Q: What kind of information will the map show?**
-You'll need the official DCR trails and points of interest, elevation contours, major roads, the boundaries of the state forest, and an outline of Massachusetts to show where the park is located.
+<br>You'll need the official DCR trails and points of interest, elevation contours, major roads, the boundaries of the state forest, and an outline of Massachusetts to show where the park is located.
 
 **Q: Who is your intended audience?**
-Your hiking companions - this isn't an official map, just something fun.
+<br>Your hiking companions - this isn't an official map, just something fun.
 
 **Q: How will the map be shared - as an image, PDF, printout, etc.?**
-You'll print out copies of the map so that your hiking buddies can reference them without needing to use their cell phones. You should save the map as a PDF so you can print it.
+<br>You'll print out copies of the map so that your hiking buddies can reference them without needing to use their cell phones. You should save the map as a PDF so you can print it.
 
 **Q: What scale is appropriate for this topic?**
-The map should be zoomed in to the specific trails you'll be following. The official DCR map is at a smaller scale (i.e. it's more zoomed out) than you'd like.
+<br>The map should be zoomed in to the specific trails you'll be following. The official DCR map is at a smaller scale (i.e. it's more zoomed out) than you'd like.
 
 ### Step 2: Get the Data
 {: .no_toc }
@@ -71,13 +72,13 @@ Now that you know what you want to map, you'll need to find the data. Since the 
 These are the MassGIS layers I'll be working with:
 
 * [DCR trails and points of interest](https://www.mass.gov/info-details/massgis-data-department-of-conservation-and-recreation-roads-trails)
-* [Elevation contours (1 to 5,000)](https://www.mass.gov/info-details/massgis-data-elevation-contours-15000)
+* [Elevation contours (1:5,000)](https://www.mass.gov/info-details/massgis-data-elevation-contours-15000)
 * [Major roads](https://www.mass.gov/info-details/massgis-data-massachusetts-department-of-transportation-massdot-roads)
 * [Boundaries of the state forest](https://www.mass.gov/info-details/massgis-data-protected-and-recreational-openspace)
 
 Additionally, I want a generalized outline of Massachusetts to show where the park is located. For this, I'll use Natural Earth's large-scale (1:10m) cultural data, admin level 1 (states and provinces):
 
-* [Outline of Massachuetts](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+* [Outline of Massachusetts](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
 
 Feel free to use your own data, or follow along by downloading the data pack I'm using.
 

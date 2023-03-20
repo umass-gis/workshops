@@ -11,6 +11,9 @@ nav_order: 3
 Practice designing a static map in QGIS
 {: .fs-6 .fw-300 }
 
+This tutorial was put together on a Mac using QGIS 3.22.4-Białowieża, so if you install a different version (or are a Windows user) things might look a little different.
+{: .note}
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -24,13 +27,13 @@ Practice designing a static map in QGIS
 
 ## Overview
 
-In this exercise, I'll create a map following the [How to Design Your Own Map](/map-design/#how-to-design-your-own-map) guide, answering each question one-by-one. You can watch the workshop recording if you would like to follow along with the demo.
+In this exercise, I'll create a map following the [How to Design Your Own Map](/map-design/#how-to-design-your-own-map) guide. You can watch the workshop recording if you would like to follow along with the demo.
 
 ### Resources to check out
 {: .no_toc }
 
 * Ujaval Gandhi's [Making a Map (QGIS3)](https://www.qgistutorials.com/en/docs/3/making_a_map.html) is an excellent step-by-step tutorial that you can follow along using the data from this workshop.
-* The QGIS Training Manual's module on [Laying out the Maps](https://docs.qgis.org/3.22/en/docs/training_manual/map_composer/index.html) has a series of follow-along exercises showing how to create a map.
+* The QGIS Training Manual's module on [Laying out the Maps](https://docs.qgis.org/3.28/en/docs/training_manual/map_composer/index.html) has a series of follow-along exercises showing how to create a map.
 
 ---
 ## Decide what you want to map
@@ -63,11 +66,27 @@ The map should be zoomed in to the specific trails you'll be following. The offi
 ### Step 2: Get the Data
 {: .no_toc }
 
-Now that you know what you want to map, you'll need to find the data you need.
+Now that you know what you want to map, you'll need to find the data. Since the map I'm creating is about park and trails managed by the Massachusetts Department of Conservation and Recreation, it makes sense to look for the data on the state's GIS portal, [MassGIS](https://www.mass.gov/orgs/massgis-bureau-of-geographic-information).
 
+These are the MassGIS layers I'll be working with:
+
+* [DCR trails and points of interest](https://www.mass.gov/info-details/massgis-data-department-of-conservation-and-recreation-roads-trails)
+* [Elevation contours (1 to 5,000)](https://www.mass.gov/info-details/massgis-data-elevation-contours-15000)
+* [Major roads](https://www.mass.gov/info-details/massgis-data-massachusetts-department-of-transportation-massdot-roads)
+* [Boundaries of the state forest](https://www.mass.gov/info-details/massgis-data-protected-and-recreational-openspace)
+
+Additionally, I want a generalized outline of Massachusetts to show where the park is located. For this, I'll use Natural Earth's large-scale (1:10m) cultural data, admin level 1 (states and provinces):
+
+* [Outline of Massachuetts](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+
+Feel free to use your own data, or follow along by downloading the data pack I'm using.
+
+[Get the trail map data pack](https://github.com/umass-gis/workshops/blob/main/content/static-map/data/trailmap_datapack_mar2023.zip){: .btn .btn-primary}
+
+This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
 ---
-## Get the map ready in Map Viewer
+## Style the data in the map viewer
 
 ### Step 3: Decide on color and symbology
 {: .no_toc }

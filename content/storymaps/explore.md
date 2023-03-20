@@ -7,7 +7,7 @@ nav_order: 1
 
 # Explore Examples
 
-Get inspired by well-designed storymaps
+Find inspiration from well-designed storymaps
 {: .fs-6 .fw-300 }
 
 StoryMaps are a creative, web-based platform for telling stories. They are inherently interactive, allowing users to scroll, click, and explore different media elements. StoryMaps aren't just about maps... you can also include photos, videos, sound recordings, embedded websites and YouTube videos, etc.

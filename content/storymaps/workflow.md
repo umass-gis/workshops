@@ -7,7 +7,7 @@ nav_order: 2
 
 # Understand the Workflow
 
-Creating an engaging StoryMap starts with a solid plan about the story you want to tell
+Create an engaging StoryMap about the story you want to tell
 {: .fs-6 .fw-300 }
 
 **Step 1: Outline the story**

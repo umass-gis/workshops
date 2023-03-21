@@ -94,9 +94,7 @@ The groups below are my personal opinions about what is most important to includ
 
 Although it may seem counter-intuitive, the geometric center of a map is *not* the first place a viewer tends to look. Instead, the "optical center" is situated slightly above this point. This is where your most important content should be placed.
 
-![optical center of a map](media/map_center.PNG "Illustration of the optical center of a map, slightly above the geometric center")
-
-<img src="media/map_center.PNG" alt="Illustration of the optical center of a map, slightly above the geometric center" width="60%">
+<img src="media/map_center.PNG" alt="Illustration of the optical center of a map, slightly above the geometric center" width="80%">
 
 
 Another concept to keep in mind is that many viewers will naturally shift their gaze from the upper-left part of a map, through the optical center, and then down to the lower-right. (It's worth noting this is related to the direction that the viewer reads text, so if they speak a language that is read right-to-left, the direction would be reversed.) Content should ideally follow this direction of movement.

@@ -193,7 +193,7 @@ If you answer "no" or even "I'm not sure" to any of these questions, think of ho
 
 In the top menu bar, click one of the buttons for `Export as image`, `Export as SVG`, or `Export as PDF`.
 
-![exported map](media/map_export.png "Final map exported as a JPG from the Print Layout")
+![exported map](media/map_export.jpg "Final map exported as a JPG from the Print Layout")
 
 ### Step 9: Revel in your new map
 {: .no_toc }

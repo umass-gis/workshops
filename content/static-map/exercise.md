@@ -29,7 +29,7 @@ This tutorial was put together on a Mac using QGIS 3.22.4-Białowieża, so if yo
 
 In this exercise, I'll create a map following the [How to Design Your Own Map](./map-design.html#how-to-design-your-own-map) guide. You can watch the workshop recording if you would like to follow along with the demo.
 
-### Resources to check out
+### Other resources to check out
 {: .no_toc }
 
 * Ujaval Gandhi's [Making a Map (QGIS3)](https://www.qgistutorials.com/en/docs/3/making_a_map.html) is an excellent step-by-step tutorial that you can follow along using the data from this workshop.
@@ -40,10 +40,10 @@ In this exercise, I'll create a map following the [How to Design Your Own Map](.
 
 Imagine you are organizing a hike in your favorite spot, Erving State Forest. The forest is run by the MA Department of Conservation and Recreation (DCR), who make very lovely trail maps. The official DCR trail map for Erving State Forest is available [online](https://www.mass.gov/locations/erving-state-forest).
 
-#### Official DCR trail map of Erving State Forest
+### DCR trail map of Erving State Forest
 {: .no_toc }
 
-![Erving State Forest trail map](media/erving_state_forest_trailmap.PNG "Official MA DCR Erving State Forest trail map")
+<img src="media/erving_state_forest_trailmap.PNG" alt="Official MA DCR Erving State Forest trail map" width="80%">
 
 There are some things about this map that you’d like to change to make it easier for you and your companions to navigate the intricate trail system in the park.
 
@@ -97,16 +97,16 @@ And this layer is from Natural Earth's large-scale (1:10m) cultural data, admin 
 
 After unzipping and adding the shapefiles to QGIS, the hard part begins! Your task is to use all your hard-earned QGIS skills to change the way the data look to reflect their importance.
 
-Quick tips:
+![initial map](media/initial_map.png "What QGIS looks like after adding all the data to the map session")
+
+**Quick tips:**
 * Add a free basemap (I recommend the **QuickMapServices plugin**) to help situate your viewer.
 * Open each layers' attribute tables to find out what data they contain. Which of these fields might be useful for styling the way the layer looks?
 * Play around with different symbology schemes: single symbol, categorized, graduated, rule-based.
 * Use transparency to decrease the visibility of less important layers.
 * Use custom SVG markers for your point data to make it more unique (I recommend the **Resource Sharing plugin** and the package called **Mapbox's Maki Icons**)
 
-![initial map](media/initial_map.png "What QGIS looks like after adding all the data to the map session")
-
-![styled map](media/styled_map.png "A preliminary map after adjusting color, symbology, and custom SVG markers")
+![styled map](media/styled_map_2.png "A preliminary map after adjusting color, symbology, and custom SVG markers")
 
 ### Step 4: Decide on fonts and use labels to highlight important features
 {: .no_toc }
@@ -126,7 +126,7 @@ What if your labels overlap another feature in the map? Open the *overlapped fea
 
 Ta da! We now have a preliminary map with fun colors, symbology that helps the reader understand some features as more important, and labels for important trails.
 
-![map with labels](media/map_with_labels.png "The preliminary map, now with labels added to my favorite trail and the main road to get to the parking area")
+![map with labels](media/map_with_labels_2.png "The preliminary map, now with labels added to my favorite trail and the main road to get to the parking area")
 
 ---
 ## Compose the map in Print Layout
@@ -134,9 +134,10 @@ Ta da! We now have a preliminary map with fun colors, symbology that helps the r
 ### Step 5: Launch Print Layout
 {: .no_toc }
 
-* To start creating a map, open the Layout Manager (Project > Layout Manager).
-* Click "Create".
-* Enter a name for your new map layout, then click "OK".
+Create a new map:
+* Open the Layout Manager (Project > Layout Manager)
+* Click "Create"
+* Enter a name for your new map layout, then click "OK"
 
 You can create as many different layouts as you like in each QGIS project. Return to the Layout Manager anytime you want to open or create a different layout.
 {: .note}
@@ -150,7 +151,15 @@ Set the page size:
 
 These are the buttons I use most often when creating a map in QGIS:
 
-![buttons for adding map elements](media/map_buttons.png "Explanation of the buttons along the left side of the QGIS Print Layout")
+![buttons for adding map elements](media/map_buttons_2.png "Explanation of the buttons along the left side of the QGIS Print Layout")
+
+To add the map frame, click the `Add Map` button and draw a rectangle on the canvas where you want the map frame to go. The map you were working on automatically loads in the frame.
+
+![adding the map frame](media/add_map.png "Print Layout after adding the map frame")
+
+**Quick tips:**
+* If you select an element and open the "Item Properties" tab, there are endless things you can change about the item. For maps, this includes the CRS, a grid, a frame outline.
+* Checking the option for `Lock layers` prevents any changes you make in QGIS from updating in your map layout. **Use this feature often and wisely**.
 
 As you begin adding the map frame and other elements, remember to position them to maximize optical center and natural eye movement. Elements you might want to add:
 
@@ -160,6 +169,9 @@ As you begin adding the map frame and other elements, remember to position them 
 * Legend             
 * Data sources    
 * Locator or inset maps
+
+![adding other map elements](media/map_with_elements.png "Print Layout after adding other map elements")
+
 
 ---
 ## Assess and revise
@@ -179,7 +191,9 @@ If you answer "no" or even "I'm not sure" to any of these questions, think of ho
 ### Step 8: Export the map
 {: .no_toc }
 
+In the top menu bar, click one of the buttons for `Export as image`, `Export as SVG`, or `Export as PDF`.
 
+![exported map](media/map_export.png "Final map exported as a JPG from the Print Layout")
 
 ### Step 9: Revel in your new map
 {: .no_toc }

@@ -28,7 +28,7 @@ This page gives an overview of key concepts to keep in mind when designing a map
 If you want to learn more about map design, I recommend exploring these resources:
 * The State of Minnesota’s page on [Map Design](https://mn.gov/mnit/about-mnit/accessibility/maps/design.jsp) includes a Map Design Quick Card (PDF) and a full Map Design Guide (PDF) to help ensure your map is well-designed and accessible.
 * The State of Minnesota also has a page on [Static Digital Maps](https://mn.gov/mnit/about-mnit/accessibility/maps/static.jsp) with advice for designing maps destined to be exported as JPGs or PDFs.
-* Dent, Borden D., Jeffrey S. Torguson, and Thomas W. Hodler. 2009. *Cartography: Thematic Map Design*. Sixth ed. Boston: McGraw Hill Higher Education.
+* Dent, Borden D., Jeffrey S. Torguson, and Thomas W. Hodler. 2009. *Cartography: Thematic Map Design*. Sixth ed. Boston: McGraw Hill Higher Education. [View in WorldCat](https://www.worldcat.org/title/cartography-thematic-map-design/oclc/848942459).
 
 ---
 ## How to Design Your Own Map

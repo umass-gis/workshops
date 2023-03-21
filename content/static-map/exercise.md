@@ -58,7 +58,7 @@ You want to:
 
 <br>
 **Q: What kind of information will the map show?**
-<br>You'll need the official DCR trails and points of interest, elevation contours, major roads, the boundaries of the state forest, and an outline of Massachusetts to show where the park is located.
+<br>You'll need the official DCR trails and points of interest, elevation contours, the boundaries of the state forest, and an outline of Massachusetts to show where the park is located.
 
 **Q: Who is your intended audience?**
 <br>Your hiking companions - this isn't an official map, just something fun.
@@ -74,7 +74,7 @@ You want to:
 
 Now that you know what you want to map, you'll need to find the data. Since the map I'm creating is about park and trails managed by the Massachusetts Department of Conservation and Recreation, it makes sense to look for the data on the state's GIS portal, [MassGIS](https://www.mass.gov/orgs/massgis-bureau-of-geographic-information). Additional helpful data can be found on [Natural Earth](https://www.naturalearthdata.com/).
 
-[Get the trail map data pack](https://github.com/umass-gis/workshops/blob/main/content/static-map/data/trailmap_datapack_march2023.zip){: .btn .btn-primary}
+[Get the trail map data pack](https://github.com/umass-gis/workshops/blob/main/content/static-map/data/trailmap_datapack_032023.zip){: .btn .btn-primary}
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
@@ -82,7 +82,6 @@ If you prefer to work with the original (state-wide) datasets, these are the Mas
 
 * [DCR trails and points of interest](https://www.mass.gov/info-details/massgis-data-department-of-conservation-and-recreation-roads-trails)
 * [Elevation contours (1:5,000)](https://www.mass.gov/info-details/massgis-data-elevation-contours-15000)
-* [Major roads](https://www.mass.gov/info-details/massgis-data-massachusetts-department-of-transportation-massdot-roads)
 * [Boundaries of the state forest](https://www.mass.gov/info-details/massgis-data-protected-and-recreational-openspace)
 
 And this layer is from Natural Earth's large-scale (1:10m) cultural data, admin level 1 (states and provinces):
@@ -193,9 +192,9 @@ If you answer "no" or even "I'm not sure" to any of these questions, think of ho
 
 In the top menu bar, click one of the buttons for `Export as image`, `Export as SVG`, or `Export as PDF`.
 
-![exported map](media/map_export.jpg "Final map exported as a JPG from the Print Layout")
+![exported map](media/friends_trailmap.jpg "Final map exported as a JPG from the Print Layout")
 
 ### Step 9: Revel in your new map
 {: .no_toc }
 
-Congratulations! Click the URL on the GitHub Pages site and check out your web map!
+Congratulations! Now you can share your map by printing it out, emailing it, or texting it to your hiking buddies.

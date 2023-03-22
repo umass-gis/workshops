@@ -17,6 +17,13 @@ Learn how to create a visually appealing map that you can print out or export us
 This workshop is geared toward folks with a basic understanding of GIS concepts. If you need help getting started with QGIS, check out the [Learn the Basics of QGIS](../basics-qgis) tutorial first.
 
 ---
+
+## Watch the workshop
+Click the link below to watch a recording of this workshop on YouTube:
+
+**[Full workshop - March 21, 2023](https://youtu.be/sD93_VGVXzs)**
+
+---
 ## Workshop outline
 
 This workshop is designed to just over an hour as a live demonstration.

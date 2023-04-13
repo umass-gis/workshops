@@ -9,15 +9,6 @@ has_children: false
 # Zipping and Unzipping Files
 {: .no_toc }
 
-Zip files act like folders and may contain one or more compressed files. To access and use the files, the zip file must be “unzipped”. When creating a zip file, multiple files are combined into one .zip file, and the overall file size is reduced. Creating a ZIP file is helpful when you need to:
-* Share more than one or two files with someone (over email, OneDrive, Google Drive, etc.)
-* Reduce the total size of an email attachment
-* Share a shapefile (since a shapefile is actually made up of multiple files)
-* Backup a folder to save in OneDrive or Google Drive
-{: .fs-5 .fw-300 }
-
-
-
 <details open markdown="block">
   <summary>
     Table of contents
@@ -26,6 +17,13 @@ Zip files act like folders and may contain one or more compressed files. To acce
 1. TOC
 {:toc}
 </details>
+
+Zip files act like folders and may contain one or more compressed files. To access and use the files, the zip file must be “unzipped”. When creating a zip file, multiple files are combined into one .zip file, and the overall file size is reduced. Creating a ZIP file is helpful when you need to:
+* Share more than one or two files with someone (over email, OneDrive, Google Drive, etc.)
+* Reduce the total size of an email attachment
+* Share a shapefile (since a shapefile is actually made up of multiple files)
+* Backup a folder to save in OneDrive or Google Drive
+{: .fs-5 .fw-300 }
 
 ---
 ## Unzipping Files on Windows

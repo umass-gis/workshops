@@ -81,6 +81,8 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![10!](media/10.png "10")
 
+---
+
 ## Directory Walkthrough - System and Local Domains
 {:toc}
 
@@ -158,6 +160,8 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![25!](media/25.png "25")
 
+---
+
 ## Mac Directories: User Domain and Best Practices for File Management
 
 #### User Domain Introduction
@@ -212,6 +216,8 @@ Within this folder, if you were using your computer for Graduate School, Work, a
 
 Ensure that your directory structures ***makes sense for you, and for how you plan to use your computer***. For example, someone using advanced softwares with large volumes of complex data will need a sophistiated set of directories, whereas simple media files like photos, mudic, and documents, may be stored using more only a few folders. If users neglect to set up directories that align with their computer use, over the weeks and months they may spend ***many hours*** sifting through their files to find the one(s) they need. It is worth it to spend some time creating a logical directory for yourself, and then to continually tinker with and update it as needed. Use short, descriptive file names, and when the file is important, it doesn't hurt to include the date in the the name (e.g. "smith_resume_04_28_23").
 
+---
+
 ## Creating New Folders, Choosing Save Locations, Copying, and Moving Files [[[alternative header?]]]
 
 #### Create New Folders
@@ -240,7 +246,7 @@ Ensure that your directory structures ***makes sense for you, and for how you pl
 
 ![34!](media/34.png "34")
 
-## Create text file and save to new folder
+#### Create text file and save to new folder
 
 35. Open "Applications" from Favorites by single-clicking "Applications"
 
@@ -300,6 +306,8 @@ Your navigation window should now show your User directory and all its subfolder
 Congratulations, you just made and saved a new file to a brand new folder!
 
 ![53!](media/53.png "53")
+
+---
 
 ## Copying, Moving, and Deleting Files  [[[reformat headers here?]]]
 
@@ -394,3 +402,5 @@ A new Finder window will appear, showing the results of your spotlight search.
 54. If you want to know the file path, click the file of interest, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window. You've now searched and located an item using spotlight, congratulations!
 
 ![79!](media/79.png "79")
+
+---

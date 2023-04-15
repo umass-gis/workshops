@@ -27,7 +27,7 @@ Smoothly operating and navigating your computer's file storage system is a funda
 ![file_system_map.png!](media/file_system_map.png "MAC OS System Map")
 [Image: Apple Inc.](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html)
 
- The term "file path" refers to the specific location of a file or folder within the computer's directory. The forward slash "/" symbolizes the base or "root" directory on Mac OS. All absolute file paths begin with "/"; relative file paths may begin further "down" in the directory. For example, the absolute path of "Utilities" is "/Applications/Utilities". "Relative" paths do not list all the folders containing the file or folder of interest, and instead can begin at any of the folders above "/" in the hierarchy. For example, if we were viewing (or "at") the "Applications" folder, and we wanted to write the relative path of the "Utilities" folder from this location, we could leave out the "/" and write the path as "Applications/Utilities"; this would be referred to as a relative path. [[[re-word/clunky, also, technically you just wrote the path to utilities FROM / not from applications, from applications the path is just Utilities...so maybe not a great example. use longer path]]]
+ The term "file path" refers to the specific location of a file or folder within the computer's directory. If you know a file or folder's path, you can navigate to it's location using Finder, or by searching its name. The forward slash "/" symbolizes the hard drive which is the base or "root" directory on Mac OS. Absolute file paths begin with "/", list all child directories, and terminate at the file or folder of interest. Relative file paths are written relative to their enclosing folder, and may begin further "down" in the directory. For example, the absolute path of "hello_world.txt" is "/Users/UMass/Documents/TextFiles2021/hello_world.txt. From "Umass", the relative path would be "Documents/TextFiles2021/hello_world.txt".
 
 With the exception of the Applications folder (in the Local Domain), most users should avoid manipulating any files in the "System" domain, and should only work within the "User" domain.
 
@@ -133,7 +133,7 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![19!](media/19.png "19")
 
-#### Change Details in List View [[["Advanced List View Options"]]]
+#### Change Details/Columns in List View
 {: .no_toc }
 
 21. Once in List view, **select "View" from the finder menu bar**.
@@ -218,7 +218,7 @@ Ensure that your directory structures ***makes sense for you, and for how you pl
 
 ---
 
-## Creating New Folders, Choosing Save Locations, Copying, and Moving Files [[[alternative header?]]]
+## Creating New Folders, Choosing Save Locations, Copying, and Moving Files
 
 #### Create New Folders
 {: .no_toc }
@@ -309,7 +309,7 @@ Congratulations, you just made and saved a new file to a brand new folder!
 
 ---
 
-## Copying, Moving, and Deleting Files  [[[reformat headers here?]]]
+## Copying, Moving, and Deleting Files
 
 #### Selecting Multiple Files
 {: .no_toc }

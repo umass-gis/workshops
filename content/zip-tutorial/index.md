@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Zip/Unzip Tutorials
-description: "Zip/Unzip Tutorials"
-nav_order: 8
+title: Zip & Unzip Tutorials
+description: "Zip & We Unzip Tutorials"
+nav_order: 9
 has_children: false
 ---
 

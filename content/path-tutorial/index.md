@@ -2,11 +2,11 @@
 layout: default
 title: Understanding Directories (Mac OS)
 description: "Saving, Locating, Organizing, Moving, and Deleting Files"
-nav_order: 9
+nav_order: 10
 has_children: false
 ---
 
-# Introduction to Directories
+# Introduction
 {: .no_toc }
 
 <details open markdown="block">
@@ -22,7 +22,7 @@ has_children: false
 
 Note: This tutorial was created on Mac OS Ventura. Depending on your specific operating system, some options may appear differently on your machine, but the general processes should be similar if not the same.
 
-Smoothly operating and navigating your computer's file storage system is a fundamental skill for anyone who works with or uses computers. On Mac OS, the hierarchical (or "nested") file system has three basic domains, Local, System, and User.
+Smoothly operating and navigating your computer's file storage system is a fundamental skill for anyone who uses computers. On Mac OS, the hierarchical (or "nested") file system has three basic domains, Local, System, and User.
 
 ![file_system_map.png!](media/file_system_map.png "MAC OS System Map")
 [Image: Apple Inc.](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html)
@@ -33,86 +33,86 @@ With the exception of the Applications folder (in the Local Domain), most users 
 
 Follow the tutorial below for a step by step tour of your computer's directories, and for demonstrations on how to:
 
-* navigate finder
+* navigate Finder
 * create folders
 * save and copy files
 * move and manage multiple files
 * delete files
-* Use Spotlight to search your entire computer  
+* use Spotlight to search your entire computer  
 
 ---
-## Basics of "Finder"
+## View Options
 {:toc}
 
-1. Open the Finder application by clicking any blank area on the Desktop.
-2. From the Menu bar, select **Go**
+**1.**  Open the Finder application by clicking any blank area on the Desktop.
+**2.**  From the Menu bar, select **Go**
 
 ![1!](media/1.png "1")
 
-3. From the dropdown menu, select **Computer**
+**3.** From the dropdown menu, select **Computer**
 
 ![2!](media/2.png "2")
 
-#### Basic View Options
-
-4. A new finder window will appear, showing "Macintosh HD", and "Network" icons. Currently, the finder window is set to display items in "icon" view, indicated by the four small highlighted boxes at the top of the finder window.
+**4.** A new finder window will appear, showing "Macintosh HD", and "Network" icons. Currently, the finder window is set to display items in "icon" view, indicated by the four small highlighted boxes at the top of the finder window.
 
 ![3!](media/3.png "3")
 
-5. To toggle to "list" view, **select the symbol with the three small horizontal lines**. Notice that now, columns titled "Date Modified", "Date", and "Kind" have appeared. This is an excellent view option if you have many items in a folder and want to organize or view them with a little more detail. These view options are also available from the Finder Menu bar, under "View"
+**5.** To toggle to "list" view, **select the symbol with the three small horizontal lines**. Notice that now, columns titled "Date Modified", "Date", and "Kind" have appeared. This is an excellent view option if you have many items in a folder and want to organize or view them with a little more detail. These view options are also available from the Finder Menu bar, under "View"
 
 ![4!](media/4.png "4")
 
-6. To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Mac OS's nested file structure. Once a directory is selected, users may navigate by using their cursor and clicking, or by using their directional arrow keys.
+**6.** To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Mac OS's nested file structure. Once a directory is selected, users may navigate by using their cursor and clicking, or by using their directional arrow keys.
 
 ![5!](media/5.png "5")
 
-7. A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
+**7.** A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
 
 ![6!](media/6.png "6")
 
-8. At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
+**8.** At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
 
 ![8!](media/8.png "8")
 
-9. To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
+**9.** To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
 
 ![9!](media/9.png "9")
 
-10. From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
+**10.** From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
 
 ![10!](media/10.png "10")
 
-### Mac Directories - System and Local Domains
+## Directory Walkthrough - System and Local Domains
 {:toc}
 
-##### Macintosh HD (Hard Drive) "/"
+#### Macintosh HD (Hard Drive) "/"
+{: .no_toc }
 
-12. **Double-click "Macintosh HD"**.
+**12.** **Double-click "Macintosh HD"**.
 
 ![11!](media/11.png "11")
 
-13. This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
+**13.** This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
 
 ![12!](media/12.png "12")
 
-##### Library
-
-14. **Double-click the Library folder**, but do not make any changes to this folder.
+#### Library
+{: .no_toc }
+**14.** **Double-click the Library folder**, but do not make any changes to this folder.
 
 ![13!](media/13.png "13")
 
-15. **IMPORTANT NOTE** Unless you are advnised by an Apple representative, or someone with an extremely high level of technical knowledge, **never add, delete, manipulate or change in any way, any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
+**15.** **IMPORTANT NOTE** Unless you are advnised by an Apple representative, or someone with an extremely high level of technical knowledge, **never add, delete, manipulate or change in any way, any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
 
 ![14!](media/14.png "14")
 
-16. In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". The right-facing arrow will navigate "forward" to the next "child" or subdirectory we had selected.
+**16.** In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". The right-facing arrow will navigate "forward" to the next "child" or subdirectory we had selected.
 
 ![15!](media/15.png "15")
 
-##### Applications
+#### Applications
+{: .no_toc }
 
-17. From "Macintosh HD" **Double-click the "Applications" folder**.
+**17.** From "Macintosh HD" **Double-click the "Applications" folder**.
 
 ![16!](media/16.png "16")
 
@@ -120,7 +120,8 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![17!](media/17.png "17")
 
-##### "Favorites" bar (quick access)
+#### "Favorites" bar (quick access)
+{: .no_toc }
 
 19. On the left-hand side of all finder windows, underneath the red, yellow, and green buttons, several "Favorite" directory locations appear in blue text. Users can also access the "Applications" folder by **clicking "Applications"** from Favorites.
 
@@ -130,7 +131,8 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![19!](media/19.png "19")
 
-##### Change Details in List View [[["Advanced List View Options"]]]
+#### Change Details in List View [[["Advanced List View Options"]]]
+{: .no_toc }
 
 21. Once in List view, **select "View" from the finder menu bar**.
 
@@ -156,9 +158,11 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![25!](media/25.png "25")
 
-### Mac Directories: User Domain and Best Practices for File Management
+## Mac Directories: User Domain and Best Practices for File Management
 
-##### User Domain Introduction
+#### User Domain Introduction
+{: .no_toc }
+
 With the exception of Applications, the default save location for all files in a Mac enviornment is within the Users domain. (It is useful to store applications in the "Applications" folder within the system domain; this enables applications to be run from any new/additional user accounts you create). Other than applications, all files should be carefully organized within the User domain.   
 
 27. To examine the set of User directories, open Macintosh HD and **double-click the folder of the user you are currently logged in to.** You will be able to tell which user you are in because the current User folder will have a small "Home" or "House" symbol on it. If you have any doubt about which User account you are currently in, click the apple-shaped icon in the upper left corner of the screen, and look at the bottom "log out of..." text. What follows "log out of..." will be the name of your current user.
@@ -169,8 +173,12 @@ With the exception of Applications, the default save location for all files in a
 
 ![27!](media/27_download.png "27")
 
-##### File Management Best Practices
-29. In order to simplify file paths and make your directories easier to navigate, we suggest that you use "Documents" as the main folder in which all other files and folders are kept. Double-click "Documents" to view this directory.
+#### File Management Best Practices
+{: .no_toc }
+
+**Important note:** All files should periodically be backed up ("copied") to an external hard drive. Particularly important files and folders should also be backed up to the Cloud. In general, weekly updates should suffice. Check out [Time Machine, Apple's native back-up software.](https://support.apple.com/en-us/HT201250) to automatically back up all user settings, applications, data, files, and folders, every time you connect your external drive.
+
+29. In order to simplify file paths and make your directories easier to navigate, we suggest that you use "Documents" as the main folder in which all other files and folders are kept. **Double-click "Documents" to view this directory.**
 
 ![29!](media/29.png "29")
 
@@ -202,11 +210,12 @@ Within this folder, if you were using your computer for Graduate School, Work, a
  - Modeling_data
  - Data_Documentation
 
-The most important part of setting up directories is ensuring that the system ***makes sense for you*** considering how you plan to use your computer and the files on it. For example, if you don't keep music on your computer, there is no need for a folder (or some complex of subfolders) for Music. If you are an accountant and have hundreds of clients, and tax information for each client, for each quarter, you may need to carefully craft a directory with many subfolders to store this information in a way that minimizes the effort needed to retrieve necessary information. If users neglect to set up sensible directories, they may spend ***a lot*** of time sifting through all their files in an attempt to find the one(s) they need. It is worth it to spend some time creating a logical directory for yourself, and then to continually tinker with and update it as needed to ensure smooth operation.
+Ensure that your directory structures ***makes sense for you, and for how you plan to use your computer***. For example, someone using advanced softwares with large volumes of complex data will need a sophistiated set of directories, whereas simple media files like photos, mudic, and documents, may be stored using more only a few folders. If users neglect to set up directories that align with their computer use, over the weeks and months they may spend ***many hours*** sifting through their files to find the one(s) they need. It is worth it to spend some time creating a logical directory for yourself, and then to continually tinker with and update it as needed. Use short, descriptive file names, and when the file is important, it doesn't hurt to include the date in the the name (e.g. "smith_resume_04_28_23").
 
-### Creating New Folders, Choosing Save Locations, Copying, and Moving Files [[[alternative header?]]]
+## Creating New Folders, Choosing Save Locations, Copying, and Moving Files [[[alternative header?]]]
 
-##### Create New Folders
+#### Create New Folders
+{: .no_toc }
 
 30. While in the documents folder (or with the Documents folder selected), click "File" from the menu bar.
 
@@ -220,7 +229,8 @@ The most important part of setting up directories is ensuring that the system **
 
 ![32!](media/32.png "32")
 
-##### Rename Folders
+#### Rename Folders
+{: .no_toc }
 
 33. With the Untitled Folder highlighted, **press "Enter" on the keyboard to select the text.** The text should now appear highlighted. Rename the file to "a_new_folder", and press enter on the keyboard.
 
@@ -230,7 +240,7 @@ The most important part of setting up directories is ensuring that the system **
 
 ![34!](media/34.png "34")
 
-##### Create text file and save to new folder
+## Create text file and save to new folder
 
 35. Open "Applications" from Favorites by single-clicking "Applications"
 
@@ -252,7 +262,8 @@ The most important part of setting up directories is ensuring that the system **
 
 ![39!](media/39.png "39")
 
-##### Save work to a specific folder/location
+#### Save work to a specific folder/location
+{: .no_toc }
 
 40. With your changed Text Edit window open, **select "File" from the menu bar**.
 
@@ -290,9 +301,10 @@ Congratulations, you just made and saved a new file to a brand new folder!
 
 ![53!](media/53.png "53")
 
-### Copying, Moving, and Deleting Files  [[[reformat headers here?]]]
+## Copying, Moving, and Deleting Files  [[[reformat headers here?]]]
 
-##### Selecting Multiple Files
+#### Selecting Multiple Files
+{: .no_toc }
 
 Note: Multiple files may be copied, moved, or deleted at once.
 
@@ -312,7 +324,8 @@ To select multple files in list or column view, highlight the first file by sing
 
 ![65!](media/65.png "65")
 
-##### Copy Files
+#### Copy Files
+{: .no_toc }
 
 46. **Right-click your file and select "Copy" from the dropdown menu.**
 
@@ -328,13 +341,15 @@ A new copy of your file should be added to the directory.
 
 ![68!](media/68.png "68")
 
-##### Move Files
+#### Move Files
+{: .no_toc }
 
 48. **Click and drag the copied file into the new folder.** (To click and drag: Hover over the file of interest, depress the left-click, and then without releasing, move the cursor--the file will move with the cursor--and release the mouse button/trackpad button when you are hovering over the new save location). Note: files may be copied or moved into folders directly, it is not necessary to open a new window with the folder you'd like to save to, you may drop directly into the folder icon and the files will be added to that directory.
 
 ![69!](media/69.png "69")
 
-##### Delete Files
+#### Delete Files
+{: .no_toc }
 
 49. Right-click the file you wish to delete, and **click "Move to Trash" from the dropdown menu.**
 
@@ -344,11 +359,13 @@ A new copy of your file should be added to the directory.
 
 ![71!](media/71.png "71")
 
-### Spotlight
+#### Spotlight
+{: .no_toc }
 
 You may search all your files, applications, and folders directly by typing search terms into Spotlight. You may search for file types by typing the file extension in (e.g. .png, .docx, .xlsx., etc.), and all files with that type will be shown. Similarly, searching for "Documents", will return not only the folder(s) called "Documents", but also any files containing the word "documents". This can be useful for finding files where you know some of the contents, but not the file name itself. For example, if you had a word document that included in its body "Roses are red, violets are blue", but the file was named "Untitled_document" and you were unaware of its location, you could search "Roses are red, violets are blue" and Spotlight will search through your computer, find any documents that include that exact text, and will show "Untitled_document". Spotlight also automatically searches the internet for your search term, and will show search results categorized by the type of file it is displaying. It is a powerful tool that's worth becoming aquainted with.
 
-##### Using Spotlight
+#### Using Spotlight
+{: .no_toc }
 
 51. Spotlight may be opened in one of three ways:
 

@@ -1,13 +1,18 @@
 ---
 layout: default
-title: Understanding Directories (Mac OS)
-description: "Saving, Locating, Organizing, Moving, and Deleting Files"
+title: Filepaths in MacOS
 nav_order: 10
 has_children: false
 ---
 
-# Introduction
+# Filepaths in MacOS
 {: .no_toc }
+
+How to save, locate, organize, move, and delete files on a Mac
+{: .fs-6 .fw-300 }
+
+This tutorial was created on Mac OS Ventura. Depending on your specific operating system, some options may appear differently on your machine, but the general processes should be similar if not the same.
+{: .note}
 
 <details open markdown="block">
   <summary>
@@ -20,31 +25,77 @@ has_children: false
 
 ---
 
-Note: This tutorial was created on Mac OS Ventura. Depending on your specific operating system, some options may appear differently on your machine, but the general processes should be similar if not the same.
+## Introduction
 
-Smoothly operating and navigating your computer's file storage system is a fundamental skill for anyone who uses computers. On Mac OS, the hierarchical (or "nested") file system has three basic domains, Local, System, and User.
+In this tutorial, you'll learn how to:
 
-![file_system_map.png!](media/file_system_map.png "MAC OS System Map")
-[Image: Apple Inc.](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html)
-
- The term "file path" refers to the specific location of a file or folder within the computer's directory. If you know a file or folder's path, you can navigate to it's location using Finder, or by searching its name. The forward slash "/" symbolizes the hard drive which is the base or "root" directory on Mac OS. Absolute file paths begin with "/", list all child directories, and terminate at the file or folder of interest. Relative file paths are written relative to their enclosing folder, and may begin further "down" in the directory. For example, the absolute path of "hello_world.txt" is "/Users/UMass/Documents/TextFiles2021/hello_world.txt. From "Umass", the relative path would be "Documents/TextFiles2021/hello_world.txt".
-
-With the exception of the Applications folder (in the Local Domain), most users should avoid manipulating any files in the "System" domain, and should only work within the "User" domain.
-
-Follow the tutorial below for a step by step tour of your computer's directories, and for demonstrations on how to:
-
+* use Spotlight
 * navigate Finder
 * create folders
 * save and copy files
 * move and manage multiple files
 * delete files
-* use Spotlight to search your entire computer  
+
+Smoothly operating and navigating your computer's file storage system is a fundamental skill for anyone who uses computers. On Mac OS, the hierarchical (or "nested") file system has three basic domains, Local, System, and User.
+
+<img src="media/file_system_map.png" alt="MAC OS System Map" width=300>
+
+[Image: Apple Inc.](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html)
+
+
+The term "file path" refers to the specific location of a file or folder within the computer's directory. If you know a file or folder's path, you can navigate to it's location using Finder, or by searching its name. The forward slash "/" symbolizes the hard drive which is the base or "root" directory on Mac OS. Absolute file paths begin with "/", list all child directories, and terminate at the file or folder of interest. Relative file paths are written relative to their enclosing folder, and may begin further "down" in the directory. For example, the absolute path of "hello_world.txt" is
+
+```
+/Users/UMass/Documents/TextFiles2021/hello_world.txt
+```
+
+From "Umass", the relative path would be:
+
+```
+Documents/TextFiles2021/hello_world.txt
+```
+
+With the exception of the Applications folder (in the Local Domain), most users should avoid manipulating any files in the "System" domain, and should only work within the "User" domain.
 
 ---
-## View Options
-{:toc}
+## Using Spotlight
 
-**1.**  Open the Finder application by clicking any blank area on the Desktop.
+You may search all your files, applications, and folders directly by typing search terms into Spotlight. You may search for file types by typing the file extension in (e.g. .png, .docx, .xlsx., etc.), and all files with that type will be shown. Similarly, searching for "Documents", will return not only the folder(s) called "Documents", but also any files containing the word "documents". This can be useful for finding files where you know some of the contents, but not the file name itself. For example, if you had a word document that included in its body "Roses are red, violets are blue", but the file was named "Untitled_document" and you were unaware of its location, you could search "Roses are red, violets are blue" and Spotlight will search through your computer, find any documents that include that exact text, and will show "Untitled_document". Spotlight also automatically searches the internet for your search term, and will show search results categorized by the type of file it is displaying. It is a powerful tool that's worth becoming aquainted with.
+
+51. Spotlight may be opened in one of three ways:
+
+**- Click the small magnifying glass icon near the upper right corner of the Menu Bar (pictured below)**
+- Hold the "Command" key, and press the space bar once, then release the "Command" key.
+- Open any Finder window, and type into the search bar in the upper right corner of the window, this allows searching, but the results are returned within a Finder window, not a spotlight window. If using this option, the default search is a spotlight search of the entire computer, but the option will appear to instead search only the current directory (folder), which can be very useful when you know a files location, but don't know its name. This option will not search the internet.
+
+![74!](media/74_spotlight.png "74")
+
+52. A new spotlight search bar should appear. **Search "documents"**
+
+![75!](media/75.png "75")
+
+It may take a moment to index and return results, but spotlight should now show a "Documents" folder. ***A single click on any of these items will open the file/folder.***
+
+![76!](media/76.png "76")
+
+53. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**
+
+![77!](media/77.png "77")
+
+A new Finder window will appear, showing the results of your spotlight search.
+
+![78!](media/78.png "78")
+
+54. If you want to know the file path, click the file of interest, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window. You've now searched and located an item using spotlight, congratulations!
+
+![79!](media/79.png "79")
+
+---
+## Configuring Finder
+{:toc}
+Change the View Options in Finder to make it easier to view files and navigate through folders.
+
+**1.**  Open the Finder application by clicking any blank area on the Desktop.<br>
 **2.**  From the Menu bar, select **Go**
 
 ![1!](media/1.png "1")
@@ -57,84 +108,12 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![3!](media/3.png "3")
 
+### List View
+{: .no_toc}
+
 **5.** To toggle to "list" view, **select the symbol with the three small horizontal lines**. Notice that now, columns titled "Date Modified", "Date", and "Kind" have appeared. This is an excellent view option if you have many items in a folder and want to organize or view them with a little more detail. These view options are also available from the Finder Menu bar, under "View"
 
 ![4!](media/4.png "4")
-
-**6.** To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Mac OS's nested file structure. Once a directory is selected, users may navigate by using their cursor and clicking, or by using their directional arrow keys.
-
-![5!](media/5.png "5")
-
-**7.** A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
-
-![6!](media/6.png "6")
-
-**8.** At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
-
-![8!](media/8.png "8")
-
-**9.** To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
-
-![9!](media/9.png "9")
-
-**10.** From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
-
-![10!](media/10.png "10")
-
----
-
-## Directory Walkthrough - System and Local Domains
-{:toc}
-
-#### Macintosh HD (Hard Drive) "/"
-{: .no_toc }
-
-**12.** **Double-click "Macintosh HD"**.
-
-![11!](media/11.png "11")
-
-**13.** This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
-
-![12!](media/12.png "12")
-
-#### Library
-{: .no_toc }
-**14.** **Double-click the Library folder**, but do not make any changes to this folder.
-
-![13!](media/13.png "13")
-
-**15.** **IMPORTANT NOTE** Unless you are advnised by an Apple representative, or someone with an extremely high level of technical knowledge, **never add, delete, manipulate or change in any way, any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
-
-![14!](media/14.png "14")
-
-**16.** In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". The right-facing arrow will navigate "forward" to the next "child" or subdirectory we had selected.
-
-![15!](media/15.png "15")
-
-#### Applications
-{: .no_toc }
-
-**17.** From "Macintosh HD" **Double-click the "Applications" folder**.
-
-![16!](media/16.png "16")
-
-18. **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it.
-
-![17!](media/17.png "17")
-
-#### "Favorites" bar (quick access)
-{: .no_toc }
-
-19. On the left-hand side of all finder windows, underneath the red, yellow, and green buttons, several "Favorite" directory locations appear in blue text. Users can also access the "Applications" folder by **clicking "Applications"** from Favorites.
-
-![18!](media/18.png "18")
-
-20. **Select "Desktop"** to show the items present on your dekstop and **select list view**. In the picture shown, the user has 7 folders, and 2 files on their desktop.
-
-![19!](media/19.png "19")
-
-#### Change Details/Columns in List View
-{: .no_toc }
 
 21. Once in List view, **select "View" from the finder menu bar**.
 
@@ -160,12 +139,93 @@ Follow the tutorial below for a step by step tour of your computer's directories
 
 ![25!](media/25.png "25")
 
+### Column View
+{: .no_toc}
+
+**6.** To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Mac OS's nested file structure. Once a directory is selected, users may navigate by using their cursor and clicking, or by using their directional arrow keys.
+
+![5!](media/5.png "5")
+
+### Gallery View
+{: .no_toc}
+
+**7.** A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
+
+![6!](media/6.png "6")
+
+### Toggling the Path Bar
+{: .no_toc}
+
+**8.** At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
+
+![8!](media/8.png "8")
+
+**9.** To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
+
+![9!](media/9.png "9")
+
+**10.** From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
+
+![10!](media/10.png "10")
+
 ---
 
-## Mac Directories: User Domain and Best Practices for File Management
+## Exploring the Directory Structure
+{:toc}
 
-#### User Domain Introduction
+[[[Add an intro sentence here]]]
+
+### Macintosh HD (Hard Drive) "/"
 {: .no_toc }
+
+**1.** Double-click "Macintosh HD".
+
+![11!](media/11.png "11")
+
+**2.** This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
+
+![12!](media/12.png "12")
+
+### Library
+{: .no_toc }
+
+**3.** **Double-click the Library folder**, but do not make any changes to this folder.
+
+![13!](media/13.png "13")
+
+**4.** **IMPORTANT NOTE** Unless you are advnised by an Apple representative, or someone with an extremely high level of technical knowledge, **never add, delete, manipulate or change in any way, any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
+
+![14!](media/14.png "14")
+
+**5.** In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". The right-facing arrow will navigate "forward" to the next "child" or subdirectory we had selected.
+
+![15!](media/15.png "15")
+
+### Applications
+{: .no_toc }
+
+**6.** From "Macintosh HD" **Double-click the "Applications" folder**.
+
+![16!](media/16.png "16")
+
+18. **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it.
+
+![17!](media/17.png "17")
+
+### "Favorites" Bar (Quick Access)
+{: .no_toc }
+
+19. On the left-hand side of all finder windows, underneath the red, yellow, and green buttons, several "Favorite" directory locations appear in blue text. Users can also access the "Applications" folder by **clicking "Applications"** from Favorites.
+
+![18!](media/18.png "18")
+
+20. **Select "Desktop"** to show the items present on your dekstop and **select list view**. In the picture shown, the user has 7 folders, and 2 files on their desktop.
+
+![19!](media/19.png "19")
+
+---
+## User Domains
+{:toc}
 
 With the exception of Applications, the default save location for all files in a Mac enviornment is within the Users domain. (It is useful to store applications in the "Applications" folder within the system domain; this enables applications to be run from any new/additional user accounts you create). Other than applications, all files should be carefully organized within the User domain.   
 
@@ -177,10 +237,12 @@ With the exception of Applications, the default save location for all files in a
 
 ![27!](media/27_download.png "27")
 
-#### File Management Best Practices
-{: .no_toc }
+---
 
-**Important note:** All files should periodically be backed up ("copied") to an external hard drive. Particularly important files and folders should also be backed up to the Cloud. In general, weekly updates should suffice. Check out [Time Machine, Apple's native back-up software.](https://support.apple.com/en-us/HT201250) to automatically back up all user settings, applications, data, files, and folders, every time you connect your external drive.
+## Best Practices in File Management
+
+All files should periodically be backed up ("copied") to an external hard drive. Particularly important files and folders should also be backed up to the Cloud. In general, weekly updates should suffice. Check out [Time Machine, Apple's native back-up software.](https://support.apple.com/en-us/HT201250) to automatically back up all user settings, applications, data, files, and folders, every time you connect your external drive.
+{: .warn}
 
 29. In order to simplify file paths and make your directories easier to navigate, we suggest that you use "Documents" as the main folder in which all other files and folders are kept. **Double-click "Documents" to view this directory.**
 
@@ -218,14 +280,16 @@ Ensure that your directory structures ***makes sense for you, and for how you pl
 
 ---
 
-## Creating New Folders, Choosing Save Locations, Copying, and Moving Files
+## Practice: Creating Folder and Files
 
-#### Create New Folders
+[[[intro sentence!]]]
+
+### Create a New Folder
 {: .no_toc }
 
 30. While in the documents folder (or with the Documents folder selected), click "File" from the menu bar.
 
-![30!](media/30.png "30")
+![30!](media/30_new_fold.png "30")
 
 31. From the dropdown menu, select "New Folder"
 
@@ -235,7 +299,7 @@ Ensure that your directory structures ***makes sense for you, and for how you pl
 
 ![32!](media/32.png "32")
 
-#### Rename Folders
+### Rename a Folder
 {: .no_toc }
 
 33. With the Untitled Folder highlighted, **press "Enter" on the keyboard to select the text.** The text should now appear highlighted. Rename the file to "a_new_folder", and press enter on the keyboard.
@@ -246,7 +310,8 @@ Ensure that your directory structures ***makes sense for you, and for how you pl
 
 ![34!](media/34.png "34")
 
-#### Create text file and save to new folder
+### Create a Text File
+{: .no_toc }
 
 35. Open "Applications" from Favorites by single-clicking "Applications"
 
@@ -268,7 +333,7 @@ Ensure that your directory structures ***makes sense for you, and for how you pl
 
 ![39!](media/39.png "39")
 
-#### Save work to a specific folder/location
+### Save to a Specific Folder
 {: .no_toc }
 
 40. With your changed Text Edit window open, **select "File" from the menu bar**.
@@ -308,17 +373,14 @@ Congratulations, you just made and saved a new file to a brand new folder!
 ![53!](media/53.png "53")
 
 ---
+## Practice: Copying, Moving, and Deleting Files
 
-## Copying, Moving, and Deleting Files
-
-#### Selecting Multiple Files
+### Selecting Multiple Files
 {: .no_toc }
 
-Note: Multiple files may be copied, moved, or deleted at once.
+Multiple files may be copied, moved, or deleted at once. To select all files in a directory, hold the "Command" key and press the "a" key on the keyboard.
 
-To select all files in a directory, hold the "Command" key and press the "a" key on the keyboard.
-
-To select multple files in list or column view, highlight the first file by single-clicking it, then hold the "Comand" key, and select additional files with a single click. Each new file will be added to the selection. Let up on the "Command" key when finished adding files, once you have released the Command key, you may hold it again and click a highlighted file to deselct it. The remaining selected files will remain highlighted/selected. Alternatively, after selecting your the file, holding the "Shift" key instead of the "Command" key will select all files between the first and second selections. This is a convenient way to bulk-select files. In Icon view, use the above methods, or click and drag a rectangle around the items you want to select.
+To select multiple files in list or column view, highlight the first file by single-clicking it, then hold the "Command" key, and select additional files with a single click. Each new file will be added to the selection. Let up on the "Command" key when finished adding files, once you have released the Command key, you may hold it again and click a highlighted file to deselect it. The remaining selected files will remain highlighted/selected. Alternatively, after selecting your the file, holding the "Shift" key instead of the "Command" key will select all files between the first and second selections. This is a convenient way to bulk-select files. In Icon view, use the above methods, or click and drag a rectangle around the items you want to select.
 
 43. Create a new folder in Documents, and then **select File from the menu bar**.
 
@@ -332,7 +394,7 @@ To select multple files in list or column view, highlight the first file by sing
 
 ![65!](media/65.png "65")
 
-#### Copy Files
+### Copying Files
 {: .no_toc }
 
 46. **Right-click your file and select "Copy" from the dropdown menu.**
@@ -349,14 +411,14 @@ A new copy of your file should be added to the directory.
 
 ![68!](media/68.png "68")
 
-#### Move Files
+### Moving Files
 {: .no_toc }
 
 48. **Click and drag the copied file into the new folder.** (To click and drag: Hover over the file of interest, depress the left-click, and then without releasing, move the cursor--the file will move with the cursor--and release the mouse button/trackpad button when you are hovering over the new save location). Note: files may be copied or moved into folders directly, it is not necessary to open a new window with the folder you'd like to save to, you may drop directly into the folder icon and the files will be added to that directory.
 
 ![69!](media/69.png "69")
 
-#### Delete Files
+### Deleting Files
 {: .no_toc }
 
 49. Right-click the file you wish to delete, and **click "Move to Trash" from the dropdown menu.**
@@ -366,41 +428,3 @@ A new copy of your file should be added to the directory.
 50. Click the trash can icon to open up the Trash and view its contents. From here, files may be moved and added back to the your file system if desired. To empty the trash and permenantly delete the eclosed items, click the button labeled "Empty" in the upper right corner of the Trash window.
 
 ![71!](media/71.png "71")
-
-#### Spotlight
-{: .no_toc }
-
-You may search all your files, applications, and folders directly by typing search terms into Spotlight. You may search for file types by typing the file extension in (e.g. .png, .docx, .xlsx., etc.), and all files with that type will be shown. Similarly, searching for "Documents", will return not only the folder(s) called "Documents", but also any files containing the word "documents". This can be useful for finding files where you know some of the contents, but not the file name itself. For example, if you had a word document that included in its body "Roses are red, violets are blue", but the file was named "Untitled_document" and you were unaware of its location, you could search "Roses are red, violets are blue" and Spotlight will search through your computer, find any documents that include that exact text, and will show "Untitled_document". Spotlight also automatically searches the internet for your search term, and will show search results categorized by the type of file it is displaying. It is a powerful tool that's worth becoming aquainted with.
-
-#### Using Spotlight
-{: .no_toc }
-
-51. Spotlight may be opened in one of three ways:
-
-**- Click the small magnifying glass icon near the upper right corner of the Menu Bar (pictured below)**
-- Hold the "Command" key, and press the space bar once, then release the "Command" key.
-- Open any Finder window, and type into the search bar in the upper right corner of the window, this allows searching, but the results are returned within a Finder window, not a spotlight window. If using this option, the default search is a spotlight search of the entire computer, but the option will appear to instead search only the current directory (folder), which can be very useful when you know a files location, but don't know its name. This option will not search the internet.
-
-![74!](media/74_spotlight.png "74")
-
-52. A new spotlight search bar should appear. **Search "documents"**
-
-![75!](media/75.png "75")
-
-It may take a moment to index and return results, but spotlight should now show a "Documents" folder. ***A single click on any of these items will open the file/folder.***
-
-![76!](media/76.png "76")
-
-53. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**
-
-![77!](media/77.png "77")
-
-A new Finder window will appear, showing the results of your spotlight search.
-
-![78!](media/78.png "78")
-
-54. If you want to know the file path, click the file of interest, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window. You've now searched and located an item using spotlight, congratulations!
-
-![79!](media/79.png "79")
-
----

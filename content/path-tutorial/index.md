@@ -60,35 +60,38 @@ With the exception of the Applications folder (in the Local Domain), most users 
 ---
 ## Using Spotlight
 
-You may search all your files, applications, and folders directly by typing search terms into Spotlight. You may search for file types by typing in the file extension (e.g. .png, .docx, .xlsx., etc.); all files with that type will be shown. Similarly, searching for "Documents", will return not only the folder(s) called "Documents", but also any files containing the word "documents". This can be useful for finding files where you know some of the contents, but not the file name itself. For example, if you had a word document that included in its body "Roses are red, violets are blue", but the file was named "Untitled_document" and you were unaware of its location, you could Spotlight search "Roses are red, violets are blue" to find any documents that include that exact text. In this case, Spotlight will show "Untitled_document". Spotlight also automatically searches the internet for your search term, and will show search results categorized by the file type. Spotlight is a powerful tool, and it's worth spending some time to become acquainted with it.
+You may search all your files, applications, and folders directly by typing search terms into Spotlight. You may search for file types by typing the file extension in (e.g. .png, .docx, .xlsx., etc.), and all files with that type will be shown.
 
-**1.** Spotlight may be opened in one of three ways:
+Similarly, searching for "Documents", will return not only the folder(s) called "Documents", but also any files containing the word "documents". This can be useful for finding files where you know some of the contents, but not the file name itself. For example, if you had a word document that included in its body "Roses are red, violets are blue", but the file was named "Untitled_document" and you were unaware of its location, you could search "Roses are red, violets are blue" and Spotlight will search through your computer, find any documents that include that exact text, and will show "Untitled_document".
 
-**- Click the small magnifying glass icon near the upper right corner of the Menu Bar (pictured below)**
-- Hold the "Command" key, and press the space bar once, then release the "Command" key.
-- Open any Finder window, and type into the search bar in the upper right corner of the window, this allows searching, but the results are returned within a Finder window, not a spotlight window. If using this option, the default search is a spotlight search of the entire computer, but the option will appear to search only the current directory (folder), which can be very useful when you know a file's location, but don't know its name. This option will not search the internet.
+Spotlight also automatically searches the internet for your search term, and will show search results categorized by the type of file it is displaying. It is a powerful tool that's worth becoming acquainted with.
 
-![74!](media/74_spotlight.png "74")
+1. Spotlight may be opened in one of three ways:
+    1. **Click the small magnifying glass icon near the upper right corner of the Menu Bar (pictured below)**
+    1. Hold the "Command" key, and press the space bar once, then release the "Command" key.
+    1. Open any Finder window, and type into the search bar in the upper right corner of the window, this allows searching, but the results are returned within a Finder window, not a spotlight window. If using this option, the default search is a spotlight search of the entire computer, but the option will appear to instead search only the current directory (folder), which can be very useful when you know a files location, but don't know its name. This option will not search the internet.
 
-**2.** A new spotlight search bar should appear. **Search "documents"**
+    ![74!](media/74_spotlight.png "74")
 
-![75!](media/75.png "75")
+1. A new spotlight search bar should appear. **Search "documents"**
 
-It may take a moment to index and return results, but spotlight should now show a "Documents" folder. ***A single click on any of these items will open the file/folder.*** You may also use directional keys and press "Enter" to open a spotlight result.
+    ![75!](media/75.png "75")
 
-![76!](media/76.png "76")
+    It may take a moment to index and return results, but spotlight should now show a "Documents" folder. ***A single click on any of these items will open the file/folder.***
 
-**3.** Scroll to the bottom of the spotlight window, and click "Search in Finder".
+    ![76!](media/76.png "76")
 
-![77!](media/77.png "77")
+1. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**
 
-A new Finder window will appear, showing the results of your spotlight search.
+    ![77!](media/77.png "77")
 
-![78!](media/78.png "78")
+    A new Finder window will appear, showing the results of your spotlight search.
 
-**4.** If you want to know the file path, click the file of interest, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window. See the last section of "Configuring Finder" for instructions on how to toggle the Path Bar.
+    ![78!](media/78.png "78")
 
-![79!](media/79.png "79")
+1. If you want to know the file path, click the file of interest, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window. You've now searched and located an item using spotlight, congratulations!
+
+    ![79!](media/79.png "79")
 
 ---
 ## Configuring Finder

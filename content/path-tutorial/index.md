@@ -101,78 +101,78 @@ To navigate through Mac's file system, you will primarily rely on Finder. Finder
 
 Change the View Options in Finder to make it easier to view files and navigate through folders.
 
-**1.** Open the Finder application by clicking any blank area on the Desktop.<br>
-**2.** From the Menu bar, select **Go**
+1. Open the Finder application by clicking any blank area on the Desktop.<br>
+1. From the Menu bar, select **Go**
 
-![1!](media/1.png "1")
+    ![1!](media/1.png "1")
 
-**3.** From the dropdown menu, select Computer
+1. From the dropdown menu, select Computer
 
-![2!](media/2.png "2")
+    ![2!](media/2.png "2")
 
-**4.** A new finder window will appear, showing "Macintosh HD", and "Network" icons. Currently, the finder window is set to display items in "icon" view, indicated by the four small highlighted boxes at the top of the finder window.
+1. A new finder window will appear, showing "Macintosh HD", and "Network" icons. Currently, the finder window is set to  display items in "icon" view, indicated by the four small highlighted boxes at the top of the finder window.
 
-![3!](media/3.png "3")
+    ![3!](media/3.png "3")
 
 ### List View
 {: .no_toc}
 
-**5.** To toggle to "list" view, **select the symbol with the three small horizontal lines**. Notice that now, columns titled "Date Modified", "Date", and "Kind" have appeared. This is an excellent view option if you have many items in a folder and want to organize or view them with a little more detail. These view options are also available from the Finder Menu bar, under "View"
+1. To toggle to "list" view, **select the symbol with the three small horizontal lines**. Notice that now, columns titled "Date Modified", "Date", and "Kind" have appeared. This is an excellent view option if you have many items in a folder and want to organize or view them with a little more detail. These view options are also available from the Finder Menu bar, under "View"
 
-![4!](media/4.png "4")
+    ![4!](media/4.png "4")
 
-**6.** Once in List view, select "View" from the finder menu bar.
+1. Once in List view, select "View" from the finder menu bar.
 
-![20!](media/20.png "20")
+    ![20!](media/20.png "20")
 
-**7.** Select "Show View Options"
+1. Select "Show View Options"
 
-![21!](media/21.png "21")
+    ![21!](media/21.png "21")
 
-**8.** A dialog box should appear showing check-boxes to toggle specific attributes. Check Date Created, Size, and Date Modified.
+1. A dialog box should appear showing check-boxes to toggle specific attributes. Check Date Created, Size, and Date Modified.
 
-![22!](media/22.png "22")
+    ![22!](media/22.png "22")
 
-**9.** In the desktop shown below, the items are organized by the date they were modified; the most recently-modified appearing at the top. This is indicated by the text "Date Modified" being highlighted. Double-clicking "Date Modified" will reverse the order. The same is true of all column headers.
+1. In the desktop shown below, the items are organized by the date they were modified; the most recently-modified appearing at the top. This is indicated by the text "Date Modified" being highlighted. Double-clicking "Date Modified" will reverse the order. The same is true of all column headers.
 
-![23!](media/23.png "23")
+    ![23!](media/23.png "23")
 
-**10.** To organize files based on their size, **click "Size"**. Notice that only files have associated sizes. The folders contain files (that all have sizes), but finder only reports size for files, not folders. Note: to see the total size of a folder, right-click the folder, and select "Get Info" from the dropdown menu.
+1. To organize files based on their size, **click "Size"**. Notice that only files have associated sizes. The folders contain files (that all have sizes), but finder only reports size for files, not folders. Note: to see the total size of a folder, right-click the folder, and select "Get Info" from the dropdown menu.
 
-![24!](media/24.png "24")  
+    ![24!](media/24.png "24")  
 
-**11.** The desktop items are now organized by their size. This can be especially helpful when cleaning out files to save space.
+1. The desktop items are now organized by their size. This can be especially helpful when cleaning out files to save space.
 
-![25!](media/25.png "25")
+    ![25!](media/25.png "25")
 
 ### Column View
 {: .no_toc}
 
-**12.** To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Macs' nested file structure. Once a directory is selected, users may navigate by clicking with their cursor, or by using their directional arrow keys.
+To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Macs' nested file structure. Once a directory is selected, users may navigate by clicking with their cursor, or by using their directional arrow keys.
 
 ![5!](media/5.png "5")
 
 ### Gallery View
 {: .no_toc}
 
-**13.** A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
+A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
 
 ![6!](media/6.png "6")
 
 ### Toggling the Path Bar
 {: .no_toc}
 
-**14.** At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
+1. At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
 
-![8!](media/8.png "8")
+    ![8!](media/8.png "8")
 
-**15.** To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
+1. To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
 
-![9!](media/9.png "9")
+    ![9!](media/9.png "9")
 
-**16.** From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
+1. From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
 
-![10!](media/10.png "10")
+    ![10!](media/10.png "10")
 
 ---
 
@@ -184,51 +184,51 @@ This section presents Mac OS system domains, describes their role and position i
 ### Macintosh HD (Hard Drive) "/"
 {: .no_toc }
 
-**1.** Double-click "Macintosh HD".
+1. Double-click "Macintosh HD".
 
-![11!](media/11.png "11")
+    ![11!](media/11.png "11")
 
-**2.** This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
+1. This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
 
-![12!](media/12.png "12")
+    ![12!](media/12.png "12")
 
 ### Library
 {: .no_toc }
 
-**3.** Double-click the Library folder, but **do not make any changes to this folder**.
+1. Double-click the Library folder, but **do not make any changes to this folder**.
 
-![13!](media/13.png "13")
+    ![13!](media/13.png "13")
 
-**4.** **IMPORTANT NOTE** Unless you are advised by an Apple representative, or someone with a high level of technical knowledge, **never add, delete, manipulate or change any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
+1. **IMPORTANT NOTE** Unless you are advised by an Apple representative, or someone with a high level of technical knowledge, **never add, delete, manipulate or change any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
 {: .warn}
 
-![14!](media/14.png "14")
+    ![14!](media/14.png "14")
 
-**5.** In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". These arrows allow users to toggle between the two most recently-viewed directories.
+1. In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". These arrows allow users to toggle between the two most recently-viewed directories.
 
-![15!](media/15.png "15")
+    ![15!](media/15.png "15")
 
 ### Applications
 {: .no_toc }
 
-**6.** From "Macintosh HD" **Double-click the "Applications" folder**.
+1. From "Macintosh HD" **Double-click the "Applications" folder**.
 
-![16!](media/16.png "16")
+    ![16!](media/16.png "16")
 
-**7.** **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it. "Downloads" is the default save location for most software downloaded through an internet browser, and "Applications" is the default installation location.
+1. **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it. "Downloads" is the default save location for most software downloaded through an internet browser, and "Applications" is the default installation location.
 
-![17!](media/17.png "17")
+    ![17!](media/17.png "17")
 
 ### "Favorites" Bar (Quick Access)
 {: .no_toc }
 
-**8.** On the left-hand side of all finder windows, underneath the red, yellow, and green buttons, several "Favorite" directory locations appear in blue text. Users can also access the "Applications" folder by **clicking "Applications"** from Favorites.
+1. On the left-hand side of all finder windows, underneath the red, yellow, and green buttons, several "Favorite" directory locations appear in blue text. Users can also access the "Applications" folder by **clicking "Applications"** from Favorites.
 
-![18!](media/18.png "18")
+    ![18!](media/18.png "18")
 
-**9.** Select "Desktop" to show the items present on your desktop and **select list view**. In the picture shown, the user has 7 folders, and 2 files on their desktop.
+1. Select "Desktop" to show the items present on your desktop and **select list view**. In the picture shown, the user has 7 folders, and 2 files on their desktop.
 
-![19!](media/19.png "19")
+    ![19!](media/19.png "19")
 
 ---
 ## User Domains
@@ -236,13 +236,13 @@ This section presents Mac OS system domains, describes their role and position i
 
 With the exception of Applications, the default save location for all files in a Mac environment is within the Users domain. (It is useful to store applications in the "Applications" folder within the system domain; this enables applications to be run from any new/additional user accounts you create). Other than applications, all files should be carefully organized within the User domain.   
 
-**1.** To examine the set of User directories, open Macintosh HD and **double-click the folder of the user you are currently logged in to.** You will be able to tell which user you are in because the current User folder will have a small "Home" or "House" symbol on it. If you have any doubt about which User account you are currently in, click the apple-shaped icon in the upper left corner of the screen, and look at the bottom "log out of..." text. What follows "log out of..." will be the name of your current user.
+1. To examine the set of User directories, open Macintosh HD and **double-click the folder of the user you are currently logged in to.** You will be able to tell which user you are in because the current User folder will have a small "Home" or "House" symbol on it. If you have any doubt about which User account you are currently in, click the apple-shaped icon in the upper left corner of the screen, and look at the bottom "log out of..." text. What follows "log out of..." will be the name of your current user.
 
-![26!](media/26.png "26")
+    ![26!](media/26.png "26")
 
-**2.** Now that we're viewing the main User folder, several sub-folders should appear. With the exception of "Zotero" and "test_directory", all other folders should be present in your User folder. Take note of the "Downloads" folder. This is the default save location for any data, folders, or files downloaded from the internet. If you download a photo, music file, or video file, it is possible (depending on your system settings) that the file will be saved in "Movies", "Music", or "Pictures" -- this may be a good place to check if a download is not showing up in the "Downloads" folder. **Note: it is generally best-practice to avoid leaving items in your downloads folder; ideally they would be filed into some logical system of organization within your directories immediately after download.*** See below for more information.
+1. Now that we're viewing the main User folder, several sub-folders should appear. With the exception of "Zotero" and "test_directory", all other folders should be present in your User folder. Take note of the "Downloads" folder. This is the default save location for any data, folders, or files downloaded from the internet. If you download a photo, music file, or video file, it is possible (depending on your system settings) that the file will be saved in "Movies", "Music", or "Pictures" -- this may be a good place to check if a download is not showing up in the "Downloads" folder. **Note: it is generally best-practice to avoid leaving items in your downloads folder; ideally they would be filed into some logical system of organization within your directories immediately after download.*** See below for more information.
 
-![27!](media/27_download.png "27")
+    ![27!](media/27_download.png "27")
 
 ---
 
@@ -251,7 +251,7 @@ With the exception of Applications, the default save location for all files in a
 All files should periodically be backed up ("copied") to an external hard drive. Particularly important files and folders should also be backed up to the Cloud. In general, weekly updates should suffice. Check out [Time Machine, Apple's native back-up software.](https://support.apple.com/en-us/HT201250) to automatically back up all user settings, applications, data, files, and folders, every time you connect your external drive.
 {: .warn}
 
-**1.** In order to simplify file paths and make your directories easier to navigate, we suggest that you use "Documents" as the main folder in which all other files and folders are kept. **Double-click "Documents" to view this directory.**
+In order to simplify file paths and make your directories easier to navigate, we suggest that you use "Documents" as the main folder in which all other files and folders are kept. **Double-click "Documents" to view this directory.**
 
 ![29!](media/29.png "29")
 
@@ -294,90 +294,90 @@ In this section, users practice creating a new folder and text file, and then sa
 ### Create a New Folder
 {: .no_toc }
 
-**1.** While in the documents folder (or with the Documents folder selected), click "File" from the menu bar.
+1. While in the documents folder (or with the Documents folder selected), click "File" from the menu bar.
 
-![30!](media/30_new_fold.png "30")
+    ![30!](media/30_new_fold.png "30")
 
-**2.** From the dropdown menu, select "New Folder".
+1. From the dropdown menu, select "New Folder".
 
-![31!](media/31.png "31")
+    ![31!](media/31.png "31")
 
-**3.** A new folder named "Untitled Folder" will be added to the Documents directory. **Single-click "Untitled Folder"** to highlight it.
+1. A new folder named "Untitled Folder" will be added to the Documents directory. **Single-click "Untitled Folder"** to highlight it.
 
-![32!](media/32.png "32")
+    ![32!](media/32.png "32")
 
 ### Rename a Folder
 {: .no_toc }
 
-**4.** With the Untitled Folder highlighted, **press "Enter" on the keyboard to select the text.** The text should now appear highlighted. **Rename the file to "a_new_folder", and press enter on the keyboard.** It's best to avoid including spaces in file and folder names, as some applications may have difficulty reading those files. That said, if most of your computer use is media and document-based, and you don't use advanced software, spaces will likely not be a problem.
+1. With the Untitled Folder highlighted, **press "Enter" on the keyboard to select the text.** The text should now appear highlighted. **Rename the file to "a_new_folder", and press enter on the keyboard.** It's best to avoid including spaces in file and folder names, as some applications may have difficulty reading those files. That said, if most of your computer use is media and document-based, and you don't use advanced software, spaces will likely not be a problem.
 
-![33!](media/33.png "33")
+    ![33!](media/33.png "33")
 
-**5.** "a_new_folder" should now appear near the top of the documents folder, depending on how other items in the folder are named.
+1. "a_new_folder" should now appear near the top of the documents folder, depending on how other items in the folder are named.
 
-![34!](media/34.png "34")
+    ![34!](media/34.png "34")
 
 ### Create a Text File
 {: .no_toc }
 
-**6.** Open "Applications" from Favorites by single-clicking "Applications".
+1. Open "Applications" from Favorites by single-clicking "Applications".
 
-![35!](media/35.png "35")
+    ![35!](media/35.png "35")
 
-**7.** Open "Text Edit".
+1. Open "Text Edit".
 
-![36!](media/36_txt.png "36")
+    ![36!](media/36_txt.png "36")
 
-**8.** With Text Edit open, select "File" from the menu bar.
+1. With Text Edit open, select "File" from the menu bar.
 
-![37!](media/37.png "37")
+    ![37!](media/37.png "37")
 
-**9.** From the dropdown menu, click "New".
+1. From the dropdown menu, click "New".
 
-![38!](media/38.png "38")
+    ![38!](media/38.png "38")
 
-**10.** Type something in the new Text Edit window.
+1. Type something in the new Text Edit window.
 
-![39!](media/39.png "39")
+    ![39!](media/39.png "39")
 
 ### Save to a Specific Folder
 {: .no_toc }
 
-**11.** With your altered Text Edit file open, **select "File" from the menu bar**.
+1. With your altered Text Edit file open, **select "File" from the menu bar**.
 
-![40!](media/40.png "40")
+    ![40!](media/40.png "40")
 
-**12.** From the dropdown menu, **click "Save"**.
+1. From the dropdown menu, **click "Save"**.
 
-![41!](media/41.png "41")
+    ![41!](media/41.png "41")
 
-**13** A new Save dialog box should open. The default save location is your most recent save location. For example, if the last place I saved something to was /Users/johnslaff/Music, "Music" would be selected instead of "Documents", as shown below. The view options (Icon, List, etc) are available to the left of the currently-selected directory. **Rename your file, and click the blue button (with little white arrows) directly next to the save location** to show additional directories. The white arrow next to the current directory hides and expands the navigator portion of the dialog box. The search bar allows users to search the current directory.
+1. A new Save dialog box should open. The default save location is your most recent save location. For example, if the last place I saved something to was /Users/johnslaff/Music, "Music" would be selected instead of "Documents", as shown below. The view options (Icon, List, etc) are available to the left of the currently-selected directory. **Rename your file, and click the blue button (with little white arrows) directly next to the save location** to show additional directories. The white arrow next to the current directory hides and expands the navigator portion of the dialog box. The search bar allows users to search the current directory.
 
-![45!](media/45.png "45")
+    ![45!](media/45.png "45")
 
-**14.** Select your User account.  
+1. Select your User account.  
 
-![46!](media/46.png "46")
+    ![46!](media/46.png "46")
 
-Your navigation window should now show your User directory and all its subfolders (if in column view).
+    Your navigation window should now show your User directory and all its subfolders (if in column view).
 
-![47!](media/47.png "47")
+    ![47!](media/47.png "47")
 
-**15.** Select documents. Notice that each time you select a new folder, the current save location listed at the top of the dialog box changes.
+1. Select documents. Notice that each time you select a new folder, the current save location listed at the top of the dialog box changes.
 
-![48!](media/48.png "48")
+    ![48!](media/48.png "48")
 
-**16.** Select a_new_folder.
+1. Select a_new_folder.
 
-![49!](media/49.png "49")
+    ![49!](media/49.png "49")
 
-**17. Press enter or **click the blue "Save" button** at the bottom right.
+1. **Press enter or click the blue "Save" button** at the bottom right.
 
-![50!](media/50.png "50")
+    ![50!](media/50.png "50")
 
-Congratulations, you just created and saved a new file to a new folder!
+    Congratulations, you just created and saved a new file to a new folder!
 
-![53!](media/53.png "53")
+    ![53!](media/53.png "53")
 
 ---
 ## Practice: Copying, Moving, and Deleting Files
@@ -391,49 +391,49 @@ Multiple files may be copied, moved, or deleted at once. To select all files in 
 
 To select multiple files in list or column view, highlight the first file by single-clicking it, then hold the "Command" key, and select additional files with a single click. Each new file will be added to the selection. Let up on the "Command" key when finished adding files, once you have released the Command key, you may hold it again and click a highlighted file to deselect it. The remaining selected files will remain highlighted/selected. Alternatively, after selecting your the file, holding the "Shift" key instead of the "Command" key will select all files between the first and second selections. This is a convenient way to bulk-select files. In Icon view, use the above methods, or click and drag a rectangle around the items you want to select.
 
-**1.** Create a new folder in Documents, and then **select File from the menu bar**.
+1. Create a new folder in Documents, and then **select File from the menu bar**.
 
-![59!](media/59.png "59")
+    ![59!](media/59.png "59")
 
-**2.** From the drop down menu, **select "New Finder Window"**.
+1. From the drop down menu, **select "New Finder Window"**.
 
-![60!](media/60.png "60")
+    ![60!](media/60.png "60")
 
-**3.** A new Finder window should appear. Navigate to your new folder and resize the windows so you can see both at once.
+1. A new Finder window should appear. Navigate to your new folder and resize the windows so you can see both at once.
 
-![65!](media/65.png "65")
+    ![65!](media/65.png "65")
 
 ### Copying Files
 {: .no_toc }
 
-**4.** Right-click your file and select "Copy" from the dropdown menu.
+1. Right-click your file and select "Copy" from the dropdown menu.
 
 Alternatively, you may select the file, hold the "Command" key, and press the "C" key (you may then release the "Command" key). Additionally, you may select the file, and then ***from the menu bar*** click "File", and select "Duplicate" from the dropdown menu. Note: "Duplicate" will add a new copy of the file to the directory in which the original file resides, "Copy" adds the file to your clipboard so it may be copied/added to any directory.
 
-![66!](media/66.png "66")
+    ![66!](media/66.png "66")
 
-**5.** Right-click anywhere in your original folder (the one from which the file came), and select "Paste" from the dropdown menu.
+1. Right-click anywhere in your original folder (the one from which the file came), and select "Paste" from the dropdown menu.
 
-![67!](media/67.png "67")
+    ![67!](media/67.png "67")
 
-A new copy of your file should be added to the directory.
+    A new copy of your file should be added to the directory.
 
-![68!](media/68.png "68")
+    ![68!](media/68.png "68")
 
 ### Moving Files
 {: .no_toc }
 
-**6.** Click and drag the copied file into the new folder. (To click and drag: Hover over the file of interest, depress the left-click, and then without releasing, move the cursor--the file will move with the cursor--and release the mouse button/trackpad button when you are hovering over the new save location). Note: files may be copied or moved into folders directly, it is not necessary to open a new window with the folder you'd like to save to, you may drop directly into the folder icon and the files will be added to that directory.
+Click and drag the copied file into the new folder. (To click and drag: Hover over the file of interest, depress the left-click, and then without releasing, move the cursor--the file will move with the cursor--and release the mouse button/trackpad button when you are hovering over the new save location). Note: files may be copied or moved into folders directly, it is not necessary to open a new window with the folder you'd like to save to, you may drop directly into the folder icon and the files will be added to that directory.
 
 ![69!](media/69.png "69")
 
 ### Deleting Files
 {: .no_toc }
 
-**7.** Right-click the file you wish to delete, and **click "Move to Trash" from the dropdown menu.**
+1. Right-click the file you wish to delete, and **click "Move to Trash" from the dropdown menu.**
 
-![70!](media/70.png "70")
+    ![70!](media/70.png "70")
 
-**8.** Click the trash can icon to open up the Trash and view its contents. From here, files may be moved and added back to your file system if desired. To empty the trash and permanantly delete the enclosed items, click the button labeled "Empty" in the upper right corner of the Trash window.
+1. Click the trash can icon to open up the Trash and view its contents. From here, files may be moved and added back to your file system if desired. To empty the trash and permanantly delete the enclosed items, click the button labeled "Empty" in the upper right corner of the Trash window.
 
-![71!](media/71.png "71")
+    ![71!](media/71.png "71")

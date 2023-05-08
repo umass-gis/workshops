@@ -77,7 +77,7 @@ Spotlight also automatically searches the internet for your search term, and wil
 
     ![75!](media/75.png "75")
 
-    It may take a moment to index and return results, but spotlight should now show a "Documents" folder. ***A single click on any of these items will open the file/folder.***
+    It may take a moment to index and return results, but spotlight should now show a "Documents" folder. If it does not appear near the top, you may need to scroll down to see it. **Single-click on "Documents" to highlight the folder.***
 
     ![76!](media/76.png "76")
 
@@ -89,9 +89,17 @@ Spotlight also automatically searches the internet for your search term, and wil
 
     ![78!](media/78.png "78")
 
-1. If you want to know the file path, click the file of interest, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window. You've now searched and located an item using spotlight, congratulations!
+1. If you want to know the file path, **highlight the file of interest by clicking it**, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window.
+
+    There are two User accounts on the machine used to create this tutorial, so the Spotlight search shows two "Documents" folders, once from each User. Single-clicking the folder will shows its path (shown in yellow), beginning at "Umass".
+
+    ![79_2!](media/79_2.png "79_2")
+
+    By single-clicking the other "Documents" folder, the file path (in yellow) changes to one that includes the user "johnslaff", indicating that although this folder shares the same name as the previous "Documents folder", it is located in a different User.
 
     ![79!](media/79.png "79")
+
+    You've now searched and located an item using spotlight, congratulations!
 
 ---
 ## Configuring Finder

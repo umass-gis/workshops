@@ -107,7 +107,7 @@ Spotlight also automatically searches the internet for your search term, and wil
 
 To navigate through Mac's file system, you will primarily rely on Finder. Finder has multiple view options, some of which can be customized further for efficient file management. This section presents the various view options available within Finder, and provides examples of when each view may be the most useful.
 
-Change the View Options in Finder to make it easier to view files and navigate through folders.
+Change the View Options in Finder to make it easier to view files and navigate through folders. These view options are particularly helpful when large numbers of files and folders are present in a directory.
 
 1. Open the Finder application by clicking any blank area on the Desktop.<br>
 1. From the Menu bar, select **Go**
@@ -141,7 +141,7 @@ Change the View Options in Finder to make it easier to view files and navigate t
 
     ![22!](media/22.png "22")
 
-1. In the desktop shown below, the items are organized by the date they were modified; the most recently-modified appearing at the top. This is indicated by the text "Date Modified" being highlighted. Double-clicking "Date Modified" will reverse the order. The same is true of all column headers.
+1. In the window shown below, the items are organized by the date they were modified; the most recently-modified appearing at the top. This is indicated by the text "Date Modified" being highlighted. Double-clicking "Date Modified" will reverse the order. The same is true of all column headers.
 
     ![23!](media/23.png "23")
 
@@ -149,9 +149,7 @@ Change the View Options in Finder to make it easier to view files and navigate t
 
     ![24!](media/24.png "24")  
 
-1. The desktop items are now organized by their size. This can be especially helpful when cleaning out files to save space.
-
-    ![25!](media/25.png "25")
+    The folder items are now organized by their size. This can be especially helpful when cleaning out files to save space.
 
 ### Column View
 {: .no_toc}
@@ -223,7 +221,7 @@ This section presents Mac OS system domains, describes their role and position i
 
     ![16!](media/16.png "16")
 
-1. **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it. "Downloads" is the default save location for most software downloaded through an internet browser, and "Applications" is the default installation location.
+1. **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it. "Downloads" is the default ***save location*** for most software downloaded through an internet browser, and "Applications" is the default ***installation location***.
 
     ![17!](media/17.png "17")
 
@@ -234,7 +232,7 @@ This section presents Mac OS system domains, describes their role and position i
 
     ![18!](media/18.png "18")
 
-1. Select "Desktop" to show the items present on your desktop and **select list view**. In the picture shown, the user has 7 folders, and 2 files on their desktop.
+1. Select "Desktop" to show the items present on your desktop and **select list view**. If you have many items on your desktop (or in any folder, for that matter), this is an excellent view to begin organizing them, because you can quickly toggle between different grouping methods, and file details are available at a glance.
 
     ![19!](media/19.png "19")
 

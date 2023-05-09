@@ -49,7 +49,7 @@ The term "file path" refers to the specific location of a file or folder within 
 /Users/UMass/Documents/TextFiles2021/hello_world.txt
 ```
 
-From "Umass", the relative path would be:
+From "UMass", the relative path would be:
 
 ```
 Documents/TextFiles2021/hello_world.txt
@@ -67,21 +67,21 @@ Similarly, searching for "Documents", will return not only the folder(s) called 
 Spotlight also automatically searches the internet for your search term, and will show search results categorized by the type of file it is displaying. It is a powerful tool that's worth becoming acquainted with.
 
 1. Spotlight may be opened in one of three ways:
-    1. **Click the small magnifying glass icon near the upper right corner of the Menu Bar (pictured below)**
+    1. **Click the small magnifying glass icon near the upper right corner of the Menu Bar (pictured below)**.
     1. Hold the "Command" key, and press the space bar once, then release the "Command" key.
     1. Open any Finder window, and type into the search bar in the upper right corner of the window, this allows searching, but the results are returned within a Finder window, not a spotlight window. If using this option, the default search is a spotlight search of the entire computer, but the option will appear to instead search only the current directory (folder), which can be very useful when you know a files location, but don't know its name. This option will not search the internet.
 
     ![74!](media/74_spotlight.png "74")
 
-1. A new spotlight search bar should appear. **Search "documents"**
+1. A new spotlight search bar should appear. **Search "documents"**.
 
     ![75!](media/75.png "75")
 
-    It may take a moment to index and return results, but spotlight should now show a "Documents" folder. If it does not appear near the top, you may need to scroll down to see it. **Single-click on "Documents" to highlight the folder.***
+    It may take a moment to index and return results, but spotlight should now show a "Documents" folder. If it does not appear near the top, you may need to scroll down to see it. **Single-click on "Documents" to highlight the folder**.
 
     ![76!](media/76.png "76")
 
-1. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**
+1. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**.
 
     ![77!](media/77.png "77")
 
@@ -110,13 +110,13 @@ To navigate through Mac's file system, you will primarily rely on Finder. Finder
 Change the View Options in Finder to make it easier to view files and navigate through folders. These view options are particularly helpful when large numbers of files and folders are present in a directory.
 
 1. Open the Finder application by clicking any blank area on the Desktop.<br>
-1. From the Menu bar, select **Go**
+1. From the Menu bar, select **Go**.
 
-    ![1!](media/1.png "1")
+    <img src="media/1.png" alt="Drop-down selection from the Go menu" width="70%">
 
-1. From the dropdown menu, select Computer
+1. From the dropdown menu, select **Computer**.
 
-    ![2!](media/2.png "2")
+    <img src="media/2.png" alt="2" width="70%">
 
 1. A new finder window will appear, showing "Macintosh HD", and "Network" icons. Currently, the finder window is set to  display items in "icon" view, indicated by the four small highlighted boxes at the top of the finder window.
 
@@ -131,15 +131,15 @@ Change the View Options in Finder to make it easier to view files and navigate t
 
 1. Once in List view, select "View" from the finder menu bar.
 
-    ![20!](media/20.png "20")
+    <img src="media/20.png" alt="20" width="70%">
 
 1. Select "Show View Options"
 
-    ![21!](media/21.png "21")
+    <img src="media/21.png" alt="21" width="70%">
 
 1. A dialog box should appear showing check-boxes to toggle specific attributes. Check Date Created, Size, and Date Modified.
 
-    ![22!](media/22.png "22")
+    <img src="media/22.png" alt="22" width="50%">
 
 1. In the window shown below, the items are organized by the date they were modified; the most recently-modified appearing at the top. This is indicated by the text "Date Modified" being highlighted. Double-clicking "Date Modified" will reverse the order. The same is true of all column headers.
 
@@ -174,11 +174,11 @@ A "gallery" view is also available, which shows a short summary of the file, and
 
 1. To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
 
-    ![9!](media/9.png "9")
+    <img src="media/9.png" alt="9" width="70%">
 
 1. From the dropdown menu, **select "Hide/Show Path Bar"**. Please toggle the path bar on for the duration of this tutorial. It can be useful to see full file paths while navigating through finder. This way, if you are ever in doubt of a file's location, you will have quick access to its parent directories. **Note: Clicking a folder in the file path bar navigates to that directory.**
 
-    ![10!](media/10.png "10")
+    <img src="media/10.png" alt="10" width="70%">
 
 ---
 
@@ -205,8 +205,8 @@ This section presents Mac OS system domains, describes their role and position i
 
     ![13!](media/13.png "13")
 
-1. **IMPORTANT NOTE** Unless you are advised by an Apple representative, or someone with a high level of technical knowledge, **never add, delete, manipulate or change any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
-{: .warn}
+    **IMPORTANT NOTE** Unless you are advised by an Apple representative, or someone with a high level of technical knowledge, **never add, delete, manipulate or change any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
+    {: .warn}
 
     ![14!](media/14.png "14")
 

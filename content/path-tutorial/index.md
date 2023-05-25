@@ -29,12 +29,12 @@ This tutorial was created on Mac OS Ventura. Depending on your specific operatin
 
 In this tutorial, you'll learn how to:
 
-* use Spotlight
-* navigate Finder
-* create folders
-* save and copy files
-* move and manage multiple files
-* delete files
+* Use Spotlight
+* Navigate Finder
+* Create folders
+* Save and copy files
+* Move and manage multiple files
+* Delete files
 
 Smoothly operating and navigating your computer's file storage system is a fundamental skill for anyone who uses computers. On Mac OS, the hierarchical (or "nested") file system has three basic domains, Local, System, and User.
 
@@ -71,19 +71,19 @@ Spotlight also automatically searches the internet for your search term, and wil
     1. Hold the "Command" key, and press the space bar once, then release the "Command" key.
     1. Open any Finder window, and type into the search bar in the upper right corner of the window, this allows searching, but the results are returned within a Finder window, not a spotlight window. If using this option, the default search is a spotlight search of the entire computer, but the option will appear to instead search only the current directory (folder), which can be very useful when you know a files location, but don't know its name. This option will not search the internet.
 
-    <img src="media/74_spotlight.png" alt="Desktop with Spotlight eyeglass highlighted" width="50%">
+    <img src="media/74_spotlight.png" alt="Desktop with Spotlight eyeglass highlighted">
 
 1. A new spotlight search bar should appear. **Search "documents"**.
 
-    <img src="media/75.png" alt="Spotlight search bar with "Documents" searched" width="50%">
+    <img src="media/75.png" alt="Spotlight search bar with 'Documents' searched" width="50%">
 
     It may take a moment to index and return results, but spotlight should now show a "Documents" folder. If it does not appear near the top, you may need to scroll down to see it. **Single-click on "Documents" to highlight the folder**.
 
-    <img src="media/76.png" alt="Spotlight window with "Documents" result highlighted" width="50%">
+    <img src="media/76.png" alt="Spotlight window with 'Documents' result highlighted" width="50%">
 
 1. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**.
 
-    <img src="media/77.png" alt="Spotlight window with "Show in Finder" highlighted" width="50%">
+    <img src="media/77.png" alt="Spotlight window with 'Show in Finder' highlighted" width="50%">
 
     A new Finder window will appear, showing the results of your spotlight search.
 
@@ -351,7 +351,7 @@ In this section, users practice creating a new folder and text file, and then sa
 
     <img src="media/40.png" alt="Text Edit 'File' dropdown menu open" width="70%">
 
-1. From the dropdown menu, **click "Save"**. [[[CHANGE PHOTO]]]
+1. From the dropdown menu, **click "Save"**.
 
     <img src="media/41.png" alt="Text Edit dropdown menu with 'Save' highlighted and selected" width="50%">
 
@@ -365,7 +365,7 @@ In this section, users practice creating a new folder and text file, and then sa
 
     <img src="media/47.png" alt="Dialog box with User folder selected" width="50%">
 
-1. Select documents. Notice that each time you select a new folder, the current save location listed at the top of the dialog box changes.
+1. Select documents. Note that each time you select a new folder, the current save location listed at the top of the dialog box changes.
 
     <img src="media/48.png" alt="Save dialog box with 'Documents' folder selected" width="50%">
 

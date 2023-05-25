@@ -75,29 +75,29 @@ Spotlight also automatically searches the internet for your search term, and wil
 
 1. A new spotlight search bar should appear. **Search "documents"**.
 
-    <img src="media/75.png" alt="Spotlight search bar with 'Documents' searched" width="50%">
+    <img src="media/75.png" alt="Spotlight search bar with 'Documents' searched">
 
     It may take a moment to index and return results, but spotlight should now show a "Documents" folder. If it does not appear near the top, you may need to scroll down to see it. **Single-click on "Documents" to highlight the folder**.
 
-    <img src="media/76.png" alt="Spotlight window with 'Documents' result highlighted" width="50%">
+    <img src="media/76.png" alt="Spotlight window with 'Documents' result highlighted">
 
 1. **Scroll to the bottom of the spotlight window, and click "Search in Finder"**.
 
-    <img src="media/77.png" alt="Spotlight window with 'Show in Finder' highlighted" width="50%">
+    <img src="media/77.png" alt="Spotlight window with 'Show in Finder' highlighted">
 
     A new Finder window will appear, showing the results of your spotlight search.
 
-    <img src="media/78.png" alt="Finder window with spotlight search results displayed" width="50%">
+    <img src="media/78.png" alt="Finder window with spotlight search results displayed">
 
 1. If you want to know the file path, **highlight the file of interest by clicking it**, and if the Path bar is toggled on, you will see the file path appear at the bottom of the Finder window.
 
     There are two User accounts on the machine used to create this tutorial, so the Spotlight search shows two "Documents" folders, once from each User. Single-clicking the folder will shows its path (shown in yellow), beginning at "Umass".
 
-    <img src="media/79_2.png" alt="Finder window with "Documents" and associated file path highlighted" width="50%">
+    <img src="media/79_2.png" alt="Finder window with 'Documents' and associated file path highlighted" >
 
     By single-clicking the other "Documents" folder, the file path (in yellow) changes to one that includes the user "johnslaff", indicating that although this folder shares the same name as the previous "Documents folder", it is located in a different User directory.
 
-    <img src="media/79.png" alt="Finder window with different "Documents" folder and associated file path highlighted" width="50%">
+    <img src="media/79.png" alt="Finder window with different 'Documents' folder and associated file path highlighted" >
 
     You've now searched and located an item using spotlight, congratulations!
 
@@ -120,14 +120,14 @@ Change the View Options in Finder to make it easier to view files and navigate t
 
 1. A new finder window will appear, showing entries for "Macintosh HD" and "Network". Currently, the finder window is set to  display items in "list" view, indicated by the three small horizontal lines that are highlighted at the top of the finder window.
 
-    <img src="media/3.png" alt="Finder window with 'Macintosh HD' and 'Network Icons'" width="50%">
+    <img src="media/3.png" alt="Finder window with 'Macintosh HD' and 'Network Icons'">
 
 ### List View
 {: .no_toc}
 
 1. To toggle to "list" view, **select the symbol with the three small horizontal lines**. Notice that now, columns titled "Date Modified", "Date", and "Kind" have appeared. This is an excellent view option if you have many items in a folder and want to organize or view them with a little more detail. These view options are also available from the Finder Menu bar, under "View"
 
-    <img src="media/4.png" alt="Finder window with List view icon selected" width="50%">
+    <img src="media/4.png" alt="Finder window with List view icon selected" >
 
 1. Once in List view, select "View" from the finder menu bar.
 
@@ -139,15 +139,15 @@ Change the View Options in Finder to make it easier to view files and navigate t
 
 1. A dialog box should appear showing check-boxes to toggle specific attributes. Check Date Created, Size, and Date Modified.
 
-    <img src="media/22.png" alt="Dialog box with above options selected" width="70%">
+    <img src="media/22.png" alt="Dialog box with above options selected" width="50%">
 
 1. In the window shown below, the items are organized by the date they were modified; the most recently-modified appearing at the top. This is indicated by the text "Date Modified" being highlighted. Double-clicking "Date Modified" will reverse the order. The same is true of all column headers.
 
-    <img src="media/23.png" alt="Finder window in list view with 'Date Modified' column selected" width="50%">
+    <img src="media/23.png" alt="Finder window in list view with 'Date Modified' column selected" >
 
 1. To organize files based on their size, **click "Size"**. Notice that only files have associated sizes. The folders contain files (that all have sizes), but finder only reports size for files, not folders. Note: to see the total size of a folder, right-click the folder, and select "Get Info" from the dropdown menu.
 
-    <img src="media/24.png" alt="Finder window in list view with 'Size' column selected" width="50%">  
+    <img src="media/24.png" alt="Finder window in list view with 'Size' column selected" >  
 
     The folder items are now organized by their size. This can be especially helpful when cleaning out files to save space.
 
@@ -156,21 +156,21 @@ Change the View Options in Finder to make it easier to view files and navigate t
 
 To toggle to "column" view, **select the symbol with three vertical lines**. This is an excellent view to use when navigating through Macs' nested file structure. Once a directory is selected, users may navigate by clicking with their cursor, or by using their directional arrow keys.
 
-<img src="media/5.png" alt="Finder window with Column view icon selected" width="50%">
+    <img src="media/5.png" alt="Finder window with Column view icon selected" >
 
 ### Gallery View
 {: .no_toc}
 
 A "gallery" view is also available, which shows a short summary of the file, and displays a large icon. To activate "Gallery" view, **select the right-most symbol**, which is a small rectangle with three dots beneath it. Afterwards, switch back to Icon view.
 
-<img src="media/6.png" alt="Finder window with Gallery view selected" width="50%">
+    <img src="media/6.png" alt="Finder window with Gallery view selected" >
 
 ### Toggling the Path Bar
 {: .no_toc}
 
 1. At the bottom of the displayed Finder window, the absolute path of the current directory is shown.
 
-    <img src="media/8.png" alt="Finder window with Path Bar highlighted" width="50%">
+    <img src="media/8.png" alt="Finder window with Path Bar highlighted" >
 
 1. To toggle this "Path Bar" on or off, **select "View" from the finder menu bar**.
 
@@ -192,49 +192,49 @@ This section presents Mac OS system domains, describes their role and position i
 
 1. Double-click "Macintosh HD".
 
-    <img src="media/11.png" alt="Finder window with 'Macintosh HD' highlighted" width="50%">
+    <img src="media/11.png" alt="Finder window with 'Macintosh HD' highlighted" >
 
 1. This is the "root" (or base) directory, symbolized by "/" in all absolute file paths. All files contained on your computer are held in this location. They are in one of four locations, "Applications", "Library", "System", or "Users"
 
-    <img src="media/12.png" alt="'Macintosh HD Finder window showing icons listed above'" width="50%">
+    <img src="media/12.png" alt="Macintosh HD Finder window showing icons listed above" >
 
 ### Library
 {: .no_toc }
 
 1. Double-click the Library folder, but **do not make any changes to this folder**.
 
-    <img src="media/13.png" alt="Finder window with 'Library' highlighted" width="50%">
+    <img src="media/13.png" alt="Finder window with 'Library' highlighted" >
 
     **IMPORTANT NOTE** Unless you are advised by an Apple representative, or someone with a high level of technical knowledge, **never add, delete, manipulate or change any files in this location**. The files contained in the Library directory are used for basic processing tasks, and changing anything in this folder (including adding folders), could disrupt your computer, or stop it from working entirely.
-    {: .warn}
+    {: .danger}
 
-    <img src="media/14.png" alt="Finder window showing 'Library' contents" width="50%">
+    <img src="media/14.png" alt="Finder window showing 'Library' contents" >
 
 1. In the upper left corner of the finder window, **select the left arrow to navigate "backwards"**, to the directory we were last in, called "Macintosh HD". These arrows allow users to toggle between the two most recently-viewed directories.
 
-    <img src="media/15.png" alt="Finder window with 'Back' button highlighted in upper left corner of window" width="50%">
+    <img src="media/15.png" alt="Finder window with 'Back' button highlighted in upper left corner of window" >
 
 ### Applications
 {: .no_toc }
 
 1. From "Macintosh HD" **Double-click the "Applications" folder**.
 
-    <img src="media/16.png" alt="Finder window with 'Applications' icon highlighted" width="50%">
+    <img src="media/16.png" alt="Finder window with 'Applications' icon highlighted" >
 
 1. **Select "List" view** to show item details. This is the default save/installation location for any applications that are installed on your machine. If you download an app from the app store, and install is using default settings, you will be able to run the application by locating it in this directory and double-clicking it. "Downloads" is the default ***save location*** for most software downloaded through an internet browser, and "Applications" is the default ***installation location***.
 
-    <img src="media/17.png" alt="Finder window showing applications, with 'List' view highlighted and selected" width="50%">
+    <img src="media/17.png" alt="Finder window showing applications, with 'List' view highlighted and selected" >
 
 ### "Favorites" Bar (Quick Access)
 {: .no_toc }
 
 1. On the left-hand side of all finder windows, underneath the red, yellow, and green buttons, several "Favorite" directory locations appear in blue text. Users can also access the "Applications" folder by **clicking "Applications"** from Favorites.
 
-    <img src="media/18.png" alt="Finder window with 'Applications' highlighted under 'Favorites'" width="50%">
+    <img src="media/18.png" alt="Finder window with 'Applications' highlighted under 'Favorites'" >
 
 1. Select "Desktop" to show the items present on your desktop and **select list view**. If you have many items on your desktop (or in any folder, for that matter), this is an excellent view to begin organizing them, because you can quickly toggle between different grouping methods, and file details are available at a glance.
 
-    <img src="media/19.png" alt="Finder window with 'Desktop' (under 'Favorites') and 'List View' icon highlighted" width="50%">
+    <img src="media/19.png" alt="Finder window with 'Desktop' (under 'Favorites') and 'List View' icon highlighted" >
 
 ---
 ## User Domains
@@ -244,22 +244,22 @@ With the exception of Applications, the default save location for all files in a
 
 1. To examine the set of User directories, open Macintosh HD and **double-click the folder of the user you are currently logged in to.** You will be able to tell which user you are in because the current User folder will have a small "Home" or "House" symbol on it. If you have any doubt about which User account you are currently in, click the apple-shaped icon in the upper left corner of the screen, and look at the bottom "log out of..." text. What follows "log out of..." will be the name of your current user.
 
-    <img src="media/26.png" alt="Finder window showing users directory, with Home users folder highlighted" width="50%">
+    <img src="media/26.png" alt="Finder window showing users directory, with Home users folder highlighted" >
 
 1. Now that we're viewing the main User folder, several sub-folders should appear. With the exception of "Zotero" and "test_directory", all other folders should be present in your User folder. Take note of the "Downloads" folder. This is the default save location for any data, folders, or files downloaded from the internet. If you download a photo, music file, or video file, it is possible (depending on your system settings) that the file will be saved in "Movies", "Music", or "Pictures" -- this may be a good place to check if a download is not showing up in the "Downloads" folder. **Note: it is generally best-practice to avoid leaving items in your downloads folder; ideally they would be filed into some logical system of organization within your directories immediately after download.*** See below for more information.
 
-    <img src="media/27_download.png" alt="Finder window with Downloads highlighted" width="50%">
+    <img src="media/27_download.png" alt="Finder window with Downloads highlighted" >
 
 ---
 
 ## Best Practices in File Management
 
-All files should periodically be backed up ("copied") to an external hard drive. Particularly important files and folders should also be backed up to the Cloud. In general, weekly updates should suffice. Check out [Time Machine, Apple's native back-up software.](https://support.apple.com/en-us/HT201250) to automatically back up all user settings, applications, data, files, and folders, every time you connect your external drive.
+All files should periodically be backed up ("copied") to an external hard drive. Particularly important files and folders should also be backed up to the Cloud. In general, weekly updates should suffice. Check out **[Time Machine](https://support.apple.com/en-us/HT201250)**, Apple's native back-up software, to automatically back up all user settings, applications, data, files, and folders, every time you connect your external drive.
 {: .warn}
 
 In order to simplify file paths and make your directories easier to navigate, we suggest that you use "Documents" as the main folder in which all other files and folders are kept. **Double-click "Documents" to view this directory.**
 
-<img src="media/29.png" alt="Finder window with Documents icon highlighted" width="50%">
+    <img src="media/29.png" alt="Finder window with Documents icon highlighted" >
 
 If the machine were for Graduate School, Work, and Personal use, one might add the following folders in Documents to begin organizing files (potential subfolders are shown as nested bullets):
 
@@ -302,37 +302,37 @@ In this section, users practice creating a new folder and text file, and then sa
 
 1. While in the documents folder (or with the Documents folder selected), click "File" from the menu bar.
 
-    <img src="media/30_new_fold.png" alt="Finder 'File' dropdown menu selected" width="70%">
+    <img src="media/30_new_fold.png" alt="Finder 'File' dropdown menu selected" width="50%">
 
 1. From the dropdown menu, select "New Folder".
 
-    <img src="media/31.png" alt="Finder 'File' dropdown menu with 'New Folder' selected" width="70%">
+    <img src="media/31.png" alt="Finder 'File' dropdown menu with 'New Folder' selected" width="50%">
 
 1. A new folder named "Untitled Folder" will be added to the Documents directory. **Single-click "Untitled Folder"** to highlight it.
 
-    <img src="media/32.png" alt="Finder 'Documents' directory with newly created 'Untitled Folder' selected and highlighted" width="50%">
+    <img src="media/32.png" alt="Finder 'Documents' directory with newly created 'Untitled Folder' selected and highlighted" >
 
 ### Rename a Folder
 {: .no_toc }
 
 1. With the Untitled Folder highlighted, **press "Enter" on the keyboard to select the text.** The text should now appear highlighted. **Rename the file to "a_new_folder", and press enter on the keyboard.** It's best to avoid including spaces in file and folder names, as some applications may have difficulty reading those files. That said, if most of your computer use is media and document-based, and you don't use advanced software, spaces will likely not be a problem.
 
-    <img src="media/33.png" alt="Finder documents directory with 'Untitled Folder' text selected" width="50%">
+    <img src="media/33.png" alt="Finder documents directory with 'Untitled Folder' text selected" >
 
 1. "a_new_folder" should now appear near the top of the documents folder, depending on how other items in the folder are named.
 
-    <img src="media/34.png" alt="Finder Documents directory with renamed folder selected and highlighted" width="50%">
+    <img src="media/34.png" alt="Finder Documents directory with renamed folder selected and highlighted" >
 
 ### Create a Text File
 {: .no_toc }
 
 1. Open "Applications" from Favorites by single-clicking "Applications".
 
-    <img src="media/35.png" alt="Finder window showing Applications directory with 'Applications' highlighted in Favorites section " width="50%">
+    <img src="media/35.png" alt="Finder window showing Applications directory with 'Applications' highlighted in Favorites section " >
 
 1. Open "Text Edit" by double-clicking the application. If a new Text Edit window does not open automatically, complete the following two steps, otherwise you may skip them.
 
-    <img src="media/36_txt.png" alt="Finder window showing Applications directory, with 'Text Edit' highlighted and selected" width="50%">
+    <img src="media/36_txt.png" alt="Finder window showing Applications directory, with 'Text Edit' highlighted and selected" >
 
 1. With Text Edit open, select "File" from the menu bar.
 
@@ -342,44 +342,44 @@ In this section, users practice creating a new folder and text file, and then sa
 
 1. Type something in the new Text Edit window.
 
-    <img src="media/39.png" alt="Text Edit window with 'Hello World!' typed into window" width="50%">
+    <img src="media/39.png" alt="Text Edit window with 'Hello World!' typed into window" >
 
 ### Save to a Specific Folder
 {: .no_toc }
 
 1. With your altered Text Edit file open, **select "File" from the menu bar**.
 
-    <img src="media/40.png" alt="Text Edit 'File' dropdown menu open" width="70%">
+    <img src="media/40.png" alt="Text Edit 'File' dropdown menu open" width="50%">
 
 1. From the dropdown menu, **click "Save"**.
 
-    <img src="media/41.png" alt="Text Edit dropdown menu with 'Save' highlighted and selected" width="50%">
+    <img src="media/41.png" alt="Text Edit dropdown menu with 'Save' highlighted and selected" width="50%" >
 
 1. A new Save dialog box should open. The default save location is your most recent save location. For example, if the last place I saved something to was /Users/UMass/Music, "Music" would be selected instead of "Documents", as shown below. The view options (Icon, List, etc) are available to the left of the currently-selected directory. **Rename your file, and click the blue button (with little white arrows) directly next to the save location** to show additional directories. The white arrow next to the current directory hides and expands the navigator portion of the dialog box. The search bar allows users to search the current directory.
 
-    <img src="media/43.png" alt="Save dialog box with directory selection button highlighted" width="50%">
+    <img src="media/43.png" alt="Save dialog box with directory selection button highlighted" >
 
 1. Select your User account.  
 
     Your navigation window should now show your User directory and all its subfolders (if in column view).
 
-    <img src="media/47.png" alt="Dialog box with User folder selected" width="50%">
+    <img src="media/47.png" alt="Dialog box with User folder selected" >
 
 1. Select documents. Note that each time you select a new folder, the current save location listed at the top of the dialog box changes.
 
-    <img src="media/48.png" alt="Save dialog box with 'Documents' folder selected" width="50%">
+    <img src="media/48.png" alt="Save dialog box with 'Documents' folder selected" >
 
 1. Select a_new_folder.
 
-    <img src="media/49.png" alt="Save dialog box with 'A new folder' selected" width="50%">
+    <img src="media/49.png" alt="Save dialog box with 'A new folder' selected" >
 
 1. **Press enter or click the blue "Save" button** at the bottom right.
 
-    <img src="media/50.png" alt="Save dialog box with blue 'Save' button highlighted" width="50%">
+    <img src="media/50.png" alt="Save dialog box with blue 'Save' button highlighted" >
 
     Congratulations, you just created and saved a new file to a new folder!
 
-    <img src="media/53.png" alt="Finder window showing 'a new folder' directory with a document called 'new hello document' highlighted" width="50%">
+    <img src="media/53.png" alt="Finder window showing 'a new folder' directory with a document called 'new hello document' highlighted" >
 
 ---
 ## Practice: Copying, Moving, and Deleting Files
@@ -395,7 +395,7 @@ To select multiple files in list or column view, highlight the first file by sin
 
 1. In column view, select your "Documents" folder.
 
-    <img src="media/58_5.png" alt="Finder window with 'Documents' folder selected" width="50%">
+    <img src="media/58_5.png" alt="Finder window with 'Documents' folder selected" >
 
 1. Create a new folder, called "a_new_folder_2" in "Documents", and then **select File from the menu bar**. (See "Create a new folder" section above if you need a refresher on how to create a folder.)
 
@@ -407,43 +407,46 @@ To select multiple files in list or column view, highlight the first file by sin
 
 1. A new Finder window should appear. Navigate to your new folder and resize the windows so you can see both at once.
 
-    <img src="media/65.png" alt="Two finder windows in column view, both showing 'Documents' directory. In the top window, a folder called 'a new folder' is selected, and shows a text file in the adjacent column. A folder called 'a new folder 2' is highlighted in bottom window" width="50%">
+    <img src="media/65.png" alt="Two finder windows in column view, both showing 'Documents' directory. In the top window, a folder called 'a new folder' is selected, and shows a text file in the adjacent column. A folder called 'a new folder 2' is highlighted in bottom window" >
 
 ### Copying Files
 {: .no_toc }
 
 1. Right-click your file and select "Copy" from the dropdown menu.
 
-Alternatively, you may select the file, hold the "Command" key, and press the "C" key (you may then release the "Command" key). Additionally, you may select the file, and then ***from the menu bar*** click "File", and select "Duplicate" from the dropdown menu. Note: "Duplicate" will add a new copy of the file to the directory in which the original file resides, "Copy" adds the file to your clipboard so it may be copied/added to any directory (using "command" "v", for example).
+    Alternatively, you may select the file, hold the "Command" key, and press the "C" key (you may then release the "Command" key). Additionally, you may select the file, and then ***from the menu bar*** click "File", and select "Duplicate" from the dropdown menu. Note: "Duplicate" will add a new copy of the file to the directory in which the original file resides, "Copy" adds the file to your clipboard so it may be copied/added to any directory (using "command" "v", for example).
 
-    <img src="media/66.png" alt="Dropdown menu from right-clicking text file with 'copy' highlighted and selected" width="50%">
+    <img src="media/66.png" alt="Dropdown menu from right-clicking text file with 'copy' highlighted and selected" >
 
 1. Right-click anywhere in your original folder (the one from which the file came), and select "Paste" from the dropdown menu.
 
-    <img src="media/67.png" alt="Dropdown menu with 'Paste Item' highlighted and selected" width="50%">
+    <img src="media/67.png" alt="Dropdown menu with 'Paste Item' highlighted and selected" >
 
     A new copy of your file should be added to the directory.
 
-    <img src="media/68.png" alt="New folder directory with copied file highlighted" width="50%">
+    <img src="media/68.png" alt="New folder directory with copied file highlighted" >
 
 ### Moving Files
 {: .no_toc }
 
 Click and drag the copied file into the new folder. (To click and drag: Hover over the file of interest, depress the left-click, and then without releasing, move the cursor--the file will move with the cursor--and release the mouse button/trackpad button when you are hovering over the new save location). Note: files may be copied or moved into folders directly, it is not necessary to open a new window with the folder you'd like to save to, you may drop directly into the folder icon and the files will be added to that directory.
 
-<img src="media/69.png" alt="Recently copied file being dragged and dropped to 'a new folder 2'" width="50%">
+    <img src="media/69.png" alt="Recently copied file being dragged and dropped to 'a new folder 2'" >
 
 ### Deleting Files
 {: .no_toc }
 
-1. Right-click the file you wish to delete, and **click "Move to Trash" from the dropdown menu.**
+1. Right-click the file you wish to delete, and **click "Move to Trash"** from the dropdown menu.
 
-    <img src="media/70.png" alt="Dropdown menu with 'Move to Trash' highlighted and selected" width="50%">
+    <img src="media/70.png" alt="Dropdown menu with 'Move to Trash' highlighted and selected" >
 
 1. Click the trash can icon to open up the Trash and view its contents. From here, files may be moved and added back to your file system if desired.
 
-    <img src="media/71.png" alt="Dock with 'Trash' icon highlighted" width="50%">
+    <img src="media/71.png" alt="Dock with 'Trash' icon highlighted" >
 
 1. To empty the trash and permanently delete the enclosed items, click the button labeled "Empty" in the upper right corner of the Trash window.
 
-    <img src="media/72.png" alt="Trash window with 'Empty Trash' button highlighted" width="50%">
+    <img src="media/72.png" alt="Trash window with 'Empty Trash' button highlighted" >
+
+---
+Tutorial by John Slaff, 2023.

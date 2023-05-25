@@ -414,7 +414,7 @@ To select multiple files in list or column view, highlight the first file by sin
 
 1. Right-click your file and select "Copy" from the dropdown menu.
 
-Alternatively, you may select the file, hold the "Command" key, and press the "C" key (you may then release the "Command" key). Additionally, you may select the file, and then ***from the menu bar*** click "File", and select "Duplicate" from the dropdown menu. Note: "Duplicate" will add a new copy of the file to the directory in which the original file resides, "Copy" adds the file to your clipboard so it may be copied/added to any directory.
+Alternatively, you may select the file, hold the "Command" key, and press the "C" key (you may then release the "Command" key). Additionally, you may select the file, and then ***from the menu bar*** click "File", and select "Duplicate" from the dropdown menu. Note: "Duplicate" will add a new copy of the file to the directory in which the original file resides, "Copy" adds the file to your clipboard so it may be copied/added to any directory (using "command" "v", for example).
 
     <img src="media/66.png" alt="Dropdown menu from right-clicking text file with 'copy' highlighted and selected" width="50%">
 

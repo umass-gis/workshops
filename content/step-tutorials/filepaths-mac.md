@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Filepaths in MacOS
-nav_order: 10
-has_children: false
+parent: Step-by-Step Tutorials
+nav_order: 2
 ---
 
 # Filepaths in MacOS

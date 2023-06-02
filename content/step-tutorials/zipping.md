@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Zip & Unzip Tutorials
-description: "Zip & We Unzip Tutorials"
-nav_order: 9
-has_children: false
+title: Zipping and Unzipping
+parent: Step-by-Step Tutorials
+nav_order: 1
 ---
 
 # Zipping and Unzipping Files

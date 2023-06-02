@@ -20,12 +20,13 @@ Try one of the workshops hosted by UMass Amherst Libraries
 
 Hi! I'm Dr. Becky Seifried, the Geospatial Information Librarian at UMass Amherst. Before becoming a librarian, I was a research archaeologist who learned how to use GIS out in the field. A lot of my experience with GIS comes from working on projects where I collected geospatial data, georectified historical maps,  interpreted satellite imagery, and more.
 
-Have a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or learn about the Libraries' [GIS consultations](https://gis.library.umass.edu/learning-gis/consultations/) to meet with me one-on-one.
+Have a question about GIS? Email me at [rseifried@umass.edu](mailto:rseifried@umass.edu) or learn about the Libraries' [GIS consultations](https://gis.library.umass.edu/learning-gis/get-help/) to meet with me one-on-one.
 
 ## Try the workshops
 
 [Learn the Basics of QGIS](https://umass-gis.github.io/workshops/content/basics-qgis/)
-<br>[Design a StoryMap](https://umass-gis.github.io/workshops/content/storymaps/)
+<br>[Create a StoryMap](https://umass-gis.github.io/workshops/content/storymaps/)
 <br>[Georeference a Historical Map](https://umass-gis.github.io/workshops/content/georeferencing)
 <br>[Map Census Data](https://umass-gis.github.io/workshops/content/map-census-data/)
+<br>[Design a Static Map](https://umass-gis.github.io/workshops/content/static-map/)
 <br>[Build a Web Map](https://umass-gis.github.io/workshops/content/web-map/)

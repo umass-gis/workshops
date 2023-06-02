@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Design a StoryMap
-description: "Design a StoryMap - a workshop by the UMass Amherst Libraries."
+title: Create a StoryMap
+description: "Create a StoryMap"
 nav_order: 3
 has_children: true
 has_toc: false
 ---
 
-# Design a StoryMap
+# Create a StoryMap
 
 This is an evolving workshop that is designed to introduce you to storymapping. While there are several storymapping platforms out there, this one will focus on [Esri's ArcGIS StoryMaps](https://storymaps.arcgis.com/). By the end of the workshop, you will be able to:
 * Create an engaging storymap outline

@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav_order: 1
-description: "GIS workshops hosted by the UMass Amherst Libraries"
+description: "GIS workshops curated by the UMass Amherst Libraries"
 permalink: /
 ---
 
-# Get ready to learn about GIS
+# GIS Workshops
 {: .fs-9 }
 
-GIS workshops curated by UMass Amherst Libraries
+Learning resources curated by the UMass Amherst Libraries
 {: .fs-6 .fw-300 }
 
 [Get started now](https://umass-gis.github.io/workshops/content/basics-qgis/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find more resources](https://gis.library.umass.edu/){: .btn .fs-5 .mb-4 .mb-md-0 }

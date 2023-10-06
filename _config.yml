@@ -1,5 +1,5 @@
 title: "GIS Workshops"
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 description: GIS workshops hosted by UMass Amherst Libraries
 
 # Magic to make URLs resolve both locally and on GitHub.

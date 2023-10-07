@@ -8,7 +8,7 @@ nav_order: 2
 # Georeferencing Basics
 {: .no_toc }
 
-Overview of the basic concepts: source layer, target layer, and ground control points (GCPs)
+Source layers, target layers, and ground control points (GCPs)
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -41,17 +41,17 @@ The map or aerial photograph that you will georeference. This is inherently a *r
 **Target layer**<br/>
 An existing spatial dataset (in the correct location) that you will use to georeference the source layer.
 
-*What makes a good target layer?* 
-* It should cover the entire extent of the source layer. Put another way, the image you want to georeference should fit entirely within this target layer. 
-* It can be a vector dataset (like the outline or boundary of a state) or another raster (like a satellite image). 
+*What makes a good target layer?*
+* It should cover the entire extent of the source layer. Put another way, the image you want to georeference should fit entirely within this target layer.
+* It can be a vector dataset (like the outline or boundary of a state) or another raster (like a satellite image).
 * The level of detail should be roughly the same as what is in the source layer. For example: a map of the state of Massachusetts could be georeferenced using just a state boundary file; but an aerial photo of Amherst will need to be georeferenced using a more detailed image, like a satellite image from Google Earth.
 
 **Ground control points (GCPs)**<br/>
 Common points that connect the two layers. You will look for and create GCPs during the georeferencing process.
 
-*What makes a good GCP?* 
-* Good GCPs are points that stay the same over time, like the corners of buildings, intersections between two roads, or railroad lines. 
-* GCPs to avoid include points that are more likely to move, like the borders of land cover types (forested areas, water bodies), individual trees or bushes, the edges of roads, or moveable recreational features (like home plate in a baseball diamond). 
+*What makes a good GCP?*
+* Good GCPs are points that stay the same over time, like the corners of buildings, intersections between two roads, or railroad lines.
+* GCPs to avoid include points that are more likely to move, like the borders of land cover types (forested areas, water bodies), individual trees or bushes, the edges of roads, or moveable recreational features (like home plate in a baseball diamond).
 * You should also avoid using points that could vary depending on the angle the photo was taken, such as anything very high in elevation (bridges, skyscraper roofs).
 
 ---

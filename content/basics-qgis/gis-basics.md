@@ -8,7 +8,7 @@ nav_order: 2
 # GIS Basics
 {: .no_toc }
 
-Overview of a few key GIS concepts: map layers, data types, and data organization
+Map layers, data types, and data organization
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">

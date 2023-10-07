@@ -8,7 +8,7 @@ nav_order: 1
 # Getting Started
 {: .no_toc }
 
-This page will take you through the steps to install QGIS and become familiar with the interface.
+Install QGIS and become familiar with the interface
 {: .fs-6 .fw-300 }
 
 The photos and instructions were put together on a Windows machine using QGIS 3.10.3, so if you install a different version (or are a Mac or Linux user) the specific instructions and menu names might be different.
@@ -31,8 +31,10 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 [Download QGIS](https://www.qgis.org/){: .btn .btn-primary}
 
-**Everyone**: The recommended version is the long-term release (LTR), currently 3.22.<br>
-**Windows users**: Select one of the install options under the heading "Standalone installers from OSGeo4W packages."
+**Note**: I recommend downloading the long-term release (LTR), which is more stable.<br>
+
+<img src="media/qgis_download.png" alt="QGIS download website, showing the LTR in much smaller font below the giant green button to download" width=700px>
+
 
 ---
 ## Download the demo data

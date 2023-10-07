@@ -43,7 +43,7 @@ Imagine you are organizing a hike in your favorite spot, Erving State Forest. Th
 ### DCR trail map of Erving State Forest
 {: .no_toc }
 
-<img src="media/erving_state_forest_trailmap.PNG" alt="Official MA DCR Erving State Forest trail map" width="80%">
+<img src="media/erving_state_forest_trailmap.PNG" alt="Official MA DCR Erving State Forest trail map" width=400px>
 
 There are some things about this map that you’d like to change to make it easier for you and your companions to navigate the intricate trail system in the park.
 
@@ -192,7 +192,7 @@ If you answer "no" or even "I'm not sure" to any of these questions, think of ho
 
 In the top menu bar, click one of the buttons for `Export as image`, `Export as SVG`, or `Export as PDF`.
 
-![exported map](media/friends_trailmap.jpg "Final map exported as a JPG from the Print Layout")
+<img src="media/friends_trailmap.jpg" alt="Final map exported as a JPG from the Print Layout" width=600px>
 
 ### Step 9: Revel in your new map
 {: .no_toc }

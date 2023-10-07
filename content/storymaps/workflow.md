@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Understand the Workflow
-parent: Design a StoryMap
+parent: Create a StoryMap
 nav_order: 2
 ---
 

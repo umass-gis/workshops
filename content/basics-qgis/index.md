@@ -9,7 +9,7 @@ has_toc: false
 
 # Learn the Basics of QGIS
 
-This is an evolving workshop that is geared towards newcomers to GIS. By the end of the workshop, you will be able to:
+If you're brand new to GIS, this is the workshop for you! By the end of the workshop, you will be able to:
 * Understand the capabilities of GIS
 * Open geospatial data in QGIS
 * Identify the coordinate system of the data
@@ -25,13 +25,13 @@ Click the links below to watch recordings of this workshop on YouTube:
 ---
 ## Workshop outline
 
-This workshop is designed to take about two hours as a live demonstration. If you are working through the materials on your own time, it may take a bit longer!
+This workshop is designed to take about two hours as a live demonstration. If you are working through the materials on your own time, it may take a bit longer.
 
 | Time | Topic |
 | :--- | :--- |
 | 0:00 | Introduction |
-| 0:05 | The QGIS interface |
-| 0:35 | GIS basics |
+| 0:05 | GIS basics |
+| 0:35 | The QGIS interface |
 | 0:50 | Break |
 | 1:00 | Coordinate systems |
 | 1:30 | Visualizing data |

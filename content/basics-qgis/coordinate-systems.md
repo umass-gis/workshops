@@ -24,24 +24,58 @@ The key to how geospatial data works
 ## Overview
 {:toc}
 
-Coordinate reference systems (CRS) allow us to locate any place on the earth’s surface.
+If I told you it was 40 degrees today, what would you imagine?
 
-At their most basic, a coordinate pair consists of two numbers: an **X value (longitude)** and a **Y value (latitude)**. The CRS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CRS that exists today!
+![An adorable snowperson on the left, and a desert wasteland on the right](media/ice_vs_desert.png "40 degrees Fahrenheit vs. 40 degrees Celsius")
 
-There are two kinds of  systems:
-* **Geographic coordinate systems** are best suited for 3D surfaces like globes.
-* **Projected coordinate systems** are designed to display locations on flat surfaces like maps and computer screens.
+How you interpret "40" depends on the system of measurement. 40 degrees means one thing if the system is  Fahrenheit (super cold!) and something very different if the system is Celsius (super hot!).
+
+Coordinate Reference System (CRS's) function in a similar same way. We use coordinate pairs - consisting of an **X value (longitude)** and a **Y value (latitude)** - to identify a location on the earth's surface.
+
+The CRS is the key to understanding what those numbers mean. The same location could have thousands of different coordinate pairs - one for every CRS that exists today!
+
+---
+## The Geoid, Ellipsoids, and Datums
+{:toc}
+
+These are the building blocks of different CRS's.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGEAMvj797ZfrIWaxbA-2QcR96BZvFSvNuqk1BX9_KRXmUMBonSbD8msN2btH0UT2QRwFgAtOt9gcb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+## Types of Coordinate Reference Systems
+{:toc}
+
+There are two types of CRS's:
+
+* **Geographic CRS's** are used for 3D surfaces like globes.
+* **Projected CRS's** are used for flat surfaces like maps and computer screens.
 
 ![Icons showing geographic coordinate systems as a globe and projected coordinate systems as a map](media/coordinate_icons.JPG "Geographic vs. projected coordinate systems")
 
 ---
-## Coordinate reference systems (CRS's)
+### Geographic CRS's
 {:toc}
 
-For a fun and interactive crash-course in map projections, check out [Squashing the Globe](https://www.leventhalmap.org/digital-exhibitions/bending-lines/how-to-bend/projections/) from the digital exhibit *Bending Lines*, by the Leventhal Map & Education Center.
+These are used to map locations on a 3D surface. Measurements are in **degrees**.
 
-Dive into more information in this slideshow:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGEAMvj797ZfrIWaxbA-2QcR96BZvFSvNuqk1BX9_KRXmUMBonSbD8msN2btH0UT2QRwFgAtOt9gcb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7B8-C2OpJ1m6Fbi5cA9erouBX68OD0AqLvTzRb9j4kczKS5oJCGD3NUVkoQDflsJe6WGulTBqOmIC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+### Projected CRS's
+{:toc}
+
+These are used to map locations on a 2D surface. Measurements are in units like **meters, feet, miles, etc.**
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOvKt84SI690sD9P802FjpQBulrvDa7WlFSGtN1I9BcSwBVN2yaLJWUzWl-z_uFdt7viBjGNb1jad1/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+### Common Projection Systems
+{:toc}
+
+These are the most common systems you're likely to encounter if you work with data from the US.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSuTxX-KPYsD_Bvpx8EoC_say2DYeyrYJmizPT8eCTpU1zkrCQrl5VByTA0UyRj_ZBLHtR6u0f_eRZG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 ## Practice in QGIS
@@ -163,3 +197,5 @@ These are some of my favorite coordinate system tools:
 * [EPSG.io](https://epsg.io/): search for information about over 6,000 coordinate systems
 * [FCC DMC-to-Decimal converter](https://www.fcc.gov/media/radio/dms-decimal): quickly convert coordinates from Degrees Minutes Seconds to Decimal Degrees (and vice versa)
 * [Rick King's State Plane Coordinate System](https://www.ret3.net/p/state-plane-coordinate-system.html): look up the State Plane and UTM Zones for each county in the U.S.
+
+For a fun and interactive crash-course in map projections, check out [Squashing the Globe](https://www.leventhalmap.org/digital-exhibitions/bending-lines/how-to-bend/projections/) from the digital exhibit *Bending Lines*, by the Leventhal Map & Education Center.

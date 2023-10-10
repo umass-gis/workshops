@@ -32,7 +32,7 @@ Check out the [Learning GIS](https://gis.library.umass.edu/learning-gis/) sectio
 
 The QGIS user community has two resources that could be helpful, [A Gentle Introduction to GIS](https://docs.qgis.org/3.10/en/docs/gentle_gis_introduction/) for an overview of the basics, and the [QGIS Training manual](https://docs.qgis.org/3.10/en/docs/training_manual/index.html) for step-by-step instructions.<br>
 
-A self-paced course that I’d recommend is Frank Donnelly's [GIS Practicum](https://www.baruch.cuny.edu/confluence/display/geoportal/GIS+Practicum) (Baruch College CUNY). This is a full-day workshop that you can work through on your own. And for specific QGIS tutorials, check out Ujaval Gandhi’s [QGIS Tutorials and Tips](https://www.qgistutorials.com/en/).
+A self-paced course that I’d recommend is Frank Donnelly's [QGIS Tutorial](https://atcoordinates.info/qgis-tutorial/). This is a full-day workshop that you can work through on your own. And for specific QGIS tutorials, check out Ujaval Gandhi’s [QGIS Tutorials and Tips](https://www.qgistutorials.com/en/).
 
 ### Can I transfer my QGIS skills to ArcGIS?
 {:toc}

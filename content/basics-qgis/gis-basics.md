@@ -2,13 +2,13 @@
 layout: default
 title: GIS Basics
 parent: Learn the Basics of QGIS
-nav_order: 2
+nav_order: 1
 ---
 
 # GIS Basics
 {: .no_toc }
 
-Map layers, data types, and data organization
+Map layers, data types, and organization (oh my!)
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -53,10 +53,9 @@ In fact, thinking about GIS as a layer cake is one of the fun visuals that "intr
 ## Data types
 {:toc}
 
-In this section, we'll dive into the data that makes up the layers in a GIS.
+Let's dive into the data that makes up the layers in a GIS: **rasters** and **vectors**.
 
-View this section as a slideshow:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT79POVj3VxRUv4pqA8s52srop5wXF8uzz1eOakGkzV4MqmK-BjTvNnlGPGceFxqgiL4yYJD-xgvqK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT79POVj3VxRUv4pqA8s52srop5wXF8uzz1eOakGkzV4MqmK-BjTvNnlGPGceFxqgiL4yYJD-xgvqK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 ## File formats
@@ -64,8 +63,7 @@ View this section as a slideshow:
 
 GIS data come in many different forms - let's take a look at some examples.
 
-View this section as a slideshow:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQYvG2-HfQjSVzBIJ-9ABaM7256tF5E29263A4fHO_dd8Y6uUyvxf3OzwvBZbeSJMTbYfIt0Rv3n9Ba/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQYvG2-HfQjSVzBIJ-9ABaM7256tF5E29263A4fHO_dd8Y6uUyvxf3OzwvBZbeSJMTbYfIt0Rv3n9Ba/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 ## Data organization
@@ -73,8 +71,7 @@ View this section as a slideshow:
 
 Last but not least, we'll look at ways to keep your data organized!
 
-View this section as a slideshow:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfdkL-poNvBmmj4JQKjDkAKcTadDwYnsZKx2jkZcrUwlGBZHokarGvL9PqG3J-7PuGUEOR3GXb-mCS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfdkL-poNvBmmj4JQKjDkAKcTadDwYnsZKx2jkZcrUwlGBZHokarGvL9PqG3J-7PuGUEOR3GXb-mCS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ---

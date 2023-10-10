@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Getting Started
+title: The QGIS Interface
 parent: Learn the Basics of QGIS
-nav_order: 1
+nav_order: 2
 ---
 
 # Getting Started
@@ -10,9 +10,6 @@ nav_order: 1
 
 Install QGIS and become familiar with the interface
 {: .fs-6 .fw-300 }
-
-The photos and instructions were put together on a Windows machine using QGIS 3.10.3, so if you install a different version (or are a Mac or Linux user) the specific instructions and menu names might be different.
-{: .note}
 
 <details open markdown="block">
   <summary>
@@ -87,13 +84,12 @@ In the menu bar, click `Plugins > Manage and Install Plugins...` Type the plugin
 ### Recommended plugins
 {: .no_toc }
 
-These two plugins are super helpful:
-* QuickMapServices
-* QuickOSM
-
-**QuickMapServices** allows you to access free base imagery from dozens of providers. After installation, click `Web > QuickMapServices > Settings`, clickon the `Visibility` tab, then make sure all the sources are checked on. They should now appear in the QuickMapServices menu for you to use as base imagery.
-
-**QuickOSM** allows you to search and download free vector data from OpenStreetMap. Launch this plugin by clicking `Vector > QuickOSM > QuickOSM...` An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest!
+| Plugin | Description | Install Location |
+| :----- | :---------- | :--------------- |
+| **MMQGIS** | A suite of vector analysis tools, some of which are built into QGIS but have different underlying algorithms. It's worth experimenting with both! | `MMQGIS` drop-down menu |
+| **QuickMapServices** | Easy way to add basemaps from dozens of providers. An alternative to adding individual layers as WMS or ArcGIS REST Servers. | `Web > QuickMapServices`. To add more basemap options, open `Settings` and navigate to the `Visibility` tab; make sure all the sources are checked on. |
+| **QuickOSM** | Allows you to search and download free vector data from OpenStreetMap. An easy way to use this plugin is to navigate the map to your area of interest, then change the query area from "In" to "Canvas Extent." The tool will download all the OSM data in your area of interest! | `Vector > QuickOSM > QuickOSM...` |
+| **SRTM-Downloader** | An easy way to download individual SRTM tiles (elevation data) for your study area. Requires creating a free account at [http://urs.earthdata.nasa.gov//users/new](http://urs.earthdata.nasa.gov//users/new). | `Plugins > SRTM-Downloader` |
 
 ---
 ## Add a local layer
@@ -102,12 +98,11 @@ These two plugins are super helpful:
 Let's assume you have a geospatial data layer downloaded onto your hard drive.
 
 There are several ways to open a layer in QGIS:
-1. In a system folder window (Windows Explorer or Mac Finder), navigate to the data, then drag and drop it into the QGIS Map View. For shapefiles, you'll have to grab the file that ends with .shp!
-1. In the Browser Panel, navigate to the layer, then drag and drop it into the Map View.
-1. For vectors: click `Layer > Add Layer > Add Vector Layer...` or click the `Add Vector Layer...` button. In the window that opens, to the right of the `Vector Dataset(s)` box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
-1. For rasters: click `Layer > Add Layer > Add Raster Layer...` or click the `Add Raster Layer...` button. Follow the steps above.
+1. **Drag-and-drop from file explorer**: In a system folder window (Windows Explorer or Mac Finder), navigate to the data, then drag and drop it into the QGIS Map View. For shapefiles, you'll have to grab the file that ends with .shp!
+1. **Drag-and-drop from the Browser Panel**: In the Browser Panel, navigate to the layer, then drag and drop it into the Map View.
+1. **Add via the Data Source Manager**: To launch, click `Layer > Data Source Manager`. In the window that opens, click the type of dataset you want to add - vector, raster, delimited text, etc. To the right of the **Source** box, click the three buttons `...` to open the file explorer. Navigate to the file, click `Open`, then `Add`.
 
-<img src='https://umass-gis.github.io/workshops/content/basics-qgis/media/manage_layers_annotated.png' width='500' alt='Manage layers toolbar, with the "Add Vector Layer" button outlined in red'>
+![Adding a data layer with the Data Source Manager](media/data_source_manager.png "Data Source Manager")
 
 ---
 ## Add a web layer
@@ -139,7 +134,4 @@ In this example, I am adding a connection to the [Lidar Elevation and Shaded Rel
 ## Get more help
 {:toc}
 
-That's it for the basics! The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/latest/en/docs/index.html) that is worth checking out for more guidance:
-* QGIS Desktop User Guide/Manual
-* Training Manual
-* A Gentle Introduction to GIS
+That's it for the basics! The QGIS user community maintains a [helpful collection of resources](https://docs.qgis.org/latest/en/docs/index.html) that is worth checking out for more guidance.

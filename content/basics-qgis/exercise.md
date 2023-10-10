@@ -8,7 +8,7 @@ nav_order: 6
 # Exercise
 {: .no_toc }
 
-Explore the cities of Holyoke and Chicopee in western Massachusetts to learn how their demographic makeup has changed in the last 80 years
+Practice your new QGIS skills
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -23,9 +23,10 @@ Explore the cities of Holyoke and Chicopee in western Massachusetts to learn how
 ---
 ## Setup
 {:toc}
+In this exercise, you will explore the cities of Holyoke and Chicopee in western Massachusetts to learn how their demographic makeup has changed in the last 80 years.
 
-This exercise will give you a chance to practice the lessons covered in this workshop:
-* becoming familiar with the QGIS interface
+You will practice:
+* navigating the QGIS interface
 * opening data layers
 * organizing data on your hard drive
 * managing CRS's

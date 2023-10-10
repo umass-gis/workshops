@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Build a Web Map
-description: "Build a Web Map - a workshop by the UMass Amherst Libraries."
+title: Design a Web Map
+description: "Design a Web Map - a workshop by the UMass Amherst Libraries."
 nav_order: 7
 has_children: true
 has_toc: false
 ---
 
-# Build a Web Map
+# Design a Web Map
 
 Learn how to create a free, interactive web map using the open-source mapping software, QGIS. By the end of the workshop, you will be able to:
 * Design a map in QGIS

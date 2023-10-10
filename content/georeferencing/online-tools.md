@@ -8,7 +8,7 @@ nav_order: 3
 # Using an Online Tool
 {: .no_toc }
 
-Use an online tool to georeference a scanned map or photo
+Georeference a scanned map or photo online
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">

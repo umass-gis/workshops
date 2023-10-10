@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exercise
-parent: Build a Web Map
+parent: Design a Web Map
 nav_order: 2
 ---
 

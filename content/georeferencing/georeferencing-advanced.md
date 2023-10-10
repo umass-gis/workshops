@@ -8,7 +8,7 @@ nav_order: 4
 # Advanced Concepts in Georeferencing
 {: .no_toc }
 
-Concepts that are useful before tackling georeferencing in desktop GIS software
+What to know before using desktop GIS software
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">

@@ -39,7 +39,7 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 If you want to play around with example data, download this data pack. It contains several vector files in shapefile format, and the readme.txt file has links to a raster you can download or add to a QGIS session as a web layer. You will need to unzip the file before you can access its contents in QGIS.
 
-[Get the demo data](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2022.zip){: .btn .btn-primary }
+[Get the demo data](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2023.zip){: .btn .btn-primary }
 
 **Mac users**: Double-click the file to unzip it automatically.<br>
 **Windows users**: Right-click the file and use a tool like 7-Zip to extract the files.

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Filepaths in MacOS
-parent: Step-by-Step Tutorials
-nav_order: 2
+title: Filepaths in Mac
+parent: Extras
+nav_order: 4
 ---
 
-# Filepaths in MacOS
+# Filepaths in Mac
 {: .no_toc }
 
 How to save, locate, organize, move, and delete files on a Mac

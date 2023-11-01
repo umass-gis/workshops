@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutorial
-parent: Map Census Data
+parent: Work with Census Data
 nav_order: 5
 ---
 
@@ -38,7 +38,7 @@ To answer these questions, you'll use the Subject Table on "Educational Attainme
 
 Most of this tutorial teaches you how to find data on the U.S. Census Bureau's website and how to clean it to get it ready for mapping in QGIS. You can skip these steps and go straight to [Join the files in QGIS](#join-the-files-in-qgis) by downloading the data pack here:
 
-[Get the data pack](https://github.com/umass-gis/workshops/blob/main/content/map-census-data/data/mapping-census-data-pack_Fall2021.zip){: .btn .btn-primary }
+[Get the data pack](https://github.com/umass-gis/workshops/blob/main/content/census-data/data/mapping-census-data-pack_Fall2021.zip){: .btn .btn-primary }
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 

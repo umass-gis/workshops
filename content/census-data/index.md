@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Map Census Data
-description: "Map Census Data - a workshop by the UMass Amherst Libraries."
-nav_order: 5
+title: Work with Census Data
+description: "Work with Census Data - a workshop by the UMass Amherst Libraries."
+nav_order: 8
 has_children: true
 has_toc: false
 ---
 
-# Making Maps with U.S. Census Data
+# Working with U.S. Census Data
 
 This workshop will focus on ways to access data directly from the U.S. Census Bureau. Specifically, you will learn how to:
 * Find data on the U.S. Census Bureau's website
@@ -21,20 +21,35 @@ This workshop is geared toward folks with a basic understanding of GIS concepts.
 ## Watch the workshop
 Click the link below to watch a recording of this workshop on YouTube:
 
-**[Full workshop - November 2, 2021](https://youtu.be/GsF6dQgleTE)**
+**Previous recordings**<br>
+[November 2, 2021 - full workshop](https://youtu.be/GsF6dQgleTE)
 
 ---
 ## Workshop outline
 
-This workshop is designed to take just over one hour as a live demonstration.
+### Part 1: The Basics of data.census.gov
 
 | Time | Topic |
 | :--- | :--- |
 | 0:00 | Introduction |
-| 0:05 | Types of Census data |
-| 0:20 | Using the online map viewer |
-| 0:30 | Mapping with QGIS |
-| 1:00 | Q&A |
+| 0:05 | Census geographies |
+| 0:10 | Basic queries |
+| 0:15 | Map tools |
+| 0:25 | Custom queries |
+| 0:40 | Practice |
+| 1:10 | Wrap-up |
+
+### Part 2: Creating a Bespoke Map
+
+| Time | Topic |
+| :--- | :--- |
+| 0:00 | Introduction |
+| 0:05 | Census geographies |
+| 0:10 | Types of Census data |
+| 0:20 | Custom queries |
+| 0:30 | Data cleaning |
+| 0:40 | Mapping with QGIS |
+| 0:55 | Practice |
 | 1:10 | Wrap-up |
 
 If you are working through the materials on your own time, it may take a bit longer!

@@ -1,16 +1,12 @@
 ---
 layout: default
 title: Video Tutorials
-description: "Video Tutorials"
-nav_order: 8
-has_children: false
+parent: Extras
+nav_order: 1
 ---
 
 # Video Tutorials
 {: .no_toc }
-
-Get help with common GIS processes
-{: .fs-6 .fw-300 }
 
 These are some of our favorite videos for learning about the basics of GIS, created by folks around the world.
 

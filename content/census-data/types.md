@@ -2,7 +2,7 @@
 layout: default
 title: Types of Census Data
 parent: Work with Census Data
-nav_order: 2
+nav_order: 3
 ---
 
 # Types of Census Data
@@ -123,46 +123,3 @@ Because they have a larger sample size, 5-year estimates are more accurate than 
 <img src='media/acs-sampling-error.png' width='600' alt='Graph comparing estimates of the child poverty rate in Bay County, Michigan, from the ACS 1-year estimate in 2018 and the ACS 5-year estimate from 2014-2018. The 5-year estimate has a smaller sampling error.'>
 
 *Figure 3.2 shows the improved precision of an ACS 5-year estimate, compared with a 1-year estimate, for child poverty statistics in Bay County, Michigan—a county with about 100,000 residents in 2018. The lines above and below the point estimates represent the confidence intervals, or ranges of uncertainty, around each estimate. The confidence interval for the 1-year child poverty estimate ranges from 23.5 percent to 36.9 percent (13 percentage points) while the interval for the 5-year estimate is narrower, ranging from 22.7 percent to 27.7 percent (5 percentage points) ([U.S. Census Bureau 2020](https://www.census.gov/programs-surveys/acs/guidance/handbooks/general.html)).*
-
----
-## GIS Files
-{:toc}
-
-The [Geography Program](https://www.census.gov/programs-surveys/geography.html) is key to how the U.S. Census Bureau collects and shares data. The Census' geographic units range from the lowest resolution (nation) to the highest resolution (blocks). Different datasets are available at each of these levels.
-
-<img src='media/census-hierarchy.png' width='600' alt='Graphical representation of the geographical categories used by the U.S. Census Bureau. The largest entity is nation, at the top of the chart. Below this are regions, divisions, states, counties, census tracts, block groups, and census blocks. Additional sub-categories that are less common are on the sides of the graph and attached via lines to their main geographical category.'><br>
-*[U.S. Census Bureau 2020: Standard Hierarchy of Census Geographic Entities](https://www.census.gov/programs-surveys/geography/guidance/hierarchy.html)*
-
-The first step when looking for Census data is to figure out what scale is appropriate for your research study. Do you need the highest possible resolution of data (the census block)? Or is generalized data more appropriate? Once you figure out which geographical unit you are interested in, you can go ahead and start mapping!
-
-### Each geographic unit has a GEOID
-{: .no_toc }
-
-The key thing to remember is that every spatial unit - be it a county, a town, a census block, or so on - has a unique identifier called a [GEOID](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html). GEOIDs appear consistently across all U.S. Census Bureau's products to make comparing and joining data possible.
-
-For example:
-* The GEOID for the state of Texas is 48.
-* The GEOID for Harris County, TX, is the state code (48) + the county code (201), or 48201.
-* The GEOID for census tract 2231 in Harris County, TX, is the state code (48) + the county code (201) + the tract code (223100), or 48201223100.
-
-GEOIDs allow users to join a GIS file (of the geographic boundaries) with a data table (containing the Census data) in order to explore the data spatially.
-
-### Which dataset to use
-{: .no_toc }
-
-If you plan to create your own maps in GIS software, you'll need to download the appropriate GIS boundary file. The Census Bureau's Geography Program offers two basic types of boundary files: **TIGER/Line files** and **Cartographic Boundaries**. Boundary files don't contain any census data, while others are curated versions that have been pre-joined to the Census tables to make mapping easier.
-
-TIGER stands for Topologically Integrated Geographic Encoding and Referencing. Fun fact!
-{: .note}
-
-This table summarizes the boundary files that are available in shapefile (.shp) format. The Census Bureau also provides curated data that has been pre-joined to the Census table to make mapping easier (called "TIGER/Line with Selected Demographic and Economic Data"), but these are only available in geodatabase (.gdb) format, which is a proprietary file format that can only be used with ArcGIS software.
-
-|  | TIGER/Line Shapefiles | Cartographic Boundary Shapefiles |
-| :--- | :--- |
-| Best for... | Most mapping projects; this is the most comprehensive dataset | Thematic mapping of large areas |
-| Type of data | Boundaries, roads, address information, water features, and more | Small-scale (limited detail) boundaries clipped to shoreline |
-| Level of detail | Full detail (not generalized) | Less detail (generalized) |
-| Descriptive attributes | Extensive | Limited |
-| Vintages available | 2006-2021 | 1990, 2000, 2010, 2013-2020 |
-
-*Information from [TIGER Data Products Guide](https://www.census.gov/programs-surveys/geography/guidance/tiger-data-products-guide.html)*

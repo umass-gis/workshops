@@ -21,6 +21,9 @@ This workshop is geared toward folks with a basic understanding of GIS concepts.
 ## Watch the workshop
 Click the link below to watch a recording of this workshop on YouTube:
 
+**Most recent**<br>
+[November 2, 2023 - part 1: the basics](https://youtu.be/FN_uo6pviPM)
+
 **Previous recordings**<br>
 [November 2, 2021 - full workshop](https://youtu.be/GsF6dQgleTE)
 

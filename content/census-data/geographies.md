@@ -31,6 +31,7 @@ The [Geography Program](https://www.census.gov/programs-surveys/geography.html) 
 
 The first step when looking for Census data is to figure out what scale is appropriate for your research study. Do you need the highest possible resolution of data (the census block)? Or is generalized data more appropriate? Once you figure out which geographical unit you are interested in, you can go ahead and start mapping!
 
+---
 ## GEOIDs
 
 The key thing to remember is that every spatial unit - be it a county, a town, a census block, or so on - has a unique identifier called a [GEOID](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html). GEOIDs appear consistently across all U.S. Census Bureau's products to make comparing and joining data possible.
@@ -42,12 +43,13 @@ For example:
 
 GEOIDs allow users to join a GIS file (of the geographic boundaries) with a data table (containing the Census data) in order to explore the data spatially.
 
+---
+
 ## TIGER/Line vs. Cartographic Boundaries
+<br>
+[Download Census GIS files here](https://www.census.gov/programs-surveys/geography.html){: .btn .btn-primary .fs-4 }
 
 If you plan to create your own maps in GIS software, you'll need to download the appropriate GIS boundary file. The Census Bureau's Geography Program offers two basic types of boundary files: **TIGER/Line files** and **Cartographic Boundaries**. Boundary files don't contain any census data, while others are curated versions that have been pre-joined to the Census tables to make mapping easier.
-
-TIGER stands for Topologically Integrated Geographic Encoding and Referencing. Fun fact!
-{: .note}
 
 This table summarizes the boundary files that are available in shapefile (.shp) format. The Census Bureau also provides curated data that has been pre-joined to the Census table to make mapping easier (called "TIGER/Line with Selected Demographic and Economic Data"), but these are only available in geodatabase (.gdb) format, which is a proprietary file format that can only be used with ArcGIS software.
 
@@ -60,3 +62,6 @@ This table summarizes the boundary files that are available in shapefile (.shp) 
 | Vintages available | 2006-2021 | 1990, 2000, 2010, 2013-2020 |
 
 *Information from [TIGER Data Products Guide](https://www.census.gov/programs-surveys/geography/guidance/tiger-data-products-guide.html)*
+
+Fun fact! TIGER stands for Topologically Integrated Geographic Encoding and Referencing.
+{: .note}

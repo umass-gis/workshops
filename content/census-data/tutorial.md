@@ -129,8 +129,12 @@ Last but not least, the data in the GEO_ID column isn’t in the correct format,
 * Save the .xlsx file - this format is typically easier to edit, so it's a good idea to keep this version somewhere with your other data files.
 * Save a copy of the file in .csv format - this is the version we will use in the next step, because it plays nicely with QGIS software.
 
-<br>
-**Fun extra step!** QGIS sometimes has a hard time deciphering the data type for the columns in a .csv file. In order to make the process more seamless, we will create a .csvt file that tells QGIS the exact data type of each column. The format for a .csvt file is a single line of text, with each column's data type in quotes and separated by commas. The data type choices are: "Integer", "Real", and "String".
+### Extra Step for QGIS versions <3.24
+{: .no_toc}
+
+QGIS sometimes has a hard time deciphering the data type for the columns in a .csv file. Since version 3.24, users can define the data types of columns in a .csv during the import process.
+
+If you are working with a version less than 3.24, you will need to create a .csvt file that tells QGIS the exact data type of each column. The format for a .csvt file is a single line of text, with each column's data type in quotes and separated by commas. The data type choices are: "Integer", "Real", and "String".
 
 * Open a text editor like Notepad or a word processor like Microsoft Word.
 * In a singe line, list the data types for the fields in your cleaned data table.

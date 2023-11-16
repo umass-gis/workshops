@@ -22,6 +22,7 @@ This workshop is geared toward folks with a basic understanding of GIS concepts.
 Click the link below to watch a recording of this workshop on YouTube:
 
 **Most recent**<br>
+[November 16, 2023 - part 2: bespoke maps](https://youtu.be/cx-QhG9SeS8)<br>
 [November 2, 2023 - part 1: the basics](https://youtu.be/FN_uo6pviPM)
 
 **Previous recordings**<br>

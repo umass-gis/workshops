@@ -16,7 +16,7 @@ Learning resources curated by the UMass Amherst Libraries
 
 ---
 
-## Meet the instructors
+## Meet the teachers
 
 Hi! I'm Dr. Becky Seifried, the Geospatial Information Librarian at UMass Amherst. Before becoming a librarian, I was a research archaeologist who learned how to use GIS out in the field. A lot of my experience with GIS comes from working on projects where I collected geospatial data, georectified historical maps,  interpreted satellite imagery, and more.
 

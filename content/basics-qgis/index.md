@@ -20,9 +20,10 @@ If you're brand new to GIS, this is the workshop for you! By the end of the work
 Click the links below to watch recordings of this workshop on YouTube:
 
 **Most recent**<br>
-[October 11, 2023 - full workshop](https://youtu.be/mGw66cV-hDY)<br>
+[March 13, 2024 - full workshop](https://youtu.be/haM7qmgJjLI)<br>
 
 **Previous recordings**<br>
+[October 11, 2023 - full workshop](https://youtu.be/mGw66cV-hDY)<br>
 [October 27, 2022 - full workshop](https://youtu.be/n-5_O4WyZ5o)<br>
 [October 27, 2020 - exercise/tutorial demo](https://youtu.be/y3ViVxaSuT4)
 

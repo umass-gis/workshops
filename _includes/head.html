@@ -22,6 +22,7 @@
   {% include css/activation.scss.liquid %}
   </style>
 
+  <!--Google Analytics tracking code-->
   {% if site.ga_tracking != nil %}
     {% assign ga_tracking_ids = site.ga_tracking | split: "," %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_tracking_ids.first }}"></script>

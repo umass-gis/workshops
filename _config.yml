@@ -38,5 +38,5 @@ plugins:
 color_scheme: umass
 
 # Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-# ga_tracking: G-MVHTPQ8CLM
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+ga_tracking: G-MVHTPQ8CLM

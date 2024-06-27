@@ -1,3 +1,14 @@
-{%- if site.footer_content -%}
+<!-- Original script, referencing footer_content in _config.yml-->
+<!-- {%- if site.footer_content -%}
   <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
-{%- endif -%}
+{%- endif -%} -->
+
+<!-- Custom script to automatically update the year for the copyright notice-->
+<div id="copyright" class="text-small text-grey-dk-100 mb-0"></div>
+
+<script type="text/javascript">
+ var date=new Date(),
+       year = date.getFullYear(),
+      text = "Copyright &copy; " + year + ". Distributed by a <a href=\"https://github.com/umass-gis/workshops/blob/main/LICENSE.txt\">Creative Commons Attribution 4.0 International license.</a>";
+ document.getElementById("copyright").innerHTML=text;
+</script>

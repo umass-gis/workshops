@@ -99,11 +99,11 @@ Like transformation, resampling is essentially a mathematical problem that the c
 ### Common resampling methods in QGIS
 {: .no_toc }
 
-| Resampling method | What it does | When to use it |
-| :--- | :--- | :--- |
-| Nearest Neighbor | Adopts the value of the nearest pixel, does not alter input values | Categorical data (e.g. land use) |
-| Linear | Calculates a new value based on the 4 nearest pixels; provides a smoother image | Continuous data (e.g. elevation, rainfall)|
-| Cubic | Calculates a new value based on the 16 nearest pixels; provides a sharper image | Imagery (e.g. aerial photos, satellite)|
+| Resampling method | What it does | Categorical data | Continuous data | Imagery |
+| :--- | :--- | :--- | :--- | :--- |
+| Nearest Neighbor | Adopts the value of the nearest pixel, does not alter input values | x | x | |
+| Linear | Calculates a new value based on the 4 nearest pixels; provides a smoother image | | x | |
+| Cubic | Calculates a new value based on the 16 nearest pixels; provides a sharper image | | x | x |
 
 ### Which resampling method should I use?
 {: .no_toc }

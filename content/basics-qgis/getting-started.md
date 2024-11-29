@@ -34,13 +34,13 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 ## Download the demo data
 {:toc}
 
-If you want to play around with example data, download this data pack. It contains several vector files in shapefile format, and the readme.txt file has links to a raster you can download or add to a QGIS session as a web layer.
+If you want to play around with example data, download this data pack. It contains a vector file in shapefile format, and the readme.txt file has links to additional vector and raster data you can download to follow along with the recorded workshop.
 
-[Get the demo data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2023.zip){: .btn .btn-primary }
+[Get the demo data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Spring2024.zip){: .btn .btn-primary }
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
-![Downloading a zip file on GitHub](media/download_demo_data.png "Downloading a zip file from GitHub")
+![Downloading a zip file on GitHub](media/download_demo_data_sp24.png "Downloading a zip file from GitHub")
 
 You will need to unzip the file before you can access its contents in QGIS.
 * **Mac users**: Double-click the file to unzip it automatically.<br>

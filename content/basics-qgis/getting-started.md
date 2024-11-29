@@ -30,19 +30,21 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 **Note**: I recommend downloading the long-term release (LTR), which is more stable.<br>
 
-<img src="media/qgis_download.png" alt="QGIS download website, showing the LTR in much smaller font below the giant green button to download" width=700px>
-
-
 ---
 ## Download the demo data
 {:toc}
 
-If you want to play around with example data, download this data pack. It contains several vector files in shapefile format, and the readme.txt file has links to a raster you can download or add to a QGIS session as a web layer. You will need to unzip the file before you can access its contents in QGIS.
+If you want to play around with example data, download this data pack. It contains several vector files in shapefile format, and the readme.txt file has links to a raster you can download or add to a QGIS session as a web layer.
 
-[Get the demo data](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2023.zip){: .btn .btn-primary }
+[Get the demo data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2023.zip){: .btn .btn-primary }
 
-**Mac users**: Double-click the file to unzip it automatically.<br>
-**Windows users**: Right-click the file and use a tool like 7-Zip to extract the files.
+This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
+
+![Downloading a zip file on GitHub](media/download_demo_data.png "Downloading a zip file from GitHub")
+
+You will need to unzip the file before you can access its contents in QGIS.
+* **Mac users**: Double-click the file to unzip it automatically.<br>
+* **Windows users**: Right-click the file and use a tool like 7-Zip to extract the files.
 
 ---
 ## Explore the QGIS interface

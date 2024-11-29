@@ -47,11 +47,11 @@ In order to explore how the population of Holyoke and Chicopee have changed over
 {:.no_toc}
 
 <br>
-[Get the data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Exercise_Fall2020.zip){: .btn .btn-primary }
+[Get the exercise data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Exercise_Fall2020.zip){: .btn .btn-primary }
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
-![Viewing a zip file on GitHub](media/download_anno.png "Downloading a zip file from GitHub")
+![Viewing a zip file on GitHub](media/download_exercise_data.png "Downloading a zip file from GitHub")
 
 ### 2. Unzip the file
 {:.no_toc}

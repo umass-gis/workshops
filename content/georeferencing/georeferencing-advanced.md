@@ -5,7 +5,7 @@ parent: Georeference a Historical Map
 nav_order: 4
 ---
 
-# Advanced Concepts in Georeferencing
+# Georeferencing 5000
 {: .no_toc }
 
 What to know before using desktop GIS software

@@ -1,9 +1,12 @@
 ---
 layout: default
 title: Introduction
-parent: Beginner's Tutorial to ArcGIS Online
-nav_order: 2
+parent: Learn the Basics of AGOL
+nav_order: 1
 ---
+
+# AGOL: The Basics
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
@@ -14,9 +17,7 @@ nav_order: 2
 {:toc}
 </details>
 
-# AGOL: The Basics
-{: .no_toc }
-
+---
 
 ## Overview
 {:toc}
@@ -31,6 +32,8 @@ AGOL is commonly used for:
 
 AGOL is accessible through a web browser and does not require installing software on your computer. Users can store their data and work with it on any machine through the AGOL cloud. Its analysis capabilities are less extensive than desktop software but still robust enough to do many kinds of spatial analysis.
 
+---
+
 ## What is GIS
 {:toc}
 The “GIS” in ArcGIS stands for Geographic Information Systems (or Geographic Information Science, depending on who you ask). It’s a handy tool and/or approach for:
@@ -40,17 +43,24 @@ The “GIS” in ArcGIS stands for Geographic Information Systems (or Geographic
 
 GIS is a rapidly growing field of study, fueled by ever-improving technology that allows users to analyze spatial patterns observed in our world. Many industries and professions benefit from having experienced GIS analysts on their team, including but not limited to utilities companies, conservation organizations, human rights groups and the public health sector, to name a few. Due to its remarkably wide range of applications, GIS skills are increasingly sought after in the job market. 
 
+---
+
 ## Map layers
 {:toc}
 In GIS, each distinct dataset has its own layer. You can think of a web map as a layer cake, with each layer representing one aspect of the real world.
 
-[img:WebMap_02]
+<img src='https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_05/f2619b76bb0d1d0f74b0e8d80ba33496.jpg' width='400' alt='Cartoon image of GIS layers, each representing a different type of feature in the real world: customers as points, streets as lines, parcels as polygons, elevation as continuous raster data, and land usage as categorigal raster data, with the "real world" below them.'>
+<figcaption><a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-03-geographic-information-systems.html">Campbell and Shin 2011: Figure 1.8</a></figcaption>
+
+---
 
 ## Data types
 {:toc}
 There are two kinds of spatial data: rasters and vectors.
 
-[Copy slide embed from Learn the Basics of QGIS > GIS Basics > Data types] --> ???? 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRT79POVj3VxRUv4pqA8s52srop5wXF8uzz1eOakGkzV4MqmK-BjTvNnlGPGceFxqgiL4yYJD-xgvqK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="576" height="359" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
 
 ## Popular apps in AGOL
 {:toc}

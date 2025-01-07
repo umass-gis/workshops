@@ -8,6 +8,9 @@ nav_order: 1
 # AGOL: The Basics
 {: .no_toc }
 
+Introduction to layers, data types, and popular GIS softwares. 
+{: .fs-6 .fw-300 }
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -67,7 +70,9 @@ There are two kinds of spatial data: rasters and vectors.
 This workshop will focus on AGOL’s mapping capabilities, but it’s worth noting that AGOL also includes a range of other complementary web applications, the most common being StoryMaps and Survey123.
 
 ### StoryMaps
-StoryMaps is an interactive presentation tool for telling a story in scrollable format. StoryMaps can feature text, media like photos and videos, and maps created in AGOL. For examples of how you can use StoryMaps with your work, check out the StoryMaps Gallery: https://doc.arcgis.com/en/arcgis-storymaps/gallery/
+{: .no_toc }
+StoryMaps is an interactive presentation tool for telling a story in scrollable format. StoryMaps can feature text, media like photos and videos, and maps created in AGOL. For examples of how you can use StoryMaps with your work, check out the [StoryMaps Gallery](https://doc.arcgis.com/en/arcgis-storymaps/gallery/) 
 
 ### Survey123
-Survey123 is a tool that allows users to design their own surveys. Surveys can include text and multiple-choice questions, but they can also collect geographic data, unlike most other survey applications. The results can then be seamlessly displayed on a map in AGOL and used to create maps or other products. For examples of how you can use Survey123 with your work, check out the Survey123 Gallery: https://doc.arcgis.com/en/survey123/gallery/ 
+{: .no_toc }
+Survey123 is a tool that allows users to design their own surveys. Surveys can include text and multiple-choice questions, but they can also collect geographic data, unlike most other survey applications. The results can then be seamlessly displayed on a map in AGOL and used to create maps or other products. For examples of how you can use Survey123 with your work, check out the [Survey123 Gallery](https://doc.arcgis.com/en/survey123/gallery/) 

@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Beginner's Tutorial to ArcGIS Online
-description: "Beginner's Tutorial to ArcGIS Online - a tutorial by the UMass Amherst Libraries."
+title: Finding Data
+parent: Learn the Basics of AGOL
 nav_order: 3
-has_children: true
-has_toc: false
+
 ---
 
 # Finding Data
 {: .no_toc }
+
+Using AGOL, Living Atlas and external sites for data sourcing
+{: .fs-6 .fw-300 }
 
 <details open markdown="block">
   <summary>
@@ -38,6 +40,7 @@ Tips:
 The ArcGIS Living Atlas of the World is a collection of curated spatial data from around the world. It contains maps, apps, and data layers created by Esri and supported partners that are made available for free to all AGOL users. All Living Atlas layers have been verified by Esri, making it a reliable source of spatial data. 
 
 ### Finding Living Atlas Data via AGOL
+{: .no_toc }
 
 Navigate to the **Content** tab, then in the blue menu bar click **Living Atlas.** From here, you can use use keywords and filters to limit the results. Filters can be selected using the menus on the left side, and appear at the top when they are applied.
 
@@ -49,6 +52,7 @@ Finding data with either of these labels is a good way to ensure you're using re
 [img:FindData_02]
 
 ### Finding Living Atlas Data via the Living Atlas Gallery
+{: .no_toc }
 
 You can also access Living Atlas content through the [Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/). Similarly to the AGOL interface, filters can be applied through the menus to narrow down to a specific category. 
 

@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Beginner's Tutorial to ArcGIS Online
-description: "Beginner's Tutorial to ArcGIS Online - a tutorial by the UMass Amherst Libraries."
+title: Make a Web Map
+parent: Learn the Basics of AGOL
 nav_order: 4
-has_children: true
-has_toc: false
 ---
 
 # Making a Web Map in AGOL
 {: .no_toc }
+
+Now, the fun begins! Let's make a map.
+{: .fs-6 .fw-300 }
 
 <details open markdown="block">
   <summary>
@@ -18,6 +19,8 @@ has_toc: false
 1. TOC
 {:toc}
 </details>
+
+---
 
 ## Opening MapViewer
 {:toc}
@@ -41,7 +44,7 @@ Let’s add a layer from AGOL. For this demo, we will be looking at <u>public sc
 1. Use the search bar to look for “U.S. Public Schools (with Placekey).” 
 1. When you find the layer, click “Add to Map.” When inserting a layer, AGOL will prompt you to pick a “style.” This simply refers to how the data will be visually displayed
 
-[img:WebMap_03]
+  [img:WebMap_03]
 
 1. Let’s add a second layer. Search for “USA Parks.” Add that to your map as well.
 1. Click the back arrow to exit out of the search menu. 
@@ -51,10 +54,12 @@ Your map should now have two layers spanning the entire United States - one show
 ---
 
 ## Navigating the Map
+{:toc}
 
 In this interface, you can **click and drag** the map to move around and see different locations. 
 
 ### Zooming in and out
+{: .no_toc }
 
 Use the scroll wheel on the mouse to **zoom in and out**. You can also zoom in and out using the + and - buttons in the lower right corner of the map.
 
@@ -64,9 +69,10 @@ You can also quickly zoom to the "extent" of any layer in the map:
 1. In the **Layers** tab, click the **three dots** next to a layer's name.
 1. Click **"Zoom to"** to zoom out to the extent of the whole layer. In this case, the mpa should zoom out to show the entire US. 
 
-[img: WebMap_05]
+  [img:WebMap_05]
 
 ### Reordering Layers
+{: .no_toc }
 
 Layers in GIS, as mentioned before, function like layers in a cake; layers at the bottom of the list are drawn at the bottom and can therefore be "covered" by any layers above it in the case of spatial overlap. 
 
@@ -74,25 +80,30 @@ In our example, the U.S. Public Schools layer is being drawn below the USA Parks
 1. In the **Layers** tab, click and drag the **six dots** to the left of the layer name.
 1. Reorder the layers in the list to change the drawing order in the map.
 
-[img:WebMap_06]
+  [img:WebMap_06]
 
 ### Hide Layers
+{: .no_toc }
 
 You can also hide layers temporarily so you can focus on other layers by clicking the **eyeball symbol** to the right of the layer name.
 
 [img:WebMap_07]
 
 ### Using Basic Map Tools
+{: .no_toc }
 
-In the right menu, click the **wrench icon** to open the Map Tools menu. It will prompt you to select one of three tools: **Directions, Measurement** and **Location.**
+In the right menu, click the **wrench icon** to open the Map Tools menu. It will prompt you to select one of three tools: **Directions, Measurement** or **Location.**
 
 [img:WebMap_08]
 
-* The **Directions** tool works the same way as any navigation app on your phone. Input a Start and End location, and the tool will automatically calculate the estimated drive time, distance, and directions from the first location to the second. You can also add in multiple destinations, change your departure time, and change the method from “driving time” to another transportation method. This tool operates much like Google Maps. Notice that this tool outputs a new layer into your layers list called Route. Every time you run this tool, it will be saved as a new Route layer.
+* The **Directions** tool works the same way as any navigation app on your phone. Input a Start and End location, and the tool will automatically calculate the estimated drive time, distance, and directions from the first location to the second. You can also add in multiple destinations, change your departure time, and change the method from “driving time” to another transportation method. Notice that this tool outputs a new layer into your layers list called "Route." Every time you run this tool, it will be saved as a new Route layer.
 
 [img:WebMap_09]
 
-* The **Measure** tool gives a rough distance between two points. Simply click at your starting location and double-click at your end location to calculate the distance. Note that because we are not using specific addresses or latitude/longitude coordinates and instead relying on a rough mouse click, this will not be 100% accurate.
+* The **Measure** tool gives a rough distance between two points. Simply click at your starting location and double-click at your end location to calculate the distance. 
+
+Because we are not using specific addresses or latitude/longitude coordinates, instead are relying on a rough mouse click, this will not be 100% accurate.
+{.note}
 
 [img:WebMap_10]
 
@@ -101,18 +112,20 @@ In the right menu, click the **wrench icon** to open the Map Tools menu. It will
 [img:WebMap_11]
 
 ### Remove a layer
+{: .no_toc }
 
 Done with a layer? you can remove it from the map at any time.
 1. In the **Layers** tab, click the **three dots** to the right of a layer name
 1. Click **“Remove.”**
 
-[img:WebMap_12]
+  [img:WebMap_12]
 
 Remember that while Living Atlas layers are easy to find and re-add to your map, layers that you create from a map tool like Directions will need to be re-calculated if you decide you want to add them back in.
 
 ---
 
 ## Explore the Attribute Table
+{:toc}
 
 An attribute table is essentially a spreadsheet that stores information about the features in a vector layer. Features can be points, lines, or areas (polygons).
 
@@ -122,7 +135,7 @@ Let's look at the attribute table for the "U.S. Public Schools" layer:
 1. Click on the **three dots** next to the layer name
 1. Select **"Show Table."** The attribute table will appear at the bottom of the screen. 
 
-[img:WebMap_13]
+  [img:WebMap_13]
 
 1. Use the scroll bars to browse through the information this dataset has to offer! 
 1. When you’re done, simply click the “x” at the top right corner of the attribute table to remove it from view.
@@ -130,6 +143,7 @@ Let's look at the attribute table for the "U.S. Public Schools" layer:
 [img:WebMap_14]
 
 ### Show and Hide Fields
+{: .no_toc }
 
 At times you may want to show or hide fields in the attribute table to make it easier to find the information that is most relevant to you. 
 
@@ -138,12 +152,14 @@ In the top right corner of the table, click the **gear icon** to bring up the Fi
 [img:WebMap_15]
 
 ### Sort the Attribute Table
+{: .no_toc }
 
 Sorting the attribute table can be useful if you are looking for a specific feature in the layer. To sort the table, click a column heading and select **“Sort ascending”** or **“Sort descending.”** This will automatically sort the table alphabetically (for text fields) or in numerical order (for number fields).
 
 [img:WebMap_16]
 
 ### Zoom to Selection
+{: .no_toc }
 
 Once you find a specific feature, you can quickly pan and zoom the map to it using the attribute table.
 
@@ -152,6 +168,7 @@ Click the **checkbox** next to the desired feature to select it, then in the lef
 [img:WebMap_17]
 
 ### Filters
+{: .no_toc }
 
 Let’s say that we only need the information for schools in Hampshire County, Massachusetts. Looking at the entire dataset, which contains more than 102,000 features, might make it hard to find the information we need. To focus on the specific records we want, we can use a filter to specify which criteria we want to view, and exclude everything else.
 
@@ -159,20 +176,20 @@ In the right menu bar, the Filter menu (symbolized by a funnel) allows you to se
 1. In the Layers list, click on the schools layer to select it
 1. In the right menu bar, open the **Filter** and click **"Add New"**
 
-[img:WebMap_18]
+  [img:WebMap_18]
 
 1. Use the first drop-down menu to define the field that contains the information we are looking for. Since we are looking for schools in a specific state, we will use the **“State”** field. 
 1. The second drop-down menu specifies the **operator,** which tells the tool how to look for the information. To look for an exact match, we will use the **“is”** operator.
 
-[img:WebMap_19]
+  [img:WebMap_19]
 
 1. The last drop-down menu shows us all the unique values in our chosen field (State). From the list, select **“MA.”** Together, this builds the condition: “show us only the schools where the *State is MA.”* 
 
-[img:WebMap_20]
+  [img:WebMap_20]
 
 1. We can add more conditions to refine the filter even more. Click **“Add new”** below the first filter and specify the condition “where *County is Hampshire.*” 
 
-[img:WebMap_21]
+  [img:WebMap_21]
 
 1. Zoom out to show the US and change the relationship from "“All of the following are true” to “Any of the following are true.” 
     * When *all* the conditions must be true, only schools in Hampshire County, MA will be shown – a total of 49 schools.
@@ -188,6 +205,7 @@ In the right menu bar, the Filter menu (symbolized by a funnel) allows you to se
 There are many different ways to visualize your data in a map! Let’s try changing the way our schools layer looks. Note that we’ll be focusing on a **point layer,** but you can follow a similar workflow to change the way a **polygon layer** looks, too.
 
 ### Visibility
+{: .no_toc }
 
 Click on the **three dots** next to the layer name, and then click **“Show properties.”** The Properties tab will open on the right side of the screen.
 
@@ -206,6 +224,7 @@ This setting is especially useful when publishing web maps with lots of data dis
 [img:WebMap_24]
 
 ### Styles
+{: .no_toc }
 
 The Styles menu (symbolized as a triangle, square, and circle) allows us to change the way a layer’s icons appear. In the right menu bar, open the **Styles** menu.
 
@@ -215,40 +234,41 @@ The default setting for point layers is for all the symbols to appear the same. 
 1. under **Pick a style**, click **“Style options”** to open the Location (Single symbol) menu. 
 1. Click on the symbol to open the Symbol style menu. This is where we can change the current symbol, change the size, fill color, outline color, etc.
 
-[img:WebMap_26]
+  [img:WebMap_26]
 
 Oftentimes, we want to use data in the attribute table to automatically change the way the points appear in the map. Let’s say we want the icons to reflect the level of education of each school.
 1. In the main **Styles** menu, under **Choose attributes**, click **“+ Field”** to open the fields menu. 
 1. Check the “Level” field, then click “Add.” The school icons automatically change to colored dots, and a legend appears in the lower left corner indicating which color represents which level. This is the default style when varying symbology is used.
 
-[img:WebMap_27]
+  [img:WebMap_27]
 
-To modify the color scheme, under `Pick a style > Types (unique symbols)`, click on **“Style options”** to open the **Types (Unique symbols)** menu. 
+  To modify the color scheme, under `Pick a style > Types (unique symbols)`, click on **“Style options”** to open the **Types (Unique symbols)** menu. 
 
-[img:WebMap_28]
+  [img:WebMap_28]
 
 1. Click on the **“Symbol style”** color ramp. This is where we can change the current symbol, change the size, color ramp, outline color, etc.
 
-[img:WebMap_29]
+  [img:WebMap_29]
 
 1. To change the current symbol, click on **“Basic point."**
 1. In the category drop-down menu, select **“POI Basic.”**
 1. Select the schoolhouse symbol, then click **“Done.”**
 
-[img:WebMap_30]
+  [img:WebMap_30]
 
 1. Change the color ramp by clicking on the **“Colors”** menu. In the category drop-down menu, you can filter specific kinds of color ramps, such as colorblind-friendly options.
 
-[img:WebMap_30]
+  [img:WebMap_30]
 
 1. The last thing we’ll do is change the size of our icons to make them easier to see. Set the **“Size”** to 30 px, then close the symbol style menu.
 
-Back in the Style options menu, under Level, notice that the default order of the schools is Elementary > High > Middle, with several additional categories after that. This is because the default order is dictated by the number of features within each category, ordered from most numerous to least numerous. In our case, it would make more sense for the icons to be ordered `Elementary > Middle > High > Other.` To change the order in which school types are displayed:
+  Back in the Style options menu, under Level, notice that the default order of the schools is Elementary > High > Middle, with several additional categories after that. This is because the default order is dictated by the number of features within each category, ordered from most numerous to least numerous. In our case, it would make more sense for the icons to be ordered `Elementary > Middle > High > Other.` To change the order in which school types are displayed:
 
 1. click and hold the six dots next to a level type and drag the item up or down the list.
 1. To remove the schools from extraneous levels (like “Prekindergarten” or “Not reported”), click the **checkbox** next to its name and select **“Remove.”**
 
 ### Effects
+{: .no_toc }
 
 Effects are another way to change a layer’s appearance. In the right menu bar, click the **Effects** menu (symbolized as a sparkle). Here you will find a variety of options to further customize a layer’s appearance, from adding glows, blurs and shadows, to changing the saturation and hue of their colors. 
 
@@ -259,16 +279,17 @@ Here’s an example of what the Bloom effect looks like with the schools layer:
 Explore the different symbology options to customize your map in a unique way!
 
 ### Pop-ups
+{: .no_toc }
 
 If you are looking for information about a single feature in a layer, clicking that feature will bring up a pop-up window with a glimpse of that feature’s information stored in the attribute table. We can use the Pop-up menu to customize the way that information is displayed.
 
 1. Click on a few different schools. Notice that the pop-up window displays information about each specific school we click on. This layer has a lot of attribute information, which makes the pop-up feel crowded. We can edit the pop-up to show only what we feel is relevant and leave the rest out.
 
-[img:WebMap_34]
+  [img:WebMap_34]
 
 1. In the right menu bar, click on the **Pop-ups** menu.
 
-[img:WebMap_35]
+  [img:WebMap_35]
 
 1. There are a few different ways we can customize the pop-up:
     1. At the top, we can toggle the switch to **enable** or **disable** pop-ups altogether.
@@ -278,38 +299,40 @@ If you are looking for information about a single feature in a layer, clicking t
 
 1. Under **Fields list,** click **“Select fields”** to view all of the available fields.
 
-[img:WebMap_36]
+  [img:WebMap_36]
 
 1. To reduce the clutter in the pop-up window, uncheck the following fields: Placekey, NCESID, County FIPS, NAICS Code, Source, Source Date, District ID, and Shelter ID. Click “Done.”
 1. Under **Fields list,** click and hold the six dots to the left of any field name to rearrange the field order. Move the Level field to the top of the list. Notice that any changes made in the Pop-up manu are immediately applied to the open pop-up window, allowing you to preview the changes you make. 
 
-[img:WebMap_37]
+  [img:WebMap_37]
 
 1. At the bottom of the Pop-ups menu, click “+ Add content” to include additional content like charts, images, and extra text.
 
-[img:WebMap_38]
+  [img:WebMap_38]
 
 ### Labels
+{: .no_toc }
 
 Labels are a useful way to show relevant information from the attribute table directly on the map.
 1. In the right menu bar, open the **Labels** menu (symbolized by a tag). 
 
-[img:WebMap_39]
+  [img:WebMap_39]
 
 1. In the **Label field** drop-down menu, select the field in the attribute table that will be used to populate the labels. The default for the schools layer is “Name,” which makes sense to leave as is.
 1. Labels have their own visibility range. The default is usually set to a smaller zoom scale because labels tend to take up a lot of space, and the map can become crowded if many labels are being displayed at one time. Drag the **Visible range** slider so that the map’s current zoom level is within the range. Each school is now labeled using its corresponding information from the “Name” field in the layer’s attribute table. Since some of the labels are hard to see, let’s edit the label style.
 
-[img:WebMap_40]
+  [img:WebMap_40]
 
 1. Under **Label style,** click **“Edit label style”** to open the Label style menu.
 1. Apply a halo effect by toggling on **Halo.** This adds a white background behind the label text to make it easier to read.
 1. Under **Placement,** change the drop-down to “Center center.” This moves the position of the labels to be displayed on top of each point.
 
-[img:WebMap_41]
+  [img:WebMap_41]
 
 1. Continue experimenting with these settings to find a style that you like for your labels!
 
 ### Save and Export Your Map
+{: .no_toc }
 
 It is always a good idea to save our work. Save early, save often!
 

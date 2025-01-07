@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Introduction
-parent: Beginner's Tutorial to ArcGIS Online
-nav_order: 3
+title: Navigating the AGOL Interface
+parent: Learn the Basics of AGOL
+nav_order: 2
 ---
 
 # Navigating the AGOL Interface
 {: .no_toc }
+
+Get familiar with the website layout!
+{: .fs-6 .fw-300 }
 
 <details open markdown="block">
   <summary>
@@ -54,7 +57,7 @@ The top bar has a range of menu options to explore:
 * **Notebook:** place to create and view AGOL Notebooks, Esri’s version of Jupyter notebooks. Notebooks enable you to write Python code to assist with data management, repetitive tasks, and complex analysis. This is a more advanced-level topic than we will cover in this tutorial.
 * **Groups:** AGOL makes it possible to collaborate with groups of users within or outside your AGOL organization. A common use for this feature is to create groups for classes, where students can upload their projects and homeworks into a common shared cloud space. Within the blue menu bar, there are additional tabs you can click on:
 
-[Img:Intro_04]
+  [Img:Intro_04]
  
   * **My groups** shows the groups that you are a member of. 
   * **Featured groups** shows the groups that Esri flagged for easy discovery; they contain Esri data that people may find useful, such as basemaps, aerial imagery, government-published data, and so on. 

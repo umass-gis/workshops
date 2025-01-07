@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Beginner's Tutorial to ArcGIS Online
+title: Learn the Basics of AGOL
 description: "Beginner's Tutorial to ArcGIS Online - a tutorial by the UMass Amherst Libraries."
-nav_order: 1
+nav_order: 3
 has_children: true
 has_toc: false
 ---
@@ -17,7 +17,10 @@ has_toc: false
 * Analyze spatial data
 * Share your work
 
-## Watch the workshops:
+## Watch the workshops: 
+
+If video tutorials are more up your alley, check out our video tutorial series on ArcGIS Online, made by the Spring 2024 GIS TA. Note that these tutorials do not follow the exact same workflow as in this tutorial! 
+
 [Workshop 1:](https://www.youtube.com/watch?v=c6qT7xD3HyY) <br>
 [Workshop 2:](https://www.youtube.com/watch?v=0OtAsMfaVl0) <br>
 [Workshop 3:](https://www.youtube.com/watch?v=Ew5rn_T8-mU) <br>

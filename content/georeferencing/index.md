@@ -2,7 +2,7 @@
 layout: default
 title: Georeference a Historical Map
 description: "Georeference a Historical Map - a workshop by the UMass Amherst Libraries."
-nav_order: 4
+nav_order: 5
 has_children: true
 has_toc: false
 ---

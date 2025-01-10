@@ -2,7 +2,7 @@
 layout: default
 title: Creating and Importing Spatial Data
 parent: Learn the Basics of AGOL
-nav_order: 4
+nav_order: 5
 ---
 
 # Creating and Importing Spatial Data

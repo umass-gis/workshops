@@ -136,7 +136,6 @@ Let's look at the attribute table for the "U.S. Public Schools" layer:
 1. Select **"Show Table."** The attribute table will appear at the bottom of the screen. 
 
   [img:WebMap_13]
-
 1. Use the scroll bars to browse through the information this dataset has to offer! 
 1. When you’re done, simply click the “x” at the top right corner of the attribute table to remove it from view.
 
@@ -177,20 +176,16 @@ In the right menu bar, the Filter menu (symbolized by a funnel) allows you to se
 1. In the right menu bar, open the **Filter** and click **"Add New"**
 
   [img:WebMap_18]
-
 1. Use the first drop-down menu to define the field that contains the information we are looking for. Since we are looking for schools in a specific state, we will use the **“State”** field. 
 1. The second drop-down menu specifies the **operator,** which tells the tool how to look for the information. To look for an exact match, we will use the **“is”** operator.
 
   [img:WebMap_19]
-
 1. The last drop-down menu shows us all the unique values in our chosen field (State). From the list, select **“MA.”** Together, this builds the condition: “show us only the schools where the *State is MA.”* 
 
   [img:WebMap_20]
-
 1. We can add more conditions to refine the filter even more. Click **“Add new”** below the first filter and specify the condition “where *County is Hampshire.*” 
 
   [img:WebMap_21]
-
 1. Zoom out to show the US and change the relationship from "“All of the following are true” to “Any of the following are true.” 
     * When *all* the conditions must be true, only schools in Hampshire County, MA will be shown – a total of 49 schools.
     * If *any* of the conditions can be true, the filter will show all the schools in any Hampshire County in the U.S., plus all the schools in Massachusetts – a total of 1, 881 schools.
@@ -245,25 +240,20 @@ Oftentimes, we want to use data in the attribute table to automatically change t
   To modify the color scheme, under `Pick a style > Types (unique symbols)`, click on **“Style options”** to open the **Types (Unique symbols)** menu. 
 
   [img:WebMap_28]
-
 1. Click on the **“Symbol style”** color ramp. This is where we can change the current symbol, change the size, color ramp, outline color, etc.
 
   [img:WebMap_29]
-
 1. To change the current symbol, click on **“Basic point."**
 1. In the category drop-down menu, select **“POI Basic.”**
 1. Select the schoolhouse symbol, then click **“Done.”**
 
   [img:WebMap_30]
-
 1. Change the color ramp by clicking on the **“Colors”** menu. In the category drop-down menu, you can filter specific kinds of color ramps, such as colorblind-friendly options.
 
   [img:WebMap_30]
-
 1. The last thing we’ll do is change the size of our icons to make them easier to see. Set the **“Size”** to 30 px, then close the symbol style menu.
 
   Back in the Style options menu, under Level, notice that the default order of the schools is Elementary > High > Middle, with several additional categories after that. This is because the default order is dictated by the number of features within each category, ordered from most numerous to least numerous. In our case, it would make more sense for the icons to be ordered `Elementary > Middle > High > Other.` To change the order in which school types are displayed:
-
 1. click and hold the six dots next to a level type and drag the item up or down the list.
 1. To remove the schools from extraneous levels (like “Prekindergarten” or “Not reported”), click the **checkbox** next to its name and select **“Remove.”**
 
@@ -286,30 +276,24 @@ If you are looking for information about a single feature in a layer, clicking t
 1. Click on a few different schools. Notice that the pop-up window displays information about each specific school we click on. This layer has a lot of attribute information, which makes the pop-up feel crowded. We can edit the pop-up to show only what we feel is relevant and leave the rest out.
 
   [img:WebMap_34]
-
 1. In the right menu bar, click on the **Pop-ups** menu.
 
   [img:WebMap_35]
-
 1. There are a few different ways we can customize the pop-up:
     1. At the top, we can toggle the switch to **enable** or **disable** pop-ups altogether.
     1. Under Options, we can build an **attribute expression** to create custom messages based on existing data in the attribute table. This is a more advanced feature that you can explore beyond this workshop. 
     1. **Title** is used to automatically generate a heading at the top of the pop-up window. By default, the schools layer uses the {NAME} field to populate the title. To change which field shows up at the title, you can simply replace it with your field of choice. Make sure to enclose the field name in curly brackets {}. 
     1. The **Fields** list shows which fields from the attribute table are visible in the pop-up window.
-
 1. Under **Fields list,** click **“Select fields”** to view all of the available fields.
 
   [img:WebMap_36]
-
 1. To reduce the clutter in the pop-up window, uncheck the following fields: Placekey, NCESID, County FIPS, NAICS Code, Source, Source Date, District ID, and Shelter ID. Click “Done.”
 1. Under **Fields list,** click and hold the six dots to the left of any field name to rearrange the field order. Move the Level field to the top of the list. Notice that any changes made in the Pop-up manu are immediately applied to the open pop-up window, allowing you to preview the changes you make. 
 
   [img:WebMap_37]
-
 1. At the bottom of the Pop-ups menu, click “+ Add content” to include additional content like charts, images, and extra text.
 
   [img:WebMap_38]
-
 ### Labels
 {: .no_toc }
 
@@ -317,18 +301,15 @@ Labels are a useful way to show relevant information from the attribute table di
 1. In the right menu bar, open the **Labels** menu (symbolized by a tag). 
 
   [img:WebMap_39]
-
 1. In the **Label field** drop-down menu, select the field in the attribute table that will be used to populate the labels. The default for the schools layer is “Name,” which makes sense to leave as is.
 1. Labels have their own visibility range. The default is usually set to a smaller zoom scale because labels tend to take up a lot of space, and the map can become crowded if many labels are being displayed at one time. Drag the **Visible range** slider so that the map’s current zoom level is within the range. Each school is now labeled using its corresponding information from the “Name” field in the layer’s attribute table. Since some of the labels are hard to see, let’s edit the label style.
 
   [img:WebMap_40]
-
 1. Under **Label style,** click **“Edit label style”** to open the Label style menu.
 1. Apply a halo effect by toggling on **Halo.** This adds a white background behind the label text to make it easier to read.
 1. Under **Placement,** change the drop-down to “Center center.” This moves the position of the labels to be displayed on top of each point.
 
   [img:WebMap_41]
-
 1. Continue experimenting with these settings to find a style that you like for your labels!
 
 ### Save and Export Your Map

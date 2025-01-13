@@ -30,7 +30,7 @@ Tips:
 * Type keywords into the search bar to look for specific content
 * Use filters to limit results to specific items, types, locations etc. 
 
-[img:FindData_01]
+!['Content' page](media/all_AGOL/FindData_01.jpg "Content Page")
 
 --- 
 
@@ -49,14 +49,15 @@ Notice that in between the “Modified” and “Owner” columns, there are gre
 * A **blue** icon (a globe) indicates that the item was created by Esri itself. 
 Finding data with either of these labels is a good way to ensure you're using reliable data in your maps. 
 
-[img:FindData_02]
+
+![Using Reliable Data](media/all_AGOL/FindData_02.jpg "Choose Reliable Data")
 
 ### Finding Living Atlas Data via the Living Atlas Gallery
 {: .no_toc }
 
 You can also access Living Atlas content through the [Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/). Similarly to the AGOL interface, filters can be applied through the menus to narrow down to a specific category. 
 
-[img:FindData_03]
+![Living Atlas](media/all_AGOL/FindData_03.jpg "Explore the Living Atlas")
 
 ---
 
@@ -71,7 +72,7 @@ One of the main sources of authoritative spatial data are government agencies. M
 
 For both of these resources, you will find some data that is already available as a web service in AGOL. In this example from MassGIS, you can see that there are three ways to access the data: download it, view it in [MassMapper](https://maps.massgis.digital.mass.gov/MassMapper/MassMapper.html), or access it via AGOL:
 
-[img:FindData_04]
+![MassGIS Website](media/all_AGOL/FindData_04.jpg "MassGIS Website")
 
 The most important aspect of looking for data, especially from external sources, is to use reliable sites. We already went over how to look for reliable datasets via the AGOL interface, but if you're looking for a good starting point for external sources, be sure to explore the UMass libaray's [GIS database](https://gis.library.umass.edu/data/), specially curated and fact-checked by our wonderful librarians!
 

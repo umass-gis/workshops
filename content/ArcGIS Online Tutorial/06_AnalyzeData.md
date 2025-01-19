@@ -28,7 +28,7 @@ So we’ve created a new feature layer! This is cool and all, but without some s
 
 All the available analysis methods in AGOL can be found in the right menu bar in the **Analysis menu** (symbolized as three circles above a polygon). In the rest of this tutorial, we will demo a few of the available tools. You are encouraged to explore other tools on your own!
 
-[img:AD_01]
+![Explore AGOL Analysis Tools](media/all_AGOL/AD_01.png "Explore AGOL Analysis Tools")
 
 ---
 
@@ -43,7 +43,7 @@ If you have your own subscription to AGOL, you can [purchase AGOL credits from E
 
 To check how many credits you have in your account, from the main AGOL page navigate to Organization > Members and search for your UMass NetID. Once viewing your profile, click `“View Settings” > “Credits”` This will show you how many credits you’ve used, and how many remain, as shown below.
 
-[img:AD_02]
+![See your available credits](media/all_AGOL/AD_02.png "See your available credits")
 
 ---
 
@@ -54,7 +54,7 @@ For this hypothetical project, I want to find out how many of my identified scen
 
 For visualization purposes, I also brought in a town parcels map to make sure that all of my scenic areas fall within the borders of the town of Amherst. I also changed the colors of the USA Parks layer and the basemap for better visualization. This is what the map looks like now (layers used in this example are highlighted in the blue boxes, ignore the others)
 
-[img:AD_03]
+![Amherst map with scenic areas and USA parks](media/all_AGOL/AD_03.png "Amherst Map with Scenic Areas and USA Parks")
 
 As we can see, there are some areas where the polygons I made overlap with the USA Parks layer. We can visually observe some spatial relationships, but let’s use some of the available spatial analysis tools to explore them scientifically!
 
@@ -65,12 +65,12 @@ As we can see, there are some areas where the polygons I made overlap with the U
 
 Creating buffers generates polygons (or areas) around an input layer at a specified distance. For example, if you wanted to find out which restaurants were within 5 miles of your house, you would start by creating a 5-mile buffer around where you live.
 
-[img:AD_04]
+![Navigate to 'create buffers' tool](media/all_AGOL/AD_04.png "Navigate to 'create buffers' tool")
 
 1. In the right menu bar, open the **Analysis** menu and navigate to the Tools tab (symbolized by a hammer).
 1. Under **Use proximity**, click **“Create Buffers.”** You’ll then get the following pop-up window, in which you can follow the next few steps.
     
-    [img:AD_05]
+    ![Input buffer features](media/all_AGOL/AD_05.png "Input Buffer Settings")
 1. Set the **input layer** to be whichever layer you want to draw buffers around. In my case, I am selecting the feature layer I created, “Scenic Areas in Amherst.” 
 1. Use **Buffer settings** to specify the buffer distance:
     1. If you want to use the same distance for every feature, keep *distance type* as “Value,” enter a *distance value* (e.g. 50), and choose a *unit* from the dropdown menu. I am choosing to create a 50 meter buffer around every polygon I created. 
@@ -80,13 +80,13 @@ Creating buffers generates polygons (or areas) around an input layer at a specif
     1. **Dissolve** means that any overlapping buffers will be dissolved into a single shape – there may be fewer buffers than features.
 1. Under **Result layer** give the output a unique name. 
 
-    [img:AD_06]
+    ![Give unique name to output layer](media/all_AGOL/AD_06.png "Give a Unique Name to Output Layer")
 1. Optionally, edit the **Environment settings** to change the output coordinate system or restrict the processing extent (this is a helpful thing to do if you only want to run the analysis in an area that is smaller than the full extent of the input layer).
     1. Click Estimate Credits to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
     {.warn}
 1. Click **"Run"**
 
-[img:AD_07]
+![View new buffer layer on map](media/all_AGOL/AD_07.png "View new buffer layer on map")
 
 This is the result of the Create buffers tool: my input polygons now have 50-meter buffers surrounding them. In my case, the buffers increase the chances that I will correctly identify scenic areas that are within or near the areas in Esri’s USA Parks layer. Your new buffer layer will appear with your pre-existing layers, as shown by the arrow. You can edit symbology and appearance as with any other layer. 
 
@@ -101,19 +101,19 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
 
 1. In the `Analysis > Tools` section, under **Find Locations** click **"Find by Attributes and Location"**
 
-    [img:AD_08]
+    ![Navigate to 'Find by Attributes and Location' tool](media/all_AGOL/AD_08.png "Navigate to 'Find by Attributes and Location' tool")
 1. The first box allows us to define the spatial or attribute criteria that the tool will use to select features. Click **“+ Build new query”** to get started.
 1. Confirm that the tool is finding features from the correct input layer. If necessary, change the input in the dropdown menu.
 1. Select **Spatial Expression** as the query method, then click **"Next"**
 
-    [img:AD_09]
+    ![Select 'spatial expression'](media/all_AGOL/AD_09.png "Select 'spatial expression'")
 1. Now comes the fun part: defining the **query.** In our case, we want to identify which scenic area buffers intersect the USA parks:
     1. **Find features from:** USA Parks
     1. **Where:** all of the following are true:
     1. **Relationship:** intersects
     1. **Other layer:** Scenic Buffer
     
-    [img:AD_10]
+    ![USA Parks Query Builder](media/all_AGOL/AD_10.png "USA Parks Query Builder")
 1. Once the query is set, click **"Add"**
 1. Under **Result layer** give the output a unique name.
 1. Optionally, edit the **Environment settings** to change the output coordinate system or restrict the processing extent (this is a helpful thing to do if you only want to run the analysis in an area that is smaller than the full extent of the input layer).
@@ -121,7 +121,7 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
     {.warn}
 1. When everything is set, click **"Run"**
 
-[img:AD_11]
+![Result of "Find by Location" tool](media/all_AGOL/AD_11.png "Result layer of 'Find by Location' tool")
 
 the result is a polygon feature layer that shows *only* the parks parcels that fall within the 50m buffer to the scenic areas, which in this case consists of only 4 or 5 polygons out of the original 20 or so.
 
@@ -142,10 +142,10 @@ First, download and import a shapefile layer containing the boundaries of all to
     1. **Where:** All of the following are true:
     1. NAMELSAD20 (field corresponding with town name) equals Amherst
     
-    [img:AD_12]
+    ![2nd Query Builder](media/all_AGOL/AD_12.png "2nd Query Builder")
 1. Click **"Add."** This will create a separate layer that only contains what you identified with the query, which is the town of Amherst isolated from the rest of the state. 
 1. Navigate to the **"Summarize Within"** tool
-    [img:AD_13]
+    !["Summarize Within" tool](media/all_AGOL/AD_13.png "'Summarize Within' tool")
     1. Under **Features to Summarize** select the "USA Parks" layer
     1. Under **Summary Area** select the Amherst town boundary layer you just created
     1. Under **Calculate Statistics** you can optionally change the area units to square kilometers, depending on your project area size and preference. 
@@ -153,8 +153,7 @@ First, download and import a shapefile layer containing the boundaries of all to
     1. When everything is set, run the tool. A new layer will be created.
     1. Our original goal for this tool was to ascertain the land area of parks in Amherst. In order to actually see the numbers, we need to access the attribute table. Click on the three dots next to your results layer and click **“show table."**
 
-    [img:AD_14]
-
+    ![Show Attribute Table](media/all_AGOL/AD_14.png "Show Attribute Table")
 So, what this tells us is that there are about 5.2 square km of parks in Amherst, in which 0.53 square km are local parks and 4.65 square km are state parks. Adding the instruction to group by feature (park type) allowed us to make this extra distinction, rather than simply a total area. From this information, we now know that there are no national, county or regional parks in Amherst. If you are a city planner or work in conjunction with a park service, this may be useful information! 
 
 So now, we have learned to both identify and select features based on locations and attributes, as well as summarize statistics for a feature. Now we’ll go into a bit of pattern analysis.
@@ -174,9 +173,11 @@ Let’s say we want to calculate the density of public schools throughout the st
     Note that it is important that you complete this step first so that you can run the “calculate density” tool with as little data as possible, while still answering our research question. It is certainly possible to calculate country-wide density and clipping to MA afterward, but this query will use astronomically more credits. Keep this in mind when doing any project. 
     {:note}
 
-    [img:AD_15]
+   
+    ![3rd Query Builder](media/all_AGOL/AD_15.png "3rd Query Builder")
 1. The resulting layer shows US public schools clipped to the state of MA.   
-    [img:AD_16]
+
+    ![Clipped 'Schools' Point Layer](media/all_AGOL/AD_16.png "Clipped 'Schools' Point Layer")
 1. Open the **"Calculate Density"** tool, in which:
     1. **Search Distance:** 50
     1. **Distance Units:** Kilometers (you can input a different distance and units if you wish)
@@ -184,19 +185,19 @@ Let’s say we want to calculate the density of public schools throughout the st
     1. **Number of Classes** 10
     1. **Area Unis:** Square kilometers
 
-    [img:AD_17]
+    ![Density Analysis window](media/all_AGOL/AD_17.png "Density Analysis Window")
 
     you can skip the previous step of clipping the schools data to Massachusetts by selecting the “processing extent” in the density tool query to include only data within the MA_town_line layer, which tells the tool to only run inside another shapefile, in this case the outline of MA towns. 
     {:note}
 
-    [img:AD_18]
+    ![Processing Extent](media/all_AGOL/AD_18.png "Processing Extent")
 1. Run the tool, which will create a new layer. Let's look at the results. 
 
-    [img:AD_19]
+    ![Density Visualization on Map](media/all_AGOL/AD_19.png "Density Visualization on Map")
 
 The resulting layer shows the highest density of public schools per square km occurring in the Boston area, which makes sense. There’s another concentration in Springfield. The 10 density classes you selected can be seen as the color gradients, separated by thin black lines. Open the attribute table to explore this result a little further. 
 
-[img:AD_20]
+!['Schools' layer attribute table with density](media/all_AGOL/AD_20.png "'Schools' layer attribute table with density")
 
 As you can see, the tool created 10 classes and calculated minimum and maximum density values representing public schools per square km. While it makes sense that more rural areas are less densely populated with schools, further analysis could be done using population growth datasets to identify communities in the state in need of a new school. Cool stuff!
 
@@ -207,13 +208,13 @@ As you can see, the tool created 10 classes and calculated minimum and maximum d
 
 Another way to visualize density without using the density tool is to alter the symbology of a point layer into a heatmap. Let’s backtrack a few steps to the MA schools layer we made earlier, which looks like this:
 
-[img:AD_16]
+![Clipped 'Schools' Point Layer](media/all_AGOL/AD_16.png "Clipped 'Schools' Point Layer")
 
 1. Make sure the MA Schools layer is selected
 1. Navigate to `Properties > Edit Layer Style.` Currently, "Location, single symbol" is selected, which presents the data as a bunch of points, as above. 
 1. Instead of "Location, single symbol," click **Heatmap.** The visual result is displayed below. 
 
-    [img:AD_21]
+    ![Heatmap visualization on map](media/all_AGOL/AD_21.png "Heatmap visualization on map")
 
 This visually presents the data in a new, fascinating way. This method won’t give you the numerical data that the Density tool did, but it’s still an interesting way to visualize clustering, and as you can see there are some other public school hotspots (Worcester, Fall River and New Bedford, for example) that were aggregated out of existence with the Density tool.
 

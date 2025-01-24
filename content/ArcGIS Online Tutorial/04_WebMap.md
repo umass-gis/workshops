@@ -39,6 +39,7 @@ Within the map interface, you’ll notice there are two vertical menu bars on th
 {:toc}
 
 ### What are layers?
+{: .no_toc }
 
 It can be helpful to think of GIS as a layer cake, which allows us to take the real world and turn it into a collection of abstract, spatial data layers. As in the image below, layers that are at the bottom of the list are drawn at the bottom of the cake. Layers at the top of the list are drawn on top.
 

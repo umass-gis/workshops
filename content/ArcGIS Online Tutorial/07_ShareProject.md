@@ -33,11 +33,11 @@ Your "organization" in the case of UMass, refers to all UMass users. This means 
 
 1. First, exit the map viewer if you have it open, and navigate to your **Content** page. 
 
-    [img:SD_01]
+    ![Navigate to Content](media/all_AGOL/SD_01.png "Navigate to Content")
 1. Select the items you'd like to share by clicking on the checkbox to the left of the iten name.
 1. Click the **"share"** button. The following pop-up will appear:
 
-    [img:SD_02]
+    ![Share Project](media/all_AGOL/SD_02.png "Share Project")
 1. Select **"organization"** 
 
 Now, anyone with a UMass AGOL account will be able to see and use your data! 

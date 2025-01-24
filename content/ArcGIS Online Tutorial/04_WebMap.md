@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Make a Web Map
+title: Making a Web Map
 parent: Learn the Basics of AGOL
 nav_order: 4
 ---

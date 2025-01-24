@@ -22,22 +22,26 @@ Get familiar with the website layout!
 
 ---
 
-## Signing in
+## Sign in
 {:toc}
 
-![AGOL Landing Page](media/all_AGOL/intro_01.jpg "AGOL Landing Page")
 
-1. Open your browser of choice and navigate to [ArcGIS Online](https://www.arcgis.com)
-1. Click "Sign In"
-1. For UMass affiliates: at the sign-in page, click "Your ArcGIS Organization's URL
-1. Type **umass-amherst** into the text box
-1. Optionally, check "remember" to make future sign-ins easier
-1. Click "continue"
-1. Enter your UMass credentials to login
+1. Open your browser of choice and navigate to [ArcGIS Online](https://www.arcgis.com).
+1. Click "Sign In."
 
-![Sign-in Page](media/all_AGOL/intro_02.jpg "Sign-in Page")
+    ![AGOL Landing Page](media/all_AGOL/intro_01.jpg "AGOL Landing Page")
 
-If you are not a UMass affiliate or don’t have access to your login information, you can create a free account through the link at the bottom of the login screen. Note that with a non-university account, you will need to pay for credits to run analyses in AGOL.
+1. For UMass affiliates: at the sign-in page, click "Your ArcGIS Organization's URL."
+1. Type **umass-amherst** into the text box.
+1. Optionally, check "Remember this URL" to make future sign-ins easier.
+
+    ![Sign-in Page](media/all_AGOL/intro_02.jpg "Sign-in Page")
+
+1. Click "Continue."
+1. Enter your UMass credentials to login.
+
+If you are not a UMass affiliate or don’t have access to your login information, you can create a free account through the link at the bottom of the login screen. With a non-university account, you will need to pay for credits to run analyses in AGOL.
+{: .note}
 
 ---
 
@@ -50,12 +54,14 @@ After logging in, you will be taken to the homepage of your AGOL organization:
 
 The top bar has a range of menu options to explore:
 
-* **Home:** landing page, with quick links to content published by your organization (UMass Amherst).
-* **Gallery:** a more in-depth look at the content published by your organization.
-* **Map:** clicking this will open AGOL’s Map Viewer, where you can add data to a map, customize the way it looks, edit your data, and run spatial analyses.
-* **Scene:** clicking this will open AGOL’s Scene Viewer, where you can add and display data in 3D.
-* **Notebook:** place to create and view AGOL Notebooks, Esri’s version of Jupyter notebooks. Notebooks enable you to write Python code to assist with data management, repetitive tasks, and complex analysis. This is a more advanced-level topic than we will cover in this tutorial.
-* **Groups:** AGOL makes it possible to collaborate with groups of users within or outside your AGOL organization. A common use for this feature is to create groups for classes, where students can upload their projects and homeworks into a common shared cloud space. Within the blue menu bar, there are additional tabs you can click on:
+| **Home** | Landing page, with quick links to content published by your organization (UMass Amherst) |
+| **Gallery** | In-depth look at the content published by your organization |
+| **Map** | Open AGOL’s Map Viewer, where you can add data to a map, customize the way it looks, edit your data, and run spatial analyses |
+| **Scene** | Open AGOL’s Scene Viewer, where you can add and display data in 3D |
+| **Notebook** | Place to create and view AGOL Notebooks, Esri’s version of Jupyter notebooks; Notebooks enable you to write Python code to assist with data management, repetitive tasks, and complex analysis |
+| **Groups** | AGOL makes it possible to collaborate with groups of users within or outside your AGOL organization; a common use for this feature is to create groups for classes, where students can upload their projects and homeworks into a common shared cloud space |
+
+Within the **Groups** blue menu bar, there are additional tabs you can click on:
 
   !['My Groups' page](media/all_AGOL/Intro_04.jpg)
  
@@ -69,6 +75,44 @@ The top bar has a range of menu options to explore:
   * **My organization** lists all the content shared with your organization.
   * **Living Atlas** is a curated selection of public content available on AGOL, which Esri’s team has flagged as special because of its exceptional documentation, authoritative status, or high view count. 
 * **Organization:** shows your subscription ID, contact info for your organization’s administrator, and the organization’s members.
+
+
+| **Content** | All the items you have created or added to your AGOL account. Items can be organized in folders using the interface in the top left corner.<ul><li>**My favorites** shows any content you have starred as a favorite - essentially, this is a great way to bookmark items you see in AGOL that you want to be able to find quickly in the future.</li><li>**My groups** lists all the content shared with groups you are a member of.</li></ul> |
+
+<table>
+  <tbody>
+    <tr>
+      <th>Tables</th>
+      <th align="center">Are</th>
+      <th align="right">Cool</th>
+    </tr>
+    <tr>
+      <td>col 3 is</td>
+      <td align="center">right-aligned</td>
+      <td align="right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td align="center">centered</td>
+      <td align="right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td align="center">are neat</td>
+      <td align="right">$1</td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>item1</li>
+          <li>item2</li>
+        </ul>
+      </td>
+      <td align="center">See the list</td>
+      <td align="right">from the first column</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

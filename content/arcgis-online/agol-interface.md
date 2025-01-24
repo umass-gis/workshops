@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Navigating the AGOL Interface
+title: The AGOL Interface
 parent: Learn the Basics of AGOL
 nav_order: 2
 ---

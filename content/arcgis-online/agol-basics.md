@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: AGOL Basics
 parent: Learn the Basics of AGOL
 nav_order: 1
 ---

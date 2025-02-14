@@ -49,7 +49,7 @@ It can be helpful to think of GIS as a layer cake, which allows us to take the r
 ### Adding a Layer
 {: .no_toc}
 
-Let’s add a layer from AGOL. For this demo, we will be looking at <u>public schools<u> and <u>parks<u> in the United States, but feel free to search for any layer you like.
+Let’s add a layer from AGOL. For this demo, we will be looking at <u>public schools</u> and <u>parks</u> in the United States, but feel free to search for any layer you like.
 1. Navigate to the **Layers** tab on the left manu, then click the “Add” button.
 1. The default search setting is set to **“My Content.”** Change it to **“Living Atlas”** to browse through Esri’s curated datasets. 
 1. Use the search bar to look for “U.S. Public Schools (with Placekey).” 
@@ -106,18 +106,18 @@ In the right menu, click the **wrench icon** to open the Map Tools menu. It will
 
 ![Directions, Measurement and Location Tools](media/all_AGOL/WebMap_08.jpg "Directions, Measurement and Location Tools")
 
-* The **Directions** tool works the same way as any navigation app on your phone. Input a Start and End location, and the tool will automatically calculate the estimated drive time, distance, and directions from the first location to the second. You can also add in multiple destinations, change your departure time, and change the method from “driving time” to another transportation method. Notice that this tool outputs a new layer into your layers list called "Route." Every time you run this tool, it will be saved as a new Route layer.
+The **Directions** tool works the same way as any navigation app on your phone. Input a Start and End location, and the tool will automatically calculate the estimated drive time, distance, and directions from the first location to the second. You can also add in multiple destinations, change your departure time, and change the method from “driving time” to another transportation method. Notice that this tool outputs a new layer into your layers list called "Route." Every time you run this tool, it will be saved as a new Route layer.
 
 ![Directions Tool](media/all_AGOL/WebMap_09.jpg "'Directions' Tool")
 
-* The **Measure** tool gives a rough distance between two points. Simply click at your starting location and double-click at your end location to calculate the distance. 
+The **Measure** tool gives a rough distance between two points. Simply click at your starting location and double-click at your end location to calculate the distance. 
 
 Because we are not using specific addresses or latitude/longitude coordinates, instead are relying on a rough mouse click, this will not be 100% accurate.
-{.note}
+{: .note}
 
 !['Measure' Tool](media/all_AGOL/WebMap_10.jpg "'Measure' Tool")
 
-* The **Location** tool displays a pop-up window in the top right corner of the map which shows the coordinates of the location where your cursor is hovering. You can change the units from XY (the latitude and longitude) to decimal degrees or another coordinate system (we don't cover coordinate systems in detail here). 
+The **Location** tool displays a pop-up window in the top right corner of the map which shows the coordinates of the location where your cursor is hovering. You can change the units from XY (the latitude and longitude) to decimal degrees or another coordinate system (we don't cover coordinate systems in detail here). 
 
 !['Location' Tool](media/all_AGOL/WebMap_11.jpg "'Location' Tool")
 
@@ -184,23 +184,17 @@ Let’s say that we only need the information for schools in Hampshire County, M
 In the right menu bar, the Filter menu (symbolized by a funnel) allows you to select specific values from any field in the attribute table. Let’s define our filters:
 1. In the Layers list, click on the schools layer to select it
 1. In the right menu bar, open the **Filter** and click **"Add New"**
-
   ![Filters Pop-up](media/all_AGOL/WebMap_18.jpg "Filters Pop-up Window")
 1. Use the first drop-down menu to define the field that contains the information we are looking for. Since we are looking for schools in a specific state, we will use the **“State”** field. 
 1. The second drop-down menu specifies the **operator,** which tells the tool how to look for the information. To look for an exact match, we will use the **“is”** operator.
-
   ![Filtering Query](media/all_AGOL/WebMap_19.jpg "Developing a Filter Query")
-
 1. The last drop-down menu shows us all the unique values in our chosen field (State). From the list, select **“MA.”** Together, this builds the condition: “show us only the schools where the *State is MA.”* 
-
   ![Choosing Conditional Statements](media/all_AGOL/WebMap_20.jpg "Choosing Conditional Statements for Filtering Query")
 1. We can add more conditions to refine the filter even more. Click **“Add new”** below the first filter and specify the condition “where *County is Hampshire.*” 
-
   ![Choosing Conditional Statements pt 2](media/all_AGOL/WebMap_21.jpg "Choosing Conditional Statments for Filtering Query, pt 2")
 1. Zoom out to show the US and change the relationship from "“All of the following are true” to “Any of the following are true.” 
     * When *all* the conditions must be true, only schools in Hampshire County, MA will be shown – a total of 49 schools.
     * If *any* of the conditions can be true, the filter will show all the schools in any Hampshire County in the U.S., plus all the schools in Massachusetts – a total of 1, 881 schools.
-
 1. Click **"Save"** to apply this filter to both the map and the attribute table. 
 
 ---

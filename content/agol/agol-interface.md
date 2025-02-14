@@ -54,12 +54,12 @@ After logging in, you will be taken to the homepage of your AGOL organization:
 
 The top bar has a range of menu options to explore:
 
-| **Home** | Landing page, with quick links to content published by your organization (UMass Amherst) |
-| **Gallery** | In-depth look at the content published by your organization |
-| **Map** | Open AGOL’s Map Viewer, where you can add data to a map, customize the way it looks, edit your data, and run spatial analyses |
-| **Scene** | Open AGOL’s Scene Viewer, where you can add and display data in 3D |
-| **Notebook** | Place to create and view AGOL Notebooks, Esri’s version of Jupyter notebooks; Notebooks enable you to write Python code to assist with data management, repetitive tasks, and complex analysis |
-| **Groups** | AGOL makes it possible to collaborate with groups of users within or outside your AGOL organization; a common use for this feature is to create groups for classes, where students can upload their projects and homeworks into a common shared cloud space |
+| **Home** | Landing page, with quick links to content published by your organization (UMass Amherst). |
+| **Gallery** | In-depth look at the content published by your organization. |
+| **Map** | Open AGOL’s Map Viewer, where you can add data to a map, customize the way it looks, edit your data, and run spatial analyses. |
+| **Scene** | Open AGOL’s Scene Viewer, where you can add and display data in 3D. |
+| **Notebook** | Place to create and view AGOL Notebooks, Esri’s version of Jupyter notebooks; Notebooks enable you to write Python code to assist with data management, repetitive tasks, and complex analysis. |
+| **Groups** | AGOL makes it possible to collaborate with groups of users within or outside your AGOL organization; a common use for this feature is to create groups for classes, where students can upload their projects and homeworks into a common shared cloud space. |
 
 Within the **Groups** blue menu bar, there are additional tabs you can click on:
 

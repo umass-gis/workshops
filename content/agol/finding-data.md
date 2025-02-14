@@ -30,7 +30,7 @@ Tips:
 * Type keywords into the search bar to look for specific content
 * Use filters to limit results to specific items, types, locations etc. 
 
-!['Content' page](media/all_AGOL/FindData_01.jpg "Content Page")
+!['Content' page](media/all_AGOL/replaceAGOL.png "Content Page")
 
 --- 
 

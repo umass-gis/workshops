@@ -25,7 +25,7 @@ Points, Lines, Polygons, and importing from CSV
 ## Import Data into AGOL 
 {:toc}
 
-Earlier, we learned how to add data from existing AGOL sources into our map (for a refresher, check out Add a layer from AGOL [hyperlink to page]). Now, let’s create our own! In this section, we will go over how to import point data as a CSV file or a shapefile.
+Earlier, we learned how to add data from existing AGOL sources into our map (for a refresher, check out the "Finding Data" section of this tutorial). Now, let’s create our own! In this section, we will go over how to import point data as a CSV file or a shapefile.
 
 As of this writing, AGOL does not yet support raster data uploads. If you need to upload a raster dataset to AGOL, you’ll need to do so through ArcGIS Pro desktop software. For more information, check out Esri’s info on Publishing hosted imagery layers or this YouTube video, [Fastest and Easiest Way to Upload Rasters to ArcGIS Online.](https://www.youtube.com/watch?v=bQmOpcJrf0c)
 {: .note}
@@ -35,7 +35,7 @@ As of this writing, AGOL does not yet support raster data uploads. If you need t
 
 CSV (or comma-separated values) files are a simple text file format for storing tabular data. CSV is an open alternative to common proprietary formats like XLSX (Microsoft Excel), making it a convenient way to share tabular data. AGOL can automatically generate a point layer from the CSV file if it contains latitude and longitude values. 
 
-This is an example of a CSV listing the main campuses within the UMass system, along with their latitude and longitude coordinate locations. Follow along with this section by creating your own CSV file (you can do this in Google Sheets or Microsoft Excel), or download the example CSV here:
+This is an example of a CSV listing the main campuses within the UMass system, along with their latitude and longitude coordinate locations. Follow along with this section by creating your own CSV file (you can do this in Google Sheets or Microsoft Excel) or upload a CSV file of your choice, provided spatial data information such as lat/long coordinates are in the sheet.
 
 ![Example csv table](media/all_AGOL/CD_01.png "Example CSV Table")
 
@@ -45,8 +45,9 @@ This is an example of a CSV listing the main campuses within the UMass system, a
 1. The *Add Layer* window appears. Choose one of the options to **upload the file** from your computer, or drag and drop the file into the window
 
     !['Add Layer' drag and drop window](media/all_AGOL/CD_03.png "'Add Layer' drag and drop window")
-1. Choose *"Create a hosted feature layer and add it to the map"*
+1. Choose **"Create a hosted feature layer and add it to the map"**
 1. In the **“Fields”** dialog, we can specify which fields to import, what they should be called, and what kind of data they contain. These fields will be used to create the layer’s attribute table. AGOL does a good job of guessing the name and type of data, but sometimes they need to be adjusted. Once everything looks good, click **“Next.”**
+    
     For more information on data types check out Esri’s documentation on [ArcGIS field data types](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/arcgis-field-data-types.htm). 
     {.note}
 
@@ -62,7 +63,7 @@ This is an example of a CSV listing the main campuses within the UMass system, a
 ### Import a Shapefile
 {: .no_toc }
 
-Shapefiles are one of the most common data types for vector data (vectors are points, lines, or polygons). If you look for GIS data online, oftentimes you will be able to download it as a shapefile.
+Shapefiles are one of the most common data types for vector data (vectors are points, lines, or polygons). If you look for GIS data online, oftentimes you will be able to download it as a shapefile (file_name.shp).
 
 Here we have a folder with a shapefile of counties in Massachusetts, downloaded from [MassGIS](https://www.mass.gov/info-details/massgis-data-counties):
 

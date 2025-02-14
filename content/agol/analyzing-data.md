@@ -41,7 +41,7 @@ Members of the UMass organization are automatically given a certain number of cr
 
 If you have your own subscription to AGOL, you can [purchase AGOL credits from Esri.](https://www.esri.com/en-us/arcgis/products/credits/buy)
 
-To check how many credits you have in your account, from the main AGOL page navigate to Organization > Members and search for your UMass NetID. Once viewing your profile, click `“View Settings” > “Credits”` This will show you how many credits you’ve used, and how many remain, as shown below.
+To check how many credits you have in your account, from the main AGOL page navigate to `Organization > Members` and search for your UMass NetID. Once viewing your profile, click `“View Settings” > “Credits”` This will show you how many credits you’ve used, and how many remain, as shown below.
 
 ![See your available credits](media/all_AGOL/AD_02.png "See your available credits")
 
@@ -73,8 +73,8 @@ Creating buffers generates polygons (or areas) around an input layer at a specif
     ![Input buffer features](media/all_AGOL/AD_05.png "Input Buffer Settings")
 1. Set the **input layer** to be whichever layer you want to draw buffers around. In my case, I am selecting the feature layer I created, “Scenic Areas in Amherst.” 
 1. Use **Buffer settings** to specify the buffer distance:
-    1. If you want to use the same distance for every feature, keep *distance type* as “Value,” enter a *distance value* (e.g. 50), and choose a *unit* from the dropdown menu. I am choosing to create a 50 meter buffer around every polygon I created. 
-    1. If you want to use a field in the attribute table to create different buffer sizes for each feature, set *distance type* to “Field” and choose the field in the attribute table that contains the unique distance value.
+    1. If you want to use the same distance for every feature, keep *distance type* as **“Value,”** enter a *distance value* (e.g. 50), and choose a *unit* from the dropdown menu. I am choosing to create a 50 meter buffer around every polygon I created. 
+    1. If you want to use a field in the attribute table to create different buffer sizes for each feature, set *distance type* to **“Field”** and choose the field in the attribute table that contains the unique distance value.
 1. Choose an **overlap policy** which will depend on the topic of analysis. For this case, we will choose **Dissolve**
     1. **Overlap** means that each feature will generate a discrete buffer, even if they overlap – there will be one buffer for each feature.
     1. **Dissolve** means that any overlapping buffers will be dissolved into a single shape – there may be fewer buffers than features.
@@ -118,7 +118,7 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
 1. Under **Result layer** give the output a unique name.
 1. Optionally, edit the **Environment settings** to change the output coordinate system or restrict the processing extent (this is a helpful thing to do if you only want to run the analysis in an area that is smaller than the full extent of the input layer).
     1. Remember to click Estimate Credits to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
-    {.warn}
+    {: .warn}
 1. When everything is set, click **"Run"**
 
 ![Result of "Find by Location" tool](media/all_AGOL/AD_11.png "Result layer of 'Find by Location' tool")
@@ -126,7 +126,7 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
 the result is a polygon feature layer that shows *only* the parks parcels that fall within the 50m buffer to the scenic areas, which in this case consists of only 4 or 5 polygons out of the original 20 or so.
 
 Hypothetically, you could skip the previous buffer step and instead build using the relationship “within a distance of 50 m” instead of “intersect.” In GIS, there are often many ways to accomplish the same end result!
-{.note}
+{: .note}
 
 ---
 
@@ -140,8 +140,7 @@ First, download and import a shapefile layer containing the boundaries of all to
 1. Use the **"Find by Attributes and Location"** tool (refer to previous section) to identify the feature of Amherst and create a separate layer from it: 
     1. **Find features from:** MA_town_lines (the name of your layer may be slightly different depending on where you sourced it)
     1. **Where:** All of the following are true:
-    1. NAMELSAD20 (field corresponding with town name) equals Amherst
-    
+        1. NAMELSAD20 (field corresponding with town name) equals Amherst
     ![2nd Query Builder](media/all_AGOL/AD_12.png "2nd Query Builder")
 1. Click **"Add."** This will create a separate layer that only contains what you identified with the query, which is the town of Amherst isolated from the rest of the state. 
 1. Navigate to the **"Summarize Within"** tool
@@ -151,7 +150,7 @@ First, download and import a shapefile layer containing the boundaries of all to
     1. Under **Calculate Statistics** you can optionally change the area units to square kilometers, depending on your project area size and preference. 
     1. Under **Group by fields** I chose to group by feature **type** which will calculate parks area by park type, AKA federal versus state versus local parks. 
     1. When everything is set, run the tool. A new layer will be created.
-    1. Our original goal for this tool was to ascertain the land area of parks in Amherst. In order to actually see the numbers, we need to access the attribute table. Click on the three dots next to your results layer and click **“show table."**
+    1. Click on the three dots next to your results layer and click **“show table."**
 
     ![Show Attribute Table](media/all_AGOL/AD_14.png "Show Attribute Table")
 So, what this tells us is that there are about 5.2 square km of parks in Amherst, in which 0.53 square km are local parks and 4.65 square km are state parks. Adding the instruction to group by feature (park type) allowed us to make this extra distinction, rather than simply a total area. From this information, we now know that there are no national, county or regional parks in Amherst. If you are a city planner or work in conjunction with a park service, this may be useful information! 
@@ -169,7 +168,8 @@ For this, we will abandon our Parks quest and instead return to the “US Public
 
 Let’s say we want to calculate the density of public schools throughout the state of Massachusetts.
 
-1. Use the **"Find by Attribute and Location"** tool to "clip" the public schools data to the state of Massachusetts (see earlier section for details)
+1. Use the **"Find by Attribute and Location"** tool to "clip" the public schools data to the state of Massachusetts (see earlier section for details).
+    
     Note that it is important that you complete this step first so that you can run the “calculate density” tool with as little data as possible, while still answering our research question. It is certainly possible to calculate country-wide density and clipping to MA afterward, but this query will use astronomically more credits. Keep this in mind when doing any project. 
     {:note}
 
@@ -224,8 +224,8 @@ If you want to continue your density analysis following the theme of a heatmap, 
 
 ---
 
-Though this tutorial does not cover all of AGOL’s available tools, hopefully this is an effective orientation to a few different types of analysis that can spark your own interest. For a comprehensive list of tools available in AGOL visit this [link.](https://doc.arcgis.com/en/arcgis-online/analyze/perform-analysis-mv.htm#ESRI_SECTION1_DA94F2AEBEE748369DA099DC71EDD408
+Though this tutorial does not cover all of AGOL’s available tools, hopefully this is an effective orientation to a few different types of analysis that can spark your own interest. For a comprehensive list of tools available in AGOL visit this [Esri link.](https://doc.arcgis.com/en/arcgis-online/analyze/perform-analysis-mv.htm#ESRI_SECTION1_DA94F2AEBEE748369DA099DC71EDD408
 )
 
 Recall, performing spatial analysis requires the spending of “credits” which are available to you based on your subscription type. For UMass users, the maximum credits one can use for a single analysis is 100, which somewhat limits the size of data you can analyze and to what extent. This also applies to stored data, i.e. feature layers that you create and publish to AGOL. 
-{note}
+{: .note}

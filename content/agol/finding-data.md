@@ -9,7 +9,7 @@ nav_order: 3
 # Finding Data
 {: .no_toc }
 
-Using AGOL, Living Atlas and external sites for data sourcing
+Source data using AGOL, Living Atlas and external sites
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -26,9 +26,8 @@ Using AGOL, Living Atlas and external sites for data sourcing
 
 When you have an account through a large organization like UMass, there is a wealth of geospatial data already available to you through your organization. In the **Content** tab, click **My Organization** to browse the items that other users have already published.
 
-Tips:
-* Type keywords into the search bar to look for specific content
-* Use filters to limit results to specific items, types, locations etc. 
+Try typing **keywords** into the search bar to look for specific content, and using **filters** to limit results to specific items, types, locations etc. 
+{: .note}
 
 !['Content' page](media/all_AGOL/replaceAGOL.png "Content Page")
 
@@ -61,7 +60,7 @@ You can also access Living Atlas content through the [Living Atlas Gallery](http
 
 ---
 
-## External Sources
+## External sources
 {:toc}
 
 If you can’t find what you’re looking for in AGOL, chances are good that you can find it somewhere else on the web. For a non-exhaustive list of reputable external data sources, check out the [UMass GIS Hub](https://gis.library.umass.edu/data/subject/).

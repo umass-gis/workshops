@@ -38,6 +38,7 @@ Try typing **keywords** into the search bar to look for specific content, and us
 
 The ArcGIS Living Atlas of the World is a collection of curated spatial data from around the world. It contains maps, apps, and data layers created by Esri and supported partners that are made available for free to all AGOL users. All Living Atlas layers have been verified by Esri, making it a reliable source of spatial data. 
 
+<br>
 ### Finding Living Atlas Data via AGOL
 {: .no_toc }
 
@@ -48,13 +49,17 @@ Notice that in between the “Modified” and “Owner” columns, there are gre
 * A **blue** icon (a globe) indicates that the item was created by Esri itself. 
 Finding data with either of these labels is a good way to ensure you're using reliable data in your maps. 
 
-
 ![Using Reliable Data](media/all_AGOL/FindData_02.jpg "Choose Reliable Data")
 
+<br>
 ### Finding Living Atlas Data via the Living Atlas Gallery
 {: .no_toc }
 
 You can also access Living Atlas content through the [Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/). Similarly to the AGOL interface, filters can be applied through the menus to narrow down to a specific category. 
+
+
+[Browse the Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/){: .btn .btn-green }
+
 
 ![Living Atlas](media/all_AGOL/FindData_03.jpg "Explore the Living Atlas")
 
@@ -71,7 +76,7 @@ One of the main sources of authoritative spatial data are government agencies. M
 
 For both of these resources, you will find some data that is already available as a web service in AGOL. In this example from MassGIS, you can see that there are three ways to access the data: download it, view it in [MassMapper](https://maps.massgis.digital.mass.gov/MassMapper/MassMapper.html), or access it via AGOL:
 
-![MassGIS Website](media/all_AGOL/FindData_04.jpg "MassGIS Website")
+<img src="media/all_AGOL/FindData_04.jpg" alt="MassGIS Website" class="center" width="600">
 
 The most important aspect of looking for data, especially from external sources, is to use reliable sites. We already went over how to look for reliable datasets via the AGOL interface, but if you're looking for a good starting point for external sources, be sure to explore the UMass libaray's [GIS database](https://gis.library.umass.edu/data/), specially curated and fact-checked by our wonderful librarians!
 

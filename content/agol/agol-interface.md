@@ -86,22 +86,22 @@ Below section needs to be troubleshooted - the HTML table isn't rendering correc
   <tbody>
     <tr>
       <td><b>My groups</b></td>
-      <td>Groups that you are a member of.</td>
+      <td>Groups that you are a member of (for example, a class or lab group).</td>
     </tr>
     <tr>
       <td><b>Featured groups</b></td>
-      <td>Groups that Esri or our organization have flagged for easy discovery; they contain data that people may find useful, such as basemaps, aerial imagery, government-published data, and so on.</td>
+      <td>Groups that Esri or your organization have flagged for easy discovery; they contain data that people may find useful, such as basemaps, aerial imagery, government-published data, and so on.</td>
     </tr>
     <tr>
       <td><b>My organization's groups</b></td>
-      <td>Groups within the organization that aren't private and have made their data viewable to the organization.</td>
+      <td>Groups within the organization that aren't private and have made their data viewable.</td>
     </tr>
     <tr>
       <td><b>Content</b></td>
       <td>
         <ul>
           <li><b>My content</b> contains all the items you have created or added to your AGOL account. Items can be organized in folders using the interface in the top left corner.</li>
-          <li><b>My favorites</b> shows any content you have starred as a favorite - essentially, this is a great way to bookmark items you see in AGOL that you want to be able to find quickly in the future.<li>
+          <li><b>My favorites</b> shows any content you have starred as a favorite - essentially, this is a great way to bookmark items you see in AGOL that you want to be able to find quickly in the future.</li>
           <li><b>My groups</b> lists all the content shared with groups you are a member of.</li>
           <li><b>My organization</b> lists all the content shared with your organization.</li>
           <li><b>Living Atlas</b> is a curated selection of public content available on AGOL, which Esri’s team has flagged as special because of its exceptional documentation, authoritative status, or high view count.</li>
@@ -115,19 +115,6 @@ Below section needs to be troubleshooted - the HTML table isn't rendering correc
   </tbody>
 </table>
 
+---
+
 Take some time to explore the interface, learning where you can find certain tools and information. When you are familiar with the organization of the website, feel free to explore the next tutorials in this series.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -105,16 +105,17 @@ To create a sketch layer:
     
     ![Sketch Layer Settings](media/all_AGOL/CD_12.png "Sketch Layer Settings")
 1. The first thing to consider when creating your new layer is what type of data you want to display. Will this be a point, line, or polygon layer? Choose the **vector type** you wish to create by activating the respective icon in the floating menu now available on the left side of the sketch query. 
-1. Back in the **Sketch** menu, you can also edit the layer name and change the symbology (appearance) as you are creating sketches.
+1. Back in the **Sketch** menu, you can also edit the layer name and change the symbology as you are creating sketches.
 1. With sketch layers (as with any layer), you can change how the data is visualized. In the right menu bar, expand the **Properties** and **Effects** menus to add visual effects to your symbols, change the size and color, and more.
 
-After activating the line icon, you can add lines to the map by clicking on a map location, then clicking in a different location to add one vertex at a time. Click-dragging your cursor will draw a continuous line rather than creating vertices manually at every click, which may be a good idea if your line is squiggly and irregular, for example, drawing a meandering river as opposed to a straight road. 
+After activating the line icon, you can add lines to the map by clicking on a map location, then clicking in a different location to add one vertex at a time. Click-dragging your cursor will draw a continuous line rather than creating vertices manually at every click. This may be a good idea if your ideal line is squiggly and irregular, like drawing a meandering river as opposed to a straight road. The same goes for drawing polygons. 
 {: .note}
 
 Don't forget to save, early and often!
-{: .danger}
+{: .warn}
 
 ### Feature Layer
+{: .no_toc }
 
 While sketch layers are an effective on-the-fly solution for creating immediate visualization, a feature layer is a persistent layer that stores geographic data along with attributes, allowing for editing, analysis, and sharing across multiple maps and users. If your project requires spatial analysis, collaboration and sharing with others, or more extensive field and attribute information, consider creating a feature layer instead of a sketch layer. 
 
@@ -141,7 +142,7 @@ In this example, we will create a feature layer called “Scenic Areas in Amhers
     ![Specify feature layer name and type](media/all_AGOL/CD_19.png "Specify feature layer name and type")
 1. Give your layer a unique name, and optionally include *tags* or a *summary.* When you're done, click **"Save."**
 
-    It is highly recommended that you fill in the tags and summary so that other users within your organization can discover and correctly interpret your feature layer. Collaboration is important! 
+    It is recommended that you fill in the tags and summary so that other users within your organization can discover and correctly interpret your feature layer. Collaboration is important! 
     {: .note}
 
     ![Write in tags for new layer](media/all_AGOL/CD_20.png "Write in tags for new layer")

@@ -125,7 +125,7 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
 
 the result is a polygon feature layer that shows *only* the parks parcels that fall within the 50m buffer to the scenic areas, which in this case consists of only 4 or 5 polygons out of the original 20 or so.
 
-Hypothetically, you could skip the previous buffer step and instead build using the relationship “within a distance of 50 m” instead of “intersect.” In GIS, there are often many ways to accomplish the same end result!
+Hypothetically, you could skip the previous buffer step and instead build using the relationship **“within a distance of 50 m”** instead of **“intersect.”** In GIS, there are often many ways to accomplish the same end result!
 {: .note}
 
 ---

@@ -38,6 +38,7 @@ Try typing **keywords** into the search bar to look for specific content, and us
 
 The ArcGIS Living Atlas of the World is a collection of curated spatial data from around the world. It contains maps, apps, and data layers created by Esri and supported partners that are made available for free to all AGOL users. All Living Atlas layers have been verified by Esri, making it a reliable source of spatial data. 
 
+<br>
 ### Finding Living Atlas Data via AGOL
 {: .no_toc }
 
@@ -48,13 +49,17 @@ Notice that in between the “Modified” and “Owner” columns, there are gre
 * A **blue** icon (a globe) indicates that the item was created by Esri itself. 
 Finding data with either of these labels is a good way to ensure you're using reliable data in your maps. 
 
-
 ![Using Reliable Data](media/all_AGOL/FindData_02.jpg "Choose Reliable Data")
 
+<br>
 ### Finding Living Atlas Data via the Living Atlas Gallery
 {: .no_toc }
 
 You can also access Living Atlas content through the [Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/). Similarly to the AGOL interface, filters can be applied through the menus to narrow down to a specific category. 
+
+
+[Browse the Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/){: .btn .btn-green }
+
 
 ![Living Atlas](media/all_AGOL/FindData_03.jpg "Explore the Living Atlas")
 
@@ -74,7 +79,7 @@ For both of these resources, you will find some data that is already available a
 2. View it in [MassMapper](https://maps.massgis.digital.mass.gov/MassMapper/MassMapper.html), an interactive map interface NOT associated with Esri or AGOL
 3. Access it via AGOL:
 
-![MassGIS Website](media/all_AGOL/FindData_04.jpg "MassGIS Website")
+<img src="media/all_AGOL/FindData_04.jpg" alt="MassGIS Website" class="center" width="600">
 
 You can also access these externally published layers through the AGOL interface itself. To find the above example, you can open a blank map in AGOL, go to **"Add Layer"** and click the dropdown menu to select **"ArcGIS Online".** From here you can quickly search a layer you're looking for. Typing in **"2020 U.S. Census Geography"** in the search bar will give you the same data layer that you just found externally on MassGIS.
 

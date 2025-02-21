@@ -83,7 +83,7 @@ For both of these resources, you will find some data that is already available a
 
 You can also access these externally published layers through the AGOL interface itself. To find the above example, you can open a blank map in AGOL, go to **"Add Layer"** and click the dropdown menu to select **"ArcGIS Online".** From here you can quickly search a layer you're looking for. Typing in **"2020 U.S. Census Geography"** in the search bar will give you the same data layer that you just found externally on MassGIS.
 
-![MassGIS data via AGOL](media/all_AGOL/FindData_05.png "MassGIS data via AGOL")
+<img src= "media/all_AGOL/FindData_05.png" alt="MassGIS data via AGOL" class="center" width="600">
 
 Many (but not all) external websites make their data layers published as AGOL layers, which conveniently saves you the step of actually searching externally. Instead, you can search for layers directly in the AGOL web map. 
 {: .note}

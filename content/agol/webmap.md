@@ -8,7 +8,7 @@ nav_order: 4
 # Making a Web Map in AGOL
 {: .no_toc }
 
-Now, the fun begins! Let's make a map.
+Now, the fun begins! Let's make a map
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -22,20 +22,20 @@ Now, the fun begins! Let's make a map.
 
 ---
 
-## Opening MapViewer
+## Open Map Viewer
 {:toc}
 
 To get started with making a web map, click **Map** in the top menu bar to launch the AGOL Map Viewer.
 
-<img src="media/all_AGOL/WebMap_01.jpg" alt="Opening the AGOL Map Viewer" class="center" width="600">
+<img src="media/all_AGOL/WebMap_01.jpg" alt="Opening the AGOL Map Viewer" class="center">
 
-Within the map interface, you’ll notice there are two vertical menu bars on the left and right sides of the map.
-* The left menu bar contains tabs for adding data, viewing and organizing layers and tables, changing the basemap, viewing any charts you may have created for your data, viewing the legend, and saving and sharing the map.
-* The right menu bar has tabs that allow you to change the appearance of your data, edit your data, and analyze your data.
+Within the map interface, there are two vertical menu bars on the left and right sides of the map.
+* The **left menu bar** contains tabs for adding data, viewing and organizing layers and tables, changing the basemap, viewing any charts you may have created for your data, viewing the legend, and saving and sharing the map.
+* The **right menu bar** has tabs that allow you to change the appearance of your data, edit your data, and analyze your data.
 
 ---
 
-## Adding a layer from AGOL 
+## Add a layer from AGOL 
 {:toc}
 
 ### What are layers?
@@ -43,81 +43,92 @@ Within the map interface, you’ll notice there are two vertical menu bars on th
 
 It can be helpful to think of GIS as a layer cake, which allows us to take the real world and turn it into a collection of abstract, spatial data layers. As in the image below, layers that are at the bottom of the list are drawn at the bottom of the cake. Layers at the top of the list are drawn on top.
 
+
 <img src='https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_05/f2619b76bb0d1d0f74b0e8d80ba33496.jpg' width='400' alt='Cartoon image of GIS layers, each representing a different type of feature in the real world: customers as points, streets as lines, parcels as polygons, elevation as continuous raster data, and land usage as categorigal raster data, with the "real world" below them.'>
 <figcaption><a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-03-geographic-information-systems.html">Campbell and Shin 2011: Figure 1.8</a></figcaption>
 
-### Adding a Layer
+### Add a Layer
 {: .no_toc}
 
 Let’s add a layer from AGOL. For this demo, we will be looking at <u>public schools</u> and <u>parks</u> in the United States, but feel free to search for any layer you like.
-1. Navigate to the **Layers** tab on the left manu, then click the “Add” button.
-1. The default search setting is set to **“My Content.”** Change it to **“Living Atlas”** to browse through Esri’s curated datasets. 
-1. Use the search bar to look for “U.S. Public Schools (with Placekey).” 
-1. When you find the layer, click “Add to Map.” When inserting a layer, AGOL will prompt you to pick a “style.” This simply refers to how the data will be visually displayed
 
-  <img src="media/all_AGOL/WebMap_03.jpg" alt="Adding USA Schools Layer from Living Atlas" class="center" width="600">
-1. Let’s add a second layer. Search for “USA Parks.” Add that to your map as well.
-1. Click the back arrow to exit out of the search menu. 
+**Add the first layer:**
+1. In the left menu, navigate to the **Layers** tab.
+1. Click the **Add** button.
+1. The default search setting is set to **My Content.** Change it to **Living Atlas** to browse through Esri’s curated datasets. 
+1. Use the search bar to look for "U.S. Public Schools (with Placekey)." 
+1. When you find the layer, click **Add to Map**. 
 
-Your map should now have two layers spanning the entire United States - one showing the location of public schools and towns (points) and another showing parks (polygons).
+    <img src="media/all_AGOL/WebMap_03.jpg" alt="Adding USA Schools Layer from Living Atlas" class="center">
+
+**Add a second layer:**
+
+1. Search for “USA Parks.” Add that to your map as well.
+1. Click the **back arrow** to exit out of the search menu. 
+
+Your map should now have two layers spanning the entire United States: one showing the location of public schools and towns (points) and another showing parks (polygons).
 
 ---
 
-## Navigating the Map
+## Navigate around the map
 {:toc}
 
 In this interface, you can **click and drag** the map to move around and see different locations. 
 
-### Zooming in and out
+### Zoom in and out
 {: .no_toc }
 
 Use the scroll wheel on the mouse to **zoom in and out**. You can also zoom in and out using the + and - buttons in the lower right corner of the map.
 
 Notice that as you zoom into the map, you can see more details about the specific area you’re viewing, such as roads and town names that are not present at a zoomed-out level. This is also the case with more complex layers. If a layer has many points in the same area, not all of them will be visible when the map is zoomed out.
 
-You can also quickly zoom to the "extent" of any layer in the map:
-1. In the **Layers** tab, click the **three dots** next to a layer's name.
-1. Click **"Zoom to"** to zoom out to the extent of the whole layer. In this case, the mpa should zoom out to show the entire US. 
-
-![Zoom in and out](media/all_AGOL/WebMap_05.jpg "Zooming features")
-
-### Reordering Layers
+### Zoom to the extent of a layer
 {: .no_toc }
 
-Layers in GIS, as mentioned before, function like layers in a cake; layers at the bottom of the list are drawn at the bottom and can therefore be "covered" by any layers above it in the case of spatial overlap. 
+You can also quickly zoom in or out to see an entire layer in the map:
+1. In the **Layers** tab, click the **three dots** next to a layer's name.
+1. Click **Zoom to** to zoom to the extent of the whole layer. In this case, the mpa should zoom out to show the entire US. 
 
-In our example, the U.S. Public Schools layer is being drawn below the USA Parks layer. Let’s change this so we can see the schools better:
+<img src="media/all_AGOL/WebMap_05.jpg" alt="Zooming features" class="center">
+
+
+### Reorder layers
+{: .no_toc }
+
+Layers in GIS function like layers in a cake. Layers at the bottom of the list are drawn at the bottom and can therefore be "covered" by any layers above it in the case of spatial overlap. 
+
 1. In the **Layers** tab, click and drag the **six dots** to the left of the layer name.
 1. Reorder the layers in the list to change the drawing order in the map.
 
-![Reordering layers](media/all_AGOL/WebMap_06.jpg "Reordering Layers")
+<img src="media/all_AGOL/WebMap_06.jpg" alt="Reordering Layers" class="center">
 
-### Hide Layers
+### Hide a layers
 {: .no_toc }
 
 You can also hide layers temporarily so you can focus on other layers by clicking the **eyeball symbol** to the right of the layer name.
 
-<img src="media/all_AGOL/WebMap_07.jpg" alt="Hiding Layers" class="center" width="600">
+<img src="media/all_AGOL/WebMap_07.jpg" alt="Hiding Layers" class="center">
 
-### Using Basic Map Tools
+### Use basic map tools
 {: .no_toc }
 
-In the right menu, click the **wrench icon** to open the Map Tools menu. It will prompt you to select one of three tools: **Directions, Measurement** or **Location.**
+In the right menu, click the **wrench icon** to access these Map Tools: **Directions, Measurement** or **Location.**
 
-![Directions, Measurement and Location Tools](media/all_AGOL/WebMap_08.jpg "Directions, Measurement and Location Tools")
+<img src="media/all_AGOL/WebMap_08.jpg" alt="Directions, Measurement and Location Tools" class="center">
 
-The **Directions** tool works the same way as any navigation app on your phone. Input a Start and End location, and the tool will automatically calculate the estimated drive time, distance, and directions from the first location to the second. You can also add in multiple destinations, change your departure time, and change the method from “driving time” to another transportation method. Notice that this tool outputs a new layer into your layers list called "Route." Every time you run this tool, it will be saved as a new Route layer.
+
+The **Directions** tool works the same way as any navigation app on your phone. Input a Start and End location, and the tool will automatically calculate the estimated drive time, distance, and directions from the first location to the second. You can also add multiple destinations, change your departure time, and change the method from “driving time” to another transportation method. Notice that this tool outputs a new layer into your layers list called "Route." Every time you run this tool, it will be saved as a new Route layer.
 
 <img src="media/all_AGOL/WebMap_09.jpg" alt="'Directions' tool'" class="center" width="600">
 
 The **Measure** tool gives a rough distance between two points. Simply click at your starting location and double-click at your end location to calculate the distance. 
 
-Because we are not using specific addresses or latitude/longitude coordinates, instead are relying on a rough mouse click, this will not be 100% accurate.
+Because we are not using specific addresses or latitude/longitude coordinates but are relying on a rough mouse click, this will not be 100% accurate.
 {: .note}
 
 <img src="media/all_AGOL/WebMap_10.jpg" alt="'Measure' tool'" class="center" width="600">
 
-The **Location** tool displays a pop-up window in the top right corner of the map which shows the coordinates of the location where your cursor is hovering. You can change the units from XY (the latitude and longitude) to decimal degrees or another coordinate system (we don't cover coordinate systems in detail here). 
+The **Location** tool displays a pop-up window in the top right corner of the map which shows the coordinates of the location where your cursor is hovering. You can change the units from XY (the latitude and longitude) to decimal degrees or another coordinate system.
 
 <img src="media/all_AGOL/WebMap_11.jpg" alt="'Location' tool'" class="center" width="600">
 
@@ -131,27 +142,31 @@ Done with a layer? you can remove it from the map at any time.
   <img src="media/all_AGOL/WebMap_12.jpg" alt="Remove a Layer" class="center" width="600">
 
 Remember that while Living Atlas layers are easy to find and re-add to your map, layers that you create from a map tool like Directions will need to be re-calculated if you decide you want to add them back in.
+{: .warn}
 
 ---
 
-## Explore the Attribute Table
+## Explore the attribute table
 {:toc}
 
-An attribute table is essentially a spreadsheet that stores information about the features in a vector layer. Features can be points, lines, or areas (polygons).
+An attribute table is essentially a spreadsheet that stores information about the features in a vector layer. 
 
 Each **row** in the attribute table corresponds to a specific feature. If we look at the U.S. Public Schools layer, each row represents one school. Each **column** (or “field”) contains a specific kind of information about that feature, such as the school’s name, address, type, etc. 
 
-Let's look at the attribute table for the "U.S. Public Schools" layer:
+### Open an attribute table
+{: .no_toc }
 1. Click on the **three dots** next to the layer name
-1. Select **"Show Table."** The attribute table will appear at the bottom of the screen. 
+1. Select **Show Table.** The attribute table will appear at the bottom of the screen. 
 
-  <img src="media/all_AGOL/WebMap_13.png" alt="View the Attribute Table" class="center" width="600">
-1. Use the scroll bars to browse through the information this dataset has to offer! 
-1. When you’re done, simply click the “x” at the top right corner of the attribute table to remove it from view.
+    <img src="media/all_AGOL/WebMap_14.jpg" alt="Show Table" class="center" width="600">
 
-<img src="media/all_AGOL/WebMap_14.jpg" alt="Show Table" class="center" width="600">
+    <img src="media/all_AGOL/WebMap_13.png" alt="View the Attribute Table" class="center" width="600">
 
-### Show and Hide Fields
+1. Use the scroll bars to browse through the information.
+1. When you’re done, click the **X** at the top right corner of the attribute table to close it.
+
+
+### Show and hide fields
 {: .no_toc }
 
 At times you may want to show or hide fields in the attribute table to make it easier to find the information that is most relevant to you. 
@@ -160,19 +175,19 @@ In the top right corner of the table, click the **gear icon** to bring up the Fi
 
 <img src="media/all_AGOL/WebMap_15.png" alt="Toggle Fields View" class="center" width="600">
 
-### Sort the Attribute Table
+### Sort the attribute table
 {: .no_toc }
 
-Sorting the attribute table can be useful if you are looking for a specific feature in the layer. To sort the table, click a column heading and select **“Sort ascending”** or **“Sort descending.”** This will automatically sort the table alphabetically (for text fields) or in numerical order (for number fields).
+Sorting the attribute table can be useful if you are looking for a specific feature in the layer. To sort the table, click a column heading and select **Sort ascending** or **Sort descending.** This will automatically sort the table alphabetically (for text fields) or in numerical order (for number fields).
 
 <img src="media/all_AGOL/WebMap_16.png" alt="Sort Table by Ascending" class="center" width="600">
 
-### Zoom to Selection
+### Zoom to selection
 {: .no_toc }
 
 Once you find a specific feature, you can quickly pan and zoom the map to it using the attribute table.
 
-Click the **checkbox** next to the desired feature to select it, then in the left panel click **“Zoom to selection.”** The map will automatically pan and zoom to your chosen feature.
+Click the **checkbox** next to the desired feature to select it, then in the left panel click **Zoom to selection.** The map will automatically pan and zoom to your chosen feature.
 
 <img src="media/all_AGOL/WebMap_17.png" alt="Table Zoom to Selection" class="center" width="600">
 
@@ -181,26 +196,32 @@ Click the **checkbox** next to the desired feature to select it, then in the lef
 
 Let’s say that we only need the information for schools in Hampshire County, Massachusetts. Looking at the entire dataset, which contains more than 102,000 features, might make it hard to find the information we need. To focus on the specific records we want, we can use a filter to specify which criteria we want to view, and exclude everything else.
 
-In the right menu bar, the Filter menu (symbolized by a funnel) allows you to select specific values from any field in the attribute table. Let’s define our filters:
-1. In the Layers list, click on the schools layer to select it
-1. In the right menu bar, open the **Filter** and click **"Add New"**
+1. In the Layers list, click on the schools layer to select it.
+1. In the right menu bar, open the **Filter** (funnel symbol) and click **Add New**.
 
-  <img src="media/all_AGOL/WebMap_18.jpg" alt="Filters Pop-up Window" class="center" width="600">
+    <img src="media/all_AGOL/WebMap_18.jpg" alt="Filters Pop-up Window" class="center" width="600">
+
 1. Use the first drop-down menu to define the field that contains the information we are looking for. Since we are looking for schools in a specific state, we will use the **“State”** field. 
 1. The second drop-down menu specifies the **operator,** which tells the tool how to look for the information. To look for an exact match, we will use the **“is”** operator.
-  ![Filtering Query](media/all_AGOL/WebMap_19.jpg "Developing a Filter Query")
-1. The last drop-down menu shows us all the unique values in our chosen field (State). From the list, select **“MA.”** Together, this builds the condition: “show us only the schools where the *State is MA.”* 
-  ![Choosing Conditional Statements](media/all_AGOL/WebMap_20.jpg "Choosing Conditional Statements for Filtering Query")
-1. We can add more conditions to refine the filter even more. Click **“Add new”** below the first filter and specify the condition “where *County is Hampshire.*” 
-  ![Choosing Conditional Statements pt 2](media/all_AGOL/WebMap_21.jpg "Choosing Conditional Statments for Filtering Query, pt 2")
+
+    <img src="media/all_AGOL/WebMap_19.jpg" alt="Developing a Filter Query" class="center" width="600">
+
+1. The last drop-down menu shows us all the unique values in our chosen field. From the list, select **“MA.”** Together, this builds the condition: “show us only the schools where the *State is MA.”* 
+
+    <img src="media/all_AGOL/WebMap_20.jpg" alt="Choosing Conditional Statements for Filtering Query" class="center" width="600">
+
+1. We can add more conditions to refine the filter even more. Click **Add new** below the first filter and specify the condition “where *County is Hampshire.*” 
+
+    <img src="media/all_AGOL/WebMap_21.jpg" alt="Choosing Conditional Statments for Filtering Query, pt 2" class="center" width="600">
+
 1. Zoom out to show the US and change the relationship from "“All of the following are true” to “Any of the following are true.” 
     * When *all* the conditions must be true, only schools in Hampshire County, MA will be shown – a total of 49 schools.
     * If *any* of the conditions can be true, the filter will show all the schools in any Hampshire County in the U.S., plus all the schools in Massachusetts – a total of 1, 881 schools.
-1. Click **"Save"** to apply this filter to both the map and the attribute table. 
+1. Click **Save** to apply this filter to both the map and the attribute table. 
 
 ---
 
-## Change Layer Appearance
+## Change a layer's appearance
 {:toc}
 
 There are many different ways to visualize your data in a map! Let’s try changing the way our schools layer looks. Note that we’ll be focusing on a **point layer,** but you can follow a similar workflow to change the way a **polygon layer** looks, too.

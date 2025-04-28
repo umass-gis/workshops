@@ -2,7 +2,7 @@
 layout: default
 title: Creating Spatial Data
 parent: Learn the Basics of AGOL
-nav_order: 5
+nav_order: 7
 ---
 
 # Creating and Importing Spatial Data
@@ -109,7 +109,7 @@ To create a sketch layer:
 1. Back in the **Sketch** menu, you can also edit the layer name and change the symbology as you are creating sketches.
 1. With sketch layers (as with any layer), you can change how the data is visualized. In the right menu bar, expand the **Properties** and **Effects** menus to add visual effects to your symbols, change the size and color, and more.
 
-After activating the line icon, you can add lines to the map by clicking on a map location, then clicking in a different location to add one vertex at a time. Click-dragging your cursor will draw a continuous line rather than creating vertices manually at every click. This may be a good idea if your ideal line is squiggly and irregular, like drawing a meandering river as opposed to a straight road. The same goes for drawing polygons. 
+After activating the line icon, you can add lines to the map by clicking on a map location to add vertices. Click-dragging your cursor will draw a continuous line rather than creating vertices manually. This may be a good idea if your ideal line is squiggly and irregular, like drawing a meandering river as opposed to a straight road. The same goes for drawing polygons. 
 {: .note}
 
 Don't forget to save, early and often!

@@ -29,7 +29,7 @@ When you have an account through a large organization like UMass, there is a wea
 Try typing **keywords** into the search bar to look for specific content, and using **filters** to limit results to specific items, types, locations etc. 
 {: .note}
 
-!['Content' page](media/all_AGOL/replaceAGOL.png "Content Page")
+<img src="media/all_AGOL/replaceAGOL.png" alt="Content Page" class="center" width="700">
 
 --- 
 
@@ -49,7 +49,7 @@ Notice that in between the “Modified” and “Owner” columns, there are gre
 * A **blue** icon (a globe) indicates that the item was created by Esri itself. 
 Finding data with either of these labels is a good way to ensure you're using reliable data in your maps. 
 
-![Using Reliable Data](media/all_AGOL/FindData_02.jpg "Choose Reliable Data")
+<img src="media/all_AGOL/FindData_02.jpg" alt="Choosing Reliable Data" class="center" width="700">
 
 <br>
 ### Finding Living Atlas Data via the Living Atlas Gallery
@@ -60,8 +60,7 @@ You can also access Living Atlas content through the [Living Atlas Gallery](http
 
 [Browse the Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/){: .btn .btn-green }
 
-
-![Living Atlas](media/all_AGOL/FindData_03.jpg "Explore the Living Atlas")
+<img src="media/all_AGOL/FindData_03.jpg" alt="Explore the Living Atlas" class="center" width="700">
 
 ---
 
@@ -86,7 +85,7 @@ You can also access these externally published layers through the AGOL interface
 
 <img src= "media/all_AGOL/FindData_05.png" alt="MassGIS data via AGOL" class="center" width="600">
 
-Many (but not all) external websites make their data layers published as AGOL layers, which conveniently saves you the step of actually searching externally. Instead, you can search for layers directly in the AGOL web map. 
+Many external websites make their data layers published as AGOL layers, which conveniently saves you the step of actually searching externally. Instead, you can search for layers directly in the AGOL web map. 
 {: .note}
 
 The most important aspect of looking for data, especially from external sources, is to use reliable sites. We already went over how to look for reliable datasets via the AGOL interface, but if you're looking for a good starting point for external sources, be sure to explore the [UMass GIS Hub](https://gis.library.umass.edu/data/), specially curated and fact-checked by our wonderful librarians!

@@ -17,6 +17,8 @@ Learn the basics of ArcGIS Online (AGOL), Esri's cloud platform for working with
 * Analyze spatial data
 * Share your work
 
+This tutorial is current as of Spring 2025. AGOL is constantly updated, so you may find that your version of AGOL looks a bit different!
+{: .note}
 ---
 
 ## Watch the workshops 

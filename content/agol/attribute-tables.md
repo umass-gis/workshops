@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Navigating Attribute Tables
+title: Attribute Tables
 parent: Learn the Basics of AGOL
 nav_order: 5
 ---
 
-# Navigating Attribute Tables in your Web Map
+# Working with Attribute Tables
 {: .no_toc }
 
-"All data (tables) have their beauty, but not everyone sees it." -Damian Mingle, probably talking about GIS. 
+"[Every attribute table] has beauty, but not everyone sees it." -Confucius, probably talking about GIS
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -22,15 +22,15 @@ nav_order: 5
 
 ---
 
-## Explore the attribute table
+## Overview
 {:toc}
 
 An attribute table is essentially a spreadsheet that stores information about the features in a vector layer. 
 
-Each **row** in the attribute table corresponds to a specific feature. If we look at the U.S. Public Schools layer, each row represents one school. Each **column** (or “field”) contains a specific kind of information about that feature, such as the school’s name, address, type, etc. 
+Each **row** in the attribute table corresponds to a specific feature. If we look at a layer of U.S. Public Schools, each row represents one school. Each **column** (or “field”) contains a specific kind of information about that feature, such as the school’s name, address, type, etc. 
 
-### Open an attribute table
-{: .no_toc }
+## Open an attribute table
+
 1. Click on the **three dots** next to the layer name
 1. Select **Show Table.** The attribute table will appear at the bottom of the screen. 
 
@@ -42,8 +42,7 @@ Each **row** in the attribute table corresponds to a specific feature. If we loo
 1. When you’re done, click the **X** at the top right corner of the attribute table to close it.
 
 
-### Show and hide fields
-{: .no_toc }
+## Show and hide fields
 
 At times you may want to show or hide fields in the attribute table to make it easier to find the information that is most relevant to you. 
 
@@ -51,15 +50,13 @@ In the top right corner of the table, click the **gear icon** to bring up the Fi
 
 <img src="media/all_AGOL/WebMap_15.png" alt="Toggle Fields View" class="center" width="600">
 
-### Sort the attribute table
-{: .no_toc }
+## Sort the attribute table
 
 Sorting the attribute table can be useful if you are looking for a specific feature in the layer. To sort the table, click a column heading and select **Sort ascending** or **Sort descending.** This will automatically sort the table alphabetically (for text fields) or in numerical order (for number fields).
 
 <img src="media/all_AGOL/WebMap_16.png" alt="Sort Table by Ascending" class="center" width="600">
 
-### Zoom to selection
-{: .no_toc }
+## Zoom to selection
 
 Once you find a specific feature, you can quickly pan and zoom the map to it using the attribute table.
 
@@ -67,8 +64,7 @@ Click the **checkbox** next to the desired feature to select it, then in the lef
 
 <img src="media/all_AGOL/WebMap_17.png" alt="Table Zoom to Selection" class="center" width="600">
 
-### Filters
-{: .no_toc }
+## Filters
 
 Let’s say that we only need the information for schools in Hampshire County, Massachusetts. Looking at the entire dataset, which contains more than 102,000 features, might make it hard to find the information we need. To focus on the specific records we want, we can use a filter to specify which criteria we want to view, and exclude everything else.
 
@@ -88,12 +84,11 @@ Let’s say that we only need the information for schools in Hampshire County, M
 
 1. We can add more conditions to refine the filter even more. Click **Add new** below the first filter and specify the condition “where *County is Hampshire.*” 
 
-    <img src="media/all_AGOL/WebMap_21.jpg" alt="Choosing Conditional Statments for Filtering Query, pt 2" class="center" width="600">
-
-1. Zoom out to show the US and change the relationship from "“All of the following are true” to “Any of the following are true.” 
+1. Zoom out to show the US and change the relationship from "All of the following are true” to “Any of the following are true.” 
     * When *all* the conditions must be true, only schools in Hampshire County, MA will be shown – a total of 49 schools.
     * If *any* of the conditions can be true, the filter will show all the schools in any Hampshire County in the U.S., plus all the schools in Massachusetts – a total of 1, 881 schools.
-1. Click **Save** to apply this filter to both the map and the attribute table. 
 
----
+    <img src="media/all_AGOL/WebMap_21.jpg" alt="Choosing Conditional Statments for Filtering Query, pt 2" class="center" width="600">
+
+1. Click **Save** to apply this filter to both the map and the attribute table. 
 

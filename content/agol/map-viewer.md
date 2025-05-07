@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Web Map Viewer Basics
+title: Map Viewer Basics
 parent: Learn the Basics of AGOL
 nav_order: 4
 ---
 
-# Making a Web Map in AGOL
+# Using AGOL's Map Viewer
 {: .no_toc }
 
-Now, the fun begins! Let's make a map. 
+Let's get familiar with AGOL's built-in web map viewer. 
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -76,14 +76,12 @@ Your map should now have two layers spanning the entire United States: one showi
 In this interface, you can **click and drag** the map to move around and see different locations. 
 
 ### Zoom in and out
-{: .no_toc }
 
 Use the scroll wheel on the mouse to **zoom in and out**. You can also zoom in and out using the + and - buttons in the lower right corner of the map.
 
 Notice that as you zoom into the map, you can see more details about the specific area you’re viewing, such as roads and town names that are not present at a zoomed-out level. This is also the case with more complex layers. If a layer has many points in the same area, not all of them will be visible when the map is zoomed out.
 
 ### Zoom to the extent of a layer
-{: .no_toc }
 
 You can also quickly zoom in or out to see an entire layer in the map:
 1. In the **Layers** tab, click the **three dots** next to a layer's name.
@@ -93,7 +91,6 @@ You can also quickly zoom in or out to see an entire layer in the map:
 
 
 ### Reorder layers
-{: .no_toc }
 
 Layers in GIS function like layers in a cake. Layers at the bottom of the list are drawn at the bottom and can therefore be "covered" by any layers above it in the case of spatial overlap. 
 
@@ -102,15 +99,13 @@ Layers in GIS function like layers in a cake. Layers at the bottom of the list a
 
 <img src="media/all_AGOL/WebMap_06.jpg" alt="Reordering Layers" class="center">
 
-### Hide a layers
-{: .no_toc }
+### Hide a layer
 
 You can also hide layers temporarily so you can focus on other layers by clicking the **eyeball symbol** to the right of the layer name.
 
 <img src="media/all_AGOL/WebMap_07.jpg" alt="Hiding Layers" class="center">
 
 ### Use basic map tools
-{: .no_toc }
 
 In the right menu, click the **wrench icon** to access these Map Tools: **Directions, Measurement** or **Location.**
 
@@ -133,7 +128,6 @@ The **Location** tool displays a pop-up window in the top right corner of the ma
 <img src="media/all_AGOL/WebMap_11.jpg" alt="'Location' tool'" class="center" width="600">
 
 ### Remove a layer
-{: .no_toc }
 
 Done with a layer? you can remove it from the map at any time.
 1. In the **Layers** tab, click the **three dots** to the right of a layer name

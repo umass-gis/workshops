@@ -46,7 +46,7 @@
     font-size: .75em;
     padding-bottom: .125rem; }
 
-.prereq {
+.tip {
   background: rgba(65, 214, 147, 0.2);
   border-left: 4px solid #026e57;
   border-radius: 4px;
@@ -54,9 +54,9 @@
   padding: .8rem;
   font-size: 1em;
   margin: 20px; }
-  .prereq::before {
+  .tip::before {
     color: #026e57;
-    content: "PREREQUISITES";
+    content: "TIP";
     display: block;
     font-weight: bold;
     font-size: .75em;

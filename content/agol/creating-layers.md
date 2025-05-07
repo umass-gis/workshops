@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Creating Spatial Data
+title: Creating Layers
 parent: Learn the Basics of AGOL
 nav_order: 7
 ---
 
-# Creating and Importing Spatial Data
+# Creating Feature Layers
 {: .no_toc }
 
-Points, Lines, Polygons, and importing from CSV
+How to import and create spatial data to make a feature layer
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">
@@ -22,66 +22,79 @@ Points, Lines, Polygons, and importing from CSV
 
 ---
 
-## Import Data into AGOL 
+## Overview 
 {:toc}
 
-Earlier, we learned how to add data from existing AGOL sources into our map (for a refresher, check out the "Finding Data" section of this tutorial). Now, let’s create our own! In this section, we will go over how to import point data as a CSV file or a shapefile.
+In [Finding Data](finding-data.html), we learned how to add data from existing AGOL sources into our map.  Now, let’s create our own spatial layers! This section wil show how to create a vector layer by uploading a CSV file with coordinate information, uploading a shapefile, and creating a new vector layer from scratch.
 
-As of this writing, AGOL does not yet support raster data uploads. If you need to upload a raster dataset to AGOL, you’ll need to do so through ArcGIS Pro desktop software. For more information, check out Esri’s info on Publishing hosted imagery layers or this YouTube video, [Fastest and Easiest Way to Upload Rasters to ArcGIS Online.](https://www.youtube.com/watch?v=bQmOpcJrf0c)
+As of this writing, AGOL does not yet support raster data uploads. If you need to upload a raster dataset to AGOL, you can use ArcGIS Pro desktop software to do so. For more information, check out Esri’s info on Publishing hosted imagery layers or this YouTube video, [Fastest and Easiest Way to Upload Rasters to ArcGIS Online.](https://www.youtube.com/watch?v=bQmOpcJrf0c)
 {: .note}
 
-### Import Data from CSV
-{: .no_toc }
+---
+## Import a CSV file with coordinates
 
 CSV (or comma-separated values) files are a simple text file format for storing tabular data. CSV is an open alternative to common proprietary formats like XLSX (Microsoft Excel), making it a convenient way to share tabular data. AGOL can automatically generate a point layer from the CSV file if it contains latitude and longitude values. 
 
-This is an example of a CSV listing the main campuses within the UMass system, along with their latitude and longitude coordinate locations. Follow along with this section by creating your own CSV file (you can do this in Google Sheets or Microsoft Excel) or upload a CSV file of your choice, provided spatial data information such as lat/long coordinates are in the sheet.
+This is an example of a CSV listing the main campuses within the UMass system, along with their latitude and longitude coordinate locations. 
 
-![Example csv table](media/all_AGOL/CD_01.png "Example CSV Table")
+<img src="media/all_AGOL/CD_01.png" alt="Example CSV Table" class="center" width="300">
 
-1. In the left menu bar, click the **“Add”** menu, then select **“Add layer from file.”**
-   
+1. Follow along with this section by creating your own CSV file (you can do this in Google Sheets or Microsoft Excel) or upload a CSV file of your choice, provided spatial data information such as lat/lng coordinates are in the sheet.
+
+1. In the left menu bar, click the **Add** menu, then select **Add layer from file**.
 
     <img src="media/all_AGOL/CD_02.png" alt="Add Layer from File" class="center" width="300">
-1. The *Add Layer* window appears. Choose one of the options to **upload the file** from your computer, or drag and drop the file into the window
+
+1. The ***Add Layer** window appears. Choose one of the options to upload the file from your computer, or drag and drop the file into the window
 
     <img src="media/all_AGOL/CD_03.png" alt="'Add Layer' drag and drop window" class="center" width="600">
-1. Choose **"Create a hosted feature layer and add it to the map"**
-1. In the **“Fields”** dialog, we can specify which fields to import, what they should be called, and what kind of data they contain. These fields will be used to create the layer’s attribute table. AGOL does a good job of guessing the name and type of data, but sometimes they need to be adjusted. Once everything looks good, click **“Next.”**
-    
-    For more information on data types check out Esri’s documentation on [ArcGIS field data types](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/arcgis-field-data-types.htm). 
-    {.note}
+
+1. Choose **"Create a hosted feature layer and add it to the map"**.
+1. In the **Fields** dialog, we can specify which fields to import, what they should be called, and what kind of data they contain. These fields will be used to create the layer’s attribute table. AGOL does a good job of guessing the name and type of data, but sometimes they need to be adjusted. Once everything looks good, click **Next**.
 
     <img src="media/all_AGOL/CD_04.png" alt="Field Data Types" class="center" width="600">
-1. In the **“Location settings”** dialog, confirm that *latitude* and *longitude* are correctly mapped to their respective fields. If necessary, choose “Latitude and longitude” from the dropdown menu and map the fields manually. Once complete, click **“Next.”**
+
+    For more information on data types, check out Esri’s documentation on [ArcGIS field data types](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/arcgis-field-data-types.htm). 
+    {: .tip}
+
+1. In the **Location settings** dialog, confirm that latitude and longitude are correctly mapped to their respective fields. If necessary, choose **“Latitude and longitude”** from the dropdown menu and map the fields manually. Once complete, click **Next**.
 
     <img src="media/all_AGOL/CD_05.png" alt="Location Settings Window" class="center" width="600">
-1. Give the file a unique name, then click **"Create and add to map"**
-1. AGOL will automatically generate a point layer and add it to your map, based on the coordinate values in the CSV file. THe layer will be saved to your **Content** folder in AGOL. 
 
-    <img src="media/all_AGOL/CD_06.png" alt="Point Layer Map View" class="center" width="700">
+1. Give the file a unique name, then click **Create and add to map**.
+1. AGOL will automatically generate a point layer and add it to your map, based on the coordinate values in the CSV file. The layer will be saved to your **Contents** folder in AGOL. 
 
-### Import a Shapefile
-{: .no_toc }
+    <img src="media/all_AGOL/CD_06.png" alt="Point Layer Map View" class="center" width="600">
+
+---
+## Import a shapefile
 
 Shapefiles are one of the most common data types for vector data (vectors are points, lines, or polygons). If you look for GIS data online, oftentimes you will be able to download it as a shapefile (file_name.shp).
 
-Here we have a folder with a shapefile of counties in Massachusetts, downloaded from [MassGIS](https://www.mass.gov/info-details/massgis-data-counties):
+1. Download or create a shapefile. This is an example shapefile of counties in Massachusetts, downloaded from [MassGIS](https://www.mass.gov/info-details/massgis-data-counties):
 
-![Choose shapefile from user library](media/all_AGOL/CD_07.png "Choose shapefile from user library")
+    <img src="media/all_AGOL/CD_07.png" alt="Choose shapefile from user library" class="center" width="600">
 
-Shapefiles are actually made up of *multiple files:* the files have the same filename, but  each has its own unique extension. GIS programs like AGOL need all of these files to be kept together in order to work properly. 
+    Shapefiles are actually made up of *multiple files:* the files have the same filename, but  each has its own unique extension. GIS programs like AGOL need all of these files to be kept together in order to work properly. 
+    {: .warn}
 
-1. If you downloaded the shapefile as a .zip file, you can skip to the next step. If not, select all the components of the shapefile and zip them together (if you need help zipping a file, check out our tutorials on [Zipping files in Windows or Mac](​​https://umass-gis.github.io/workshops/content/extras/)). 
-1. Back in the AGOL Map Viewer, in the left menu bar, click the **“Add”** menu, then select **“Add layer from file.”**
-1. The Add Layer window appears. Choose one of the options to upload the zipped file from your computer, or drag and drop it into the window. 
-1. In the “File” dialog, confirm that we are attempting to upload a shapefile to AGOL.
+1. If you downloaded the shapefile as a .zip file, skip to the next step. If not, select all the components of the shapefile and zip them together.
+
+    If you need help zipping a file, check out our tutorials on [Zipping files in Windows or Mac](../extras/). 
+    {: .tip}
+
+
+1. Back in the AGOL Map Viewer, in the left menu bar, click the **Add** button, then select **Add layer from file**.
+1. The **Add Layer** window appears. Choose one of the options to upload the zipped file from your computer, or drag and drop it into the window. 
+1. In the **File type** dialog, confirm that you are uploading a shapefile.
 
     <img src="media/all_AGOL/CD_08.png" alt="'Add Layer' pop-up window" class="center" width="600">
-1. Give the file a unique name, then click **"Create and add to map"**
+
+1. Give the file a unique name, then click **Create and add to map**.
 
     <img src="media/all_AGOL/CD_09.png" alt="Add layer information" class="center" width="600">
-1. AGOL will automatically generate a shapefile layer and add it to your map. Similarly to before, the layer will be saved to your **Content** folder. 
+
+1. AGOL will automatically generate a feature layer and save it to your **Contents** folder. Click **Open in Map Viewer** to view the layer in a map. 
     
     <img src="media/all_AGOL/CD_10.png" alt="View added layers in map" class="center" width="600">
 

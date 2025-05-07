@@ -51,13 +51,14 @@ This setting is especially useful when publishing web maps with lots of data dis
 
 The Styles menu (symbolized as a triangle, square, and circle) allows us to change the way a layer’s icons appear. In the right menu bar, open the **Styles** menu.
 
-![Choosing Layer Styles](media/all_AGOL/WebMap_25.jpg "Choosing Layer Styles")
+<img src="media/all_AGOL/WebMap_25.jpg" alt="Choosing Layer Styles" class="center" width="300">
 
 The default setting for point layers is for all the symbols to appear the same. To change the color and size of all points at the same time: 
 1. under **Pick a style**, click **“Style options”** to open the Location (Single symbol) menu. 
 1. Click on the symbol to open the Symbol style menu. This is where we can change the current symbol, change the size, fill color, outline color, etc.
 
   <img src="media/all_AGOL/WebMap_26.png" alt="Changing Layer Symbology" class="center" width="600">
+  
 Oftentimes, we want to use data in the attribute table to automatically change the way the points appear in the map. Let’s say we want the icons to reflect the level of education of each school.
 1. In the main **Styles** menu, under **Choose attributes**, click **“+ Field”** to open the fields menu. 
 1. Check the “Level” field, then click “Add.” The school icons automatically change to colored dots, and a legend appears in the lower left corner indicating which color represents which level. This is the default style when varying symbology is used.

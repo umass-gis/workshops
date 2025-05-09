@@ -100,81 +100,93 @@ Shapefiles are one of the most common data types for vector data (vectors are po
 
 ---
 
-## Create Your Own Spatial Data
+## Create a new spatial layer
 {:toc}
 
 There may be occasions when the layers you are looking for don’t exist yet, so you’ll need to create them yourself! There are a few options for this, depending on your project’s goals and to what extent you’d like to save or share data. 
 
-### Sketch Layers
+### Sketch layer
 {: .no_toc }
 
-A sketch layer is a quick way to map items out without creating and publishing an entire feature layer. These layers exist on your map, but they are not published to your AGOL account and cannot be exported by themselves. Sketch layers will not be saved to your Content, and instead are saved within the map itself. 
+A sketch layer is a quick way to map items out without creating and publishing an entire feature layer. These layers exist on your map, but they are not published to your AGOL account and cannot be exported by themselves. Sketch layers are saved within the map itself and will not be saved to your Content. 
 
-To create a sketch layer:
-1. In the left menu bar, click `Add > Create Sketch Layer`
-    1. Alternatively, in the Layers list, click `Add > Create Sketch Layer`. 
+1. In the Layers list, click **Add > Create Sketch Layer**, or in the right menu, click **Add sketch**.
 
-    ![Create Sketch Layer](media/all_AGOL/CD_11.png "Create Sketch Layer")
-1. AGOL will create an empty sketch layer for you, opening the **Sketch** menu in the right menu bar, symbolized as a drawing pencil
+     <img src="media/all_AGOL/CD_11.png" alt="Create Sketch Layer" class="center" width="300">
+
+1. An empty sketch layer will be created and the **Sketch** menu will open in the right menu bar.
     
     <img src="media/all_AGOL/CD_12.png" alt="Sketch layer settings" class="center" width="300">
-1. The first thing to consider when creating your new layer is what type of data you want to display. Will this be a point, line, or polygon layer? Choose the **vector type** you wish to create by activating the respective icon in the floating menu now available on the left side of the sketch query. 
-1. Back in the **Sketch** menu, you can also edit the layer name and change the symbology as you are creating sketches.
-1. With sketch layers (as with any layer), you can change how the data is visualized. In the right menu bar, expand the **Properties** and **Effects** menus to add visual effects to your symbols, change the size and color, and more.
 
-After activating the line icon, you can add lines to the map by clicking on a map location to add vertices. Click-dragging your cursor will draw a continuous line rather than creating vertices manually. This may be a good idea if your ideal line is squiggly and irregular, like drawing a meandering river as opposed to a straight road. The same goes for drawing polygons. 
-{: .note}
+1. Decide what type of data you want to display – you can choose between point, line, polygon, rectangle, circle, or text. Choose the **sketch layer type** by activating the respective icon in the floating menu to the left of the Sketch menu. 
+1. Give the sketch layer a name under **Feature name**.
+1. Configure the way the sketch looks in the **Style** section.
+1. For advanced style customization,in the right menu bar, expand the **Properties** and **Effects** menus to add visual effects to your symbols, change the size and color, and more.
+
+When drawing line and polygon sketches, you can add individual vertices by clicking the map, or you draw a continuous line by click-dragging your cursor. This is helpful if you are drawing a squiggly or irregular feature, like a meandering river.
+{: .tip}
 
 Don't forget to save, early and often!
 {: .warn}
 
-### Feature Layer
+---
+
+### Feature layer
 {: .no_toc }
 
 While sketch layers are an effective on-the-fly solution for creating immediate visualization, a feature layer is a persistent layer that stores geographic data along with attributes, allowing for editing, analysis, and sharing across multiple maps and users. If your project requires spatial analysis, collaboration and sharing with others, or more extensive field and attribute information, consider creating a feature layer instead of a sketch layer. 
 
 Essentially, a **sketch layer** is for quick, interactive drawing on a map, while a **feature layer** is for managing and storing structured geospatial data. 
-{.tip}
+{: .note}
 
-In this example, we will create a feature layer called “Scenic Areas in Amherst” to digitize polygons of scenic areas in Amherst.
-1. To create a feature layer, you must first exit the map viewer (make sure you save your work first by clicking on the floppy disc icon in the left menu bar). In the very top left corner of the screen, click the three lines icon and select **Content**.
+1. To create a feature layer, you must first exit the map viewer. First, save your work by clicking on the floppy disc icon in the left menu bar. In the top left corner of the screen, click the three lines icon and select **Content**.
 
-    <img src="media/all_AGOL/CD_15.png" alt="Go to your content" class="center" width="400">
-1. Click **"New Item"** in the upper left corner
+    <img src="media/all_AGOL/CD_15.png" alt="Go to your content" class="center" width="300">
 
-    ![New Item](media/all_AGOL/CD_16.png "New Item")
-1. The pop-up will prompt you to either drag and drop a saved file from your computer, or select another option to create a file from AGOL. Click **Feature layer** to start creating an empty feature layer.
+1. In the upper left corner, click **New item**.
+
+    <img src="media/all_AGOL/CD_16.png" alt="New Item" class="center" width="600">
+
+1. In the pop-up, click **Feature layer** to start creating an empty feature layer.
 
     <img src="media/all_AGOL/CD_17.png" alt="Choose 'Feature Layer' in pop-up" class="center" width="600">
-1. We have the option to create a new layer from scratch or to use an existing layer as a template. For this tutorial, we will create a new feature layer from scratch. Select **“Define your own layer,”** then click **"Next."**
+    
+1. To create a new layer from scratch, click **Define your own layer**, then click **Next**.
 
     <img src="media/all_AGOL/CD_18.png" alt="Choose 'define your own layer' in pop-up" class="center" width="600">
-1. In the “Specify name and type” window, give the layer a name that reflects what the data will represent (e.g. “Schools” or “Parks”) and select its data type (point, line or polygon) from the drop down menu.
+
+1. In the **Specify name and type** window, give the layer a name that reflects what the data will represent (e.g. “Schools” or “Parks”) and select its data type (point, line or polygon) from the drop down menu.
     1. Optionally, you can add GPS metadata fields to store coordinate data, define Z coordinates (if you are creating a 3D image), or define M values (vertices for geometric mapping). This tutorial will not be covering 3D mapping, but feel free to explore these features on your own! 
-1. When you're ready, click **"Next."**
+    1. When you're ready, click **Next**.
 
-    <img src="media/all_AGOL/CD_19.png" alt="Specify feature layer name and type" class="center" width="500">
-1. Give your layer a unique name, and optionally include *tags* or a *summary.* When you're done, click **"Save."**
+    <img src="media/all_AGOL/CD_19.png" alt="Specify feature layer name and type" class="center" width="600">
 
-    It is recommended that you fill in the tags and summary so that other users within your organization can discover and correctly interpret your feature layer. Collaboration is important! 
-    {: .note}
+1. Give the layer a unique **title**, and optionally include **tags** or a **summary**. When you're done, click **Save**.
 
     <img src="media/all_AGOL/CD_20.png" alt="Write in tags for new layer" class="center" width="600">
-1. Right now, this is an empty feature layer, meaning it has no data associated with it. Add any desired fields to the layer’s attribute table by navigating to **Data** in the blue menu bar and then clicking the **Fields** tab. 
-1. To add a field, click **Add**, then define the name of the field and choose the *data type*. Add as many fields as is necessary to your project. 
-    !['Add field' button](media/all_AGOL/CD_21.png "'Add Field' button")
-    
-    Because I am looking at scenic areas in Amherst, I want to add a field that describes the name of the area I am analyzing. Thus, the data type will be text, or **“string"** in data science jargon. If I needed to create a numerical field, such as site area in kilometers, I would select **“float”** or **“double”** for the data type. 
+
+    It's a good idea to fill in the tags and summary so that other users within your organization can discover and correctly interpret your feature layer. 
     {: .note}
-1. Return to the layer’s metadata page by clicking **Overview** in the blue menu bar. In the top right corner, click **“Open in map viewer.”** AGOL will launch Map Viewer and display the empty layer in the map.
-1. To start adding features to the layer, open the **Edit** menu from the right menu bar, then activate the drawing tool by clicking **“New Feature.”** You can now start drawing new features directly into the map!
+
+1. Right now, this is an empty feature layer, meaning it has no data associated with it. To add fields to the layer’s attribute table, navigate to **Data** in the blue menu bar and then click the **Fields** tab. 
+1. In the top left corner, click **+ Add**, then define the name of the field and choose the **data type**. Add as many fields as you need to the table. 
+
+    <img src="media/all_AGOL/CD_21.png" alt="'Add Field' button" class="center" width="600">
+
+    To store text, choose **string** as the field type. For numbers without decimals, choose **integer**. For numbers with decimals, choose **double**. 
+    {: .tip}
+1. Return to the layer’s metadata page by clicking **Overview** in the blue menu bar. 
+1. In the top right corner, click **Open in Map Viewer**. Map Viewer will launch and display the empty layer in the map.
+1. To start adding features to the layer, open the **Edit** menu from the right menu bar, then activate the drawing tool by clicking **New Feature**. You can now start drawing new features directly into the map!
     
     <img src="media/all_AGOL/CD_22.png" alt="Create new features" class="center" width="300">
-1. Once you’ve drawn a feature, AGOL prompts you to fill in whatever fields you added to the attribute table. Once you’ve done so, click **Create,** and you are ready to move on to your next feature. Don't forget to save!
+
+1. Once you’ve drawn a feature, you will be prompted to fill in whatever fields you added to the attribute table. Once you’ve done so, click **Create**, and you are ready to move on to your next feature. Don't forget to save your editss!
 
 ---
-
-Now you have some practice in importing data from the web, and creating your own data directly in AGOL. The next tutorial will cover analyzing your data. 
+## Wrap-up
+{: .no_toc}
+Now you have some practice in importing data from a CSV file, importing data from the web, and creating your own spatial layers directly in AGOL. The next tutorial will show how to analyze your data. 
 
 
 

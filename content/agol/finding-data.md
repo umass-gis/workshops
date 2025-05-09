@@ -92,4 +92,7 @@ The most important aspect of looking for data, especially from external sources,
 
 ---
 
-Do some exploring on your own and find some datasets you'd like to work with, and when you're ready, tune in to the next tutorial where we will be covering how to make a web map!
+## Wrap-up
+{: .no_toc}
+
+Do some exploring on your own and find some datasets you'd like to work with, and when you're ready, check out [Map Viewer Basics](map-viewer.html) to learn how to navigate AGOL's native web map platform!

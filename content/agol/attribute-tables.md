@@ -29,6 +29,8 @@ An attribute table is essentially a spreadsheet that stores information about th
 
 Each **row** in the attribute table corresponds to a specific feature. If we look at a layer of U.S. Public Schools, each row represents one school. Each **column** (or “field”) contains a specific kind of information about that feature, such as the school’s name, address, type, etc. 
 
+---
+
 ## Open an attribute table
 
 1. Click on the **three dots** next to the layer name
@@ -41,6 +43,7 @@ Each **row** in the attribute table corresponds to a specific feature. If we loo
 1. Use the scroll bars to browse through the information.
 1. When you’re done, click the **X** at the top right corner of the attribute table to close it.
 
+---
 
 ## Show and hide fields
 
@@ -50,11 +53,15 @@ In the top right corner of the table, click the **gear icon** to bring up the Fi
 
 <img src="media/all_AGOL/WebMap_15.png" alt="Toggle Fields View" class="center" width="600">
 
+---
+
 ## Sort the attribute table
 
 Sorting the attribute table can be useful if you are looking for a specific feature in the layer. To sort the table, click a column heading and select **Sort ascending** or **Sort descending.** This will automatically sort the table alphabetically (for text fields) or in numerical order (for number fields).
 
 <img src="media/all_AGOL/WebMap_16.png" alt="Sort Table by Ascending" class="center" width="600">
+
+---
 
 ## Zoom to selection
 
@@ -63,6 +70,8 @@ Once you find a specific feature, you can quickly pan and zoom the map to it usi
 Click the **checkbox** next to the desired feature to select it, then in the left panel click **Zoom to selection.** The map will automatically pan and zoom to your chosen feature.
 
 <img src="media/all_AGOL/WebMap_17.png" alt="Table Zoom to Selection" class="center" width="600">
+
+---
 
 ## Filters
 

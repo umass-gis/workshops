@@ -106,7 +106,6 @@ Shapefiles are one of the most common data types for vector data (vectors are po
 There may be occasions when the layers you are looking for don’t exist yet, so you’ll need to create them yourself! There are a few options for this, depending on your project’s goals and to what extent you’d like to save or share data. 
 
 ### Sketch layer
-{: .no_toc }
 
 A sketch layer is a quick way to map items out without creating and publishing an entire feature layer. These layers exist on your map, but they are not published to your AGOL account and cannot be exported by themselves. Sketch layers are saved within the map itself and will not be saved to your Content. 
 
@@ -129,10 +128,7 @@ When drawing line and polygon sketches, you can add individual vertices by click
 Don't forget to save, early and often!
 {: .warn}
 
----
-
 ### Feature layer
-{: .no_toc }
 
 While sketch layers are an effective on-the-fly solution for creating immediate visualization, a feature layer is a persistent layer that stores geographic data along with attributes, allowing for editing, analysis, and sharing across multiple maps and users. If your project requires spatial analysis, collaboration and sharing with others, or more extensive field and attribute information, consider creating a feature layer instead of a sketch layer. 
 
@@ -156,8 +152,8 @@ Essentially, a **sketch layer** is for quick, interactive drawing on a map, whil
     <img src="media/all_AGOL/CD_18.png" alt="Choose 'define your own layer' in pop-up" class="center" width="600">
 
 1. In the **Specify name and type** window, give the layer a name that reflects what the data will represent (e.g. “Schools” or “Parks”) and select its data type (point, line or polygon) from the drop down menu.
-    1. Optionally, you can add GPS metadata fields to store coordinate data, define Z coordinates (if you are creating a 3D image), or define M values (vertices for geometric mapping). This tutorial will not be covering 3D mapping, but feel free to explore these features on your own! 
-    1. When you're ready, click **Next**.
+    * Optionally, you can add GPS metadata fields to store coordinate data, define Z coordinates (if you are creating a 3D image), or define M values (vertices for geometric mapping). This tutorial will not be covering 3D mapping, but feel free to explore these features on your own! 
+    * When you're ready, click **Next**.
 
     <img src="media/all_AGOL/CD_19.png" alt="Specify feature layer name and type" class="center" width="600">
 

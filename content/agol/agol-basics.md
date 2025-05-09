@@ -37,7 +37,7 @@ AGOL is accessible through a web browser and does not require installing softwar
 
 ---
 
-## What is GIS
+## What is GIS?
 {:toc}
 The “GIS” in ArcGIS stands for Geographic Information Systems (or Geographic Information Science, depending on who you ask). It’s a handy tool and/or approach for:
 * Managing spatial data

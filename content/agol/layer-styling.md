@@ -30,6 +30,8 @@ There are many different ways to visualize your data in a map! Let’s try chang
 For this exercise, we are using the “U.S. Public Schools (with Placekey)" layer from Esri's Living Atlas.
 {: .note}
 
+---
+
 ## Visibility
 
 We can change the transparency and visible range of every layer in a web map to improve the map's aesthetics and change the behavior of layers as a user zooms in and out.
@@ -50,6 +52,7 @@ We can change the transparency and visible range of every layer in a web map to 
 
     This setting is especially useful when publishing web maps with lots of data displayed at different scales. Try experimenting with different ranges to visualize how this affects your map as you zoom in and out.
 
+---
 
 ## Styles
 
@@ -91,6 +94,8 @@ It's also possible to use attribute data to automatically change the way the poi
     <img src="media/all_AGOL/WebMap_31.jpg" alt="Colorblind-Friendly color scheme" class="center" width="600">
 1. You can also change the size of our icons to make them easier to see. Set the **Size** to 30 px, then close the symbol style menu.
 
+---
+
 ## Effects
 
 Effects are another way to change a layer’s appearance, adding enhancements like drow shadows and glow effects.
@@ -102,6 +107,8 @@ Effects are another way to change a layer’s appearance, adding enhancements li
     <img src="media/all_AGOL/WebMap_33.jpg" alt="Add 'Bloom' Effect" class="center" width="600">
 
 1. Explore the other symbology options to customize your map in a unique way!
+
+---
 
 ## Pop-ups
 
@@ -134,6 +141,8 @@ Clicking on a feature in the map will bring up a pop-up window with a summary of
 1. At the bottom of the Pop-ups menu, click **+ Add content** to include additional content like charts, images, and extra text.
 
     <img src="media/all_AGOL/WebMap_38.jpg" alt="Adding Content to Fields List" class="center" width="600">
+
+---
 
 ## Labels
 

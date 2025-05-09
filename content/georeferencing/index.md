@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Georeference a Historical Map
+title: Georeference an Image
 description: "Georeference a Historical Map - a workshop by the UMass Amherst Libraries."
-nav_order: 4
+nav_order: 5
 has_children: true
 has_toc: false
 ---
 
-# Georeference a Historical Map
+# Georeference a Scanned Map or Image
 
-Historical maps (and aerial photos!) can reveal what the world used to look like before modern infrastructure was built and natural events altered the course of rivers or changed where people could live. In this workshop you will learn how to:
+Historical maps and aerial photos can reveal what the world used to look like before modern infrastructure was built and natural events altered the course of rivers or changed where people could live. In this workshop you will learn how to:
 * Find historical maps and photos online
 * Georeference maps and photos using QGIS
 * Identify high-quality ground control points

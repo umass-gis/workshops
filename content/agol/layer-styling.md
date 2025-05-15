@@ -148,10 +148,8 @@ Clicking on a feature in the map will bring up a pop-up window with a summary of
 
 Labels are a useful way to show relevant information from the attribute table directly on the map.
 1. In the right menu bar, open the **Labels** menu (symbolized by a tag). 
-
-    <img src="media/all_AGOL/WebMap_39.jpg" alt="Enabling Labels" class="center" width="600">
-
 1. Under **Label field**, select the field in the attribute table that will be used to populate the labels. The default for the schools layer is “Name,” which makes sense to leave as is.
+    <img src="media/all_AGOL/WebMap_39.jpg" alt="Enabling Labels" class="center" width="600">
 1. Labels have their own visibility range. The default is usually set to a smaller zoom scale because labels tend to take up a lot of space, and the map can become crowded if many labels are being displayed at one time. Drag the **Visible range** slider so that the map’s current zoom level is within the range. Each school is now labeled using its corresponding information from the “Name” field in the layer’s attribute table. 
 
     <img src="media/all_AGOL/WebMap_40.jpg" alt="Altering Layer Visibility Range" class="center" width="600">
@@ -161,5 +159,4 @@ Labels are a useful way to show relevant information from the attribute table di
 1. Under **Placement,** select **Center center**. This moves the position of the labels to be displayed on top of each point.
 
     <img src="media/all_AGOL/WebMap_41.jpg" alt="Edit Layer Appearence/Properties" class="center" width="300">
-
 1. Continue experimenting with these settings to find a style that you like for your labels!

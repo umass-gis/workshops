@@ -103,7 +103,7 @@ Layers in GIS function like layers in a cake. Layers at the bottom of the list a
 
 You can also hide layers temporarily so you can focus on other layers by clicking the **eyeball symbol** to the right of the layer name.
 
-<img src="media/all_AGOL/WebMap_07.jpg" alt="Hiding Layers" class="center">
+<img src="media/all_AGOL/WebMap_07.jpg" alt="Hiding Layers" class="center", width="600">
 
 ### Use basic map tools
 
@@ -118,10 +118,10 @@ The **Directions** tool works the same way as any navigation app on your phone. 
 
 The **Measure** tool gives a rough distance between two points. Simply click at your starting location and double-click at your end location to calculate the distance. 
 
+<img src="media/all_AGOL/WebMap_10.jpg" alt="'Measure' tool'" class="center" width="600">
+
 Because we are not using specific addresses or latitude/longitude coordinates but are relying on a rough mouse click, this will not be 100% accurate.
 {: .note}
-
-<img src="media/all_AGOL/WebMap_10.jpg" alt="'Measure' tool'" class="center" width="600">
 
 The **Location** tool displays a pop-up window in the top right corner of the map which shows the coordinates of the location where your cursor is hovering. You can change the units from XY (the latitude and longitude) to decimal degrees or another coordinate system.
 

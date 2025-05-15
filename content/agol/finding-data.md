@@ -38,7 +38,7 @@ Try typing **keywords** into the search bar to look for specific content, and us
 
 The ArcGIS Living Atlas of the World is a collection of curated spatial data from around the world. It contains maps, apps, and data layers created by Esri and supported partners that are made available for free to all AGOL users. All Living Atlas layers have been verified by Esri, making it a reliable source of spatial data. 
 
-<br>
+
 ### Finding Living Atlas Data via AGOL
 {: .no_toc }
 

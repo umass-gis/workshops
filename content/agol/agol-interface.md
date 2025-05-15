@@ -109,4 +109,4 @@ Within the **Groups** blue menu bar, there are additional tabs you can click on:
 
 ---
 
-Take some time to explore the interface, learning where you can find certain tools and information. When you are familiar with the organization of the website, feel free to explore the next tutorials in this series.
+Take some time to explore the interface, learning where you can find certain tools and information. Once you're familiar with the layout of the website, check out [Finding Data](finding-data.html) to get started browsing the data in AGOL.

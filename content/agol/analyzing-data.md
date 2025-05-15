@@ -71,7 +71,8 @@ Creating buffers generates polygons (or areas) around an input layer at a specif
 1. In the right menu bar, open the **Analysis** menu and navigate to the Tools tab (symbolized by a hammer).
 1. Under **Use proximity**, click **“Create Buffers.”** You’ll then get the following pop-up window, in which you can follow the next few steps.
     
-    ![Input buffer features](media/all_AGOL/AD_05.png "Input Buffer Settings")
+    <img src="media/all_AGOL/AD_05.png" alt="Input Buffer Settings" class="center" width="350">
+
 1. Set the **input layer** to be whichever layer you want to draw buffers around. In my case, I am selecting the feature layer I created, “Scenic Areas in Amherst.” 
 1. Use **Buffer settings** to specify the buffer distance:
     1. If you want to use the same distance for every feature, keep *distance type* as **“Value,”** enter a *distance value* (e.g. 50), and choose a *unit* from the dropdown menu. I am choosing to create a 50 meter buffer around every polygon I created. 
@@ -83,13 +84,16 @@ Creating buffers generates polygons (or areas) around an input layer at a specif
 
     ![Give unique name to output layer](media/all_AGOL/AD_06.png "Give a Unique Name to Output Layer")
 1. Optionally, edit the **Environment settings** to change the output coordinate system or restrict the processing extent (this is a helpful thing to do if you only want to run the analysis in an area that is smaller than the full extent of the input layer).
-    1. Click Estimate Credits to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
-    {.warn}
+
+    Click **Estimate Credits** to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
+    {: .warn}
+
 1. Click **"Run"**
+
+This is the result of the Create buffers tool: my input polygons now have 50-meter buffers surrounding them. In my case, the buffers increase the chances that I will correctly identify scenic areas that are within or near the areas in Esri’s USA Parks layer. Your new buffer layer will appear with your pre-existing layers, as shown by the arrow. You can edit symbology and appearance as with any other layer. 
 
 <img src="media/all_AGOL/AD_07.png" alt="View new buffer layer on map" class="center" width="600">
 
-This is the result of the Create buffers tool: my input polygons now have 50-meter buffers surrounding them. In my case, the buffers increase the chances that I will correctly identify scenic areas that are within or near the areas in Esri’s USA Parks layer. Your new buffer layer will appear with your pre-existing layers, as shown by the arrow. You can edit symbology and appearance as with any other layer. 
 
 ---
 
@@ -118,13 +122,17 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
 1. Once the query is set, click **"Add"**
 1. Under **Result layer** give the output a unique name.
 1. Optionally, edit the **Environment settings** to change the output coordinate system or restrict the processing extent (this is a helpful thing to do if you only want to run the analysis in an area that is smaller than the full extent of the input layer).
-    1. Remember to click Estimate Credits to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
+    
+    Remember to click Estimate Credits to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
     {: .warn}
+
 1. When everything is set, click **"Run"**
 
-![Result of "Find by Location" tool](media/all_AGOL/AD_11.png "Result layer of 'Find by Location' tool")
+
 
 The result is a polygon feature layer that shows *only* the parks parcels that fall within the 50m buffer to the scenic areas, which in this case consists of only 4 or 5 polygons out of the original 20 or so.
+
+<img src="media/all_AGOL/AD_11.png" alt="Result layer of 'Find by Location' tool" class="center" width="300">
 
 Hypothetically, you could skip the previous buffer step and instead build using the relationship **“within a distance of 50 m”** instead of **“intersect.”** In GIS, there are often many ways to accomplish the same end result!
 {: .note}
@@ -146,7 +154,8 @@ First, download and import a shapefile layer containing the boundaries of all to
     <img src="media/all_AGOL/AD_12.png" alt="2nd Query Builder" class="center" width="600">
 1. Click **"Add."** This will create a separate layer that only contains what you identified with the query, which is the town of Amherst isolated from the rest of the state. 
 1. Navigate to the **"Summarize Within"** tool
-    !["Summarize Within" tool](media/all_AGOL/AD_13.png "'Summarize Within' tool")
+
+    <img src="media/all_AGOL/AD_13.png" alt="'Summarize Within' tool" class="center" width="300">
 
     1. Under **Features to Summarize** select the "USA Parks" layer
     1. Under **Summary Area** select the Amherst town boundary layer you just created
@@ -156,6 +165,7 @@ First, download and import a shapefile layer containing the boundaries of all to
     1. Click on the three dots next to your results layer and click **“show table."**
 
     <img src="media/all_AGOL/AD_14.png" alt="Show Attribute Table" class="center" width="600">
+
 So, what this tells us is that there are about 5.2 square km of parks in Amherst, in which 0.53 square km are local parks and 4.65 square km are state parks. Adding the instruction to group by feature (park type) allowed us to make this extra distinction, rather than simply a total area. From this information, we now know that there are no national, county or regional parks in Amherst. If you are a city planner or work in conjunction with a park service, this may be useful information! 
 
 So now, we have learned to both identify and select features based on locations and attributes, as well as summarize statistics for a feature. Now we’ll go into a bit of pattern analysis.
@@ -232,4 +242,4 @@ Though this tutorial does not cover all of AGOL’s available tools, hopefully t
 )
 
 Recall, performing spatial analysis requires the spending of “credits” which are available to you based on your subscription type. For UMass users, the maximum credits one can use for a single analysis is 100, which somewhat limits the size of data you can analyze and to what extent. This also applies to stored data, i.e. feature layers that you create and publish to AGOL. 
-{: .warn}
+{: .danger}

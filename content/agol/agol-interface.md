@@ -35,7 +35,7 @@ Get familiar with the website layout!
 1. Type **umass-amherst** into the text box.
 1. Optionally, check "Remember this URL" to make future sign-ins easier.
 
-    <img src="media/all_AGOL/intro_02.jpg" alt="Sign-in Page" class="center">
+    <img src="media/all_AGOL/Intro_02.jpg" alt="Sign-in Page" class="center">
 
 
 1. Click "Continue."
@@ -104,8 +104,6 @@ Within the **Groups** blue menu bar, there are additional tabs you can click on:
     </tr>
   </tbody>
 </table>
-
-<img src="media/all_AGOL/Intro_04.jpg" alt="My Groups page" class="center" width="600">
 
 ---
 

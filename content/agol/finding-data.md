@@ -60,7 +60,7 @@ You can also access Living Atlas content through the [Living Atlas Gallery](http
 
 [Browse the Living Atlas Gallery](https://livingatlas.arcgis.com/en/browse/){: .btn .btn-green }
 
-<img src="media/all_AGOL/FindData_03.jpg" alt="Explore the Living Atlas" class="center" width="700">
+<img src="media/all_AGOL/FindData_03_02.jpg" alt="Explore the Living Atlas" class="center" width="700">
 
 ---
 

@@ -71,7 +71,7 @@ Creating buffers generates polygons (or areas) around an input layer at a specif
 1. In the right menu bar, open the **Analysis** menu and navigate to the Tools tab (symbolized by a hammer).
 1. Under **Use proximity**, click **“Create Buffers.”** You’ll then get the following pop-up window, in which you can follow the next few steps.
     
-    ![Input buffer features](media/all_AGOL/AD_05.png "Input Buffer Settings")
+    <img src="media/all_AGOL/AD_05.png" alt="Input Buffer Settings" class="center" width="350">
 1. Set the **input layer** to be whichever layer you want to draw buffers around. In my case, I am selecting the feature layer I created, “Scenic Areas in Amherst.” 
 1. Use **Buffer settings** to specify the buffer distance:
     1. If you want to use the same distance for every feature, keep *distance type* as **“Value,”** enter a *distance value* (e.g. 50), and choose a *unit* from the dropdown menu. I am choosing to create a 50 meter buffer around every polygon I created. 
@@ -81,7 +81,7 @@ Creating buffers generates polygons (or areas) around an input layer at a specif
     1. **Dissolve** means that any overlapping buffers will be dissolved into a single shape – there may be fewer buffers than features.
 1. Under **Result layer** give the output a unique name. 
 
-    ![Give unique name to output layer](media/all_AGOL/AD_06.png "Give a Unique Name to Output Layer")
+    <img src="media/all_AGOL/AD_06.png" alt="Give a Unique Name to Output Layer" class="center">
 1. Optionally, edit the **Environment settings** to change the output coordinate system or restrict the processing extent (this is a helpful thing to do if you only want to run the analysis in an area that is smaller than the full extent of the input layer).
     1. Click Estimate Credits to find out how many credits this analysis tool will cost you. If you need to reduce the credit cost, you can restrict the processing extent under Environment Settings.
     {.warn}
@@ -102,7 +102,7 @@ We can use the **Find by Attributes** and **Location** tools to do exactly this 
 
 1. In the `Analysis > Tools` section, under **Find Locations** click **"Find by Attributes and Location"**
 
-    ![Navigate to 'Find by Attributes and Location' tool](media/all_AGOL/AD_08.png "Navigate to 'Find by Attributes and Location' tool")
+    <img src="media/all_AGOL/AD_08.png" alt="Navigate to 'Find by Attributes and Location' tool" class="center" width="350">
 1. The first box allows us to define the spatial or attribute criteria that the tool will use to select features. Click **“+ Build new query”** to get started.
 1. Confirm that the tool is finding features from the correct input layer. If necessary, change the input in the dropdown menu.
 1. Select **Spatial Expression** as the query method, then click **"Next"**
@@ -173,11 +173,12 @@ Let’s say we want to calculate the density of public schools throughout the st
 
 1. Use the **"Find by Attribute and Location"** tool to "clip" the public schools data to the state of Massachusetts (see earlier section for details).
     
-    Note that it is important that you complete this step first so that you can run the “calculate density” tool with as little data as possible, while still answering our research question. It is certainly possible to calculate country-wide density and clipping to MA afterward, but this query will use astronomically more credits. Keep this in mind when doing any project. 
-    {: .note}
+    
 
    
     <img src="media/all_AGOL/AD_15.png" alt="3rd Query Builder" class="center" width="600">
+    Note that it is important that you complete this step first so that you can run the “calculate density” tool with as little data as possible, while still answering our research question. It is certainly possible to calculate country-wide density and clipping to MA afterward, but this query will use astronomically more credits. Keep this in mind when doing any project. 
+    {: .note}
 1. The resulting layer shows US public schools clipped to the state of MA.   
 
     <img src="media/all_AGOL/AD_16.png" alt="Clipped 'Schools' point layer" class="center" width="600">
@@ -188,12 +189,12 @@ Let’s say we want to calculate the density of public schools throughout the st
     1. **Number of Classes** 10
     1. **Area Unis:** Square kilometers
 
-    ![Density Analysis window](media/all_AGOL/AD_17.png "Density Analysis Window")
+    <img src="media/all_AGOL/AD_17.png" alt="Density Analysis Window" class="center" width="600">
 
     you can skip the previous step of clipping the schools data to Massachusetts by selecting the “processing extent” in the density tool query to include only data within the MA_town_line layer, which tells the tool to only run inside another shapefile, in this case the outline of MA towns. 
     {: .note}
 
-    ![Processing Extent](media/all_AGOL/AD_18.png "Processing Extent")
+    <img src="media/all_AGOL/AD_18.png" alt="Processing Extent" class="center" width="600">
 1. Run the tool, which will create a new layer. Let's look at the results. 
 
     <img src="media/all_AGOL/AD_19.png" alt="Density Visualization on Map" class="center" width="600">

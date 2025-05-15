@@ -45,7 +45,7 @@ Under **Advanced options,** we can include metadata (author, copyright), change 
 
 When your settings are to your liking, click the blue **“Export”** button. Your file will appear in the **Exports tab,** where you can then download it to your computer. Below is an example of an exported map, including necessary map elements such as a legend, North arrow, scale bar and title.
 
-![Exported Final Map](media/all_AGOL/WebMap_44.png "Exported Final Map with Necessary Map Elements")
+<img src="media/all_AGOL/WebMap_44.jpg" alt="Exported Final Map" class="center" width="300">
 
 ---
 

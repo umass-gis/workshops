@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutorial
-parent: Georeference a Historical Map
+parent: Georeference an Image
 nav_order: 5
 ---
 

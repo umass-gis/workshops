@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Georeferencing Basics
-parent: Georeference a Historical Map
+parent: Georeference an Image
 nav_order: 2
 ---
 

@@ -7,7 +7,10 @@ description: GIS workshops hosted by UMass Amherst Libraries
 repository: umass-gis/workshops
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "assets/images/umass.png"
+logo: "assets/images/umasslibraries.png"
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.png"
 
 # Aux links for the upper right navigation
 aux_links:

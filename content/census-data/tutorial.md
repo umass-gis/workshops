@@ -50,19 +50,19 @@ This link will take you to a page on GitHub. Click the `download` button to save
 * Click the table name, "Educational Attainment," to open the table.
 * In the product drop-down menu, select "2019: ACS 5-Year Estimates Subject Tables."
 
-<img src='media/search-for-S1501.png' width='700' alt='Screenshot of the Explore Census Data portal after searching for table S1501 and selecting the 2019 ACS 5-Year Estimates product'>
+<img src='media/search-for-S1501.png' class="shadow" width='700' alt='Screenshot of the Explore Census Data portal after searching for table S1501 and selecting the 2019 ACS 5-Year Estimates product'>
 
 <br>
 * In the upper-left corner, click “Filter” to open the filter panel.
 * Check Geography > Tract > Massachusetts > All Census Tracts within Massachusetts.
 
-<img src='media/filtering-S1501.png' width='700' alt='Screenshot of the filter menu on the Explore Census Data portal, showing the options to select for narrowing down the results to the geographical entity of all census tracts within Massachusetts'>
+<img src='media/filtering-S1501.png' class="shadow" width='700' alt='Screenshot of the filter menu on the Explore Census Data portal, showing the options to select for narrowing down the results to the geographical entity of all census tracts within Massachusetts'>
 
 <br>
 * Minimize the filter window by clicking the "Done" button in the upper-right corner.
 * Click "Download Table" to open the download dialog, then click "Download" to save the table and its associated metadata to your hard drive.
 
-<img src='media/download-S1501.png' width='700' alt='Screenshot of the download menu in the Explore Census Data portal. Users have to option to select additional years before downloading.'>
+<img src='media/download-S1501.png' class="shadow" width='700' alt='Screenshot of the download menu in the Explore Census Data portal. Users have to option to select additional years before downloading.'>
 
 ---
 ## Clean the table so it can be joined in QGIS
@@ -77,13 +77,13 @@ This link will take you to a page on GitHub. Click the `download` button to save
 <br>
 * Open the list of fields in Excel (or another spreadsheet program). The list has two columns: the first column contains a code, and the second column contains a title or explanation for that code. Figure out which fields you'll need to answer your research question. It can be helpful to highlight these fields in the spreadsheet or write down the codes on a piece of paper.  
 
-<img src='media/fields-to-join.png' width='700' alt='Excerpt from the list of fields spreadsheet, with the fields that will be useful for the research question highlighted in yellow and in bold text. The list contains the code and an explanation of the code.'>
+<img src='media/fields-to-join.png' class="shadow" width='700' alt='Excerpt from the list of fields spreadsheet, with the fields that will be useful for the research question highlighted in yellow and in bold text. The list contains the code and an explanation of the code.'>
 
 <br>
 * Open the main data table in Excel (or another spreadsheet program).
 * Save a copy of the file in .xlsx format.
 
-<img src='media/S1501-raw.png' width='700' alt='Excerpt from the raw data table. There are two header rows. The headings for the data fields are unintelligible - one header contains a code, and the other contains a lengthy description that is difficult to read.'>
+<img src='media/S1501-raw.png' class="shadow" width='700' alt='Excerpt from the raw data table. There are two header rows. The headings for the data fields are unintelligible - one header contains a code, and the other contains a lengthy description that is difficult to read.'>
 
 <br>
 * The next step is to create a "clean" version of the data table that contains only the GEO_ID column, the NAME column, and your selected research fields - all the other columns should be deleted.
@@ -92,7 +92,7 @@ This link will take you to a page on GitHub. Click the `download` button to save
 * Consolidate the header rows into a single row.
 * Rename each column so the title is short and informative. Use underscores (_) instead of spaces.
 
-<img src='media/S1501-clean1.png' width='700' alt='Excerpt from the data table after initial cleaning. There is a single header row with the fields GEO_ID, NAME, and 5 additional fields related to income that have been renamed to short text that is easily understandable.'>
+<img src='media/S1501-clean1.png' class="shadow" width='700' alt='Excerpt from the data table after initial cleaning. There is a single header row with the fields GEO_ID, NAME, and 5 additional fields related to income that have been renamed to short text that is easily understandable.'>
 
 <br>
 Next, we want to make sure that QGIS will properly read each of the columns with numbers as numerical data. This won't work properly if there are dashes or empty cells.
@@ -114,17 +114,17 @@ Next, we want to make sure that QGIS will properly read each of the columns with
 Last but not least, the data in the GEO_ID column isn’t in the correct format, so we'll need to fix that.
 * Add a new column and use the formula “=RIGHT(A2,11)” to retrieve just the 11 right-most characters from the GEO_ID field.
 
-<img src='media/geoid-formula.png' width='500' alt='Using a formula to extract the 11 right characters from the GEO_ID field.'>
+<img src='media/geoid-formula.png' class="shadow" width='500' alt='Using a formula to extract the 11 right characters from the GEO_ID field.'>
 
 * Drag the formula down to the end of the column.
 
-<img src='media/geoid-formula-filled.png' width='500' alt='Filling the formula to the bottom of the column.'>
+<img src='media/geoid-formula-filled.png' class="shadow" width='500' alt='Filling the formula to the bottom of the column.'>
 
 * Create a new column and copy-paste just the values into it. The goal here is to remove the formula, and paste just the reformatted GEOID code. Give the column a name, like "GEOID_Short."
 * Delete the column with the formula.
 * Format the new column as text.
 
-<img src='media/geoid-new.png' width='500' alt='Finished product: a new GEOID_Short field that has just the 11 right characters formatted as text.'>
+<img src='media/geoid-new.png' class="shadow" width='500' alt='Finished product: a new GEOID_Short field that has just the 11 right characters formatted as text.'>
 
 * Save the .xlsx file - this format is typically easier to edit, so it's a good idea to keep this version somewhere with your other data files.
 * Save a copy of the file in .csv format - this is the version we will use in the next step, because it plays nicely with QGIS software.
@@ -161,7 +161,7 @@ The table we exported in Step 2 summarized the ACS data at the tract level for t
 * Scroll down to the section "Cartographic Boundary Files by Geography," then continue scrolling until you get to "Census Tracts"
 * In the dropdown for "1 : 500,000 (state) shapefile," select the state of Massachusetts. The file should automatically download.
 
-<img src='media/cartographic-boundary-download.png' width='600' alt='Screenshot of the Cartogrpahic Boundary download page, selecting the 1:500,000 (state) shapefile for Massachusetts.'>
+<img src='media/cartographic-boundary-download.png' class="shadow" width='600' alt='Screenshot of the Cartogrpahic Boundary download page, selecting the 1:500,000 (state) shapefile for Massachusetts.'>
 
 * Unzip the file. It’s now ready to be added to QGIS!
 
@@ -175,7 +175,7 @@ The table we exported in Step 2 summarized the ACS data at the tract level for t
 * Select a layer type: Census Tracts.
 * Click "Submit."
 
-<img src='media/tigerline-download.png' width='400' alt='Screenshot of the TIGER/Line Shapefiles download portal, with the year set to 2019 and the layer type set to census tracts.'>
+<img src='media/tigerline-download.png' class="shadow" width='400' alt='Screenshot of the TIGER/Line Shapefiles download portal, with the year set to 2019 and the layer type set to census tracts.'>
 
 * Select a state: Massachusetts.
 * Click "Download."

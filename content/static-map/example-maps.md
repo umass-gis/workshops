@@ -21,7 +21,7 @@ For each of these maps, ask whether it meets the assessment criteria in the [How
 ### Sunset Across the U.S.
 Map by Rebecca M. Seifried, 2022. Designed for the "Build a Web Map" workshop on this site. [View the original map](https://umass-gis.github.io/workshops/content/web-map/static-vs-web.html).
 
-![sunlight map](../web-map/media/sunlight_map_update.jpg "Map of the 1,000 largest cities in the contiguous 48 states in the U.S. showing sunset times adjusted for local time zones in colors from dark purple - before 4:15pm to yellow - after 5:45pm - and city size based on population")
+<img src="../web-map/media/sunlight_map_update.jpg" alt="Map of the 1,000 largest cities in the contiguous 48 states in the U.S. showing sunset times adjusted for local time zones in colors from dark purple - before 4:15pm to yellow - after 5:45pm - and city size based on population" class="shadow">
 
 ---
 ### Blue Jay

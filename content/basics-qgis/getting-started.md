@@ -26,7 +26,7 @@ Install QGIS and become familiar with the interface
 
 QGIS is a free and open-source software that runs on Mac, Windows, and Linux operating systems. In order to complete the exercise part of this workshop, you will need to download the software and install it on your personal computer.
 
-[Download QGIS](https://www.qgis.org/){: .btn .btn-primary}
+[Download QGIS](https://www.qgis.org/){: .btn .btn-primary}{:target="_blank"}
 
 **Note**: I recommend downloading the long-term release (LTR), which is more stable.<br>
 
@@ -36,11 +36,11 @@ QGIS is a free and open-source software that runs on Mac, Windows, and Linux ope
 
 If you want to play around with example data, download this data pack. It contains a vector file in shapefile format, and the readme.txt file has links to additional vector and raster data you can download to follow along with the recorded workshop.
 
-[Get the demo data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Spring2024.zip){: .btn .btn-primary }
+[Get the demo data pack](https://github.com/umass-gis/workshops/blob/main/content/basics-qgis/data/Data_Demo_Fall2025.zip){: .btn .btn-primary }{:target="_blank"}
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
-<img src="media/download_demo_data_sp24.png" alt="Downloading a zip file from GitHub" class="shadow">
+<img src="media/download_demo_data_fa25.png" class="shadow" alt="Downloading a zip file from GitHub" class="shadow">
 
 You will need to unzip the file before you can access its contents in QGIS.
 * **Mac users**: Double-click the file to unzip it automatically.<br>

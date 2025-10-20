@@ -51,7 +51,7 @@ In order to explore how the population of Holyoke and Chicopee have changed over
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
-![Viewing a zip file on GitHub](media/download_exercise_data.png "Downloading a zip file from GitHub")
+<img src="media/download_exercise_data.png" alt="Downloading a zip file from GitHub" class="shadow">
 
 ### 2. Unzip the file
 {:.no_toc}

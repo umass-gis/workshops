@@ -192,7 +192,7 @@ If you answer "no" or even "I'm not sure" to any of these questions, think of ho
 
 In the top menu bar, click one of the buttons for `Export as image`, `Export as SVG`, or `Export as PDF`.
 
-<img src="media/friends_trailmap.jpg" alt="Final map exported as a JPG from the Print Layout" width=600px>
+<img src="media/friends_trailmap.jpg" alt="Final map exported as a JPG from the Print Layout" class="shadow" width=600px>
 
 ### Step 9: Revel in your new map
 {: .no_toc }

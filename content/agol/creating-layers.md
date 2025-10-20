@@ -175,7 +175,7 @@ Essentially, a **sketch layer** is for quick, interactive drawing on a map, whil
 1. In the top right corner, click **Open in Map Viewer**. Map Viewer will launch and display the empty layer in the map.
 1. To start adding features to the layer, open the **Edit** menu from the right menu bar, then activate the drawing tool by clicking **New Feature**. You can now start drawing new features directly into the map!
     
-    <img src="media/all_AGOL/CD_22.png" alt="Create new features" class="center" width="300">
+    <img src="media/all_AGOL/CD_22.png" alt="Create new features" class="center shadow" width="300">
 
 1. Once you’ve drawn a feature, you will be prompted to fill in whatever fields you added to the attribute table. Once you’ve done so, click **Create**, and you are ready to move on to your next feature. Don't forget to save your editss!
 

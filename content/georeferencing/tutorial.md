@@ -79,7 +79,7 @@ In a web browser, open [MassGIS Oliver](http://maps.massgis.state.ma.us/map_ol/o
 
 Right-click `Massachusetts Town Survey Boundaries` and select `View Metadata` – this will open a new tab with information about the layer and links to download the data. Find the link to download the shapefile and save it to your hard drive.
 
-![View of the MassGIS data portal, showing the button to download a shapefile of the town boundary layer](media/massgis_town_boundaries.png "Downloading the town boundary layer from MassGIS")
+<img src="media/massgis_town_boundaries.png" alt="View of the MassGIS data portal, showing the button to download a shapefile of the town boundary layer" class="shadow">
 
 ### 2. Unzip the file
 {: .no_toc }

@@ -40,7 +40,7 @@ If you want to play around with example data, download this data pack. It contai
 
 This link will take you to a page on GitHub. Click the `download` button to save it to your computer.
 
-![Downloading a zip file on GitHub](media/download_demo_data_sp24.png "Downloading a zip file from GitHub")
+<img src="media/download_demo_data_sp24.png" alt="Downloading a zip file from GitHub" class="shadow">
 
 You will need to unzip the file before you can access its contents in QGIS.
 * **Mac users**: Double-click the file to unzip it automatically.<br>

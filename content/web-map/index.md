@@ -21,7 +21,7 @@ This workshop is geared toward folks with a basic understanding of GIS concepts.
 ## Watch the workshop
 Click the link below to watch a recording of this workshop on YouTube:
 
-**[Full workshop - March 23, 2022](https://youtu.be/ZHynmLFhRZs)**
+**[Full workshop – March 23, 2022](https://youtu.be/ZHynmLFhRZs){:target="_blank"}**
 
 ---
 ## Workshop outline

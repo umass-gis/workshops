@@ -21,8 +21,8 @@ This workshop is geared toward folks with a basic understanding of GIS concepts.
 ## Watch the workshop
 Click the links below to watch recordings of this workshop on YouTube:
 
-**[Part 1 of the workshop: core concepts – April 7, 2021](https://youtu.be/cpOijBpf_L4)**<br>
-**[Part 2 of the workshop: quick demo – April 7, 2021](https://youtu.be/MujLNlQ4n-E)**
+**[Part 1: Core concepts – April 7, 2021](https://youtu.be/cpOijBpf_L4){:target="_blank"}**<br>
+**[Part 2: Quick demo – April 7, 2021](https://youtu.be/MujLNlQ4n-E){:target="_blank"}**
 
 ---
 ## Workshop outline

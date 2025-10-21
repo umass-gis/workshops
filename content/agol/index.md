@@ -25,8 +25,8 @@ This tutorial is current as of Spring 2025. AGOL is constantly updated, so you m
 
 If video tutorials are more up your alley, check out our video tutorial series on ArcGIS Online, made by Deni Ranguelova, the UMass Amherst Library GIS TA in 2023-24. Note that these tutorials do not follow the exact same workflow as in this tutorial! 
 
-**[Workshop 1: The Basics](https://www.youtube.com/watch?v=c6qT7xD3HyY)** – Reviews how to sign in, navigate through the site, launch a web map and view content, and access StoryMaps and Survey123.
+**[Workshop 1: The Basics](https://www.youtube.com/watch?v=c6qT7xD3HyY){:target="_blank"}** – Reviews how to sign in, navigate through the site, launch a web map and view content, and access StoryMaps and Survey123.
 
-**[Workshop 2: Making a Map with Hosted Data](https://www.youtube.com/watch?v=0OtAsMfaVl0)** – Shows how to create a map, add data from ArcGIS Online, and style it to create a unique map that you can share or export.
+**[Workshop 2: Making a Map with Hosted Data](https://www.youtube.com/watch?v=0OtAsMfaVl0){:target="_blank"}** – Shows how to create a map, add data from ArcGIS Online, and style it to create a unique map that you can share or export.
 
-**[Workshop 3: Working with Your Own Spatial Data](https://www.youtube.com/watch?v=Ew5rn_T8-mU)** – Demos how to import data into ArcGIS Online, including latitude/longitude coordinates stored in a CSV, shapefiles, and rasters.
+**[Workshop 3: Working with Your Own Spatial Data](https://www.youtube.com/watch?v=Ew5rn_T8-mU){:target="_blank"}** – Demos how to import data into ArcGIS Online, including latitude/longitude coordinates stored in a CSV, shapefiles, and rasters.
